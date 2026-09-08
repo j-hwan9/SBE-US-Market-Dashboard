@@ -4,17 +4,9 @@ import urllib.request, urllib.error, urllib.parse, urllib.robotparser
 from html.parser import HTMLParser
 UA = "SBE-News-Source-Check/1.0 (+https://github.com/j-hwan9/SBE-US-Market-Dashboard)"
 SOURCES = [
-("BR&R","https://biosimilarsrr.com/biosimilars-reviews-reports/"),
-("Center for Biosimilars","https://www.centerforbiosimilars.com/view/biosimilar-bills-gain-steam-in-congress-but-key-reforms-still-wait"),
-("Fierce Pharma","https://www.fiercepharma.com/pharma/us-biosimilar-landscape-marked-too-many-question-marks-shifting-policy-complex-market"),
-("BioPharma Dive","https://www.biopharmadive.com/news/biosimilars-fda-guidance-elevate-pharma-market/814591/"),
-("Drug Channels","https://www.drugchannels.net/2026/01/the-big-three-pbms-2026-formulary.html"),
-("Managed Healthcare Executive","https://www.managedhealthcareexecutive.com/view/biosimilars-are-driving-down-costs-and-increasing-access-to-biologics"),
-("Drug Topics","https://www.drugtopics.com/view/fda-approves-langlara-as-interchangeable-biosimilar-to-insulin-glargine"),
-("Pharmacy Times","https://www.pharmacytimes.com/view/what-real-world-data-show-about-moving-patients-from-humira-to-biosimilars"),
-("AJMC","https://www.ajmc.com/view/biosimilar-adoption-and-provider-performance-in-medicare-value-based-payment-models"),
-("Pharmaceutical Executive","https://www.pharmexec.com/view/fda-approves-ennumo-decrease-incidence-infection-febrile-neutropenia"),
-("BioSpace","https://www.biospace.com/press-releases/samsung-bioepis-releases-third-quarter-2026-biosimilar-market-report"),
+("BR&R RSS","https://biosimilarsrr.com/feed/"),
+("Drug Channels RSS","https://www.drugchannels.net/feeds/posts/default?alt=rss"),
+("Pharmaceutical Executive date check","https://www.pharmexec.com/view/fda-approves-ennumo-decrease-incidence-infection-febrile-neutropenia"),
 ]
 class Page(HTMLParser):
  def __init__(self):
@@ -62,7 +54,16 @@ def check(item):
   else:r["result"]="robots_unverified";return r
   status,body,typ=fetch(url);r["http_status"]=status;r["content_type"]=typ
   if status!=200:r["result"]="http_blocked_or_missing";return r
-  p=Page();p.feed(body);r["title"]=p.meta.get("og:title") or "".join(p.title).strip()
+  if "xml" in typ or body.lstrip().startswith("<?xml"):
+   import xml.etree.ElementTree as ET
+   root=ET.fromstring(body);items=root.findall(".//item")
+   r["items"]=[{"title":i.findtext("title"),"published":i.findtext("pubDate"),"url":i.findtext("link")} for i in items[:12]]
+   r["result"]="rss_metadata_ok" if items and all(x["title"] and x["published"] and x["url"] for x in r["items"]) else "feed_parser_needed"
+   return r
+  p=Page();p.feed(body);r["date_metadata"]={k:v for k,v in p.meta.items() if any(s in k for s in ("date","time","publish"))}
+  r["structured_dates"]=[{k:v for k,v in n.items() if k in ("@type","datePublished","dateModified","headline")} for n in nodes(p.scripts) if n.get("datePublished")]
+  r["time_elements"]=re.findall(r"<time[^>]*>.*?</time>",body,re.I|re.S)[:6]
+r["title"]=p.meta.get("og:title") or "".join(p.title).strip()
   r["published_date"]=p.meta.get("article:published_time") or p.meta.get("date") or p.meta.get("dc.date.issued")
   for n in nodes(p.scripts):
    if n.get("datePublished") and not r["published_date"]:r["published_date"]=n["datePublished"]
