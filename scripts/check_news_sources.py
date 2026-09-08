@@ -63,7 +63,7 @@ def check(item):
   p=Page();p.feed(body);r["date_metadata"]={k:v for k,v in p.meta.items() if any(s in k for s in ("date","time","publish"))}
   r["structured_dates"]=[{k:v for k,v in n.items() if k in ("@type","datePublished","dateModified","headline")} for n in nodes(p.scripts) if n.get("datePublished")]
   r["time_elements"]=re.findall(r"<time[^>]*>.*?</time>",body,re.I|re.S)[:6]
-r["title"]=p.meta.get("og:title") or "".join(p.title).strip()
+  r["title"]=p.meta.get("og:title") or "".join(p.title).strip()
   r["published_date"]=p.meta.get("article:published_time") or p.meta.get("date") or p.meta.get("dc.date.issued")
   for n in nodes(p.scripts):
    if n.get("datePublished") and not r["published_date"]:r["published_date"]=n["datePublished"]
