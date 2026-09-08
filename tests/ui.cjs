@@ -40,3 +40,17 @@ context.p=p('Ospomyv');assert.ok(run("PIFacts.storage(p,'cold').some(r=>r.value=
 context.p=p('Hyrimoz');assert.ok(run("PIFacts.storage(p,'room').some(r=>r.scope.includes('20 mg/0.4 mL')&&r.value.includes('21 days'))"));
 for(const q of context.data.products){context.p=q;for(const kind of ['cold','room','prep']){context.kind=kind;assert.ok(run('PIFacts.storage(p,kind).every(r=>r.scope&&r.value&&!r.value.includes("undefined"))'));}}
 console.log('Mixed temperatures, re-refrigeration deadlines, storage tables, concentration scopes and all-product rendering passed.');
+
+// New news view: inclusive UTC dates and OR across selected molecules.
+context.URL=URL;
+vm.runInContext(fs.readFileSync(path.join(root,'dist/news.js'),'utf8'),context);
+context.articles=[{publishedAt:'2026-09-01T23:30:00Z',molecules:['adalimumab']},{publishedAt:'2026-09-02T00:00:00Z',molecules:['ustekinumab']}];
+assert.equal(run("MarketNews.filtered(articles,'2026-09-01','2026-09-01',new Set()).length"),1);
+assert.equal(run("MarketNews.filtered(articles,'','',new Set(['ustekinumab'])).length"),1);
+assert.equal(run("MarketNews.filtered(articles,'','',new Set(['ustekinumab','adalimumab'])).length"),2);
+run("location.hash='#news';navigatePage()");assert.equal(els.get('newsPage').hidden,false);assert.equal(els.get('comingPage').hidden,true);
+run('DATA=data');context.p=JSON.parse(JSON.stringify(p('Amjevita')));
+context.p.approvalLetter={status:'documented',facts:[{scope:'40 mg/0.8 mL',months:30,temperature:'2–8°C',basis:'from manufacture',documentDate:'2016-09-23',documentUrl:'https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2016/761024orig1s000ltr.pdf',evidence:'Test evidence'}]};
+assert.ok(run("coldFacts(p).some(r=>r.value==='2–8°C · 30 months'&&r.detail.includes('Sep 23, 2016'))"));
+assert.ok(run("sourceBody(p).includes('Approval')||sourceBody(p).includes('approval letter')"));
+console.log('News date/molecule filters, navigation, FDA-letter evidence passed.');

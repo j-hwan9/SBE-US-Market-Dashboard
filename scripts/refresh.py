@@ -142,7 +142,7 @@ def fetch_label(product,old,sources,force):
 def compare_fields(p):
  label=(p.get('labels') or [{}])[0];sections=label.get('sections',{});prs=p['presentations']
  reg=lambda ks:sorted(set(json.dumps([r.get(k,'') for k in ks],ensure_ascii=False) for r in prs))
- return {'허가·presentation':reg(['BLA Number','Proprietary Name','Proper Name','Approval Date','Strength','Dosage Form','Route of Administration','Product Presentation','Marketing Status','Licensure']), 'Interchangeability':reg(['License Type','Inter. Approval Date','Strength','Product Presentation']), 'Manufacturer': [p['applicant'],label.get('manufacturerText',[])], 'NDC·조성':label.get('products',[]),'Dosage':sections.get('dosage',[]),'Indications':sections.get('indications',[]),'Storage·latex': [label.get('storage',[]),label.get('latex',[]),sections.get('supplied',[])],'PI version': [label.get('url'),label.get('spl_version'),label.get('published_date')]}
+ return {'허가·presentation':reg(['BLA Number','Proprietary Name','Proper Name','Approval Date','Strength','Dosage Form','Route of Administration','Product Presentation','Marketing Status','Licensure']), 'Interchangeability':reg(['License Type','Inter. Approval Date','Strength','Product Presentation']), 'Manufacturer': [p['applicant'],label.get('manufacturerText',[])], 'NDC·조성':label.get('products',[]),'Dosage':sections.get('dosage',[]),'Indications':sections.get('indications',[]),'Storage·latex': [label.get('storage',[]),label.get('latex',[]),sections.get('supplied',[])],'PI version': [label.get('url'),label.get('spl_version'),label.get('published_date')], 'Approval letter':p.get('approvalLetter',{}).get('facts',[])}
 
 def changes(old,new):
  before={p['id']:p for p in old.get('products',[])};after={p['id']:p for p in new['products']}
@@ -185,6 +185,16 @@ def refresh(args):
   except Exception as e:errors.append({'product':p['id'],'error':str(e)});print(p['brand']+' ERROR '+str(e),flush=True)
   return p
  with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as pool:products=list(pool.map(one,products))
+ # Optional FDA-letter evidence must not make a PI collection failure disappear.
+ if not errors:
+  from approval_letters import enrich_products
+  cachepath=ROOT/'data/approval-letter-cache.json'
+  cache=json.loads(cachepath.read_text()) if cachepath.exists() else {}
+  for p in products:
+   if old.get(p['id'],{}).get('approvalLetter'):p['approvalLetter']=copy.deepcopy(old[p['id']]['approvalLetter'])
+  letter_report=enrich_products(products,sources,cache,args.force)
+  if not args.check_only:
+   atomic_json(cachepath,cache);atomic_json(ROOT/'reports/approval-letters.json',letter_report)
  payload={'schemaVersion':2,'purpleBookDate':month,'purpleBookAsOf':f'{month}-{calendar.monthrange(int(month[:4]),int(month[5:]))[1]:02d}','retrievedAt':stamp,'purpleBookUrl':url,'purpleBookHash':hashlib.sha256(raw).hexdigest(),'products':products}
  if errors:
   atomic_json(ROOT/'reports/refresh-errors.json',{'checkedAt':stamp,'errors':errors});raise CollectionError(f'{len(errors)} source errors; published data unchanged')

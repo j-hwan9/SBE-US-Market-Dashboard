@@ -1,0 +1,60 @@
+name: Refresh market news
+on:
+  workflow_dispatch:
+    inputs:
+      approval_letters:
+        description: Also recheck FDA approval-letter evidence
+        type: boolean
+        default: false
+  schedule:
+    - cron: '17 22 * * *'
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: market-dashboard
+  cancel-in-progress: false
+jobs:
+  collect:
+    if: github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - name: Verify collection and UI
+        run: |
+          python3 -m unittest discover -s tests -v
+          node tests/ui.cjs
+      - name: Collect publisher metadata
+        run: python3 scripts/news.py
+      - name: Recheck approval letters when requested
+        if: inputs.approval_letters == true
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y poppler-utils
+          python3 scripts/approval_letters.py
+      - name: Save news archive and source status
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist/news.json dist/data.json data reports
+          git diff --cached --quiet || git commit -m "Update market news and optional FDA letter evidence"
+          git push
+      - name: Configure deployment
+        run: python3 scripts/prepare_public.py
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+  deploy:
+    needs: collect
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

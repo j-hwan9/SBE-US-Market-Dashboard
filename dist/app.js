@@ -47,14 +47,25 @@ const fields=[
  {key:'ndc',title:'NDC / package',note:'라벨에 기재된 package NDC · 판매 여부와 별개',get:p=>piField(p,l=>ndcs(l).length?ndcs(l):section(l,'supplied').filter(x=>/\d{4,5}-\d{3,4}-\d{1,2}|NDC pending|NDC X/i.test(x))),render:v=>typeof v?.[0]==='object'?`<div class="cell-text">${v.slice(0,3).map(renderPackage).join('')}${v.length>3?`<details><summary>전체 ${v.length}개 구성 보기</summary><div class="detail-content">${v.slice(3).map(renderPackage).join('')}</div></details>`:''}</div>`:paragraphs(v)},
  {key:'needle',title:'Needle / included',note:'제형별 Gauge · 제품 포함 여부 · PI 명시 기준',get:p=>label(p)?PIFacts.needle(p):null,render:renderFacts},
  {key:'indications',title:'Approved indications',note:'PI §1 · 연령 및 사용 제한 포함',get:p=>piField(p,l=>section(l,'indications')),render:v=>paragraphs(v,3)},
- {section:'STORAGE & MATERIALS',key:'cold',title:'2–8°C / refrigerated',note:'미개봉 · 재냉장 조건 별도',get:p=>label(p)?PIFacts.storage(p,'cold'):null,render:renderFacts},
+ {section:'STORAGE & MATERIALS',key:'cold',title:'2–8°C / refrigerated',note:'PI 우선 · FDA letter는 문서 당시 dating period',get:coldFacts,render:renderFacts},
  {key:'room',title:'Room-temperature stability',note:'온도 · 보관기간',get:p=>label(p)?PIFacts.storage(p,'room'):null,render:renderFacts},
  {key:'prep',title:'조제·개봉 후 stability',note:'온도 · 보관기간 · 투여시간 포함 여부',get:p=>label(p)?PIFacts.storage(p,'prep'):null,render:renderFacts},
  {key:'sorbitol',title:'Sorbitol status',note:'함유 / SPL 미등재 / 미확인',get:p=>piField(p,ingredients),render:v=>paragraphs(v,2)},
  {key:'latex',title:'Latex / natural rubber',note:'용기·needle cap·device별 PI 명시 범위',get:p=>piField(p,l=>l.latex),render:paragraphs},
  {section:'EVIDENCE',key:'evidence',title:'PI source / version',get:p=>(p.constituents||[p]).flatMap(q=>label(q)?['BLA '+q.bla+' · '+(label(q).provider||'DailyMed'),'게시일 '+formatDate(label(q).published_date),label(q).spl_version?'SPL version '+label(q).spl_version:'FDA PI','확인일 '+formatDate(q.piCheckedAt||DATA.retrievedAt)]:[]),render:renderLines}
 ];
-function renderFacts(rows){return rows?.length?'<div class="fact-list">'+rows.map(r=>`<div class="fact-item"><span>${esc(r.scope)}</span><strong>${esc(r.value)}</strong>${r.detail?`<small>${esc(r.detail)}</small>`:''}</div>`).join('')+'</div>':missing('PI 명시 없음 / 해당 조건 미확인');}
+function coldFacts(p){
+ const parts=p.constituents||[p];
+ return parts.flatMap(q=>{
+  const rows=label(q)?PIFacts.storage(q,'cold'):[];
+  const hasPeriod=rows.some(r=>/months?/i.test(r.value)&&!/재냉장|조제|희석|개봉 후/.test(r.scope+' '+r.detail));
+  if(hasPeriod)return rows;
+  const letter=q.approvalLetter, facts=letter?.facts||[];
+  const extra=facts.map(f=>({scope:'FDA letter 당시 · '+f.scope,value:f.temperature+' · '+f.months+' months',detail:(f.basis==='from manufacture'?'제조일 기준 · ':'')+formatDate(f.documentDate)+(letter.status==='unavailable'||letter.status==='partial'?' · 최신 확인 일부 제한':''),sourceUrl:f.documentUrl,evidence:f.evidence}));
+  return [...rows,...extra];
+ });
+}
+function renderFacts(rows){return rows?.length?'<div class="fact-list">'+rows.map(r=>`<div class="fact-item"><span>${esc(r.scope)}</span><strong>${esc(r.value)}</strong>${r.detail?`<small>${esc(r.detail)}</small>`:''}${r.sourceUrl&&/^https:\/\/www\.accessdata\.fda\.gov\//.test(r.sourceUrl)?`<a class="fact-source" href="${esc(r.sourceUrl)}" target="_blank" rel="noopener">Approval letter ↗</a>`:''}</div>`).join('')+'</div>':missing('PI 명시 없음 / 해당 조건 미확인');}
 function formatDate(s){
  if(!s)return '미기재';
  let value=String(s).trim(),m;
@@ -118,6 +129,11 @@ function showDialog(title,html){$('dialogTitle').textContent=title;$('dialogBody
 function sourceBody(p){
  const l=label(p),fda=`https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=${encodeURIComponent(p.bla)}`;
  let html=`<h3>${esc(p.brand)} · BLA ${esc(p.bla)}</h3><p><a href="${esc(fda)}" target="_blank" rel="noopener">Drugs@FDA</a></p>`;
+ const al=p.approvalLetter;
+ if(al){html+='<div class="letter-evidence"><h4>FDA approval letter · 냉장 dating period</h4><p class="source-meta">확인일 '+esc(formatDate(al.checkedAt))+' · '+esc(al.status==='documented'?'문서 근거 확인':al.status==='partial'?'일부 문서 확인 제한':al.status==='unavailable'?'최신 확인 실패':al.status==='pi_period_available'?'PI에 기간 명시':'명시된 완제품 기간 미확인')+'</p>';
+ for(const f of al.facts||[])html+='<p><strong>'+esc(f.temperature+' · '+f.months+' months')+'</strong><br>'+esc(f.scope)+'<br><a target="_blank" rel="noopener" href="'+esc(f.documentUrl)+'">FDA approval letter · '+esc(formatDate(f.documentDate))+' · p. '+esc(f.page)+' ↗</a></p><blockquote>'+esc(f.evidence)+'</blockquote>';
+ if(al.facts?.length)html+='<p class="source-meta">문서 작성 당시 완제품 dating period입니다. 현재 모든 제형의 유효기간을 의미하지 않습니다. 실제 포장 유효기간을 확인하세요.</p>';html+='</div>';
+ }
  if(!l)return html+missing('공식 PI 미확보');
  html+=`<p><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.provider||'DailyMed')} 원문 PI ↗</a></p><p class="source-meta">게시일 ${esc(formatDate(l.published_date))} · ${l.spl_version?'SPL v'+esc(l.spl_version):'FDA label'}<br>PI 확인 ${esc(formatDate(p.piCheckedAt||DATA.retrievedAt))}</p>`;
  for(const [k,title] of [['indications','Indications and usage'],['dosage','Dosage and administration'],['strengths','Dosage forms and strengths'],['description','Description'],['supplied','How supplied'],['storage','Storage and handling']]){
@@ -179,9 +195,10 @@ loadLatest();
 function navigatePage(){
  const page=location.hash.slice(1)||'home';
  $('landingPage').hidden=page!=='home';$('regulatoryPage').hidden=page!=='regulatory';
- const titles={news:'Market news',prices:'Price tracker',performance:'Performance tracker'};
+ $('newsPage').hidden=page!=='news';if(page==='news'&&typeof MarketNews!=='undefined')MarketNews.open();
+ const titles={prices:'Price tracker',performance:'Performance tracker'};
  $('comingPage').hidden=!titles[page];$('comingTitle').textContent=titles[page]||'';
- if(!['home','regulatory',...Object.keys(titles)].includes(page))$('landingPage').hidden=false;
+ if(!['home','regulatory','news',...Object.keys(titles)].includes(page))$('landingPage').hidden=false;
  document.querySelectorAll('.section-tabs a').forEach(a=>{if(a.hash==='#'+page)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
  if(page==='regulatory'&&DATA)drawMarketChart(DATA,molecule,chooseMolecule);
 }

@@ -1,0 +1,47 @@
+name: Verify news and FDA letter enrichment
+on:
+  push:
+    branches: [market-news-approval]
+    paths: ['scripts/**', 'dist/*.js', 'dist/*.html', 'dist/*.css', 'tests/**', '.github/workflows/verify-enrichment.yml']
+permissions:
+  contents: write
+concurrency:
+  group: enrichment-verification
+  cancel-in-progress: false
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v6
+      - name: Verify code
+        run: |
+          python3 -m unittest discover -s tests -v
+          node tests/ui.cjs
+      - name: Collect news
+        run: python3 scripts/news.py --limit 40
+      - name: Collect FDA dating-period evidence
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y poppler-utils
+          python3 scripts/approval_letters.py
+      - name: Verify enriched data
+        run: |
+          python3 -m unittest discover -s tests -v
+          node tests/ui.cjs
+          python3 -c "import json; d=json.load(open('dist/news.json')); print('News articles:',len(d['articles'])); assert d['articles'], 'No source-backed articles collected'"
+      - name: Save reviewed source snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist/news.json dist/data.json data reports
+          git diff --cached --quiet || git commit -m "Collect verified market news and FDA letter evidence"
+          git push origin HEAD:market-news-approval
+      - name: Preserve collection diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: enrichment-diagnostics
+          path: |
+            reports/
+            dist/news.json
