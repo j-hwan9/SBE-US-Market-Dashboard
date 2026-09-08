@@ -1,0 +1,22 @@
+name: Check news sources
+on:
+  push:
+    branches: [news-source-check]
+    paths:
+      - scripts/check_news_sources.py
+      - .github/workflows/news-source-check.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v6
+      - name: Check public news access and metadata
+        run: python3 scripts/check_news_sources.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: news-source-check
+          path: reports/news-source-check.json
