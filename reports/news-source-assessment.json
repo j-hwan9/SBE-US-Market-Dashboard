@@ -1,0 +1,331 @@
+{
+  "checks": [
+    {
+      "checked_at": "2026-09-08T22:56:11.811955+00:00",
+      "results": [
+        {
+          "biosimilar_text_present": true,
+          "content_type": "text/html; charset=UTF-8",
+          "http_status": 200,
+          "published_date": "2016-02-22T15:51:27+00:00",
+          "result": "metadata_ok",
+          "robots_allowed": true,
+          "robots_rules": "Sitemap: https://biosimilarsrr.com/sitemap.xml\nSitemap: https://biosimilarsrr.com/news-sitemap.xml\nUser-agent: *\nDisallow: /wp-content/uploads/wc-logs/\nDisallow: /wp-content/uploads/woocommerce_transient_files/\nDisallow: /wp-content/uploads/woocommerce_uploads/\nDisallow: /*?add-to-cart=\nDisallow: /*?*add-to-cart=\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\n\n# START YOAST BLOCK\n# ---------------------------\nUser-agent: *\nDisallow:\n\nSitemap: https://biosimilarsrr.com/sitemap_index.xml\n# ---------------------------\n# END YOAST BLOCK",
+          "robots_status": 200,
+          "rss_links": [
+            "https://biosimilarsrr.com/feed/",
+            "https://biosimilarsrr.com/comments/feed/"
+          ],
+          "sample_url": "https://biosimilarsrr.com/biosimilars-reviews-reports/",
+          "source": "BR&R",
+          "title": "Home"
+        },
+        {
+          "result": "robots_unverified",
+          "robots_status": 403,
+          "sample_url": "https://www.centerforbiosimilars.com/view/biosimilar-bills-gain-steam-in-congress-but-key-reforms-still-wait",
+          "source": "Center for Biosimilars"
+        },
+        {
+          "biosimilar_text_present": true,
+          "content_type": "text/html; charset=utf-8",
+          "http_status": 200,
+          "published_date": "2026-01-08T09:00:00-0500",
+          "result": "metadata_ok",
+          "robots_allowed": true,
+          "robots_rules": "#\n# robots.txt\n#\n# This file is to prevent the crawling and indexing of certain parts\n# of your site by web crawlers and spiders run by sites like Yahoo!\n# and Google. By telling these \"robots\" where not to go on your site,\n# you save bandwidth and server resources.\n#\n# This file will be ignored unless it is at the root of your host:\n# Used:    http://example.com/robots.txt\n# Ignored: http://example.com/site/robots.txt\n#\n# For more information about the robots.txt standard, see:\n# http://www.robotstxt.org/robotstxt.html\n\nUser-agent: *\n# CSS, JS, Images\nAllow: /core/*.css$\nAllow: /core/*.css?\nAllow: /core/*.js$\nAllow: /core/*.js?\nAllow: /core/*.gif\nAllow: /core/*.jpg\nAllow: /core/*.jpeg\nAllow: /core/*.png\nAllow: /core/*.svg\nAllow: /profiles/*.css$\nAllow: /profiles/*.css?\nAllow: /profiles/*.js$\nAllow: /profiles/*.js?\nAllow: /profiles/*.gif\nAllow: /profiles/*.jpg\nAllow: /profiles/*.jpeg\nAllow: /profiles/*.png\nAllow: /profiles/*.svg\n# Directories\nDisallow: /core/\nDisallow: /profiles/\n# Files\nDisallow: /README.txt\nDisallow: /web.config\n# Paths (clean URLs)\nDisallow: /admin/\nDisallow: /comment/reply/\nDisallow: /filter/tips\nDisallow: /node/add/\nDisallow: /search/\nDisallow: /user/register/\nDisallow: /user/password/\nDisallow: /user/login/\nDisallow: /user/logout/\nDisallow: /taxonomy/term/\n# Paths (no clean URLs)\nDisallow: /index.php/admin/\nDisallow: /index.php/comment/reply/\nDisallow: /index.php/filter/tips\nDisallow: /index.php/node/add/\nDisallow: /index.php/search/\nDisallow: /index.php/user/password/\nDisallow: /index.php/user/register/\nDisallow: /index.php/user/login/\nDisallow: /index.php/user/logout/\n",
+          "robots_status": 200,
+          "rss_links": [],
+          "sample_url": "https://www.fiercepharma.com/pharma/us-biosimilar-landscape-marked-too-many-question-marks-shifting-policy-complex-market",
+          "source": "Fierce Pharma",
+          "title": "As biosim industry confronts looming 'void,' 2026 marks a chance to take stock and embrace changing landscape"
+        },
+        {
+          "content_type": "",
+          "http_status": 403,
+          "result": "http_blocked_or_missing",
+          "robots_allowed": true,
+          "robots_rules": "#\n#                ..;coxkOOOOOOkxoc;'.\n#             .:d0NWMMMMMMMMMMMMMMWN0xc'\n#          .:kXMMMMMMMMMMMMMMMMMMMMMMMXl.\n#        .c0WMMMMMMMMMMMMMMMMMMMMMMMXd'\n#       ,OWMMMMMMMMMMMMMMMMMMMMMMMXo'       ..\n#      cXMMMMMMXo::::::::::::::col.       .lKXl.\n#     lNMMMMMMM0'                       .lKWMMNo\n#    :XMMMMMMMM0'                     .l0WMMMMMNc\n#   .OMMMMMMMMM0'     .ccccccc;.      ,KMMMMMMMMO.\n#   :NMMMMMMMMM0'     oWMMMMMMWKc.     oWMMMMMMMN:\n#   lWMMMMMMMMM0'     oWMMMMMMMMX:     ,KMMMMMMMMo\n#   oMMMMMMMMMM0'     oWMMMMMMMMNc     ,KMMMMMMMMd\n#   cNMMMMMMMMM0'     oWMMMMMMMNd.     lWMMMMMMMWl\n#   '0MMMMMMMMWk.     ,oooooooc'      ,0MMMMMMMMK,\n#    oWMMMMMMXo.                     ,0MMMMMMMMWo\n#    .xWMMMXd'                     ,dXMMMMMMMMWk.\n#     .xWNx'       .',''''''',,;coONMMMMMMMMMWk.\n#      .:,       .l0WWWWWWWWWWWMMMMMMMMMMMMMNd.\n#              .lKWMMMMMMMMMMMMMMMMMMMMMMMWk;\n#            .lKWMMMMMMMMMMMMMMMMMMMMMMMNk;.\n#            .ckXWMMMMMMMMMMMMMMMMMMWXkl'\n#               .;ldO0XNWWWWWWNXKOxl;.\n#                    ..'',,,,''..\n#\n#\n\n# NOTE: Allow is a non-standard directive for robots.txt. It is allowed by Google bots. See https://developers.google.com/search/reference/robots_txt#allow\n\nUser-agent: *\n# Crawl delay asks bots to wait this many seconds between requests. Ignored by google.\nCrawl-delay: 5\nDisallow: /admin/\nDisallow: /newsletter/\nDisallow: /healthcheck/\nDisallow: /subpage/\nDisallow: /ckeditor/\nDisallow: /api/\nDisallow: /static/images/\nDisallow: /subscriber/\nDisallow: /selfservice/\nDisallow: /press-release/preview/\nDisallow: /press-release/editor/\n\n# no deep queries to search\nDisallow: /search/*\nAllow: /search/$\n\n# don't index our dynamic images\nDisallow: /user_media/\nDisallow: /imgproxy/\n\n# don't deep index topic pages\nDisallow: /topic/?page=*\n\nAllow: /sitemap.xml\n\n#\n# Rules for specific crawlers below. Note that these don't stack. If you create a specific user-agent rule\n# you should copy the rules over from '*' above by hand.\n#\n\n# Allow Twitter to see all links\nUser-agent: Twitterbot\nCrawl-delay: 5\nDisallow:\n\n# Allow Googlebot-News to see header images and favicons, BUT make it follow all the directives from our * group\n# See below link for why we have to repeat these directives\n# https://developers.google.com/search/reference/robots_txt#order-of-precedence-for-user-agents\nUser-agent: Googlebot-News\nDisallow: /admin/\nDisallow: /newsletter/\nDisallow: /healthcheck/\nDisallow: /subpage/\nDisallow: /ckeditor/\nDisallow: /api/\nDisallow: /static/images/\nDisallow: /subscriber/\nDisallow: /selfservice/\nDisallow: /press-release/preview/\nDisallow: /press-release/editor/\n\n# no deep queries to search\nDisallow: /search/*\nAllow: /search/$\n\nAllow: /google_news_sitemap.xml\n# Allow Google News to see header images and favicons\nAllow: /user_media/\nAllow: /imgproxy/\nAllow: /static/images/favicons\n\n\n# Googlebot-Image is now used for favicons. Allow it to see favicon-related files but nothing else\nUser-agent: Googlebot-Image\nDisallow: /\nAllow: /imgproxy/\nAllow: /static/images/favicons\nAllow: /favicon.ico\nAllow: /white-favicon.ico\nAllow: /apple-touch-icon.png\nAllow: /favicon-32x32.png\nAllow: /white-favicon-32x32.png\nAllow: /favicon-16x16.png\nAllow: /white-favicon-16x16.png\nAllow: /site.webmanifest\nAllow: /safari-pinned-tab.svg\nAllow: /browserconfig.xml\nAllow: /android-chrome-144x144.png\nAllow: /mstile-150x150.png\n\n# Don't let PetalBot crawl at all\nUser-agent: PetalBot\nDisallow: /\n\n# Block sentione.com\nUser-agent: sentibot\nDisallow: /\n\n# block seoclarity.net/bot.html\nUser-agent: claritybot\nDisallow: /\n\n# block omgili.com/crawler.html\nUser-Agent: omgilibot\nDisallow: /\nUser-Agent: omgili\nDisallow: /\n\n# All Facebook crawler user-agent to see all\nUser-agent: facebookexternalhit/1.1\nDisallow:\n\nUser-agent: AhrefsBot\n# We want this bot to crawl way slower https://ahrefs.com/robot/\nCrawl-Delay: 30\n\nDisallow: /admin/\nDisallow: /newsletter/\nDisallow: /healthcheck/\nDisallow: /subpage/\nDisallow: /ckeditor/\nDisallow: /api/\nDisallow: /static/images/\nDisallow: /subscriber/\nDisallow: /selfservice/\nDisallow: /press-release/preview/\nDisallow: /press-release/editor/\n\n# no deep queries to search\nDisallow: /search/*\nAllow: /search/$\n\n# don't index our dynamic images\nDisallow: /user_media/\nDisallow: /imgproxy/\n\nDisallow: /topic/\nDisallow: /editors/\n\nUser-agent: Amazonbot\n# Restrict what Amazonbot (Alexa) can see, and a\nCrawl-Delay: 10\n\nDisallow: /admin/\nDisallow: /newsletter/\nDisallow: /healthcheck/\nDisallow: /subpage/\nDisallow: /ckeditor/\nDisallow: /api/\nDisallow: /static/images/\nDisallow: /subscriber/\nDisallow: /selfservice/\nDisallow: /press-release/preview/\nDisallow: /press-release/editor/\n\n# no deep queries to search\nDisallow: /search/*\nAllow: /search/$\n\n# don't index our dynamic images\nDisallow: /user_media/\nDisallow: /imgproxy/\n\nDisallow: /topic/\nDisallow: /editors/\nDisallow: /signup/*\nAllow: /signup/$\n\nUser-agent: amazon-kendra # Amazon Kendra Web Crawler\nDisallow: /\n",
+          "robots_status": 200,
+          "sample_url": "https://www.biopharmadive.com/news/biosimilars-fda-guidance-elevate-pharma-market/814591/",
+          "source": "BioPharma Dive"
+        },
+        {
+          "biosimilar_text_present": true,
+          "content_type": "text/html; charset=UTF-8",
+          "http_status": 200,
+          "published_date": null,
+          "result": "parser_or_article_discovery_needed",
+          "robots_allowed": true,
+          "robots_rules": "User-agent: Mediapartners-Google\nDisallow: \n\nUser-agent: *\nDisallow: /search\nDisallow: /share-widget\nAllow: /\n\nSitemap: https://www.drugchannels.net/sitemap.xml\n\n",
+          "robots_status": 200,
+          "rss_links": [
+            "https://www.drugchannels.net/feeds/posts/default",
+            "https://www.drugchannels.net/feeds/posts/default?alt=rss",
+            "https://www.blogger.com/feeds/28450497/posts/default",
+            "https://www.drugchannels.net/feeds/802025748656109500/comments/default"
+          ],
+          "sample_url": "https://www.drugchannels.net/2026/01/the-big-three-pbms-2026-formulary.html",
+          "source": "Drug Channels",
+          "title": "Drug Channels"
+        },
+        {
+          "content_type": "",
+          "http_status": 403,
+          "result": "http_blocked_or_missing",
+          "robots_allowed": true,
+          "robots_rules": "User-agent: *\nDisallow: /search\nDisallow: /preview/\nDisallow: /*[*]*\nSitemap: https://www.managedhealthcareexecutive.com/sitemap.xml\nSitemap: https://www.managedhealthcareexecutive.com/sitemap-news.xml\n",
+          "robots_status": 200,
+          "sample_url": "https://www.managedhealthcareexecutive.com/view/biosimilars-are-driving-down-costs-and-increasing-access-to-biologics",
+          "source": "Managed Healthcare Executive"
+        },
+        {
+          "result": "robots_unverified",
+          "robots_status": 403,
+          "sample_url": "https://www.drugtopics.com/view/fda-approves-langlara-as-interchangeable-biosimilar-to-insulin-glargine",
+          "source": "Drug Topics"
+        },
+        {
+          "result": "robots_unverified",
+          "robots_status": 403,
+          "sample_url": "https://www.pharmacytimes.com/view/what-real-world-data-show-about-moving-patients-from-humira-to-biosimilars",
+          "source": "Pharmacy Times"
+        },
+        {
+          "result": "robots_unverified",
+          "robots_status": 403,
+          "sample_url": "https://www.ajmc.com/view/biosimilar-adoption-and-provider-performance-in-medicare-value-based-payment-models",
+          "source": "AJMC"
+        },
+        {
+          "biosimilar_text_present": true,
+          "content_type": "text/html; charset=utf-8",
+          "http_status": 200,
+          "published_date": "2026-09-08T22:56:10.617Z",
+          "result": "metadata_ok",
+          "robots_allowed": true,
+          "robots_rules": "User-agent: *\nDisallow: /search\nDisallow: /preview/\nDisallow: /*[*]*$\nSitemap: https://www.pharmexec.com/sitemap.xml\nSitemap: https://www.pharmexec.com/sitemap-news.xml\n",
+          "robots_status": 200,
+          "rss_links": [],
+          "sample_url": "https://www.pharmexec.com/view/fda-approves-ennumo-decrease-incidence-infection-febrile-neutropenia",
+          "source": "Pharmaceutical Executive",
+          "title": "FDA Approves Ennumo to Decrease Incidence of Infection by Febrile Neutropenia  | PharmExec"
+        },
+        {
+          "biosimilar_text_present": true,
+          "content_type": "text/html;charset=UTF-8",
+          "http_status": 200,
+          "published_date": "2026-07-23T13:14:53.647",
+          "result": "metadata_ok",
+          "robots_allowed": true,
+          "robots_rules": "# Specifically block Meta's AI agent from the archive folder\nUser-agent: meta-externalagent\nDisallow: /archive/\n\nUser-agent: *\nCrawl-delay: 1\nDisallow: /share-view\nDisallow: /search\nDisallow: /cms\n\n#Sitemaps\nSitemap: https://www.biospace.com/sitemap.xml\nSitemap: https://www.biospace.com/news-sitemap.xml",
+          "robots_status": 200,
+          "rss_links": [],
+          "sample_url": "https://www.biospace.com/press-releases/samsung-bioepis-releases-third-quarter-2026-biosimilar-market-report",
+          "source": "BioSpace",
+          "title": "Samsung Bioepis Releases Third Quarter 2026 Biosimilar Market Report"
+        }
+      ],
+      "scope": "One sample per publisher; technical access, not reuse permission or reliability guarantee.",
+      "user_agent": "SBE-News-Source-Check/1.0 (+https://github.com/j-hwan9/SBE-US-Market-Dashboard)"
+    },
+    {
+      "checked_at": "2026-09-08T22:57:38.645727+00:00",
+      "results": [
+        {
+          "content_type": "application/rss+xml; charset=UTF-8",
+          "http_status": 200,
+          "items": [
+            {
+              "published": "Thu, 03 Sep 2026 15:59:07 +0000",
+              "title": "Biosimilar Bytes: Alvotech Biosimilar News and 6-Month Ustekinumab Switching Outcomes",
+              "url": "https://biosimilarsrr.com/2026/09/03/biosimilar-bytes-alvotech-biosimilar-news-and-6-month-ustekinumab-switching-outcomes/"
+            },
+            {
+              "published": "Thu, 20 Aug 2026 15:48:27 +0000",
+              "title": "The Bona Fide Marketing Standard and What That Means for Biosimilars and Generics",
+              "url": "https://biosimilarsrr.com/2026/08/20/https-biosimilarsrr-com-2026-08-20-bona-fide-marketing-and-mfp-biosimilars/"
+            },
+            {
+              "published": "Mon, 17 Aug 2026 17:17:34 +0000",
+              "title": "US Humira Sales Overwhelmed by Biosimilar Competition",
+              "url": "https://biosimilarsrr.com/2026/08/17/us-humira-sales-overwhelmed-by-biosimilar-competition/"
+            },
+            {
+              "published": "Wed, 12 Aug 2026 17:53:05 +0000",
+              "title": "The Second Entyvio Biosimilar Is Under Review at FDA",
+              "url": "https://biosimilarsrr.com/2026/08/12/the-second-entyvio-biosimilar-is-under-review-at-fda/"
+            },
+            {
+              "published": "Tue, 11 Aug 2026 18:51:15 +0000",
+              "title": "340B Pilot Program Could Be Big Boon for Biosimilars",
+              "url": "https://biosimilarsrr.com/2026/08/11/340b-pilot-program-could-be-big-boon-for-biosimilars/"
+            },
+            {
+              "published": "Fri, 07 Aug 2026 17:22:27 +0000",
+              "title": "MFP Agreements Don’t Guarantee Better Patient Access",
+              "url": "https://biosimilarsrr.com/2026/08/07/mfp-agreements-dont-guarantee-better-patient-access/"
+            },
+            {
+              "published": "Tue, 04 Aug 2026 21:02:41 +0000",
+              "title": "Biosimilar Bytes: Biocon’s Yesafili Launches and Dr. Reddy’s Rituximab Biosimilar Is Approved",
+              "url": "https://biosimilarsrr.com/2026/08/04/biosimilar-bytes-biocons-yesafili-launches-and-dr-reddys-rituximab-biosimilar-is-approved/"
+            },
+            {
+              "published": "Mon, 27 Jul 2026 14:06:58 +0000",
+              "title": "Are Biosimilar Patient Copay Assistance Programs Lacking?",
+              "url": "https://biosimilarsrr.com/2026/07/27/are-biosimilar-patient-copay-assistance-programs-lacking/"
+            },
+            {
+              "published": "Wed, 22 Jul 2026 17:17:28 +0000",
+              "title": "Trump Tariffs on Generics and Biosimilars: Utter Nonsense or Just Plain Stupidity?",
+              "url": "https://biosimilarsrr.com/2026/07/22/trump-tariffs-on-generics-and-biosimilars-utter-nonsense-or-just-plain-stupidity/"
+            },
+            {
+              "published": "Fri, 17 Jul 2026 16:40:46 +0000",
+              "title": "Tracking Two Bills to Remove the Clinical Efficacy Study Requirement for Biosimilar Development",
+              "url": "https://biosimilarsrr.com/2026/07/17/tracking-two-bills-to-remove-the-clinical-efficacy-study-requirement-for-biosimilar-development/"
+            }
+          ],
+          "result": "rss_metadata_ok",
+          "robots_allowed": true,
+          "robots_rules": "Sitemap: https://biosimilarsrr.com/sitemap.xml\nSitemap: https://biosimilarsrr.com/news-sitemap.xml\nUser-agent: *\nDisallow: /wp-content/uploads/wc-logs/\nDisallow: /wp-content/uploads/woocommerce_transient_files/\nDisallow: /wp-content/uploads/woocommerce_uploads/\nDisallow: /*?add-to-cart=\nDisallow: /*?*add-to-cart=\nDisallow: /wp-admin/\nAllow: /wp-admin/admin-ajax.php\n\n# START YOAST BLOCK\n# ---------------------------\nUser-agent: *\nDisallow:\n\nSitemap: https://biosimilarsrr.com/sitemap_index.xml\n# ---------------------------\n# END YOAST BLOCK",
+          "robots_status": 200,
+          "sample_url": "https://biosimilarsrr.com/feed/",
+          "source": "BR&R RSS"
+        },
+        {
+          "content_type": "text/xml; charset=UTF-8",
+          "http_status": 200,
+          "items": [
+            {
+              "published": "Thu, 03 Sep 2026 10:30:00 +0000",
+              "title": "BlinkRx Insights: Beyond the Hub - Rethinking the Prescription Journey",
+              "url": "https://feeds.feedblitz.com/~/968519744/0/drugchannels~BlinkRx-Insights-Beyond-the-Hub-Rethinking-the-Prescription-Journey.html"
+            },
+            {
+              "published": "Tue, 01 Sep 2026 10:30:00 +0000",
+              "title": "The Private Label Biosimilar Paradox in Medicare Part D",
+              "url": "https://feeds.feedblitz.com/~/968482931/0/drugchannels~The-Private-Label-Biosimilar-Paradox-in-Medicare-Part-D.html"
+            },
+            {
+              "published": "Fri, 28 Aug 2026 10:30:00 +0000",
+              "title": "Medicare, Medicaid, and Reverification: What Patient Support Programs Need to Know Before January 2027",
+              "url": "https://feeds.feedblitz.com/~/968367749/0/drugchannels~Medicare-Medicaid-and-Reverification-What-Patient-Support-Programs-Need-to-Know-Before-January.html"
+            },
+            {
+              "published": "Tue, 25 Aug 2026 10:30:00 +0000",
+              "title": "Drug Channels News Roundup, August 2026: 340B Rebate Model v2, Patients Feeling Drug Costs, Specialty Drug Spending Drivers, Impact on Coverage from the IRA, and a Drug Price Adventure",
+              "url": "https://feeds.feedblitz.com/~/968206538/0/drugchannels~Drug-Channels-News-Roundup-August-B-Rebate-Model-v-Patients-Feeling-Drug-Costs-Specialty-Drug-Spending-Drivers-Impact-on-Coverage-from-the-IRA-and-a-Drug-Price.html"
+            },
+            {
+              "published": "Fri, 21 Aug 2026 10:30:00 +0000",
+              "title": "Invisible Work of Rare Pharmacy Delivers Highly Visible Patient Outcomes",
+              "url": "https://feeds.feedblitz.com/~/968084648/0/drugchannels~Invisible-Work-of-Rare-Pharmacy-Delivers-Highly-Visible-Patient-Outcomes.html"
+            },
+            {
+              "published": "Tue, 18 Aug 2026 10:30:00 +0000",
+              "title": "REMS Removed: Why CAR-T’s Expansion into Community Oncology Could Benefit the Big Three Wholesalers",
+              "url": "https://feeds.feedblitz.com/~/967969280/0/drugchannels~REMS-Removed-Why-CART%e2%80%99s-Expansion-into-Community-Oncology-Could-Benefit-the-Big-Three-Wholesalers.html"
+            },
+            {
+              "published": "Fri, 14 Aug 2026 10:30:00 +0000",
+              "title": "Hub Transitions Need Proven Plans, Smart Scale-Up",
+              "url": "https://feeds.feedblitz.com/~/967828754/0/drugchannels~Hub-Transitions-Need-Proven-Plans-Smart-ScaleUp.html"
+            },
+            {
+              "published": "Tue, 11 Aug 2026 10:30:00 +0000",
+              "title": "The K-Shaped Pharmacy Shakeout: Consolidation in Cities, Lost Access in Rural America",
+              "url": "https://feeds.feedblitz.com/~/967665377/0/drugchannels~The-KShaped-Pharmacy-Shakeout-Consolidation-in-Cities-Lost-Access-in-Rural-America.html"
+            },
+            {
+              "published": "Mon, 10 Aug 2026 10:30:00 +0000",
+              "title": "Informa Connect’s Medicaid Drug Rebate Program Summit",
+              "url": "https://feeds.feedblitz.com/~/967559789/0/drugchannels~Informa-Connect%e2%80%99s-Medicaid-Drug-Rebate-Program-Summit.html"
+            },
+            {
+              "published": "Fri, 07 Aug 2026 10:30:00 +0000",
+              "title": "A System of Record, or a System of Learning?",
+              "url": "https://feeds.feedblitz.com/~/967219904/0/drugchannels~A-System-of-Record-or-a-System-of-Learning.html"
+            },
+            {
+              "published": "Tue, 04 Aug 2026 10:30:00 +0000",
+              "title": "Who Will Pay for Prescription Drugs in 2034? Medicare's Surprising Rise in the Latest Government Forecasts ",
+              "url": "https://feeds.feedblitz.com/~/966196043/0/drugchannels~Who-Will-Pay-for-Prescription-Drugs-in-Medicares-Surprising-Rise-in-the-Latest-Government-Forecasts.html"
+            },
+            {
+              "published": "Fri, 31 Jul 2026 10:30:00 +0000",
+              "title": "The Industry Doesn't Have an Access Collaboration Problem. It Has an Accountability Problem.",
+              "url": "https://feeds.feedblitz.com/~/964938914/0/drugchannels~The-Industry-Doesnt-Have-an-Access-Collaboration-Problem-It-Has-an-Accountability-Problem.html"
+            }
+          ],
+          "result": "rss_metadata_ok",
+          "robots_allowed": true,
+          "robots_rules": "User-agent: Mediapartners-Google\nDisallow: \n\nUser-agent: *\nDisallow: /search\nDisallow: /share-widget\nAllow: /\n\nSitemap: https://www.drugchannels.net/sitemap.xml\n\n",
+          "robots_status": 200,
+          "sample_url": "https://www.drugchannels.net/feeds/posts/default?alt=rss",
+          "source": "Drug Channels RSS"
+        },
+        {
+          "biosimilar_text_present": true,
+          "content_type": "text/html; charset=utf-8",
+          "date_metadata": {
+            "article:modified_time": "2026-09-08T22:57:38.361Z",
+            "article:published_time": "2026-09-08T22:57:38.361Z"
+          },
+          "http_status": 200,
+          "published_date": "2026-09-08T22:57:38.361Z",
+          "result": "metadata_ok",
+          "robots_allowed": true,
+          "robots_rules": "User-agent: *\nDisallow: /search\nDisallow: /preview/\nDisallow: /*[*]*$\nSitemap: https://www.pharmexec.com/sitemap.xml\nSitemap: https://www.pharmexec.com/sitemap-news.xml\n",
+          "robots_status": 200,
+          "rss_links": [],
+          "sample_url": "https://www.pharmexec.com/view/fda-approves-ennumo-decrease-incidence-infection-febrile-neutropenia",
+          "source": "Pharmaceutical Executive date check",
+          "structured_dates": [
+            {
+              "@type": "NewsArticle",
+              "dateModified": "2026-07-09T14:05:45.000Z",
+              "datePublished": "2026-07-09T13:47:50.301Z",
+              "headline": "FDA Approves Ennumo to Decrease Incidence of Infection by Febrile Neutropenia "
+            }
+          ],
+          "time_elements": [
+            "<time dateTime=\"2026-09-08T17:52:55.258Z\">September 8th 2026</time>",
+            "<time dateTime=\"2026-09-08T13:57:05.930Z\">September 8th 2026</time>",
+            "<time dateTime=\"2026-09-08T13:30:53.134Z\">September 8th 2026</time>",
+            "<time dateTime=\"2026-09-08T10:00:00Z\">September 8th 2026</time>",
+            "<time dateTime=\"2026-09-08T10:00:00Z\">September 8th 2026</time>"
+          ],
+          "title": "FDA Approves Ennumo to Decrease Incidence of Infection by Febrile Neutropenia  | PharmExec"
+        }
+      ],
+      "scope": "One sample per publisher; technical access, not reuse permission or reliability guarantee.",
+      "user_agent": "SBE-News-Source-Check/1.0 (+https://github.com/j-hwan9/SBE-US-Market-Dashboard)"
+    }
+  ],
+  "assessment": {
+    "verified_metadata_candidates": [
+      "BR&R (RSS)",
+      "Drug Channels (RSS; resolve tracking links before production)",
+      "Fierce Pharma (sample article)",
+      "BioSpace (sample article)",
+      "Pharmaceutical Executive (use NewsArticle.datePublished, not article:published_time)"
+    ],
+    "hold": [
+      "Center for Biosimilars",
+      "BioPharma Dive",
+      "Managed Healthcare Executive",
+      "Drug Topics",
+      "Pharmacy Times",
+      "AJMC"
+    ],
+    "limitations": [
+      "Sample-based checks, not continuous reliability certification.",
+      "BR&R initial HTML sample was a home page; select articles through verified RSS.",
+      "PharmExec article:published_time reflected request time; correct NewsArticle.datePublished was 2026-07-09T13:47:50.301Z.",
+      "No article full-text republication permission established.",
+      "Production article discovery, body-only molecule matching and UI are not implemented."
+    ]
+  }
+}
