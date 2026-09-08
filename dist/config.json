@@ -1,0 +1,5 @@
+{
+  "repository": "j-hwan9/SBE-US-Market-Dashboard",
+  "refreshWorkflow": "refresh.yml",
+  "deployment": "github-pages"
+}

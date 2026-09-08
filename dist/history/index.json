@@ -1,0 +1,56 @@
+[
+  {
+    "id": "pi-matching-correction",
+    "path": "history/pi-matching-correction.json",
+    "checkedAt": "2026-09-08T05:14:24.447860+00:00",
+    "purpleBookDate": "2026-08",
+    "productCount": 130,
+    "note": "FDA PDF 내 브랜드 PI 매칭 보정",
+    "changes": {
+      "added": [],
+      "removed": [],
+      "changed": [
+        {
+          "id": "eticovo-761066",
+          "brand": "Eticovo",
+          "bla": "761066",
+          "fields": [
+            "Dosage",
+            "Indications",
+            "Storage·latex"
+          ]
+        },
+        {
+          "id": "ponlimsi-761385",
+          "brand": "Ponlimsi",
+          "bla": "761385",
+          "fields": [
+            "Dosage",
+            "Indications",
+            "Storage·latex"
+          ]
+        },
+        {
+          "id": "xbryk-761392",
+          "brand": "Xbryk",
+          "bla": "761392",
+          "fields": [
+            "Manufacturer"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "baseline",
+    "path": "history/baseline.json",
+    "checkedAt": "2026-09-08",
+    "purpleBookDate": "2026-08",
+    "changes": {
+      "added": [],
+      "removed": [],
+      "changed": []
+    },
+    "baseline": true
+  }
+]

@@ -1,0 +1,11 @@
+data/spls/
+data/fda/
+data/product-*.json
+data/example-list.json
+scripts/__pycache__/
+*.tar.gz
+
+tests/__pycache__/
+reports/refresh-errors.json
+
+reports/*-reviewed.json

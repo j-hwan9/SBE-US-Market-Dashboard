@@ -1,0 +1,43 @@
+{
+  "officialCatalog": {
+    "records": 130,
+    "presentations": 315,
+    "month": "2026-08"
+  },
+  "liveCheck": "Initial check passed 127 products and rejected 3 ambiguous multi-PI PDFs. After parser corrections, fresh targeted checks passed for Eticovo, Xbryk and Ponlimsi. All 15 cached FDA PDFs also parsed successfully. Full end-to-end publish refresh not rerun.",
+  "dataCorrection": {
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "eticovo-761066",
+        "brand": "Eticovo",
+        "bla": "761066",
+        "fields": [
+          "Dosage",
+          "Indications",
+          "Storage·latex"
+        ]
+      },
+      {
+        "id": "ponlimsi-761385",
+        "brand": "Ponlimsi",
+        "bla": "761385",
+        "fields": [
+          "Dosage",
+          "Indications",
+          "Storage·latex"
+        ]
+      },
+      {
+        "id": "xbryk-761392",
+        "brand": "Xbryk",
+        "bla": "761392",
+        "fields": [
+          "Manufacturer"
+        ]
+      }
+    ]
+  },
+  "checkedAt": "2026-09-08T05:14:24.447860+00:00"
+}

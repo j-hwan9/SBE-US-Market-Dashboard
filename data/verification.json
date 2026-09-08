@@ -1,0 +1,17 @@
+{
+  "snapshot": "2026-08",
+  "retrievedAt": "2026-09-08",
+  "products": 130,
+  "brands": 124,
+  "molecules": 21,
+  "purpleBookRows": 315,
+  "piObtained": 130,
+  "notes": [
+    "Current Licensed records only; historical revoked BLA103737 excluded.",
+    "NDC mapped to own BLA within each SPL. Shared PI narrative preserves presentation-specific conditions.",
+    "Full PI sections preserved; wording differences are not clinical equivalence determinations.",
+    "NDC pending/XXXXX in FDA PI is not an assigned NDC.",
+    "Sorbitol absence from ingredient list is not an explicit free claim.",
+    "No automatic refresh or browser visual QA."
+  ]
+}
