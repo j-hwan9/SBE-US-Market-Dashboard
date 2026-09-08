@@ -42,19 +42,19 @@ const fields=[
  {key:'interchange',title:'Interchangeability',note:'지정된 reference product에 대한 상태',get:licenseLines,render:renderLines},
  {key:'manufacturer',title:'Manufacturer / applicant',note:'Purple Book applicant와 PI 표기를 구분',get:p=>['Purple Book applicant: '+p.applicant,...(label(p)?.manufacturerText||[]),...(label(p)?.labelOrganizations||[]).map(x=>'PI labeler: '+x)],render:renderLines},
  {key:'marketing',title:'Marketing / licensure',get:p=>unique(p.presentations.map(r=>`${r['Marketing Status']} · ${r.Licensure} · ${r.Strength} · ${r['Product Presentation']}`)),render:renderLines},
- {section:'PRESENTATION & DOSING',key:'presentation',title:'Presentation',get:p=>unique(p.presentations.map(r=>`${r['Product Presentation']} · ${r['Dosage Form']} · ${r['Route of Administration']}`)),render:renderLines},
+ {section:'PRESENTATION & DEVICE',key:'presentation',title:'Presentation',get:p=>unique(p.presentations.map(r=>`${r['Product Presentation']} · ${r['Dosage Form']} · ${r['Route of Administration']}`)),render:renderLines},
  {key:'strength',title:'Strength / concentration',note:'제품 함량·농도, 투여용량과 구분',get:p=>unique(p.presentations.map(r=>`${r.Strength} · ${r['Product Presentation']}`)),render:renderLines},
  {key:'ndc',title:'NDC / package',note:'라벨에 기재된 package NDC · 판매 여부와 별개',get:p=>piField(p,l=>ndcs(l).length?ndcs(l):section(l,'supplied').filter(x=>/\d{4,5}-\d{3,4}-\d{1,2}|NDC pending|NDC X/i.test(x))),render:v=>typeof v?.[0]==='object'?`<div class="cell-text">${v.slice(0,3).map(renderPackage).join('')}${v.length>3?`<details><summary>전체 ${v.length}개 구성 보기</summary><div class="detail-content">${v.slice(3).map(renderPackage).join('')}</div></details>`:''}</div>`:paragraphs(v)},
- {key:'dosage',title:'Dosage & administration',note:'적응증·체중·연령별 조건 유지',get:p=>piField(p,l=>section(l,'dosage')),render:v=>paragraphs(v,3)},
+ {key:'needle',title:'Needle / included',note:'제형별 Gauge · 제품 포함 여부 · PI 명시 기준',get:p=>label(p)?PIFacts.needle(p):null,render:renderFacts},
  {key:'indications',title:'Approved indications',note:'PI §1 · 연령 및 사용 제한 포함',get:p=>piField(p,l=>section(l,'indications')),render:v=>paragraphs(v,3)},
- {section:'STORAGE & MATERIALS',key:'cold',title:'2–8°C / refrigerated',note:'미개봉 냉장 보관 · 개월 수 미기재 시 추정하지 않음',get:p=>piField(p,cold),render:paragraphs},
- {key:'room',title:'Room-temperature stability',note:'온도 + 기간 + 폐기·재냉장 조건',get:p=>piField(p,room),render:paragraphs},
- {key:'prep',title:'조제·희석 후 stability',note:'미개봉 보관기간과 별도 비교',get:p=>piField(p,prep),render:paragraphs},
- {key:'storage',title:'전체 보관·취급 조건',note:'차광·동결·운송·presentation별 예외 확인',get:p=>piField(p,l=>l.storage?.length?l.storage:section(l,'supplied')),render:paragraphs},
+ {section:'STORAGE & MATERIALS',key:'cold',title:'2–8°C / refrigerated',note:'미개봉 · 재냉장 조건 별도',get:p=>label(p)?PIFacts.storage(p,'cold'):null,render:renderFacts},
+ {key:'room',title:'Room-temperature stability',note:'온도 · 보관기간',get:p=>label(p)?PIFacts.storage(p,'room'):null,render:renderFacts},
+ {key:'prep',title:'조제·개봉 후 stability',note:'온도 · 보관기간 · 투여시간 포함 여부',get:p=>label(p)?PIFacts.storage(p,'prep'):null,render:renderFacts},
  {key:'sorbitol',title:'Sorbitol status',note:'함유 / SPL 미등재 / 미확인',get:p=>piField(p,ingredients),render:v=>paragraphs(v,2)},
  {key:'latex',title:'Latex / natural rubber',note:'용기·needle cap·device별 PI 명시 범위',get:p=>piField(p,l=>l.latex),render:paragraphs},
  {section:'EVIDENCE',key:'evidence',title:'PI source / version',get:p=>(p.constituents||[p]).flatMap(q=>label(q)?['BLA '+q.bla+' · '+(label(q).provider||'DailyMed'),'게시일 '+formatDate(label(q).published_date),label(q).spl_version?'SPL version '+label(q).spl_version:'FDA PI','확인일 '+formatDate(q.piCheckedAt||DATA.retrievedAt)]:[]),render:renderLines}
 ];
+function renderFacts(rows){return rows?.length?'<div class="fact-list">'+rows.map(r=>`<div class="fact-item"><span>${esc(r.scope)}</span><strong>${esc(r.value)}</strong>${r.detail?`<small>${esc(r.detail)}</small>`:''}</div>`).join('')+'</div>':missing('PI 명시 없음 / 해당 조건 미확인');}
 function formatDate(s){
  if(!s)return '미기재';
  let value=String(s).trim(),m;
@@ -69,7 +69,7 @@ function renderPackage(x){return `<div class="package"><strong>${esc(x.title)}</
 function result(f,ps){
  const values=ps.map(p=>f.get(p));
  const known=values.map(v=>v!==null&&v!==undefined&&(!Array.isArray(v)||v.length>0));
- const canonical=values.map((v,i)=>known[i]?norm(typeof v==='string'?v:JSON.stringify(v),ps[i]):null);
+ const canonical=values.map((v,i)=>known[i]?norm(typeof v==='string'?v:JSON.stringify(v,(k,val)=>k==='evidence'?undefined:val),ps[i]):null);
  const distinct=unique(canonical);
  return {values,known,diff:distinct.length>1,unknown:known.some(k=>!k)};
 }
@@ -104,7 +104,7 @@ function renderMatrix(){
  if(!origin){$('matrix').innerHTML='<div class="loading">오리지네이터 정보를 확인할 수 없습니다.</div>';return;}
  const results=fields.map(f=>result(f,ps)),focus=['interchange','presentation','room','sorbitol','latex','indications'];
  $('summary').innerHTML=fields.filter((f,i)=>focus.includes(f.key)&&results[i].diff).map(f=>`<span>${esc(f.title)} · 표기 차이</span>`).join('')+(!selected.length?'<span>비교할 바이오시밀러를 선택하세요. 선택 수 제한은 없습니다.</span>':'');
- let html=`<table style="width:calc(var(--label-width) + ${ps.length*290}px)"><colgroup><col style="width:var(--label-width)">${ps.map(()=>'<col style="width:290px">').join('')}</colgroup><thead><tr><th><span class="eyebrow">COMPARE</span><br>비교 항목<span class="small-note">영문은 공식 PI 문구<br>차이 ≠ 임상적 우열</span></th>${ps.map((p,i)=>`<th class="product-heading ${i===0?'originator-column':''}">${i?`<button class="remove" data-remove="${esc(p.id)}" aria-label="${esc(p.brand)} 비교에서 제외">×</button>`:''}<span class="type ${i===0?'ref':''}">${i===0?'ORIGINATOR · 항상 표시':'BIOSIMILAR'}</span><b>${esc(p.brand)}</b><span class="proper">${esc(p.proper)}</span><br><button class="source-btn" data-source="${esc(p.id)}">PI · 근거 보기 ↗</button></th>`).join('')}</tr></thead><tbody>`;
+ let html=`<table style="width:calc(var(--label-width) + ${ps.length*290}px)"><colgroup><col style="width:var(--label-width)">${ps.map(()=>'<col style="width:290px">').join('')}</colgroup><thead><tr><th><span class="eyebrow">COMPARE</span><br>비교 항목<span class="small-note">PI 발췌·요약 기준<br>차이 ≠ 임상적 우열</span></th>${ps.map((p,i)=>`<th class="product-heading ${i===0?'originator-column':''}">${i?`<button class="remove" data-remove="${esc(p.id)}" aria-label="${esc(p.brand)} 비교에서 제외">×</button>`:''}<span class="type ${i===0?'ref':''}">${i===0?'ORIGINATOR · 항상 표시':'BIOSIMILAR'}</span><b>${esc(p.brand)}</b><span class="proper">${esc(p.proper)}</span><br><button class="source-btn" data-source="${esc(p.id)}">PI · 근거 보기 ↗</button></th>`).join('')}</tr></thead><tbody>`;
  let group='',count=0;
  fields.forEach((f,i)=>{
   if(f.section)group=f.section;const r=results[i];
@@ -117,7 +117,7 @@ function renderMatrix(){
 function showDialog(title,html){$('dialogTitle').textContent=title;$('dialogBody').innerHTML=html;$('sourceDialog').showModal();$('sourceDialog').scrollTop=0;}
 function sourceBody(p){
  const l=label(p),fda=`https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=${encodeURIComponent(p.bla)}`;
- let html=`<h3>${esc(p.brand)} · BLA ${esc(p.bla)}</h3><p><a href="https://purplebooksearch.fda.gov/" target="_blank" rel="noopener">Purple Book</a> · <a href="${esc(fda)}" target="_blank" rel="noopener">Drugs@FDA</a></p>`;
+ let html=`<h3>${esc(p.brand)} · BLA ${esc(p.bla)}</h3><p><a href="${esc(fda)}" target="_blank" rel="noopener">Drugs@FDA</a></p>`;
  if(!l)return html+missing('공식 PI 미확보');
  html+=`<p><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.provider||'DailyMed')} 원문 PI ↗</a></p><p class="source-meta">게시일 ${esc(formatDate(l.published_date))} · ${l.spl_version?'SPL v'+esc(l.spl_version):'FDA label'}<br>PI 확인 ${esc(formatDate(p.piCheckedAt||DATA.retrievedAt))}</p>`;
  for(const [k,title] of [['indications','Indications and usage'],['dosage','Dosage and administration'],['strengths','Dosage forms and strengths'],['description','Description'],['supplied','How supplied'],['storage','Storage and handling']]){
@@ -175,3 +175,14 @@ $('historySelect').addEventListener('change',async()=>{
 });
 fetch('config.json',{cache:'no-store'}).then(r=>r.ok?r.json():{}).then(c=>CONFIG=c).catch(()=>{});
 loadLatest();
+
+function navigatePage(){
+ const page=location.hash.slice(1)||'home';
+ $('landingPage').hidden=page!=='home';$('regulatoryPage').hidden=page!=='regulatory';
+ const titles={news:'Market news',prices:'Price tracker',performance:'Performance tracker'};
+ $('comingPage').hidden=!titles[page];$('comingTitle').textContent=titles[page]||'';
+ if(!['home','regulatory',...Object.keys(titles)].includes(page))$('landingPage').hidden=false;
+ document.querySelectorAll('.section-tabs a').forEach(a=>{if(a.hash==='#'+page)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
+ if(page==='regulatory'&&DATA)drawMarketChart(DATA,molecule,chooseMolecule);
+}
+window.addEventListener('hashchange',navigatePage);navigatePage();
