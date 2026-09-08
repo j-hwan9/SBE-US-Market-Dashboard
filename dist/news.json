@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-08T23:52:57.907395+00:00",
+  "checkedAt": "2026-09-08T23:52:57.907395+00:00",
+  "articles": [
+    {
+      "id": "92db50150cfc6ff4f31b",
+      "title": "IMDELLTRA® IN COMBINATION WITH IMFINZI® DEMONSTRATED LANDMARK IMPROVEMENT IN OVERALL SURVIVAL IN FIRST-LINE EXTENSIVE STAGE SMALL CELL LUNG CANCER",
+      "url": "https://www.biospace.com/press-releases/imdelltra-in-combination-with-imfinzi-demonstrated-landmark-improvement-in-overall-survival-in-first-line-extensive-stage-small-cell-lung-cancer",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-09-08T14:52:08+00:00",
+      "molecules": [
+        "tocilizumab"
+      ],
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-08T23:52:57.907395+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "7cb49c3b01097d47ec3e",
+      "title": "Biosimilar Bytes: Alvotech Biosimilar News and 6-Month Ustekinumab Switching Outcomes",
+      "url": "https://biosimilarsrr.com/2026/09/03/biosimilar-bytes-alvotech-biosimilar-news-and-6-month-ustekinumab-switching-outcomes/",
+      "source": "BR&R",
+      "sourceId": "brr",
+      "publishedAt": "2026-09-03T15:59:07+00:00",
+      "molecules": [
+        "ustekinumab"
+      ],
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-08T23:52:57.907395+00:00",
+      "type": "article"
+    },
+    {
+      "id": "d51785bd4fc9477504ed",
+      "title": "How New Therapies are Tackling Unmet Needs in IBD",
+      "url": "https://www.pharmexec.com/view/new-therapies-are-tackling-unmet-needs-ibs",
+      "source": "Pharmaceutical Executive",
+      "sourceId": "pharmexec",
+      "publishedAt": "2026-09-03T10:00:00+00:00",
+      "molecules": [
+        "adalimumab",
+        "infliximab"
+      ],
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-08T23:52:57.907395+00:00",
+      "type": "article"
+    },
+    {
+      "id": "378c678251564db29ebc",
+      "title": "The Bona Fide Marketing Standard and What That Means for Biosimilars and Generics",
+      "url": "https://biosimilarsrr.com/2026/08/20/https-biosimilarsrr-com-2026-08-20-bona-fide-marketing-and-mfp-biosimilars/",
+      "source": "BR&R",
+      "sourceId": "brr",
+      "publishedAt": "2026-08-20T15:48:27+00:00",
+      "molecules": [
+        "etanercept",
+        "ustekinumab"
+      ],
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-08T23:52:57.907395+00:00",
+      "type": "article"
+    },
+    {
+      "id": "a9c392e2d8f915b1b7b9",
+      "title": "US Humira Sales Overwhelmed by Biosimilar Competition",
+      "url": "https://biosimilarsrr.com/2026/08/17/us-humira-sales-overwhelmed-by-biosimilar-competition/",
+      "source": "BR&R",
+      "sourceId": "brr",
+      "publishedAt": "2026-08-17T17:17:34+00:00",
+      "molecules": [
+        "adalimumab",
+        "ustekinumab"
+      ],
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-08T23:52:57.907395+00:00",
+      "type": "article"
+    },
+    {
+      "id": "4b6d714ed16a9c051401",
+      "title": "340B Pilot Program Could Be Big Boon for Biosimilars",
+      "url": "https://biosimilarsrr.com/2026/08/11/340b-pilot-program-could-be-big-boon-for-biosimilars/",
+      "source": "BR&R",
+      "sourceId": "brr",
+      "publishedAt": "2026-08-11T18:51:15+00:00",
+      "molecules": [
+        "adalimumab",
+        "ustekinumab"
+      ],
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-08T23:52:57.907395+00:00",
+      "type": "article"
+    },
+    {
+      "id": "2bc962f50e01c8801142",
+      "title": "MFP Agreements Don’t Guarantee Better Patient Access",
+      "url": "https://biosimilarsrr.com/2026/08/07/mfp-agreements-dont-guarantee-better-patient-access/",
+      "source": "BR&R",
+      "sourceId": "brr",
+      "publishedAt": "2026-08-07T17:22:27+00:00",
+      "molecules": [
+        "adalimumab",
+        "etanercept",
+        "ustekinumab"
+      ],
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-08T23:52:57.907395+00:00",
+      "type": "article"
+    },
+    {
+      "id": "7d235cfa9ea7779a4d32",
+      "title": "Biosimilar Bytes: Biocon’s Yesafili Launches and Dr. Reddy’s Rituximab Biosimilar Is Approved",
+      "url": "https://biosimilarsrr.com/2026/08/04/biosimilar-bytes-biocons-yesafili-launches-and-dr-reddys-rituximab-biosimilar-is-approved/",
+      "source": "BR&R",
+      "sourceId": "brr",
+      "publishedAt": "2026-08-04T21:02:41+00:00",
+      "molecules": [
+        "aflibercept",
+        "rituximab"
+      ],
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-08T23:52:57.907395+00:00",
+      "type": "article"
+    },
+    {
+      "id": "2d55ea89b8e5205a5bc6",
+      "title": "Are Biosimilar Patient Copay Assistance Programs Lacking?",
+      "url": "https://biosimilarsrr.com/2026/07/27/are-biosimilar-patient-copay-assistance-programs-lacking/",
+      "source": "BR&R",
+      "sourceId": "brr",
+      "publishedAt": "2026-07-27T14:06:58+00:00",
+      "molecules": [
+        "adalimumab",
+        "aflibercept",
+        "bevacizumab",
+        "denosumab",
+        "epoetin alfa",
+        "filgrastim",
+        "golimumab",
+        "omalizumab",
+        "pertuzumab",
+        "ranibizumab",
+        "rituximab",
+        "ustekinumab"
+      ],
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-08T23:52:57.907395+00:00",
+      "type": "article"
+    },
+    {
+      "id": "bd5e1eb53bfc76c4b45d",
+      "title": "Trump Tariffs on Generics and Biosimilars: Utter Nonsense or Just Plain Stupidity?",
+      "url": "https://biosimilarsrr.com/2026/07/22/trump-tariffs-on-generics-and-biosimilars-utter-nonsense-or-just-plain-stupidity/",
+      "source": "BR&R",
+      "sourceId": "brr",
+      "publishedAt": "2026-07-22T17:17:28+00:00",
+      "molecules": [
+        "ranibizumab"
+      ],
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-08T23:52:57.907395+00:00",
+      "type": "article"
+    },
+    {
+      "id": "7e2f997bacf959f3d419",
+      "title": "Rheumatoid Arthritis Biosimilars: Regulatory and Clinical Considerations",
+      "url": "https://www.fiercepharma.com/sponsored/rheumatoid-arthritis-biosimilars-regulatory-and-clinical-considerations",
+      "source": "Fierce Pharma",
+      "sourceId": "fierce",
+      "publishedAt": "2017-05-25T15:43:49+00:00",
+      "molecules": [
+        "infliximab"
+      ],
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-08T23:52:57.907395+00:00",
+      "type": "article"
+    }
+  ],
+  "sources": [
+    {
+      "id": "brr",
+      "name": "BR&R",
+      "checkedAt": "2026-09-08T23:52:57.907395+00:00",
+      "status": "ok",
+      "discovered": 10,
+      "new": 8,
+      "errors": 0,
+      "bodyMatched": 8,
+      "deferred": 0
+    },
+    {
+      "id": "drugchannels",
+      "name": "Drug Channels",
+      "checkedAt": "2026-09-08T23:52:57.907395+00:00",
+      "status": "unavailable",
+      "discovered": 0,
+      "new": 0,
+      "errors": 0,
+      "bodyMatched": 0,
+      "lastError": "Unexpected publisher redirect/host"
+    },
+    {
+      "id": "fierce",
+      "name": "Fierce Pharma",
+      "checkedAt": "2026-09-08T23:52:57.907395+00:00",
+      "status": "ok",
+      "discovered": 6000,
+      "new": 1,
+      "errors": 0,
+      "bodyMatched": 1,
+      "deferred": 5960
+    },
+    {
+      "id": "biospace",
+      "name": "BioSpace",
+      "checkedAt": "2026-09-08T23:52:57.907395+00:00",
+      "status": "ok",
+      "discovered": 223,
+      "new": 1,
+      "errors": 0,
+      "bodyMatched": 1,
+      "deferred": 183
+    },
+    {
+      "id": "pharmexec",
+      "name": "Pharmaceutical Executive",
+      "checkedAt": "2026-09-08T23:52:57.907395+00:00",
+      "status": "ok",
+      "discovered": 100,
+      "new": 1,
+      "errors": 0,
+      "bodyMatched": 1,
+      "deferred": 60
+    }
+  ],
+  "molecules": [
+    "adalimumab",
+    "aflibercept",
+    "bevacizumab",
+    "denosumab",
+    "eculizumab",
+    "epoetin alfa",
+    "etanercept",
+    "filgrastim",
+    "golimumab",
+    "infliximab",
+    "insulin aspart",
+    "insulin glargine",
+    "natalizumab",
+    "omalizumab",
+    "pegfilgrastim",
+    "pertuzumab",
+    "ranibizumab",
+    "rituximab",
+    "tocilizumab",
+    "trastuzumab",
+    "ustekinumab"
+  ],
+  "coverageNote": "수집 시작 이후 누적 기사입니다. 피드 제공 범위와 매체 접근 상태에 따라 과거 기사·일부 기사가 누락될 수 있습니다."
+}

@@ -1,0 +1,951 @@
+{
+  "checkedAt": "2026-09-08T23:54:51+00:00",
+  "blas": [
+    {
+      "bla": "761118",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 7,
+      "errors": []
+    },
+    {
+      "bla": "125276",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 31,
+      "errors": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/125276Orig1s148; 125472Orig1s060ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/125276Orig1s148; 125472Orig1s060ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2024/125276Orig1s148; 125472Ori"
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2021/125472Orig1s045, 125276Orig1s135ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2021/125472Orig1s045, 125276Orig1s135ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2021/125472Orig1s045, 125276Ori"
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/125276Orig1s127; 125472Orig1s040ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/125276Orig1s127; 125472Orig1s040ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2019/125276Orig1s127; 125472Ori"
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/125276Orig1s120, s121ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/125276Orig1s120, s121ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2019/125276Orig1s120, s121ltr.pdf' (found "
+        }
+      ]
+    },
+    {
+      "bla": "125472",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 23,
+      "errors": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/125276Orig1s144; 125472Orig1s056ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/125276Orig1s144; 125472Orig1s056ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2024/125276Orig1s144; 125472Ori"
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/125276Orig1s148; 125472Orig1s060ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/125276Orig1s148; 125472Orig1s060ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2024/125276Orig1s148; 125472Ori"
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2021/125472Orig1s045, 125276Orig1s135ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2021/125472Orig1s045, 125276Orig1s135ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2021/125472Orig1s045, 125276Ori"
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/125276Orig1s127; 125472Orig1s040ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/125276Orig1s127; 125472Orig1s040ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2019/125276Orig1s127; 125472Ori"
+        }
+      ]
+    },
+    {
+      "bla": "761378",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 2,
+      "errors": []
+    },
+    {
+      "bla": "761231",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 1,
+      "errors": []
+    },
+    {
+      "bla": "761024",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 13,
+      "errors": []
+    },
+    {
+      "bla": "761219",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 13,
+      "errors": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2023/761219Orig1s006; s007; s008ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2023/761219Orig1s006; s007; s008ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2023/761219Orig1s006; s007; s008ltr."
+        }
+      ]
+    },
+    {
+      "bla": "761212",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 1,
+      "errors": []
+    },
+    {
+      "bla": "761071",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 12,
+      "errors": []
+    },
+    {
+      "bla": "125085",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 37,
+      "errors": []
+    },
+    {
+      "bla": "761086",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 3,
+      "errors": []
+    },
+    {
+      "bla": "761058",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 11,
+      "errors": []
+    },
+    {
+      "bla": "761498",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 2,
+      "errors": []
+    },
+    {
+      "bla": "761198",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 1,
+      "errors": []
+    },
+    {
+      "bla": "761333",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 8,
+      "errors": []
+    },
+    {
+      "bla": "761202",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 9,
+      "errors": []
+    },
+    {
+      "bla": "761165",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 2,
+      "errors": []
+    },
+    {
+      "bla": "761059",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 11,
+      "errors": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761059Orig1s025; s026ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761059Orig1s025; s026ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2025/761059Orig1s025; s026ltr.pdf' (found "
+        }
+      ]
+    },
+    {
+      "bla": "103795",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 46,
+      "errors": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2020/103795Orig1s5574, s5577ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2020/103795Orig1s5574, s5577ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2020/103795Orig1s5574, s5577ltr.pdf' (fo"
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2011/103795s5475ltr.pdf",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
+    },
+    {
+      "bla": "761154",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 5,
+      "errors": []
+    },
+    {
+      "bla": "761382",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 3,
+      "errors": []
+    },
+    {
+      "bla": "761340",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 12,
+      "errors": []
+    },
+    {
+      "bla": "761042",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 5,
+      "errors": []
+    },
+    {
+      "bla": "761066",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 3,
+      "errors": []
+    },
+    {
+      "bla": "761377",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 1,
+      "errors": []
+    },
+    {
+      "bla": "125387",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 18,
+      "errors": []
+    },
+    {
+      "bla": "761075",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 5,
+      "errors": []
+    },
+    {
+      "bla": "761084",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 2,
+      "errors": []
+    },
+    {
+      "bla": "761299",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 8,
+      "errors": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761299Orig1s013, s020ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761299Orig1s013, s020ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2025/761299Orig1s013, s020ltr.pdf' (found "
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/761299Orig1s003, s006ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/761299Orig1s003, s006ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2024/761299Orig1s003, s006ltr.pdf' (found "
+        }
+      ]
+    },
+    {
+      "bla": "103792",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 18,
+      "errors": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2006/103792 5150ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2006/103792 5150ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2006/103792 5150ltr.pdf' (found at least ' ')"
+        }
+      ]
+    },
+    {
+      "bla": "761346",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 1,
+      "errors": []
+    },
+    {
+      "bla": "761091",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 4,
+      "errors": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/761091Orig1s001, s002ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/761091Orig1s001, s002ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2019/761091Orig1s001, s002ltr.pdf' (found "
+        }
+      ]
+    },
+    {
+      "bla": "761404",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 3,
+      "errors": []
+    },
+    {
+      "bla": "125057",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 47,
+      "errors": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2020/125057Orig1s418, s419ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2020/125057Orig1s418, s419ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2020/125057Orig1s418, s419ltr.pdf' (found "
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2006/125057s071, s095LTR.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2006/125057s071, s095LTR.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2006/125057s071, s095LTR.pdf' (found at least '"
+        }
+      ]
+    },
+    {
+      "bla": "761398",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 2,
+      "errors": []
+    },
+    {
+      "bla": "761255",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 8,
+      "errors": []
+    },
+    {
+      "bla": "761364",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 4,
+      "errors": []
+    },
+    {
+      "bla": "125544",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 4,
+      "errors": []
+    },
+    {
+      "bla": "761072",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 4,
+      "errors": []
+    },
+    {
+      "bla": "761175",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 1,
+      "errors": []
+    },
+    {
+      "bla": "761362",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 3,
+      "errors": []
+    },
+    {
+      "bla": "761424",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 1,
+      "errors": []
+    },
+    {
+      "bla": "761073",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 3,
+      "errors": []
+    },
+    {
+      "bla": "761392",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 2,
+      "errors": []
+    },
+    {
+      "bla": "021081",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 16,
+      "errors": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/021081Orig1s073, s074; 021629Orig1s039, s040; 206538Orig1s013, s014ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/021081Orig1s073, s074; 021629Orig1s039, s040; 206538Orig1s013, s014ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/applet"
+        }
+      ]
+    },
+    {
+      "bla": "125156",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 14,
+      "errors": []
+    },
+    {
+      "bla": "761325",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 1,
+      "errors": []
+    },
+    {
+      "bla": "761028",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 4,
+      "errors": []
+    },
+    {
+      "bla": "125031",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 22,
+      "errors": []
+    },
+    {
+      "bla": "103353",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 16,
+      "errors": []
+    },
+    {
+      "bla": "761080",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 4,
+      "errors": []
+    },
+    {
+      "bla": "020986",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 34,
+      "errors": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/020986Orig1s090, s091; 021810Orig1s018, s019; 021172Orig1s071, s072ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/020986Orig1s090, s091; 021810Orig1s018, s019; 021172Orig1s071, s072ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/applet"
+        }
+      ]
+    },
+    {
+      "bla": "761126",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 1,
+      "errors": []
+    },
+    {
+      "bla": "761111",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 3,
+      "errors": []
+    },
+    {
+      "bla": "761074",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 4,
+      "errors": []
+    },
+    {
+      "bla": "761436",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 2,
+      "errors": []
+    },
+    {
+      "bla": "761100",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 4,
+      "errors": []
+    },
+    {
+      "bla": "761350",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 4,
+      "errors": []
+    },
+    {
+      "bla": "761444",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 2,
+      "errors": []
+    },
+    {
+      "bla": "761439",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 2,
+      "errors": []
+    },
+    {
+      "bla": "761188",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 1,
+      "errors": []
+    },
+    {
+      "bla": "761298",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 2,
+      "errors": []
+    },
+    {
+      "bla": "125409",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 13,
+      "errors": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2018/125409Orig1s123, 125427Orig1s104ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2018/125409Orig1s123, 125427Orig1s104ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2018/125409Orig1s123, 125427Ori"
+        }
+      ]
+    },
+    {
+      "bla": "761399",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 1,
+      "errors": []
+    },
+    {
+      "bla": "103234",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 22,
+      "errors": []
+    },
+    {
+      "bla": "125320",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 46,
+      "errors": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2013/125320Orig1s114, s124ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2013/125320Orig1s114, s124ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2013/125320Orig1s114, s124ltr.pdf' (found "
+        }
+      ]
+    },
+    {
+      "bla": "761450",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 1,
+      "errors": []
+    },
+    {
+      "bla": "761420",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 4,
+      "errors": []
+    },
+    {
+      "bla": "761082",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 4,
+      "errors": []
+    },
+    {
+      "bla": "103772",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 38,
+      "errors": []
+    },
+    {
+      "bla": "761054",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 5,
+      "errors": []
+    },
+    {
+      "bla": "125545",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 5,
+      "errors": []
+    },
+    {
+      "bla": "761215",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 3,
+      "errors": []
+    },
+    {
+      "bla": "761140",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 3,
+      "errors": []
+    },
+    {
+      "bla": "103705",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 33,
+      "errors": []
+    },
+    {
+      "bla": "761103",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 4,
+      "errors": []
+    },
+    {
+      "bla": "761379",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 9,
+      "errors": []
+    },
+    {
+      "bla": "761201",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 4,
+      "errors": []
+    },
+    {
+      "bla": "761343",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 7,
+      "errors": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/761343Orig1s001, 003ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/761343Orig1s001, 003ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2024/761343Orig1s001, 003ltr.pdf' (found at"
+        }
+      ]
+    },
+    {
+      "bla": "125289",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 30,
+      "errors": []
+    },
+    {
+      "bla": "125433",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 16,
+      "errors": []
+    },
+    {
+      "bla": "125166",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 23,
+      "errors": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/125166Orig1s453; 761108Orig1s045ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/125166Orig1s453; 761108Orig1s045ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2026/125166Orig1s453; 761108Ori"
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/125166Orig1s448, 761108Orig1s038ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/125166Orig1s448, 761108Orig1s038ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2025/125166Orig1s448, 761108Ori"
+        }
+      ]
+    },
+    {
+      "bla": "761419",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 1,
+      "errors": []
+    },
+    {
+      "bla": "125261",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 31,
+      "errors": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/761044Orig1s020, 125261Orig1s172ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/761044Orig1s020, 125261Orig1s172ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2026/761044Orig1s020, 125261Ori"
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/125261Orig1s168, 761044Orig1s016ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/125261Orig1s168, 761044Orig1s016ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2025/125261Orig1s168, 761044Ori"
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/125261Orig1s166, 761044Orig1s014ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/125261Orig1s166, 761044Orig1s014ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2024/125261Orig1s166, 761044Ori"
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/125261Orig1s163; 761044Orig1s013ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/125261Orig1s163; 761044Orig1s013ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2024/125261Orig1s163; 761044Ori"
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2020/125261Orig1s157; 761044Orig1s008ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2020/125261Orig1s157; 761044Orig1s008ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2020/125261Orig1s157; 761044Ori"
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/125261Orig1s142, 761044Orig1s001ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/125261Orig1s142, 761044Orig1s001ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2019/125261Orig1s142, 761044Ori"
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/761044Orig1s003, 125261Orig1s152ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/761044Orig1s003, 125261Orig1s152ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2019/761044Orig1s003, 125261Ori"
+        }
+      ]
+    },
+    {
+      "bla": "761044",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 14,
+      "errors": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/761044Orig1s020, 125261Orig1s172ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/761044Orig1s020, 125261Orig1s172ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2026/761044Orig1s020, 125261Ori"
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/125261Orig1s168, 761044Orig1s016ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/125261Orig1s168, 761044Orig1s016ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2025/125261Orig1s168, 761044Ori"
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/125261Orig1s166, 761044Orig1s014ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/125261Orig1s166, 761044Orig1s014ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2024/125261Orig1s166, 761044Ori"
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/125261Orig1s163; 761044Orig1s013ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/125261Orig1s163; 761044Orig1s013ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2024/125261Orig1s163; 761044Ori"
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2020/125261Orig1s157; 761044Orig1s008ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2020/125261Orig1s157; 761044Orig1s008ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2020/125261Orig1s157; 761044Ori"
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/125261Orig1s142, 761044Orig1s001ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/125261Orig1s142, 761044Orig1s001ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2019/125261Orig1s142, 761044Ori"
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/761044Orig1s003, 125261Orig1s152ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/761044Orig1s003, 125261Orig1s152ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2019/761044Orig1s003, 125261Ori"
+        }
+      ]
+    },
+    {
+      "bla": "761406",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 4,
+      "errors": []
+    },
+    {
+      "bla": "761173",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 4,
+      "errors": []
+    },
+    {
+      "bla": "761354",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 5,
+      "errors": []
+    },
+    {
+      "bla": "761081",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 3,
+      "errors": []
+    },
+    {
+      "bla": "761088",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 7,
+      "errors": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/761088Orig1s005, s006ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/761088Orig1s005, s006ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2019/761088Orig1s005, s006ltr.pdf' (found "
+        }
+      ]
+    },
+    {
+      "bla": "761275",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 7,
+      "errors": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761275Orig1s004, 761449Orig1s001ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761275Orig1s004, 761449Orig1s001ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2025/761275Orig1s004, 761449Ori"
+        }
+      ]
+    },
+    {
+      "bla": "761449",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 3,
+      "errors": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761275Orig1s004, 761449Orig1s001ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761275Orig1s004, 761449Orig1s001ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2025/761275Orig1s004, 761449Ori"
+        }
+      ]
+    },
+    {
+      "bla": "761322",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 3,
+      "errors": []
+    },
+    {
+      "bla": "125104",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 22,
+      "errors": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2020/125104Orig1s968, s969ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2020/125104Orig1s968, s969ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2020/125104Orig1s968, s969ltr.pdf' (found "
+        }
+      ]
+    },
+    {
+      "bla": "761039",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 8,
+      "errors": []
+    },
+    {
+      "bla": "761268",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 1,
+      "errors": []
+    },
+    {
+      "bla": "761285",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 4,
+      "errors": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/761285Orig1s006, 761331Orig1s006ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/761285Orig1s006, 761331Orig1s006ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2026/761285Orig1s006, 761331Ori"
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2023/761285Orig1s000; 761331Orig1s000ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2023/761285Orig1s000; 761331Orig1s000ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2023/761285Orig1s000; 761331Ori"
+        }
+      ]
+    },
+    {
+      "bla": "761331",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 4,
+      "errors": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/761285Orig1s006, 761331Orig1s006ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/761285Orig1s006, 761331Orig1s006ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2026/761285Orig1s006, 761331Ori"
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2023/761285Orig1s000; 761331Orig1s000ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2023/761285Orig1s000; 761331Orig1s000ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2023/761285Orig1s000; 761331Ori"
+        }
+      ]
+    },
+    {
+      "bla": "103976",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 15,
+      "errors": []
+    },
+    {
+      "bla": "761338",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 5,
+      "errors": []
+    },
+    {
+      "bla": "761274",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 3,
+      "errors": []
+    },
+    {
+      "bla": "761373",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 7,
+      "errors": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761373Orig2s000; 761425Orig2s000ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761373Orig2s000; 761425Orig2s000ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2025/761373Orig2s000; 761425Ori"
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761373Orig1s003, 761425Orig1s003ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761373Orig1s003, 761425Orig1s003ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2025/761373Orig1s003, 761425Ori"
+        }
+      ]
+    },
+    {
+      "bla": "761425",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 5,
+      "errors": [
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/761373Orig1s006;761425Orig1s005ltr.pdf",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761373Orig2s000; 761425Orig2s000ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761373Orig2s000; 761425Orig2s000ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2025/761373Orig2s000; 761425Ori"
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761373Orig1s003, 761425Orig1s003ltr.pdf",
+          "error": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761373Orig1s003, 761425Orig1s003ltr.pdf: URL can't contain control characters. '/drugsatfda_docs/appletter/2025/761373Orig1s003, 761425Ori"
+        },
+        {
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761373Orig1s001;761425Orig1s001ltr.pdf",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
+    },
+    {
+      "bla": "761216",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 6,
+      "errors": []
+    },
+    {
+      "bla": "125553",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 10,
+      "errors": []
+    },
+    {
+      "bla": "761045",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 5,
+      "errors": []
+    },
+    {
+      "bla": "761099",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 4,
+      "errors": []
+    },
+    {
+      "bla": "761473",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 1,
+      "errors": []
+    },
+    {
+      "bla": "761456",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 1,
+      "errors": []
+    },
+    {
+      "bla": "761457",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 1,
+      "errors": []
+    },
+    {
+      "bla": "761385",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 1,
+      "errors": []
+    },
+    {
+      "bla": "761412",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 1,
+      "errors": []
+    },
+    {
+      "bla": "761147",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 1,
+      "errors": []
+    },
+    {
+      "bla": "761027",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 1,
+      "errors": []
+    },
+    {
+      "bla": "761452",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 1,
+      "errors": []
+    },
+    {
+      "bla": "761497",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 1,
+      "errors": []
+    },
+    {
+      "bla": "761376",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 1,
+      "errors": []
+    },
+    {
+      "bla": "761480",
+      "checkedAt": "2026-09-08T23:54:51+00:00",
+      "documents": 1,
+      "errors": []
+    }
+  ],
+  "productsWithEvidence": 35
+}
