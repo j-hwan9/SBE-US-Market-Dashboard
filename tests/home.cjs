@@ -29,3 +29,9 @@ assert.equal(run("PortfolioHome.historyRows([{baseline:true,changes:{added:[{bra
 assert.equal(run("PortfolioHome.scopedNews(news,catalog.products.filter(p=>p.id==='hadlima')).length"),2);
 assert.equal(run("PortfolioHome.historyRows([{checkedAt:'2026-09-09',changes:{changed:[{brand:'Hadlima',id:data.products.find(p=>p.brand==='Hadlima').id}]}}],data.products,catalog.products.filter(p=>p.id==='sb38')).length"),0);
 console.log('Home metrics: shared filters, brand deduplication, UTC windows, baseline exclusion and molecule scoping passed.');
+context.asp=JSON.parse(fs.readFileSync('dist/asp.json'));context.p=context.catalog.products.find(p=>p.id==='ontruzant');
+let latest=run('PortfolioHome.latestAsp(asp.rows,p)');assert(latest.rows.length);assert(latest.rows.every(r=>r.brand==='Ontruzant'));
+context.p=context.catalog.products.find(p=>p.id==='hadlima');assert.equal(run('PortfolioHome.latestAsp(asp.rows,p).rows.length'),0);
+context.p={molecule:'denosumab',name:'Ospomyv'};context.sample=[{molecule:'Denosumab',brand:'Ospomyv/Xbryk',quarter:'2026 Q2',estimatedAsp:2,standardFactor:120,hcpcs:'Q0001'},{molecule:'Denosumab',brand:'Ospomyv/Xbryk',quarter:'2026 Q3',estimatedAsp:null,standardFactor:120,hcpcs:'Q0001'},{molecule:'Denosumab',brand:'Jubbonti/Wyost',quarter:'2026 Q4',estimatedAsp:4,standardFactor:120,hcpcs:'Q0002'}];
+assert.equal(run('PortfolioHome.latestAsp(sample,p).rows[0].quarter'),'2026 Q2');assert.equal(run('PortfolioHome.latestAsp(sample,p).latestQuarter'),'2026 Q3');
+console.log('Home ASP: exact product and shared-code aliases, latest valid quarter and no competitor substitution verified.');
