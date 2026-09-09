@@ -6,9 +6,53 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-09-09T09:19:16.698009+00:00",
-  "checkedAt": "2026-09-09T09:19:16.698009+00:00",
+  "updatedAt": "2026-09-09T22:53:58.636340+00:00",
+  "checkedAt": "2026-09-09T22:53:58.636340+00:00",
   "articles": [
+    {
+      "id": "be39d8f2f50cbcf31979",
+      "title": "Sandoz’s Wide Biosimilar Pipeline Getting Much Wider",
+      "url": "https://biosimilarsrr.com/2026/09/09/sandozs-wide-biosimilar-pipeline-getting-much-wider/",
+      "source": "BR&R",
+      "sourceId": "brr",
+      "publishedAt": "2026-09-09T19:06:59+00:00",
+      "molecules": [
+        "aflibercept",
+        "bevacizumab",
+        "denosumab",
+        "filgrastim",
+        "natalizumab",
+        "pegfilgrastim",
+        "pertuzumab",
+        "ranibizumab",
+        "trastuzumab",
+        "ustekinumab"
+      ],
+      "topics": [
+        "Market overall"
+      ],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-09T22:53:58.636340+00:00",
+      "type": "article"
+    },
+    {
+      "id": "b4b75dd065811102c3af",
+      "title": "IBD's Most Persistent Gap: Q&A with Christian Thienel",
+      "url": "https://www.pharmexec.com/view/ibd-most-persistent-gap-christian-thienel",
+      "source": "Pharmaceutical Executive",
+      "sourceId": "pharmexec",
+      "publishedAt": "2026-09-09T10:00:00+00:00",
+      "molecules": [
+        "adalimumab",
+        "infliximab"
+      ],
+      "topics": [],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-09T22:53:58.636340+00:00",
+      "type": "article"
+    },
     {
       "id": "e74e033b14a8122f9377",
       "title": "Beyond China: Five other overseas destinations for biopharma dollars",
@@ -168,6 +212,23 @@
       "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-08T23:52:57.907395+00:00",
+      "type": "article"
+    },
+    {
+      "id": "d93c850f57ad8f6315bd",
+      "title": "The Operational Reality of Reshoring Pharma Manufacturing: Q&A with Rohit Tripathi",
+      "url": "https://www.pharmexec.com/view/reshoring-pharma-manufacturing-q-a-rohit-tripathi",
+      "source": "Pharmaceutical Executive",
+      "sourceId": "pharmexec",
+      "publishedAt": "2026-08-20T10:00:00+00:00",
+      "molecules": [],
+      "topics": [
+        "Market overall",
+        "Policy"
+      ],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-09T22:53:58.636340+00:00",
       "type": "article"
     },
     {
@@ -483,62 +544,58 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-09-09T09:19:16.698009+00:00",
+      "checkedAt": "2026-09-09T22:53:58.636340+00:00",
       "status": "ok",
       "discovered": 10,
-      "new": 2,
+      "new": 1,
       "errors": 0,
-      "bodyMatched": 10,
-      "deferred": 0,
-      "reclassified": 8
+      "bodyMatched": 1,
+      "deferred": 0
     },
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-09-09T09:19:16.698009+00:00",
-      "status": "ok",
-      "discovered": 25,
-      "new": 1,
+      "checkedAt": "2026-09-09T22:53:58.636340+00:00",
+      "status": "unavailable",
+      "discovered": 0,
+      "new": 0,
       "errors": 0,
-      "bodyMatched": 4,
-      "deferred": 0,
-      "reclassified": 3
+      "bodyMatched": 0,
+      "lastError": "The read operation timed out"
     },
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-09-09T09:19:16.698009+00:00",
+      "checkedAt": "2026-09-09T22:53:58.636340+00:00",
       "status": "ok",
       "discovered": 6,
-      "new": 1,
+      "new": 0,
       "errors": 0,
-      "bodyMatched": 7,
-      "deferred": 0,
-      "reclassified": 6
+      "bodyMatched": 0,
+      "deferred": 0
     },
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-09-09T09:19:16.698009+00:00",
-      "status": "ok",
-      "discovered": 233,
-      "new": 1,
-      "errors": 0,
-      "bodyMatched": 2,
-      "deferred": 173,
-      "reclassified": 1
+      "checkedAt": "2026-09-09T22:53:58.636340+00:00",
+      "status": "partial",
+      "discovered": 377,
+      "new": 0,
+      "errors": 1,
+      "bodyMatched": 0,
+      "deferred": 334,
+      "lastError": "Future article publication date"
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-09-09T09:19:16.698009+00:00",
+      "checkedAt": "2026-09-09T22:53:58.636340+00:00",
       "status": "ok",
       "discovered": 100,
-      "new": 1,
+      "new": 2,
       "errors": 0,
       "bodyMatched": 2,
-      "deferred": 40,
-      "reclassified": 1
+      "deferred": 58
     }
   ],
   "molecules": [
