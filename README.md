@@ -26,7 +26,7 @@ FDA Purple Book August 2026 full monthly snapshot, restricted to licensed 351(k)
 - `scripts/fda_fallback.py`: Drugs@FDA label fallback; combined Immgolis/Immgolis Intri PDF sections separated.
 - `scripts/finalize.py`: current licensure scope, per-SPL-product BLA checks, manufacturer statements, verification summary.
 
-The three original scripts document the first snapshot. Use `scripts/refresh.py` for ongoing maintenance; do not run the legacy scripts for monthly updates. The public application reads a published snapshot. `scripts/refresh.py` discovers fresh official sources and publishes only after validation. `.github/workflows/refresh.yml` supports manual and monthly execution after GitHub is connected. See SETUP_GITHUB.md.
+The three original scripts document the first snapshot. Use `scripts/refresh.py` for ongoing maintenance; do not run the legacy scripts for weekly updates. The public application reads a published snapshot. `scripts/refresh.py` discovers fresh official sources and publishes only after validation. `.github/workflows/refresh.yml` supports manual and weekly execution after GitHub is connected. See SETUP_GITHUB.md.
 
 ## Interpretation limits
 
@@ -54,7 +54,7 @@ The Market news tab lists publisher titles, publication dates, molecule tags, an
 
 ## FDA approval-letter dating periods
 
-When PI lacks an explicit unopened refrigerated period, query openFDA Drugs@FDA by exact BLA. Discover all indexed approved application/supplement letters, newest first, and extract PDF dating-period sections. Cache extracted evidence by document and parser identity. Monthly official refresh rechecks the letter index; manual news refresh can optionally recheck letters.
+When PI lacks an explicit unopened refrigerated period, query openFDA Drugs@FDA by exact BLA. Discover all indexed approved application/supplement letters, newest first, and extract PDF dating-period sections. Cache extracted evidence by document and parser identity. Weekly official refresh rechecks the letter index; manual news refresh can optionally recheck letters.
 
 Only explicit 2–8°C finished-product dating periods in months are added. Drug substance, redacted values, stability protocols, ambiguous shared-BLA brand attribution, and unsupported temperatures remain unfilled. Evidence includes BLA, letter date, page, original quote, URL, and strengths found in the approval context. Display as **FDA letter 당시**, never as a guaranteed current expiry for all presentations. Older dated evidence can remain relevant as historical information; actual package expiry and current PI control use. Source errors are exposed separately and do not invalidate existing PI data.
 
@@ -67,7 +67,7 @@ Home combines the reviewed Samsung Bioepis portfolio with the **current** `data.
 
 `dist/portfolio.json` is the small, editable portfolio catalog. It was reviewed against Samsung Bioepis’s official Products and Pipeline pages on Sep 09, 2026 (pipeline page: Aug 2026), with US names/suffixes reconciled to Purple Book and launch/access evidence linked per product. Global launch is not US launch. Ospomyv has a US supply/formulary announcement; Opuviz is FDA-approved but awaits US launch. Xbryk and Eticovo are labeled US launch unconfirmed. SB8 uses its development code rather than an overseas brand. Pipeline candidates do not inherit the reference drug’s FDA suffix. Novel ADCs carry target descriptions where no non-proprietary name is assigned.
 
-Portfolio lifecycle/launch states are **editorially reviewed**, not automatically changed by the monthly FDA or daily news workflow. To update a product, edit its catalog entry, evidence URL and `reviewedAt`; no app code changes are required. Competitor and recent-news content automatically follows the existing data refreshes. No market-share or price values are fabricated.
+Portfolio lifecycle/launch states are **editorially reviewed**, not automatically changed by the weekly FDA or daily news workflow. To update a product, edit its catalog entry, evidence URL and `reviewedAt`; no app code changes are required. Competitor and recent-news content automatically follows the existing data refreshes. No market-share or price values are fabricated.
 
 ## News topics and product aliases
 
