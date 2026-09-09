@@ -43,12 +43,12 @@ const assert=require('assert'),fs=require('fs');
   await page.evaluate(()=>location.hash='home');await page.waitForTimeout(150);await shot('MOBILE'+width);
  }
  // Independent default news state: Market overall on, Policy off.
- await page.goto('http://127.0.0.1:8765/#news');await page.locator('#newsMolecules input[value="Policy"]').waitFor();
+ await page.goto('http://127.0.0.1:8765/#news');await page.reload();await page.locator('#newsMolecules input[value="Policy"]').waitFor();
  assert(await page.locator('#newsMolecules input[value="Market overall"]').isChecked());assert(!(await page.locator('#newsMolecules input[value="Policy"]').isChecked()));
  await page.locator('#newsMolecules input[value="Policy"]').check();assert(await page.locator('#newsMolecules input[value="Policy"]').isChecked());
  // Unavailable history is distinct from zero; regulatory data still loads.
  await page.route('**/history/index.json',r=>r.fulfill({status:503,body:'unavailable'}));
- await page.goto('http://127.0.0.1:8765/#home');await page.locator('.competitor-row').first().waitFor();
+ await page.goto('http://127.0.0.1:8765/#home');await page.reload();await page.locator('.competitor-row').first().waitFor();
  assert.equal(await page.locator('.kpi-card').nth(1).locator('strong').innerText(),'—');
  assert.equal(errors.length,0,errors.join('\n'));
  console.log('Verified: portfolio filters, real KPI totals, empty/unavailable data, original comparisons, sources, news links/topics, price routing, responsive widths.');
