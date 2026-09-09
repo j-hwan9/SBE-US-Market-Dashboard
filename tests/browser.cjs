@@ -32,6 +32,8 @@ const assert=require('assert'),fs=require('fs');
  assert((await page.locator('#homeCompetitors').innerText()).includes('수집 범위'));
  assert(await page.locator('#homeRegulatory').isHidden());
  await page.locator('[data-portfolio="hadlima"]').click();
+ await page.locator('#productSummary').scrollIntoViewIfNeeded();
+ const summaryShot=await page.screenshot({type:'jpeg',quality:55});console.log('SUMMARY_IMAGE '+summaryShot.toString('base64'));
  await page.evaluate(()=>window.scrollTo(0,0));
  fs.mkdirSync('/tmp/dashboard-shots',{recursive:true});
  const desktop=await page.screenshot({path:'/tmp/dashboard-shots/home-desktop.jpg',type:'jpeg',quality:45});
