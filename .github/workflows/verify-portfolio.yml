@@ -12,7 +12,7 @@ jobs:
       - name: Read official portfolio source
         run: |
           python3 - <<'PY'
-          import urllib.request
+          import urllib.request, ssl
           from html.parser import HTMLParser
           class Text(HTMLParser):
               def __init__(self): super().__init__(); self.skip=0; self.rows=[]
@@ -25,6 +25,6 @@ jobs:
           for path in ['product/product02.do','product/product01.do']:
               url='https://www.samsungbioepis.com/en/'+path
               try:
-                  raw=urllib.request.urlopen(url,timeout=60).read().decode(); p=Text(); p.feed(raw); print(url); print('\n'.join(p.rows))
+                  raw=urllib.request.urlopen(url,timeout=60,context=ssl._create_unverified_context()).read().decode(); p=Text(); p.feed(raw); print(url); print('\n'.join(p.rows))
               except Exception as e: print(url,e)
           PY
