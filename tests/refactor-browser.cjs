@@ -31,7 +31,7 @@ const assert=require('assert'),fs=require('fs');
  await page.locator('.section-tabs a[href="#home"]').click();await page.locator('#homeAllNews').click();await page.waitForURL('**/#news');
  await page.locator('.news-card').first().waitFor();assert(await page.locator('#newsMolecules input[value="ustekinumab"]').isChecked());
  assert.equal(await page.locator('#newsRange').inputValue(),'all');await shot('NEWS');
- await page.locator('.section-tabs a[href="#prices"]').click();assert(await page.locator('#pricePage').isVisible());assert(await page.locator('#comingPage').isHidden());await shot('PRICE');
+ await page.locator('.section-tabs a[href="#prices"]').click();await page.locator('#pricePage').waitFor({state:'visible'});assert(await page.locator('#pricePage').isVisible());assert(await page.locator('#comingPage').isHidden());await shot('PRICE');
  await page.locator('.section-tabs a[href="#home"]').click();await page.locator('[data-portfolio="hadlima"]').click();await page.waitForTimeout(500);await shot('HOME');
  await page.locator('#productSummary').scrollIntoViewIfNeeded();console.log('SUMMARY_IMAGE '+(await page.screenshot({type:'jpeg',quality:55})).toString('base64'));
  for(const width of [390,768]){
