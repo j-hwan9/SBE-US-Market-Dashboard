@@ -1,0 +1,50 @@
+name: Refresh CMS ASP
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * 1'
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: market-dashboard
+  cancel-in-progress: false
+jobs:
+  collect:
+    if: github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - name: Install CMS workbook readers
+        run: pip install requests pandas openpyxl xlrd
+      - name: Verify and refresh CMS quarterly files
+        run: |
+          python3 -m unittest discover -s tests -q
+          python3 scripts/asp.py
+          node tests/price.cjs
+      - name: Save published ASP snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist/asp.json
+          git diff --cached --quiet || git commit -m "Refresh CMS ASP quarterly payment data"
+          git push
+      - name: Configure deployment
+        run: python3 scripts/prepare_public.py
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+  deploy:
+    needs: collect
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

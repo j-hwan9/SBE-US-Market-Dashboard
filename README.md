@@ -100,3 +100,15 @@ Home uses `dist/enterprise.css` for the shared blue/white design system; the ori
 - Pricing: no price source is currently connected. Missing prices and update counts are shown as `—`, never sample values or zero.
 
 `portfolio.json`, `data.json`, `history/index.json` and `news.json` remain the data sources. Portfolio review and Regulatory/news timestamps are shown separately. Collection schedules remain unchanged. `tests/refactor-browser.cjs` covers real-data navigation, filters, totals, missing-history handling and responsive layouts.
+
+### CMS ASP integration
+
+Home no longer includes Latest Intelligence, Recent Regulatory or Recent Market News. Its product-specific snapshot remains. Market News opens with all collected dates and no topic selected; topic/molecule selections filter the archive.
+
+Price information displays the current KST month (`MMM YYYY`) and remains a placeholder for price-compendia data. The separate CMS ASP section supports molecule, payment-quarter, product and unit filters, a chart, a source-linked table and CSV export.
+
+CMS mapping and discovery were adapted from `j-hwan9/biosimilar-monitor`, commit `39ac46d96502ce2e05a291b1d6915205efbb8c8f`. Only the product mapping and public pricing data were reused. Email code and credentials were not copied. `scripts/asp.py` rechecks the CMS landing page and redownloads the current linked quarterly files, including revisions. Ambiguous or failed quarters retain their previous records and appear in coverage diagnostics. All-source failure leaves the published snapshot unchanged.
+
+CMS refresh: `.github/workflows/asp.yml`, Monday 09:00 KST (matching the source ASP monitor), or manual **CMS 업데이트 실행**. **최신 게시본 불러오기** loads the saved JSON; it does not initiate CMS collection. Regulatory and Market News schedules are unchanged.
+
+Calculation changes from the source monitor: use explicit CMS 8% notes only from 2022 Q4 onward; withhold ASP for AMP/WAC/other non-ASP bases, uncertain notes, missing/ambiguous reference data or incompatible billing units. The published value is an **estimated** ASP, not a manufacturer ASP disclosure. HCPCS billing units are shown; standardized-dose equivalents are not package prices. The inherited scope contains 10 molecules and is not the complete Purple Book portfolio. Archived CSV rows that have not been rechecked retain their original source and are clearly identified.

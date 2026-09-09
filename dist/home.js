@@ -40,13 +40,7 @@ const PortfolioHome=(()=>{
    [news?articles.filter(a=>recentDays(a.publishedAt,7)).length:'—','Market news (7d)','관련 molecule 수집 기사 · UTC 게시일 기준']
   ];
   el('homeKpis').innerHTML=kpis.map(([n,label,note])=>'<article class="kpi-card"><span>'+e(label)+'</span><strong>'+n+'</strong><small>'+e(note)+'</small></article>').join('');
-  el('homeIntelligence').innerHTML=intelligenceTable([...reg,...newsRows].sort((a,b)=>String(b.date).localeCompare(String(a.date))).slice(0,6),'현재 필터에 해당하는 게시 정보가 없습니다.');
-  el('homeRecentRegulatory').innerHTML=intelligenceTable(reg.slice(0,5),history===null?'변경 이력을 불러오지 못했습니다. Regulatory에서 다시 확인하세요.':'현재 필터에 해당하는 저장된 변경 이력이 없습니다.');
-  el('homeRecentNews').innerHTML=intelligenceTable(newsRows.slice(0,5),news?'현재 필터에 해당하는 수집 기사가 없습니다.':newsError||'뉴스를 불러오는 중입니다.');
-  const dates=(history||[]).map(h=>h.checkedAt).filter(Boolean).sort();
-  el('regulatoryHistoryNote').textContent='게시 데이터의 변경 이력이며 공식 FDA 발표 목록이 아닙니다. '+(dates.length?'추적 시작 '+date(dates[0])+' · 소스 확인 '+date(data?.retrievedAt):'추적 기간 미확인')+' · 현재 레코드/포트폴리오에 molecule이 연결되는 이력만 집계';
-  el('homeNewsFreshness').textContent=news?'뉴스 수집 '+date(news.updatedAt)+' · 제목·출처·게시일만 제공':newsError||'뉴스 수집 상태 확인 중';
-  el('intelligenceFreshness').textContent='Regulatory '+date(data?.retrievedAt)+' · News '+date(news?.updatedAt)+' · 수집 범위 내 정보'+(newsError?' · 뉴스 불러오기 실패':'')+(history===null?' · 변경 이력 미확인':'');
+
  }
  function renderCatalog(){
   if(!catalog)return;

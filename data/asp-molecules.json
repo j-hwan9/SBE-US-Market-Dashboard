@@ -1,0 +1,723 @@
+{
+  "Infliximab": {
+    "benefit": "Medical Benefit — IV Infusion",
+    "display_dose": "100mg/vial",
+    "display_mult": 10,
+    "has_sb": true,
+    "originator": {
+      "hcpcs_fixed": "J1745",
+      "brand": "Remicade",
+      "company": "J&J (Janssen)",
+      "fda_name": "REMICADE",
+      "desc_keywords": [
+        "infliximab",
+        "remicade"
+      ],
+      "desc_exclude": [
+        "biosim"
+      ]
+    },
+    "biosimilars": [
+      {
+        "brand": "Renflexis",
+        "suffix": "infliximab-abda",
+        "company": "Samsung Bioepis",
+        "is_sb": true,
+        "desc_keywords": [
+          "renflexis"
+        ],
+        "desc_exclude": [],
+        "fda_name": "RENFLEXIS"
+      },
+      {
+        "brand": "Inflectra",
+        "suffix": "infliximab-dyyb",
+        "company": "Pfizer/Celltrion",
+        "is_sb": false,
+        "desc_keywords": [
+          "inflectra"
+        ],
+        "desc_exclude": [],
+        "fda_name": "INFLECTRA"
+      },
+      {
+        "brand": "Avsola",
+        "suffix": "infliximab-axxq",
+        "company": "Amgen",
+        "is_sb": false,
+        "desc_keywords": [
+          "avsola"
+        ],
+        "desc_exclude": [],
+        "fda_name": "AVSOLA"
+      },
+      {
+        "brand": "Ixifi",
+        "suffix": "infliximab-qbtx",
+        "company": "Pfizer",
+        "is_sb": false,
+        "desc_keywords": [
+          "ixifi"
+        ],
+        "desc_exclude": [],
+        "fda_name": "IXIFI"
+      },
+      {
+        "brand": "Zymfentra",
+        "suffix": "infliximab-dyyb SC",
+        "company": "Celltrion",
+        "is_sb": false,
+        "desc_keywords": [
+          "zymfentra",
+          "j1748"
+        ],
+        "desc_exclude": [],
+        "fda_name": "ZYMFENTRA"
+      }
+    ]
+  },
+  "Ranibizumab": {
+    "benefit": "Medical Benefit — Intravitreal Injection",
+    "display_dose": "0.5mg/injection",
+    "display_mult": 5,
+    "has_sb": true,
+    "originator": {
+      "hcpcs_fixed": "J2778",
+      "brand": "Lucentis",
+      "company": "Genentech (Roche)",
+      "fda_name": "LUCENTIS",
+      "desc_keywords": [
+        "lucentis",
+        "ranibizumab"
+      ],
+      "desc_exclude": [
+        "biosim",
+        "nuna",
+        "eqrn",
+        "susvimo"
+      ]
+    },
+    "biosimilars": [
+      {
+        "brand": "Byooviz",
+        "suffix": "ranibizumab-nuna",
+        "company": "Samsung Bioepis",
+        "is_sb": true,
+        "desc_keywords": [
+          "byooviz",
+          "nuna"
+        ],
+        "desc_exclude": [],
+        "fda_name": "BYOOVIZ"
+      },
+      {
+        "brand": "Cimerli",
+        "suffix": "ranibizumab-eqrn",
+        "company": "Coherus",
+        "is_sb": false,
+        "desc_keywords": [
+          "cimerli",
+          "eqrn"
+        ],
+        "desc_exclude": [],
+        "fda_name": "CIMERLI"
+      }
+    ]
+  },
+  "Trastuzumab": {
+    "benefit": "Medical Benefit — IV Infusion",
+    "display_dose": "420mg/vial",
+    "display_mult": 42,
+    "has_sb": true,
+    "originator": {
+      "hcpcs_fixed": "J9355",
+      "brand": "Herceptin",
+      "company": "Genentech (Roche)",
+      "fda_name": "HERCEPTIN",
+      "desc_keywords": [
+        "herceptin",
+        "trastuzumab"
+      ],
+      "desc_exclude": [
+        "biosim",
+        "dttb",
+        "qyyp",
+        "pkrb",
+        "anns",
+        "dkst",
+        "strf"
+      ]
+    },
+    "biosimilars": [
+      {
+        "brand": "Ontruzant",
+        "suffix": "trastuzumab-dttb",
+        "company": "Samsung Bioepis",
+        "is_sb": true,
+        "desc_keywords": [
+          "ontruzant",
+          "dttb"
+        ],
+        "desc_exclude": [],
+        "fda_name": "ONTRUZANT"
+      },
+      {
+        "brand": "Herzuma",
+        "suffix": "trastuzumab-pkrb",
+        "company": "Celltrion/Teva",
+        "is_sb": false,
+        "desc_keywords": [
+          "herzuma",
+          "pkrb"
+        ],
+        "desc_exclude": [],
+        "fda_name": "HERZUMA"
+      },
+      {
+        "brand": "Ogivri",
+        "suffix": "trastuzumab-dkst",
+        "company": "Viatris",
+        "is_sb": false,
+        "desc_keywords": [
+          "ogivri",
+          "dkst"
+        ],
+        "desc_exclude": [],
+        "fda_name": "OGIVRI"
+      },
+      {
+        "brand": "Trazimera",
+        "suffix": "trastuzumab-qyyp",
+        "company": "Pfizer",
+        "is_sb": false,
+        "desc_keywords": [
+          "trazimera",
+          "qyyp"
+        ],
+        "desc_exclude": [],
+        "fda_name": "TRAZIMERA"
+      },
+      {
+        "brand": "Kanjinti",
+        "suffix": "trastuzumab-anns",
+        "company": "Amgen",
+        "is_sb": false,
+        "desc_keywords": [
+          "kanjinti",
+          "anns"
+        ],
+        "desc_exclude": [],
+        "fda_name": "KANJINTI"
+      },
+      {
+        "brand": "Hercessi",
+        "suffix": "trastuzumab-strf",
+        "company": "Accord/Intas",
+        "is_sb": false,
+        "desc_keywords": [
+          "hercessi",
+          "strf"
+        ],
+        "desc_exclude": [],
+        "fda_name": "HERCESSI"
+      }
+    ]
+  },
+  "Denosumab": {
+    "benefit": "Medical Benefit — SC Injection (Office)",
+    "display_dose": "120mg/vial (Xgeva)",
+    "display_mult": 120,
+    "has_sb": true,
+    "originator": {
+      "hcpcs_fixed": "J0897",
+      "brand": "Prolia / Xgeva",
+      "company": "Amgen",
+      "fda_name": "PROLIA",
+      "desc_keywords": [
+        "prolia",
+        "xgeva",
+        "denosumab"
+      ],
+      "desc_exclude": [
+        "biosim",
+        "dssb",
+        "bbdz",
+        "bmwo",
+        "bnht",
+        "kyqq",
+        "nxxp"
+      ]
+    },
+    "biosimilars": [
+      {
+        "brand": "Ospomyv/Xbryk",
+        "suffix": "denosumab-dssb",
+        "company": "Samsung Bioepis",
+        "is_sb": true,
+        "desc_keywords": [
+          "ospomyv",
+          "xbryk",
+          "dssb"
+        ],
+        "desc_exclude": [],
+        "fda_name": "OSPOMYV"
+      },
+      {
+        "brand": "Jubbonti/Wyost",
+        "suffix": "denosumab-bbdz",
+        "company": "Sandoz",
+        "is_sb": false,
+        "desc_keywords": [
+          "jubbonti",
+          "wyost",
+          "bbdz"
+        ],
+        "desc_exclude": [],
+        "fda_name": "JUBBONTI"
+      },
+      {
+        "brand": "Stoboclo/Osenvelt",
+        "suffix": "denosumab-bmwo",
+        "company": "Celltrion",
+        "is_sb": false,
+        "desc_keywords": [
+          "stoboclo",
+          "osenvelt",
+          "bmwo"
+        ],
+        "desc_exclude": [],
+        "fda_name": "STOBOCLO"
+      }
+    ]
+  },
+  "Bevacizumab": {
+    "benefit": "Medical Benefit — IV Infusion",
+    "display_dose": "400mg/vial",
+    "display_mult": 40,
+    "has_sb": false,
+    "originator": {
+      "hcpcs_fixed": "J9035",
+      "brand": "Avastin",
+      "company": "Genentech (Roche)",
+      "fda_name": "AVASTIN",
+      "desc_keywords": [
+        "bevacizumab",
+        "avastin"
+      ],
+      "desc_exclude": [
+        "biosim",
+        "awwb",
+        "bvzr",
+        "maly",
+        "adcd",
+        "tnjn",
+        "nwgd"
+      ]
+    },
+    "biosimilars": [
+      {
+        "brand": "Mvasi",
+        "suffix": "bevacizumab-awwb",
+        "company": "Amgen",
+        "is_sb": false,
+        "desc_keywords": [
+          "mvasi",
+          "awwb"
+        ],
+        "desc_exclude": [],
+        "fda_name": "MVASI"
+      },
+      {
+        "brand": "Zirabev",
+        "suffix": "bevacizumab-bvzr",
+        "company": "Pfizer",
+        "is_sb": false,
+        "desc_keywords": [
+          "zirabev",
+          "bvzr"
+        ],
+        "desc_exclude": [],
+        "fda_name": "ZIRABEV"
+      },
+      {
+        "brand": "Alymsys",
+        "suffix": "bevacizumab-maly",
+        "company": "Amneal",
+        "is_sb": false,
+        "desc_keywords": [
+          "alymsys",
+          "maly"
+        ],
+        "desc_exclude": [],
+        "fda_name": "ALYMSYS"
+      },
+      {
+        "brand": "Vegzelma",
+        "suffix": "bevacizumab-adcd",
+        "company": "Celltrion",
+        "is_sb": false,
+        "desc_keywords": [
+          "vegzelma",
+          "adcd"
+        ],
+        "desc_exclude": [],
+        "fda_name": "VEGZELMA"
+      },
+      {
+        "brand": "Avzivi",
+        "suffix": "bevacizumab-tnjn",
+        "company": "Sandoz/Bio-Thera",
+        "is_sb": false,
+        "desc_keywords": [
+          "avzivi",
+          "tnjn"
+        ],
+        "desc_exclude": [],
+        "fda_name": "AVZIVI"
+      },
+      {
+        "brand": "Jobevne",
+        "suffix": "bevacizumab-nwgd",
+        "company": "Biocon",
+        "is_sb": false,
+        "desc_keywords": [
+          "jobevne",
+          "nwgd"
+        ],
+        "desc_exclude": [],
+        "fda_name": "JOBEVNE"
+      }
+    ]
+  },
+  "Rituximab": {
+    "benefit": "Medical Benefit — IV Infusion",
+    "display_dose": "500mg/vial",
+    "display_mult": 50,
+    "has_sb": false,
+    "originator": {
+      "hcpcs_fixed": "J9312",
+      "brand": "Rituxan",
+      "company": "Genentech/Biogen",
+      "fda_name": "RITUXAN",
+      "desc_keywords": [
+        "rituximab",
+        "rituxan"
+      ],
+      "desc_exclude": [
+        "biosim",
+        "abbs",
+        "pvvr",
+        "arrx"
+      ]
+    },
+    "biosimilars": [
+      {
+        "brand": "Truxima",
+        "suffix": "rituximab-abbs",
+        "company": "Celltrion/Teva",
+        "is_sb": false,
+        "desc_keywords": [
+          "truxima",
+          "abbs"
+        ],
+        "desc_exclude": [],
+        "fda_name": "TRUXIMA"
+      },
+      {
+        "brand": "Ruxience",
+        "suffix": "rituximab-pvvr",
+        "company": "Pfizer",
+        "is_sb": false,
+        "desc_keywords": [
+          "ruxience",
+          "pvvr"
+        ],
+        "desc_exclude": [],
+        "fda_name": "RUXIENCE"
+      },
+      {
+        "brand": "Riabni",
+        "suffix": "rituximab-arrx",
+        "company": "Amgen",
+        "is_sb": false,
+        "desc_keywords": [
+          "riabni",
+          "arrx"
+        ],
+        "desc_exclude": [],
+        "fda_name": "RIABNI"
+      }
+    ]
+  },
+  "Filgrastim": {
+    "benefit": "Medical Benefit — SC/IV Injection",
+    "display_dose": "300mcg/vial",
+    "display_mult": 300,
+    "has_sb": false,
+    "originator": {
+      "hcpcs_fixed": "J1442",
+      "brand": "Neupogen",
+      "company": "Amgen",
+      "fda_name": "NEUPOGEN",
+      "desc_keywords": [
+        "filgrastim",
+        "neupogen"
+      ],
+      "desc_exclude": [
+        "biosim",
+        "sndz",
+        "aafi",
+        "ayow",
+        "txid"
+      ]
+    },
+    "biosimilars": [
+      {
+        "brand": "Zarxio",
+        "suffix": "filgrastim-sndz",
+        "company": "Sandoz",
+        "is_sb": false,
+        "desc_keywords": [
+          "zarxio",
+          "sndz"
+        ],
+        "desc_exclude": [],
+        "fda_name": "ZARXIO"
+      },
+      {
+        "brand": "Nivestym",
+        "suffix": "filgrastim-aafi",
+        "company": "Pfizer/Hospira",
+        "is_sb": false,
+        "desc_keywords": [
+          "nivestym",
+          "aafi"
+        ],
+        "desc_exclude": [],
+        "fda_name": "NIVESTYM"
+      },
+      {
+        "brand": "Releuko",
+        "suffix": "filgrastim-ayow",
+        "company": "Amneal/Kashiv",
+        "is_sb": false,
+        "desc_keywords": [
+          "releuko",
+          "ayow"
+        ],
+        "desc_exclude": [],
+        "fda_name": "RELEUKO"
+      },
+      {
+        "brand": "Nypozi",
+        "suffix": "filgrastim-txid",
+        "company": "Tanvex",
+        "is_sb": false,
+        "desc_keywords": [
+          "nypozi",
+          "txid"
+        ],
+        "desc_exclude": [],
+        "fda_name": "NYPOZI"
+      }
+    ]
+  },
+  "Pegfilgrastim": {
+    "benefit": "Medical Benefit — SC Injection",
+    "display_dose": "6mg/syringe",
+    "display_mult": 12,
+    "has_sb": false,
+    "originator": {
+      "hcpcs_fixed": "J2506",
+      "brand": "Neulasta",
+      "company": "Amgen",
+      "fda_name": "NEULASTA",
+      "desc_keywords": [
+        "pegfilgrastim",
+        "neulasta"
+      ],
+      "desc_exclude": [
+        "biosim",
+        "jmdb",
+        "cbqv",
+        "bmez",
+        "apgf",
+        "fpgk",
+        "pbbk",
+        "unne"
+      ]
+    },
+    "biosimilars": [
+      {
+        "brand": "Fulphila",
+        "suffix": "pegfilgrastim-jmdb",
+        "company": "Biocon",
+        "is_sb": false,
+        "desc_keywords": [
+          "fulphila",
+          "jmdb"
+        ],
+        "desc_exclude": [],
+        "fda_name": "FULPHILA"
+      },
+      {
+        "brand": "Udenyca",
+        "suffix": "pegfilgrastim-cbqv",
+        "company": "Coherus",
+        "is_sb": false,
+        "desc_keywords": [
+          "udenyca",
+          "cbqv"
+        ],
+        "desc_exclude": [],
+        "fda_name": "UDENYCA"
+      },
+      {
+        "brand": "Ziextenzo",
+        "suffix": "pegfilgrastim-bmez",
+        "company": "Sandoz",
+        "is_sb": false,
+        "desc_keywords": [
+          "ziextenzo",
+          "bmez"
+        ],
+        "desc_exclude": [],
+        "fda_name": "ZIEXTENZO"
+      },
+      {
+        "brand": "Nyvepria",
+        "suffix": "pegfilgrastim-apgf",
+        "company": "Pfizer/Hospira",
+        "is_sb": false,
+        "desc_keywords": [
+          "nyvepria",
+          "apgf"
+        ],
+        "desc_exclude": [],
+        "fda_name": "NYVEPRIA"
+      },
+      {
+        "brand": "Stimufend",
+        "suffix": "pegfilgrastim-fpgk",
+        "company": "Fresenius Kabi",
+        "is_sb": false,
+        "desc_keywords": [
+          "stimufend",
+          "fpgk"
+        ],
+        "desc_exclude": [],
+        "fda_name": "STIMUFEND"
+      },
+      {
+        "brand": "Fylnetra",
+        "suffix": "pegfilgrastim-pbbk",
+        "company": "Amneal/Kashiv",
+        "is_sb": false,
+        "desc_keywords": [
+          "fylnetra",
+          "pbbk"
+        ],
+        "desc_exclude": [],
+        "fda_name": "FYLNETRA"
+      }
+    ]
+  },
+  "Epoetin alfa": {
+    "benefit": "Medical Benefit — SC/IV Injection (non-ESRD)",
+    "display_dose": "40,000 units/vial",
+    "display_mult": 40,
+    "has_sb": false,
+    "originator": {
+      "hcpcs_fixed": "J0885",
+      "brand": "Epogen/Procrit",
+      "company": "Amgen/J&J",
+      "fda_name": "EPOGEN",
+      "desc_keywords": [
+        "epoetin alfa",
+        "epogen",
+        "procrit"
+      ],
+      "desc_exclude": [
+        "biosim",
+        "epbx",
+        "esrd"
+      ]
+    },
+    "biosimilars": [
+      {
+        "brand": "Retacrit",
+        "suffix": "epoetin alfa-epbx",
+        "company": "Pfizer/Hospira",
+        "is_sb": false,
+        "desc_keywords": [
+          "retacrit",
+          "epbx"
+        ],
+        "desc_exclude": [
+          "esrd on dialysis"
+        ],
+        "fda_name": "RETACRIT"
+      }
+    ]
+  },
+  "Tocilizumab": {
+    "benefit": "Medical Benefit — IV Infusion / SC Injection",
+    "display_dose": "400mg/vial",
+    "display_mult": 400,
+    "has_sb": false,
+    "originator": {
+      "hcpcs_fixed": "J3262",
+      "brand": "Actemra",
+      "company": "Genentech (Roche)",
+      "fda_name": "ACTEMRA",
+      "desc_keywords": [
+        "tocilizumab",
+        "actemra"
+      ],
+      "desc_exclude": [
+        "biosim",
+        "bavi",
+        "aazg",
+        "anoh"
+      ]
+    },
+    "biosimilars": [
+      {
+        "brand": "Tofidence",
+        "suffix": "tocilizumab-bavi",
+        "company": "Bio-Thera/Organon",
+        "is_sb": false,
+        "desc_keywords": [
+          "tofidence",
+          "bavi"
+        ],
+        "desc_exclude": [],
+        "fda_name": "TOFIDENCE"
+      },
+      {
+        "brand": "Tyenne",
+        "suffix": "tocilizumab-aazg",
+        "company": "Fresenius Kabi",
+        "is_sb": false,
+        "desc_keywords": [
+          "tyenne",
+          "aazg"
+        ],
+        "desc_exclude": [],
+        "fda_name": "TYENNE"
+      },
+      {
+        "brand": "Avtozma",
+        "suffix": "tocilizumab-anoh",
+        "company": "Celltrion",
+        "is_sb": false,
+        "desc_keywords": [
+          "avtozma",
+          "anoh"
+        ],
+        "desc_exclude": [],
+        "fda_name": "AVTOZMA"
+      }
+    ]
+  }
+}

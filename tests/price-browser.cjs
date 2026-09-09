@@ -1,0 +1,31 @@
+const {chromium}=require('/tmp/dashboard-browser-check/node_modules/playwright');
+const assert=require('assert'),fs=require('fs');
+(async()=>{
+ const browser=await chromium.launch({executablePath:'/usr/bin/google-chrome',headless:true,args:['--no-sandbox']});
+ const page=await browser.newPage({viewport:{width:1440,height:1000}}),errors=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.goto('http://127.0.0.1:8765/#home');await page.locator('.competitor-row').first().waitFor();
+ assert.equal(await page.locator('#homeIntelligence,#homeRecentRegulatory,#homeRecentNews').count(),0);
+ assert.equal(await page.locator('.portfolio-product').count(),20);
+ await page.locator('.section-tabs a[href="#news"]').click();await page.locator('.news-card').first().waitFor();
+ assert.equal(await page.locator('#newsRange').inputValue(),'all');assert.equal(await page.locator('#newsMolecules input:checked').count(),0);
+ const before=await page.locator('#newsResultCount').innerText();await page.locator('#newsMolecules input[value="Policy"]').check();assert.notEqual(await page.locator('#newsResultCount').innerText(),before);await page.locator('#newsClear').click();assert.equal(await page.locator('#newsResultCount').innerText(),before);
+ await page.locator('.section-tabs a[href="#prices"]').click();await page.locator('#aspTable tbody tr').first().waitFor();
+ assert((await page.locator('#pricePage').innerText()).includes('PLACEHOLDER'));
+ const expected=await page.evaluate(()=>new Intl.DateTimeFormat('en-US',{month:'short',year:'numeric',timeZone:'Asia/Seoul'}).format(new Date()));assert.equal(await page.locator('#priceMonth').innerText(),'('+expected+')');
+ assert.equal(await page.locator('#aspMolecule').inputValue(),'Trastuzumab');
+ assert(await page.locator('#aspTable tbody tr').count()>20);
+ await page.locator('#aspMolecule').selectOption('Infliximab');
+ assert((await page.locator('#aspTable').innerText()).includes('Renflexis'));
+ await page.locator('#aspMetric').selectOption('paymentLimit');await page.locator('#aspUnit').selectOption('standard');
+ const download=page.waitForEvent('download');await page.locator('#aspExport').click();const d=await download;assert(d.suggestedFilename().includes('Infliximab'));
+ await page.locator('#aspFrom').selectOption('2026 Q3');await page.locator('#aspTo').selectOption('2021 Q1');assert((await page.locator('#aspStatus').innerText()).includes('시작 분기'));assert(await page.locator('#aspExport').isDisabled());
+ await page.locator('#aspMolecule').selectOption('Trastuzumab');await page.locator('#aspMetric').selectOption('asp');await page.locator('#aspUnit').selectOption('billing');
+ fs.mkdirSync('/tmp/dashboard-shots',{recursive:true});
+ const shot=async(name)=>console.log(name+'_IMAGE '+(await page.screenshot({path:'/tmp/dashboard-shots/'+name+'.jpg',type:'jpeg',quality:55})).toString('base64'));
+ await page.evaluate(()=>scrollTo(0,0));await shot('CMS');
+ await page.locator('.section-tabs a[href="#home"]').click();await page.locator('#landingPage').waitFor();await page.evaluate(()=>scrollTo(0,0));await shot('HOME');
+ await page.setViewportSize({width:390,height:844});
+ for(const route of ['home','news','prices','regulatory']){await page.evaluate(r=>location.hash=r,route);await page.waitForTimeout(200);assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),route+' overflow');}
+ await page.locator('.section-tabs a[href="#prices"]').click();await page.locator('#pricePage').waitFor();await page.evaluate(()=>scrollTo(0,0));await shot('CMSMOBILE');
+ assert.equal(errors.length,0,errors.join('\n'));console.log('Verified Home removals, all-news default, topic filtering, KST month, real CMS chart/table, filters, export, empty ranges and mobile width.');await browser.close();
+})().catch(e=>{console.error(e);process.exit(1)});

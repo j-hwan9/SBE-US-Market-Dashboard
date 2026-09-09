@@ -1,0 +1,11 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert');
+const ctx=vm.createContext({URL});vm.runInContext(fs.readFileSync('dist/price.js','utf8'),ctx);const run=s=>vm.runInContext(s,ctx);
+ctx.rows=JSON.parse(fs.readFileSync('dist/asp.json')).rows;
+assert.equal(run("PriceTracker.month(new Date('2026-09-30T16:00:00Z'))"),'Oct 2026');
+assert.equal(run("PriceTracker.filtered(rows,'Trastuzumab','2026 Q1','2026 Q3',new Set()).length"),0);
+assert(run("PriceTracker.filtered(rows,'Trastuzumab','2026 Q1','2026 Q3',new Set(['Herceptin'])).every(r=>r.brand==='Herceptin')"));
+assert.equal(run("PriceTracker.value({paymentLimit:5,estimatedAsp:null,standardFactor:42},'asp','standard')"),null);
+assert.equal(run("PriceTracker.value({paymentLimit:5,estimatedAsp:null,standardFactor:42},'paymentLimit','standard')"),210);
+assert.equal(run("PriceTracker.value({estimatedAsp:1,standardFactor:null},'asp','standard')"),null);
+assert(run("PriceTracker.csvCell('=HYPERLINK(1)').includes(\"'=HYPERLINK\")"));
+console.log('CMS ASP filtering, unit conversion, unavailable values, CSV safety and KST month passed.');

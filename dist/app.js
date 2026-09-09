@@ -197,7 +197,7 @@ function navigatePage(){
  const page=location.hash.slice(1)||'home';
  $('landingPage').hidden=page!=='home';$('regulatoryPage').hidden=page!=='regulatory';
  $('newsPage').hidden=page!=='news';if(page==='news'&&typeof MarketNews!=='undefined')MarketNews.open();
- $('pricePage').hidden=page!=='prices';
+ $('pricePage').hidden=page!=='prices';if(page==='prices'&&typeof PriceTracker!=='undefined')PriceTracker.open();
  const titles={performance:'Performance tracker'};
  $('comingPage').hidden=!titles[page];$('comingTitle').textContent=titles[page]||'';
  if(!['home','regulatory','news','prices',...Object.keys(titles)].includes(page))$('landingPage').hidden=false;

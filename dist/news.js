@@ -1,6 +1,6 @@
 'use strict';
 const MarketNews=(()=>{
- let payload=null,loading=false,error='',range='90',selected=new Set(['Market overall']),visibleCount=40;
+ let payload=null,loading=false,error='',range='all',selected=new Set(),visibleCount=40;
  const el=id=>document.getElementById(id);
  const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  const date=s=>new Intl.DateTimeFormat('en-US',{month:'short',day:'2-digit',year:'numeric',timeZone:'UTC'}).format(new Date(s));
