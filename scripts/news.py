@@ -14,8 +14,8 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 UA = 'SBE-Market-News/1.0 (+https://github.com/j-hwan9/SBE-US-Market-Dashboard)'
 SOURCES = [
  {'id':'brr','name':'BR&R','host':'biosimilarsrr.com','discovery':'https://biosimilarsrr.com/feed/','kind':'rss'},
- {'id':'drugchannels','name':'Drug Channels','host':'www.drugchannels.net','discovery':'https://www.drugchannels.net/feeds/posts/default?alt=rss','kind':'rss'},
- {'id':'fierce','name':'Fierce Pharma','host':'www.fiercepharma.com','discovery':'https://www.fiercepharma.com/sitemap.xml','kind':'sitemap'},
+ {'id':'drugchannels','name':'Drug Channels','host':'www.drugchannels.net','feedHosts':['feeds.feedblitz.com'],'discovery':'https://www.drugchannels.net/feeds/posts/default?alt=rss','kind':'rss'},
+ {'id':'fierce','name':'Fierce Pharma','host':'www.fiercepharma.com','discovery':'https://www.fiercepharma.com/keyword/biosimilar','kind':'html'},
  {'id':'biospace','name':'BioSpace','host':'www.biospace.com','discovery':'https://www.biospace.com/news-sitemap.xml','kind':'sitemap'},
  {'id':'pharmexec','name':'Pharmaceutical Executive','host':'www.pharmexec.com','discovery':'https://www.pharmexec.com/sitemap-news.xml','kind':'sitemap'},
 ]
@@ -104,16 +104,16 @@ def article(raw,url):
 class SafeRedirect(urllib.request.HTTPRedirectHandler):
  def __init__(self,client):self.client=client
  def redirect_request(self,req,fp,code,msg,headers,newurl):
-  target=urllib.parse.urljoin(req.full_url,newurl)
+  target=urllib.parse.urljoin(req.full_url,newurl).replace('http:','https:',1)
   self.client.check_host(target)
   if urllib.parse.urlsplit(target).path!='/robots.txt':self.client.allowed(target)
   return super().redirect_request(req,fp,code,msg,headers,target)
 
 class Client:
- def __init__(self,host):self.host=host;self.robots=None;self.last=0;self.delay=1;self.opener=urllib.request.build_opener(SafeRedirect(self))
+ def __init__(self,host,feed_hosts=None):self.children={h:Client(h) for h in feed_hosts or []};self.host=host;self.robots=None;self.last=0;self.delay=1;self.opener=urllib.request.build_opener(SafeRedirect(self))
  def check_host(self,url):
   p=urllib.parse.urlsplit(url)
-  if p.scheme!='https' or p.hostname!=self.host or p.username:raise ValueError('Unexpected publisher redirect/host')
+  if p.scheme!='https' or p.hostname not in {self.host,*self.children} or p.username:raise ValueError('Unexpected publisher redirect/host: '+str(p.hostname))
  def request(self,url):
   self.check_host(url);time.sleep(max(0,self.delay-(time.monotonic()-self.last)))
   try:
@@ -123,6 +123,9 @@ class Client:
     return raw.decode('utf-8','replace')
   finally:self.last=time.monotonic()
  def allowed(self,url):
+  hostname=urllib.parse.urlsplit(url).hostname
+  if hostname!=self.host:
+   self.check_host(url);child=self.children[hostname];child.allowed(url);time.sleep(max(0,child.delay-(time.monotonic()-child.last)));child.last=time.monotonic();return
   if self.robots is None:
    try:raw=self.request('https://'+self.host+'/robots.txt')
    except urllib.error.HTTPError as e:
@@ -140,6 +143,14 @@ def canonical(url,host):
  return urllib.parse.urlunsplit(('https',p.netloc,p.path,'',''))
 
 def discovery(raw,source,client,depth=0):
+ if source.get('kind')=='html':
+  page=Page();page.feed(raw);out=[]
+  for n in page.root.walk():
+   if n.tag in ('h2','h3'):
+    for a in n.walk():
+     url=canonical(urllib.parse.urljoin(source['discovery'],a.attrs.get('href','')),source['host']) if a.tag=='a' else None
+     if url and url!=source['discovery']:out.append({'url':url,'title':'','publishedAt':None})
+  return out
  root=ET.fromstring(raw);kind=root.tag.split('}')[-1];out=[]
  if kind in ('rss','feed'):
   for item in root.findall('.//item'):
@@ -149,25 +160,26 @@ def discovery(raw,source,client,depth=0):
    url=next((canonical(u,source['host']) for u in links if canonical(u,source['host'])),None)
    if url:out.append({'url':url,'title':title,'publishedAt':date})
  elif kind=='sitemapindex' and depth<2:
-  locations=[e.text for e in root.iter() if e.tag.split('}')[-1]=='loc']
-  locations.sort(key=lambda u:('news' in u, 'article' in u),reverse=True)
+  maps=[{e.tag.split('}')[-1]:e.text for e in item} for item in root]
+  maps.sort(key=lambda m:('news' in m.get('loc',''),m.get('lastmod',''),int(re.findall(r'\d+',m.get('loc',''))[-1]) if re.findall(r'\d+',m.get('loc','')) else 0),reverse=True)
+  locations=[m['loc'] for m in maps if m.get('loc')]
   for url in locations[:3]:
    if canonical(url,source['host']):out.extend(discovery(client.get(url),source,client,depth+1))
  elif kind=='urlset':
   for item in root:
    fields={e.tag.split('}')[-1]:e.text for e in item.iter()}
    url=canonical(fields.get('loc',''),source['host'])
-   if url:out.append({'url':url,'title':fields.get('title',''),'publishedAt':iso_date(fields.get('publication_date'))})
+   if url:out.append({'url':url,'title':fields.get('title',''),'publishedAt':iso_date(fields.get('publication_date')),'discoveryDate':iso_date(fields.get('lastmod'))})
  # lastmod is NOT an article publication date.
  return out
 
 def collect_source(source,old,aliases,now,limit,scanned=None):
  status={'id':source['id'],'name':source['name'],'checkedAt':now.isoformat(),'status':'ok','discovered':0,'new':0,'errors':0,'bodyMatched':0}
- collected=[];seen={x['url'] for x in old};client=Client(source['host']);scanned=scanned or {};status['scanned']=[]
+ collected=[];seen={x['url'] for x in old};client=Client(source['host'],source.get('feedHosts'));scanned=scanned or {};status['scanned']=[]
  try:
   entries=discovery(client.get(source['discovery']),source,client);status['discovered']=len(entries)
   if not entries:raise ValueError('No article links discovered')
-  entries=list({x['url']:x for x in entries}.values());entries.sort(key=lambda x:x.get('publishedAt') or '',reverse=True)
+  entries=list({x['url']:x for x in entries}.values());entries.sort(key=lambda x:x.get('publishedAt') or x.get('discoveryDate') or '',reverse=True)
   # Already published entries remain in archive; fetch new candidates in bounded batches.
   todo=[x for x in entries if x['url'] not in seen and (x['url'] not in scanned or scanned[x['url']]<(now-timedelta(days=30)).isoformat())][:limit]
   status['deferred']=max(0,sum(x['url'] not in seen for x in entries)-len(todo))
@@ -181,7 +193,7 @@ def collect_source(source,old,aliases,now,limit,scanned=None):
     molecules=match_molecules(text,aliases)
     status['scanned'].append(entry['url'])
     if not molecules:continue
-    collected.append({'id':hashlib.sha256(entry['url'].encode()).hexdigest()[:20],'title':title,'url':entry['url'],'source':source['name'],'sourceId':source['id'],'publishedAt':date,'molecules':molecules,'matchBasis':'article' if facts['bodyAvailable'] else 'title-description','firstSeenAt':now.isoformat(),'type':'press-release' if '/press-releases/' in entry['url'] else 'article'})
+    collected.append({'id':hashlib.sha256(entry['url'].encode()).hexdigest()[:20],'title':title,'url':entry['url'],'source':source['name'],'sourceId':source['id'],'publishedAt':date,'molecules':molecules,'matchBasis':'article' if facts['bodyAvailable'] else 'title-description','firstSeenAt':now.isoformat(),'type':'press-release' if '/press-releases/' in entry['url'] else 'sponsored' if '/sponsored/' in entry['url'] or '/spons/' in entry['url'] else 'article'})
     status['bodyMatched']+=facts['bodyAvailable'];status['new']+=1
    except Exception as e:
     status['errors']+=1;status['lastError']=str(e)[:240]
@@ -198,7 +210,7 @@ def refresh_news(output=None,limit=40):
  with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
   futures=[pool.submit(collect_source,s,old['articles'],aliases,now,limit,scanned) for s in SOURCES]
   for f in futures:results.append(f.result())
- articles={x['url']:x for x in old['articles']}
+ articles={x['url']:{**x,'type':'sponsored' if '/sponsored/' in x['url'] or '/spons/' in x['url'] else x.get('type','article')} for x in old['articles']}
  for rows,status in results:
   for url in status.pop('scanned',[]):scanned[url]=now.isoformat()
   for row in rows:articles[row['url']]=row

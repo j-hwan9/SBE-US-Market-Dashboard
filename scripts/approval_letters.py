@@ -56,7 +56,9 @@ def extract_periods(text,product,doc,sibling_brands=None):
    months=int(ds[0][1])
    if not 1<=months<=120:continue
    if not re.search(r'shall be|is\s|of\s|established|approved',sentence,re.I):continue
-   records.append({'months':months,'temperature':'2–8°C','basis':'from manufacture' if re.search(r'from (?:the )?date of manufacture',sentence,re.I) else 'as stated in letter','brand':brand,'bla':bla,'strengths':strengths,'documentDate':doc['date'],'documentUrl':doc['url'],'submission':doc.get('submission',''),'page':text[:heading.start()].count('\f')+1,'evidence':sentence,'historical':True,'scope':' / '.join(strengths) if strengths else '문서 대상 완제품 · 제형별 범위 미확인'})
+   devices=sorted(set(m.group().lower() for m in re.finditer(r'\b(?:prefilled syringes?|auto-?injectors?|vials?|cartridges?|pens?)\b',sentence,re.I)))
+   local_strengths=sorted(set(clean(m.group()) for m in re.finditer(r'\b\d+(?:\.\d+)?\s*mg\s*/\s*\d+(?:\.\d+)?\s*mL\b',sentence,re.I))) or strengths
+   records.append({'presentation':', '.join(devices),'months':months,'temperature':'2–8°C','basis':'from manufacture' if re.search(r'from (?:the )?date of manufacture',sentence,re.I) else 'as stated in letter','brand':brand,'bla':bla,'strengths':local_strengths,'documentDate':doc['date'],'documentUrl':doc['url'],'submission':doc.get('submission',''),'page':text[:heading.start()].count('\f')+1,'evidence':sentence,'historical':True,'scope':(' / '.join(local_strengths) if local_strengths else '문서 대상 완제품 · 함량 범위 미확인')+(' · '+', '.join(devices) if devices else '')})
  return records
 
 def letter_documents(app,bla):
@@ -65,7 +67,7 @@ def letter_documents(app,bla):
  for s in app.get('submissions',[]):
   if s.get('submission_status')!='AP':continue
   for d in s.get('application_docs',[]):
-   url=d.get('url','').replace('http:','https:');p=urllib.parse.urlsplit(url)
+   url=d.get('url','').replace('http:','https:');url=urllib.parse.quote(url,safe=":/%?=&;,+");p=urllib.parse.urlsplit(url)
    if p.hostname!='www.accessdata.fda.gov' or '/appletter/' not in p.path.lower() or not p.path.lower().endswith('.pdf'):continue
    date=s.get('submission_status_date','') or d.get('date','')[:10].replace('-','')
    if not re.fullmatch(r'\d{8}',date):continue
@@ -95,16 +97,24 @@ def enrich_products(products,sources,cache=None,force=False):
       raw=sources.get(doc['url']);text=pdf_text(raw)
       entry={'identity':identity,'hash':hashlib.sha256(raw).hexdigest(),'products':{p['id']:extract_periods(text,p,doc,[q['brand'] for q in ps]) for p in needs}}
       cache[doc['url']]=entry
-     for p in needs:found[p['id']].extend(entry.get('products',{}).get(p['id'],[]))
+     for p in needs:
+      for original in entry.get('products',{}).get(p['id'],[]):
+       fact=dict(original);sentence=fact['evidence']
+       devices=sorted(set(m.group().lower() for m in re.finditer(r'\b(?:prefilled syringes?|auto-?injectors?|vials?|cartridges?|pens?)\b',sentence,re.I)))
+       strengths=sorted(set(clean(m.group()) for m in re.finditer(r'\b\d+(?:\.\d+)?\s*mg\s*/\s*\d+(?:\.\d+)?\s*mL\b',sentence,re.I))) or fact['strengths']
+       fact.update(presentation=', '.join(devices),strengths=strengths,scope=(' / '.join(strengths) if strengths else '문서 대상 완제품 · 함량 범위 미확인')+(' · '+', '.join(devices) if devices else ''))
+       found[p['id']].append(fact)
      reviewed.append(doc['url'])
     except Exception as e:status['errors'].append({'url':doc['url'],'error':str(e)[:200]})
    for p in needs:
     # Keep each documented scope; newest record for the same explicit scope takes precedence.
     unique={}
     for fact in sorted(found[p['id']],key=lambda f:f['documentDate'],reverse=True):
-     key=(tuple(fact['strengths']),fact['basis'])
+     key=(tuple(fact['strengths']),fact.get('presentation',''),fact['basis'])
      if key not in unique:unique[key]=fact
-    facts=list(unique.values())
+     elif unique[key] and unique[key]['documentDate']==fact['documentDate'] and unique[key]['months']!=fact['months']:
+      unique[key]=None # Conflicting periods for an unresolved same scope remain unfilled.
+    facts=[f for f in unique.values() if f]
     p['approvalLetter']={'status':'partial' if status['errors'] else 'documented' if facts else 'not_found','checkedAt':now,'documentsDiscovered':len(docs),'documentsChecked':len(reviewed),'facts':facts,'note':'FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요.'}
   except urllib.error.HTTPError as e:
    state='not_found' if e.code==404 else 'unavailable';status['errors'].append({'error':str(e)})
