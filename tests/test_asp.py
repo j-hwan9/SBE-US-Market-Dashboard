@@ -25,6 +25,9 @@ class ASPTests(unittest.TestCase):
  def test_current_revision_links(self):
   html='<a href="/files/zip/july-2026-asp-pricing-file.zip">file</a><a href="/files/zip/july-2026-asp-pricing-file.zip">duplicate</a><a href="/files/zip/july-2026-noc-asp-pricing.zip">NOC</a>'
   self.assertEqual(len(asp.discover(html)['2026 Q3']),1)
+ def test_link_label_quarter(self):
+  html='<a href="/files/zip/asp-file-updated-2026.zip">January 2025 ASP Pricing File</a>'
+  self.assertIn('2025 Q1',asp.discover(html))
  def test_ambiguous_reference(self):
   r=self.pair();r.append(dict(r[0],paymentLimit=200));self.assertIsNone(asp.derive(r)[1]['estimatedAsp'])
 if __name__=='__main__':unittest.main()

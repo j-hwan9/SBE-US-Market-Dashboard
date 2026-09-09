@@ -26,7 +26,7 @@ def dose_factor(dose,unit):
  if ('units' in (a[1],b[1])) and a[1]!=b[1]:return None
  return a[0]*scale[a[1]]/(b[0]*scale[b[1]])
 def basis(notes):
- text=notes.lower()
+ text=' '.join(notes.lower().split())
  if re.search(r'\b(amp|wamp|wac|awp|mfp|nadac|fss)\b',text):return 'Non-ASP basis'
  if any(x in text for x in ['vaccine','covid','contractor','not otherwise','invoice']):return 'Basis requires review'
  if not text or re.fullmatch(r'(updated|added)\s+\w+\s+20\d\d',text) or '8% of reference' in text or text=='inflation-adjusted coinsurance':return 'ASP methodology estimate'
@@ -56,19 +56,28 @@ def seed(path):
   rows.append(dict(quarter=quarter(d['quarter']),molecule=d['molecule'],brand=d['brand'],proper=d['suffix'],company=d['company'],kind='reference' if d['is_orig']=='True' else 'biosimilar',own=d['is_sb']=='True',hcpcs=d['hcpcs_code'],description=d['desc'],billingUnit=unit,unitSource='Inherited mapping; verify CMS dosage',standardDose=cfg['display_dose'],paymentLimit=float(d['payment_limit']),notes=d['notes'],sourceUrl=f'{SOURCE_REPO}/blob/{SOURCE_COMMIT}/data/asp_data.csv',sourceFile='Existing ASP dashboard CSV',sourceCheckedAt=None))
  return derive(rows)
 class Links(HTMLParser):
- def __init__(self):super().__init__();self.links=[]
+ def __init__(self):super().__init__();self.links=[];self.labels={};self.active=None
  def handle_starttag(self,tag,attrs):
   if tag=='a':
-   href=dict(attrs).get('href','');url=urljoin(CMS,href)
-   if urlparse(url).hostname=='www.cms.gov' and '/files/zip/' in url and re.search(r'(asp-pricing|payment-limit)',url,re.I) and not re.search('crosswalk|noc|payable',url,re.I):self.links.append(url)
+   url=urljoin(CMS,dict(attrs).get('href',''))
+   self.active=url if urlparse(url).hostname=='www.cms.gov' and '/files/zip/' in url else None
+   if self.active:self.labels.setdefault(url,'')
+ def handle_data(self,text):
+  if self.active:self.labels[self.active]+=text
+ def handle_endtag(self,tag):
+  if tag=='a' and self.active:self.links.append(self.active);self.active=None
 def discover(html):
  p=Links();p.feed(html);out={}
  for url in p.links:
-  name=url.rsplit('/',1)[-1].lower();y=re.search(r'20\d{2}',name);m=next((x for x in MONTHS if x in name),None)
+  name=url.rsplit('/',1)[-1].lower();label=p.labels.get(url,'').lower()
+  if re.search('crosswalk|noc|payable',name+' '+label):continue
+  if not re.search(r'asp[- ]pric|payment[- ]limit',name+' '+label):continue
+  # Link text identifies the payment quarter even when a filename contains a
+  # different revision year or uses an abbreviated / opaque filename.
+  text=label if re.search(r'20\d{2}',label) and any(x in label for x in MONTHS) else name
+  y=re.search(r'20\d{2}',text);m=next((x for x in MONTHS if x in text),None)
   if y and m and int(y[0])>=2021:
    key=f'{y[0]} Q{MONTHS[m]}'
-   # CMS landing page lists the current revision. Duplicate quarter links are
-   # retained as candidates rather than silently selecting an arbitrary archive.
    out.setdefault(key,[])
    if url not in out[key]:out[key].append(url)
  if not out:raise ValueError('No CMS quarterly files discovered')
@@ -106,7 +115,7 @@ def map_rows(raw,q,url,filename,stamp):
    # Historical originator code changes (e.g. Neulasta) use reviewed keywords.
    if fixed and not matches:matches=[v for v in raw.values() if any(k in v['description'].lower() for k in spec['desc_keywords']) and not any(k in v['description'].lower() for k in spec['desc_exclude'])]
    for v in matches:
-    rows.append(dict(v,quarter=q,molecule=molecule,brand=spec['brand'],proper=spec.get('suffix',molecule.lower()),company=spec['company'],kind='reference' if fixed else 'biosimilar',own=spec.get('is_sb',False),standardDose=cfg['display_dose'],unitSource='CMS HCPCS dosage',sourceUrl=url,sourceFile=filename,sourceCheckedAt=stamp))
+    rows.append(dict(v,quarter=q,molecule=molecule,brand=spec['brand'],proper=spec.get('suffix',molecule.lower()),company=spec['company'],kind='reference' if fixed else 'biosimilar',own=spec.get('is_sb',False),standardDose=cfg['display_dose'],unitSource='CMS HCPCS dosage',sourceUrl=url,sourceFile=filename,sourceCheckedAt=stamp,publicationStatus='Preliminary' if 'preliminary' in url.lower() else 'CMS published'))
  return rows
 def validate(rows):
  keys=[(r['quarter'],r['molecule'],r['brand'],r['hcpcs']) for r in rows]
@@ -134,6 +143,7 @@ def refresh():
    if len({r['molecule'] for r in mapped})<5:raise ValueError('Unexpectedly low mapped molecule coverage')
    rows=[r for r in rows if r['quarter']!=q]+mapped;files.append({'quarter':q,'url':url,'file':name,'sha256':hashlib.sha256(r.content).hexdigest(),'checkedAt':stamp});success+=1;print(q,len(mapped),'mapped rows',flush=True)
   except Exception as e:errors.append({'quarter':q,'error':str(e)});print(q,'retained previous data:',e,flush=True)
+ for q in sorted({r['quarter'] for r in rows}-set(quarters)):errors.append({'quarter':q,'error':'Current CMS link not discovered; prior snapshot retained'})
  if not success:raise RuntimeError('All CMS downloads failed; existing snapshot preserved')
  publish(rows,stamp,files,errors)
 if __name__=='__main__':
