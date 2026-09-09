@@ -33,4 +33,4 @@ header.site-header{position:relative;isolation:isolate;overflow:hidden;min-heigh
 .portfolio-column{max-height:570px;overflow-y:auto;scrollbar-color:#cbb9df #faf8fd;scrollbar-width:thin}.portfolio-column-heading{position:sticky;top:-25px;background:white;z-index:1;padding-top:8px;box-shadow:0 8px 10px white}.portfolio-grid{align-items:stretch}.portfolio-column-heading h2{line-height:1.4}
 @media(max-width:700px){.portfolio-column{max-height:420px}.portfolio-column-heading{top:-19px}.portfolio-product:focus-visible{outline-offset:-3px}}
 
-.news-topic span{border-color:#cfc0e1;background:#f8f4fe;color:#69408f;font-weight:650}.news-match-note{font-size:11px;line-height:1.7;color:var(--muted);margin:14px 0 0}
+.news-match-note{font-size:11px;line-height:1.7;color:var(--muted);margin:14px 0 0}

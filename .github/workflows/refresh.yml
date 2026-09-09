@@ -7,7 +7,7 @@ on:
         type: boolean
         default: false
   schedule:
-    - cron: '23 0 8 * *'
+    - cron: '0 21 * * 0'
 permissions:
   contents: write
   pages: write
@@ -41,7 +41,7 @@ jobs:
           else
             python3 scripts/refresh.py
           fi
-      - name: Save successful snapshot and monthly history
+      - name: Save successful snapshot and weekly history
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

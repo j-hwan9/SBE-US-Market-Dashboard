@@ -50,7 +50,7 @@ The Market news tab lists publisher titles, publication dates, molecule tags, an
 - Match Purple Book brands, proper names and molecules with word boundaries. Ignore navigation and related-article blocks. If an editorial body cannot be isolated, use title/description only and record `matchBasis`; full-text coverage is not claimed.
 - Prefer NewsArticle.datePublished over generic HTML meta timestamps (some publisher meta values reflect request time). Never use sitemap lastmod as publication date.
 - Respect robots.txt and publisher pacing. No CAPTCHA, login, paywall or access-control bypass. Retain older news when a source fails and show partial/unavailable source states.
-- `Refresh market news` runs daily at 22:17 UTC (07:17 KST the next day), or manually via Actions → Run workflow. `최신 게시본 불러오기` only reloads the published snapshot. `뉴스 수집 실행` opens the authenticated GitHub workflow page; no write token is exposed in the website.
+- `Refresh market news` runs daily at 21:00 UTC (06:00 KST the next day), or manually via Actions → Run workflow. `최신 게시본 불러오기` only reloads the published snapshot. `뉴스 수집 실행` opens the authenticated GitHub workflow page; no write token is exposed in the website.
 
 ## FDA approval-letter dating periods
 
@@ -81,3 +81,11 @@ Two additional, independently assigned topics require `biosimilar`/`biosimilars`
 Matching is case-insensitive, uses word boundaries, and recognizes ordinary plurals and spaces/hyphens. The rules intentionally use the requested broad terms: for example, “administration” also matches an article referring to the Food and Drug Administration. These are keyword topics, not an AI judgment about the article's main subject. One article may belong to multiple molecules/topics. Multiple selected filters use **OR**, and the period filter applies to all results. Articles with no molecule but a qualifying topic are included. Body content is never stored or republished.
 
 Schema v2 keeps `topics` separate from `molecules`, so Home's product news stays molecule-specific. A rule/alias signature triggers bounded reclassification of the existing archive, including URLs no longer in a feed, alongside discovery of new articles. First-seen dates are preserved. Unavailable articles retain their prior records and the UI displays how many are awaiting the new classification. Scheduled and manual GitHub Actions use the same rules without GPT or an API key.
+
+
+## Refresh schedule and default news filter
+
+- Regulatory: every Monday at 06:00 KST (`0 21 * * 0`, Sunday 21:00 UTC).
+- Market news: daily at 06:00 KST (`0 21 * * *`).
+- Both workflows retain a shared concurrency group to serialize repository writes and deployments. Monday runs can therefore queue behind each other; GitHub scheduling and collection time can delay publication.
+- Market news initially selects **Market overall** only. Policy and molecules start unchecked and use the same neutral/selected styles. Clearing the selection shows all topics; direct product-news navigation replaces the selection with that product’s molecule.
