@@ -42,10 +42,10 @@
     }
   },
   "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/125472Orig1s058,125276Orig1s146ltr.pdf": {
-    "identity": "509982b3df069cdd02e7c4a3fd2bd5916c11719141651f6131037ac6dcf7465e",
+    "identity": "c143568d138dd7574aa6c3c2005ac05b12575e047c87a268605d976ba3c0d350",
     "hash": "b80a8bf45ca94d8678a0aa3513600a663012ce102a413605e396574867856255",
     "products": {
-      "actemra-125472": []
+      "actemra-125276": []
     }
   },
   "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/125472Orig1s061ltr.pdf": {
@@ -294,10 +294,10 @@
     }
   },
   "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2020/125472Orig1s042,125276Orig1s129ltr.pdf": {
-    "identity": "544ee02f952dfe7ac27c455b0a84cfec6b5537e0d5e45d0265497a7c2549dfa0",
+    "identity": "5191e5d64b7f9af39cb4306ac6d3c9606d0709a875143780b99cb0846113a302",
     "hash": "6e9c31275a13ca36e9272a5189299113e4ec5074c7db671bf03a8de629c48a20",
     "products": {
-      "actemra-125472": []
+      "actemra-125276": []
     }
   },
   "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761219Orig1s017ltr.pdf": {
@@ -364,10 +364,10 @@
     }
   },
   "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2018/125472Orig1s029,125276Orig1s118ltr.pdf": {
-    "identity": "f654d9a3c873157a0c3ddd60089c9f2de05b931d248fc9f5a5cc065b7e0f568c",
+    "identity": "01487385260744bf40d36938f6da4b77cf66b74c6c4f157b5b0748a6a78130b7",
     "hash": "eafef72d4d64642fc04bcdbff0bdef4507f0ce81b4b2c82e9259812908ef2c50",
     "products": {
-      "actemra-125472": []
+      "actemra-125276": []
     }
   },
   "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/125472Orig1s037ltr.pdf": {
@@ -378,17 +378,17 @@
     }
   },
   "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2018/125472Orig1s031,125276Orig1s122Ltr.pdf": {
-    "identity": "a38e119dc24af6465cdfa1f7efafe6aacd0c6a8234383257c7514ba29cdf4cec",
+    "identity": "431c8900135d3f491b4999c3815993eb5aa43ee5d82cec01f0ffd66af3aca32e",
     "hash": "ecd4a6ff502cc8dc282fc5d2dbd21ec7e5de76f0f61bc66b46dee50b00567138",
     "products": {
-      "actemra-125472": []
+      "actemra-125276": []
     }
   },
   "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2018/125276Orig1s117,125472Orig1s032ltr.pdf": {
-    "identity": "901e6f24a1e50b9beb8e54c1ccf0595e047dfcb0278ac45385fa3eb79b4743b5",
+    "identity": "122ad06db811a298fac39f111bce3e09653f969b9fe64c234ee5eb04d067cb50",
     "hash": "23252432f44d7d7c98b43c36bfdf232f1a109b411363d4d04036668ebcdeddbe",
     "products": {
-      "actemra-125472": []
+      "actemra-125276": []
     }
   },
   "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2018/125472Orig1s038Ltr.pdf": {
@@ -399,10 +399,10 @@
     }
   },
   "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2018/125276Orig1s115,125472Orig1s028ltr.pdf": {
-    "identity": "d083de60eaeb908e5b8109986eb791a2e0abb1181d2db6668ed7a5f99206a6b5",
+    "identity": "3af6b13d396b89492f4305ff441ae39c22d49c713f8d5e6165a2d6804f12fe0d",
     "hash": "c082ab7a03bd6912904652462c2b2d504d1ff31046cfc0be543ff2bfea391e61",
     "products": {
-      "actemra-125472": []
+      "actemra-125276": []
     }
   },
   "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761212Orig1s000ltr.pdf": {
@@ -413,10 +413,10 @@
     }
   },
   "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2018/125276Orig1s116,125472Orig1s030ltr.pdf": {
-    "identity": "f8bb8043e8abe6dd20bb1b31067152d683daa69bd844b8345bc37aa05ebd8f0b",
+    "identity": "c2a60c9b163a5e52422877e81ae88bcbcdf110d24dce8628266dc6c652ab46a9",
     "hash": "7c9ac20cbd48a14bec133fe02140b10a48ed0cdab56e1a7016d9eee9cde18569",
     "products": {
-      "actemra-125472": []
+      "actemra-125276": []
     }
   },
   "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2017/125276Orig1s114ltr.pdf": {
@@ -448,17 +448,17 @@
     }
   },
   "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2017/125276Orig1s111,125472Orig1s023ltr.pdf": {
-    "identity": "3b48f485f8495ed13e8444463fc377255b2955404dd38f9005c7e578d4b5fb34",
+    "identity": "b985c8f62196bcb3723a960b62c2d095b5fe44049efeeddc9359d97166a0a4dd",
     "hash": "f18d7fe6c95ac3c3a212c4ca571dad4ce43de4a6bacc92f3d9b9d31d07258885",
     "products": {
-      "actemra-125472": []
+      "actemra-125276": []
     }
   },
   "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2016/125276Orig1s107,125472Orig1s018ltr.pdf": {
-    "identity": "da8e1cf0a9a77ca5ace6baa98782d7e7dc461adc6f7b12595f127581c6d25e0f",
+    "identity": "3fdef878c73f705552b7f412c163e4c74d64733e7db29ea7821b88f0d80d6653",
     "hash": "42b8816b907594bcc10b73945ea1371b2418a7c2b651974413a7be0514b13088",
     "products": {
-      "actemra-125472": []
+      "actemra-125276": []
     }
   },
   "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761071Orig1s024ltr.pdf": {
@@ -5470,10 +5470,10 @@
     }
   },
   "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/125289Orig1s155,125433Orig1s036Correctedltr.pdf": {
-    "identity": "b31c616751ec11c44a727fda33a4534cb1f60b2f9171c1f57447a2376d449213",
+    "identity": "4c1fbe8c3c7b6ad1232cbbe533f91a7ebf616bc898a914765b92933ecacf62d8",
     "hash": "a06f5f87f9f5d7eadf8be313c9296337a11a5ff41fe3cca37b123fa704aa8c61",
     "products": {
-      "simponi-aria-125433": []
+      "simponi-125289": []
     }
   },
   "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2023/125289Orig1s153ltr.pdf": {
@@ -5827,10 +5827,10 @@
     }
   },
   "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/761044Orig1s021,125261Orig1s173ltr.pdf": {
-    "identity": "03c00b8aa88b94846e474e656987b18bba6804743ad4e7c14fefda3197381f8a",
+    "identity": "fdb4fce9e28cf08c063524aa88c3638ce82a573eda4c7438efce008014e72ff3",
     "hash": "5e995427ef12fb155fcca754dcbbd122eabc36ce6f9ba9b76359593350f1e9e3",
     "products": {
-      "stelara-761044": []
+      "stelara-125261": []
     }
   },
   "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2010/125289s025ltr.pdf": {
@@ -5869,17 +5869,17 @@
     }
   },
   "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/125261Orig1s171;761044Orig1s019ltr.pdf": {
-    "identity": "0e91239af19fe4a61274c19a15b424d28e5774bcb2fbc916b63507aa3af21497",
+    "identity": "106752bb5fe8b5cdc73d443b3f99e788b5192db701d7cc0042c1ca3eb21fb710",
     "hash": "e9785cb79d8cd1bbb87b97d54aa75877d0b645058a0de689356036f36d5b944f",
     "products": {
-      "stelara-761044": []
+      "stelara-125261": []
     }
   },
   "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/125261Orig1s167;761044Orig1s015ltr.pdf": {
-    "identity": "0ae727261ecfa2fec873f05ae3af20aeddafeaa2670af1ca095d6c0163b138b0",
+    "identity": "21806afa2c86a21e9b78e21693efbbcb188868ceff42b06d30b7a3998c5e42fd",
     "hash": "7182af08188d74f02c18183bfa62e2e68ea7fcf4ce6b4ea79627e21e1d92960f",
     "products": {
-      "stelara-761044": []
+      "stelara-125261": []
     }
   },
   "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/125166Orig1s447ltr.pdf": {
@@ -6292,10 +6292,10 @@
     }
   },
   "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2023/125261Orig1s158,761044Orig1s009ltr.pdf": {
-    "identity": "0d8d207e94e29906f6aff81d7a3cf5ebb2271075ec9be891269d41d2707a955e",
+    "identity": "70bfc56cce4de7658febce9e4c468b0ec02577a7a43d2563acc3bf8093c3ea5f",
     "hash": "ea7c433090e06a6e415e1a250bb3668292c07a0d9c37663a562e2f109ea1f3cc",
     "products": {
-      "stelara-125261": []
+      "stelara-761044": []
     }
   },
   "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2022/125261Orig1s161ltr.pdf": {
@@ -6334,10 +6334,10 @@
     }
   },
   "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2020/125261Orig1s154,761044Orig1s006ltr.pdf": {
-    "identity": "c5ff592331df4f62acc93ca59c17d1b769f28ecb30c7da7f56ec779286932eca",
+    "identity": "761bcec8b8a3be8af942b48303c4ff904cbadceaf71c75bfd313ced61bf3e8e9",
     "hash": "c3aa63a812bfd15b5900b215eee119b17177305d14319cc7dabdaf14be9caaf4",
     "products": {
-      "stelara-761044": []
+      "stelara-125261": []
     }
   },
   "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2020/125261Orig1s150ltr.pdf": {
@@ -6753,10 +6753,10 @@
     }
   },
   "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761285Orig1s004,761331Orig1s004ltr.pdf": {
-    "identity": "62bb31b388099cf387543a53db16e448b9b8d5818c221588dae6ca876ac25f17",
+    "identity": "153f5f82ebaaceb6cd8dab7c233b89ed15320f846b58d9bc6953316f4f31a886",
     "hash": "bdcabf34505385bade673fa3273e9c3d2ea862a67192459bb564f0b41ee4b8fd",
     "products": {
-      "wezlana-761331": []
+      "wezlana-761285": []
     }
   },
   "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2013/125104Orig1s813ltr.pdf": {
@@ -6767,10 +6767,10 @@
     }
   },
   "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/761285Orig1s001;761331Orig1s001ltr.pdf": {
-    "identity": "b1f59fafd1a6cc6562e2afe940b81c7b7e19b157a838fcf269c769f6a58af219",
+    "identity": "4e30377e4b845c44af5c79eac38cef511a3e3bb24a6d26be8c39669ca1a64e1b",
     "hash": "d7d3a186e8d068771475b07d73aa4cc49f3bd5e08608429cb7bbf3ecea0a95c9",
     "products": {
-      "wezlana-761331": []
+      "wezlana-761285": []
     }
   },
   "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2012/125104s576ltr.pdf": {
@@ -7238,16 +7238,17 @@
     }
   },
   "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/761373Orig1s000;761425Orig1s000correctedltr.pdf": {
-    "identity": "7076ec0d2744c6f06a01673253acacd9f3f3ffe11d08be00d3ec8be25163fd50",
+    "identity": "7df7986b8c3a2632e2f58d11cb94a139a69e8b88683074f0f8aad9d69f868ea3",
     "hash": "162dec2a9ff00a1f149e5f486ce54bafbe4a15f5ab0a02aef28698cba5498cc7",
     "products": {
-      "pyzchiva-761373": [
+      "pyzchiva-761425": [
         {
+          "presentation": "prefilled syringe",
           "months": 24,
           "temperature": "2–8°C",
           "basis": "from manufacture",
           "brand": "Pyzchiva",
-          "bla": "761373",
+          "bla": "761425",
           "strengths": [
             "130 mg/26 mL",
             "45 mg/0.5 mL"
@@ -7258,14 +7259,15 @@
           "page": 3,
           "evidence": "The dating period for Pyzchiva prefilled syringe shall be 24 months from the date of manufacture when stored at 2°C - 8°C protected from light.",
           "historical": true,
-          "scope": "130 mg/26 mL / 45 mg/0.5 mL"
+          "scope": "130 mg/26 mL / 45 mg/0.5 mL · prefilled syringe"
         },
         {
+          "presentation": "vial",
           "months": 18,
           "temperature": "2–8°C",
           "basis": "from manufacture",
           "brand": "Pyzchiva",
-          "bla": "761373",
+          "bla": "761425",
           "strengths": [
             "130 mg/26 mL",
             "45 mg/0.5 mL"
@@ -7276,7 +7278,7 @@
           "page": 3,
           "evidence": "The dating period for Pyzchiva vial presentation shall be 18 months from the date of manufacture when stored at 2°C - 8°C protected from light.",
           "historical": true,
-          "scope": "130 mg/26 mL / 45 mg/0.5 mL"
+          "scope": "130 mg/26 mL / 45 mg/0.5 mL · vial"
         }
       ]
     }
@@ -7364,6 +7366,328 @@
     "hash": "edc11bbab68e84830367bf57c58137459eefa7a4924fa16be46718663b800298",
     "products": {
       "garzulys-761497": []
+    }
+  },
+  "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/125276Orig1s144;%20125472Orig1s056ltr.pdf": {
+    "identity": "bdad8adb5950174ba94d6e46792fe44cf5af07c9418a4c8cf043df8f4a5d9195",
+    "hash": "42269320b5968f3c7bb1002bfb4b6ac30381e19e3b46962503569df72cc56586",
+    "products": {
+      "actemra-125472": []
+    }
+  },
+  "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/125276Orig1s148;%20125472Orig1s060ltr.pdf": {
+    "identity": "87adb3da199201bda7c1be21eb36a4f93aa3f58ab1fde3a4aa0f4eb003ff1111",
+    "hash": "7cc8db749263d055229bb613277db1072d40c1a7fde2c6c388b26ede62541542",
+    "products": {
+      "actemra-125276": []
+    }
+  },
+  "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2021/125472Orig1s045,%20125276Orig1s135ltr.pdf": {
+    "identity": "11abd2068267cc25c7a98d8546834432bc1ce69a193f3c9d6063861020e3e618",
+    "hash": "b8456666b2c6aa8dae2ce1d069719a797c0568401e1d4419706c0b43c6c6bf4a",
+    "products": {
+      "actemra-125276": []
+    }
+  },
+  "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/125276Orig1s127;%20125472Orig1s040ltr.pdf": {
+    "identity": "d83cad6fee3d11316dbf7f8b710e9bf4f5a785208a29255c588576420ffad65b",
+    "hash": "768c976607553f27ea594426132436747e3aa0c1a451630fd3872d011413b76d",
+    "products": {
+      "actemra-125276": []
+    }
+  },
+  "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/125276Orig1s120,%20s121ltr.pdf": {
+    "identity": "dca607772f35d0e1f78dfaae9178dde9fe24421ba947e985010624805fbbfc85",
+    "hash": "f54d3ec69c9fef49f47344be3a36c0295a2e2edd36cd60ea728f3b8d0382a271",
+    "products": {
+      "actemra-125276": []
+    }
+  },
+  "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2023/761219Orig1s006;%20s007;%20s008ltr.pdf": {
+    "identity": "cc060577f8908c8e1ef073bacc06f3014f22c36d5a27d52d95321d88820e33c1",
+    "hash": "84f76346e8e058696faff813014f192cc5f38e614d85563f77c60332520543fb",
+    "products": {
+      "yuflyma-761219": []
+    }
+  },
+  "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761059Orig1s025;%20s026ltr.pdf": {
+    "identity": "43259caf6a28812942a8ebaaf0876e7b5f67fab9567ae0c68c81530fc265ef94",
+    "hash": "754bf442775a0182294b9ed1ccdbe882ac692bdf6ab68e777c5c6176eb0d2a3d",
+    "products": {
+      "hadlima-761059": []
+    }
+  },
+  "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2020/103795Orig1s5574,%20s5577ltr.pdf": {
+    "identity": "064b0dc44baa64e1d52148b51a50a8e7ac91a83bb1d2be42dd459b6077d970c1",
+    "hash": "95680b79fccd863abb0878ae033b36c1f0c269678a1f03c73690089e5cf37b4b",
+    "products": {
+      "enbrel-103795": []
+    }
+  },
+  "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761299Orig1s013,%20s020ltr.pdf": {
+    "identity": "3b94c11510c1e99c108d410ac9bc20eb580cd5568a8bf4be611a57ad3df2f086",
+    "hash": "68ee5693d9669f3e5efdf2117d1d7fb700074f87157821d4496d8887d70309b8",
+    "products": {
+      "simlandi-761299": []
+    }
+  },
+  "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2006/103792%205150ltr.pdf": {
+    "identity": "bdbd6f1c83cf4c853c9a621689665c9e499c238d23ed2bf1542ba66177337742",
+    "hash": "fdd979f281992f485d6a714161ff8562e9b66f0db9732f41d4a5c027c915527e",
+    "products": {
+      "herceptin-103792": []
+    }
+  },
+  "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/761299Orig1s003,%20s006ltr.pdf": {
+    "identity": "0af9acd11971cc6fc21b0feb5f52af1f39827907b3f4f5e06f1faa9bbf887660",
+    "hash": "d59a5043dde15c1b281008ceb89d06fb9253e6c681265e9b54fa26819ab04843",
+    "products": {
+      "simlandi-761299": []
+    }
+  },
+  "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/761091Orig1s001,%20s002ltr.pdf": {
+    "identity": "0e6267a44be067df53049ca87b150ec767539503fddc4cf539e0c957f915bbb5",
+    "hash": "ebbd83a147f6506c0e72c686e5a15b71b670a656765541a0d2d03a92a2f283e7",
+    "products": {
+      "herzuma-761091": []
+    }
+  },
+  "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2020/125057Orig1s418,%20s419ltr.pdf": {
+    "identity": "e76c21581321931e9495d6ce4ed9ee679e53d669e4ed9499b5f0ec50997984e9",
+    "hash": "0d2770b1176f4e56a84ed7fe7f10d7b24a770d733299aacb04f38c8c226f6919",
+    "products": {
+      "humira-125057": []
+    }
+  },
+  "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2006/125057s071,%20s095LTR.pdf": {
+    "identity": "2221d99b190f893f211e6ecfa165c85c1e6e3d1ceda2bd18aa2eb1cd298b6ac3",
+    "hash": "748354a44527e2df07ad6de7a91735081591345719c60e06de8550b59d163896",
+    "products": {
+      "humira-125057": []
+    }
+  },
+  "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/021081Orig1s073,%20s074;%20021629Orig1s039,%20s040;%20206538Orig1s013,%20s014ltr.pdf": {
+    "identity": "864be8ef6c5b68d41fa2effa164fda54f95062fd2c39086ae6ab8249d112a84c",
+    "hash": "85a09f717306a3cbd4fa60cdadea5deeb58a7d4685a5942bea973bd0f3d2f11f",
+    "products": {
+      "lantus-021081": []
+    }
+  },
+  "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/020986Orig1s090,%20s091;%20021810Orig1s018,%20s019;%20021172Orig1s071,%20s072ltr.pdf": {
+    "identity": "6206ce39ba030b48d2c78c4f727f66dfca00f1d15b2ad9b1009181d16a08bb5d",
+    "hash": "62e26db090d4cc6900430a22d854e2b598934c0d78ebb8f1c670611fc3dca10a",
+    "products": {
+      "novolog-020986": []
+    }
+  },
+  "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2018/125409Orig1s123,%20125427Orig1s104ltr.pdf": {
+    "identity": "79c436129e063292f4c52704800d27faa2f877bb0c49f54faaa01c9bff1ab421",
+    "hash": "20314759a880f7ba7741a738e4cbb0bbe497562b5a3ccb01c90935dcd84a93b2",
+    "products": {
+      "perjeta-125409": []
+    }
+  },
+  "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2013/125320Orig1s114,%20s124ltr.pdf": {
+    "identity": "0e9b7adc65e7f6f288c6847844d8b8d35b01103e9ed20f3b4bfc5d523321ed3d",
+    "hash": "21c0374da620d3798cece53d7873c2f5a6a61707dd3442a0941fd1edd5b26d0f",
+    "products": {
+      "prolia-125320": [],
+      "xgeva-125320": []
+    }
+  },
+  "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/761343Orig1s001,%20003ltr.pdf": {
+    "identity": "9cf39ed25ef21df448a383fc840135f18c3d01dbeaf0b42deeaceaa2efff5664",
+    "hash": "c2deab9b4b9ea677376dca496245fc722e385015c3eb74f2df551f712f288d7e",
+    "products": {
+      "selarsdi-761343": []
+    }
+  },
+  "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/125166Orig1s453;%20761108Orig1s045ltr.pdf": {
+    "identity": "a9af36c13318a4a76aad6f645f5163a06c097f0e33df4939652669767f74ee25",
+    "hash": "6e08e689dbfd07a0d7536562ef5c0d4e2b906144dbf941c5208748e199dcc4fe",
+    "products": {
+      "soliris-125166": []
+    }
+  },
+  "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/761044Orig1s020,%20125261Orig1s172ltr.pdf": {
+    "identity": "bb98e6f1e6dd8a32b97a5d0bd683a856749a0cc0c6be6eaad51a104f79bfde1f",
+    "hash": "620c94a5a95d6ab95adcb08f04f7284d03c953c8e62890fcb8dff978318d0b99",
+    "products": {
+      "stelara-125261": []
+    }
+  },
+  "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/125166Orig1s448,%20761108Orig1s038ltr.pdf": {
+    "identity": "f0c6dea9c6a045a21e215a80a18cb0e1513db63b7b933802cab615382f8a4a74",
+    "hash": "dc5d0cfe9c40282ad6129023b4ecd2eff5cf0e8d65bb0bb0b77c233a43c9dd60",
+    "products": {
+      "soliris-125166": []
+    }
+  },
+  "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/125261Orig1s168,%20761044Orig1s016ltr.pdf": {
+    "identity": "9f3735bca3fcce1cba3b5be2a84a1ca2c39214796f99f2ad04e034c81b43d979",
+    "hash": "393cc3a752066fe536f371cacf38356daeae9462218fd6b76e2f43c2ee59b142",
+    "products": {
+      "stelara-125261": []
+    }
+  },
+  "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/125261Orig1s166,%20761044Orig1s014ltr.pdf": {
+    "identity": "f68855f1d09ab29a18400ae6a6413b2d3027f2d1b58a8719ac664d8e6c3f3ade",
+    "hash": "4ba019cef71a218b247b3d5ada872cfc751805546e623d4dcc1980fda1122767",
+    "products": {
+      "stelara-125261": []
+    }
+  },
+  "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/125261Orig1s163;%20761044Orig1s013ltr.pdf": {
+    "identity": "27b27efd75cad57a8a0f26a4ef9d1367cc38da0855e2f8525522c4617726a395",
+    "hash": "9885773dfc9d11a188ccafa8423dc1df1cfb64284fbf410d16a75b6255d070d8",
+    "products": {
+      "stelara-125261": []
+    }
+  },
+  "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2020/125261Orig1s157;%20761044Orig1s008ltr.pdf": {
+    "identity": "57f8d4f218076f6ece71fc684e10cd370eadae91de3fd7ec7a070e83af9e1190",
+    "hash": "3cd15fd4b2905453e6f00e2c07fb2594af114e6c6ac6cc3b98fca7fe5152fa7f",
+    "products": {
+      "stelara-125261": []
+    }
+  },
+  "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/125261Orig1s142,%20761044Orig1s001ltr.pdf": {
+    "identity": "7b03c6b394b94ecc56d06cce3e0cab1c5a43218e43036dc046164e430273e695",
+    "hash": "edf4a7592f86e5d503fae498558e9c68c013ec89987f5ae59aab1ca5fe808df4",
+    "products": {
+      "stelara-125261": []
+    }
+  },
+  "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/761044Orig1s003,%20125261Orig1s152ltr.pdf": {
+    "identity": "2a82474b21a04af0103e8cb39bf96e4877218c03e2186ef7ef2413845fe5a749",
+    "hash": "ffdb46072c4927f5a0a5b6a7d1d0cae53702db904ace5ea77f22646fde224a4a",
+    "products": {
+      "stelara-125261": []
+    }
+  },
+  "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/761088Orig1s005,%20s006ltr.pdf": {
+    "identity": "b342dbc423fc905bdf62c64ab899676593c3c518b290b7ac073e762f1722fd1f",
+    "hash": "403b70a486bb66d84d7b1937a2d9504646d10014dbf82ecd24a4b7f7e8f457ea",
+    "products": {
+      "truxima-761088": []
+    }
+  },
+  "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761275Orig1s004,%20761449Orig1s001ltr.pdf": {
+    "identity": "0f27f23af50c5231a8b5e05dcdbe9ccd77eb218b2e55a9fb6494b2be582ebe58",
+    "hash": "2049d665cd0d71ba14229ede34b694ad5c92dea99f492c43a932b4c3343f5009",
+    "products": {
+      "tyenne-761449": []
+    }
+  },
+  "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2020/125104Orig1s968,%20s969ltr.pdf": {
+    "identity": "e26856279e5a5d6db5d4f45e2adaef2068785c322913ddb28529d6b1f4e9035a",
+    "hash": "ce9fdbd9e29f820077ad02d804c26da845dd3a42759a38d1f72ba728a64dff9d",
+    "products": {
+      "tysabri-125104": []
+    }
+  },
+  "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/761285Orig1s006,%20761331Orig1s006ltr.pdf": {
+    "identity": "68ec42ac709e5b566f3293f980971b2ce7e0352943a813c6c5a4e912e48e05c8",
+    "hash": "5c2860375481d8ad1289227cb1562d41614c6982456ec28374271b87822908ec",
+    "products": {
+      "wezlana-761285": []
+    }
+  },
+  "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2023/761285Orig1s000;%20761331Orig1s000ltr.pdf": {
+    "identity": "5be373ccee55d3f0866826501443535000dfc8ca1001ddaa332d0036e93b1952",
+    "hash": "56770296297d31d509244eaea42f3e869e822748ffeecc69616f880ac9de3da4",
+    "products": {
+      "wezlana-761285": [
+        {
+          "presentation": "prefilled syringe",
+          "months": 36,
+          "temperature": "2–8°C",
+          "basis": "from manufacture",
+          "brand": "Wezlana",
+          "bla": "761285",
+          "strengths": [
+            "45 mg/0.5 mL"
+          ],
+          "documentDate": "2023-10-31",
+          "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2023/761285Orig1s000;%20761331Orig1s000ltr.pdf",
+          "submission": "ORIG 1",
+          "page": 2,
+          "evidence": "The dating period for Wezlana 45 mg/0.5 mL prefilled syringe and 90 mg/mL prefilled syringe shall be 36 months from the date of manufacture when stored at 2 - 8 °C.",
+          "historical": true,
+          "scope": "45 mg/0.5 mL · prefilled syringe"
+        },
+        {
+          "presentation": "vial",
+          "months": 24,
+          "temperature": "2–8°C",
+          "basis": "from manufacture",
+          "brand": "Wezlana",
+          "bla": "761285",
+          "strengths": [
+            "130 mg/26 mL",
+            "45 mg/0.5 mL"
+          ],
+          "documentDate": "2023-10-31",
+          "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2023/761285Orig1s000;%20761331Orig1s000ltr.pdf",
+          "submission": "ORIG 1",
+          "page": 2,
+          "evidence": "The dating period for Wezlana 45 mg/0.5 mL vial and 130 mg/26 mL vial shall be 24 months from the date of manufacture when stored at 2 - 8 °C.",
+          "historical": true,
+          "scope": "130 mg/26 mL / 45 mg/0.5 mL · vial"
+        }
+      ]
+    }
+  },
+  "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761373Orig2s000;%20761425Orig2s000ltr.pdf": {
+    "identity": "b39a2656f44934ed728a55f3bbf272aa4f66212ead756800b95bf53a95ff00bd",
+    "hash": "1f8711040edf33353a04502a3b2c89f1206f617812b80d9c4f537d041889b66f",
+    "products": {
+      "pyzchiva-761425": [
+        {
+          "presentation": "prefilled syringe",
+          "months": 36,
+          "temperature": "2–8°C",
+          "basis": "from manufacture",
+          "brand": "Pyzchiva",
+          "bla": "761425",
+          "strengths": [
+            "130 mg/26 mL",
+            "45 mg/0.5 mL"
+          ],
+          "documentDate": "2025-04-30",
+          "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761373Orig2s000;%20761425Orig2s000ltr.pdf",
+          "submission": "ORIG 2",
+          "page": 2,
+          "evidence": "The dating period for Pyzchiva prefilled syringe shall be 36 months from the date of manufacture when stored at 2°C - 8°C protected from light.",
+          "historical": true,
+          "scope": "130 mg/26 mL / 45 mg/0.5 mL · prefilled syringe"
+        },
+        {
+          "presentation": "vial",
+          "months": 24,
+          "temperature": "2–8°C",
+          "basis": "from manufacture",
+          "brand": "Pyzchiva",
+          "bla": "761425",
+          "strengths": [
+            "130 mg/26 mL"
+          ],
+          "documentDate": "2025-04-30",
+          "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761373Orig2s000;%20761425Orig2s000ltr.pdf",
+          "submission": "ORIG 2",
+          "page": 2,
+          "evidence": "The dating period for Pyzchiva (130 mg/26 mL) vial presentation shall be 24 months from the date of manufacture when stored at 2°C - 8°C protected from light.",
+          "historical": true,
+          "scope": "130 mg/26 mL · vial"
+        }
+      ]
+    }
+  },
+  "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761373Orig1s003,%20761425Orig1s003ltr.pdf": {
+    "identity": "e2c632fb995730384dcf12a86de2b48815fd7da77e373976a9e0ccd9eed38ca6",
+    "hash": "3164ed8951caffabfa349a32385e2ba20a8e58328ac058c145b92e08bb86519f",
+    "products": {
+      "pyzchiva-761425": []
     }
   }
 }

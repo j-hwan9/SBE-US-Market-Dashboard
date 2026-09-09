@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-08T23:52:57.907395+00:00",
-  "checkedAt": "2026-09-08T23:52:57.907395+00:00",
+  "updatedAt": "2026-09-09T03:53:47.818942+00:00",
+  "checkedAt": "2026-09-09T03:53:47.818942+00:00",
   "articles": [
     {
       "id": "92db50150cfc6ff4f31b",
@@ -47,6 +47,35 @@
       "type": "article"
     },
     {
+      "id": "4b67f2e9ffb650264248",
+      "title": "The Private Label Biosimilar Paradox in Medicare Part D",
+      "url": "https://www.drugchannels.net/2026/09/the-private-label-biosimilar-paradox-in.html",
+      "source": "Drug Channels",
+      "sourceId": "drugchannels",
+      "publishedAt": "2026-09-01T10:30:00+00:00",
+      "molecules": [
+        "ustekinumab"
+      ],
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-09T03:53:47.818942+00:00",
+      "type": "article"
+    },
+    {
+      "id": "3505954202d52a53a455",
+      "title": "Drug Channels News Roundup, August 2026: 340B Rebate Model v2, Patients Feeling Drug Costs, Specialty Drug Spending Drivers, Impact on Coverage from the IRA, and a Drug Price Adventure",
+      "url": "https://www.drugchannels.net/2026/08/drug-channels-news-roundup-august-2026.html",
+      "source": "Drug Channels",
+      "sourceId": "drugchannels",
+      "publishedAt": "2026-08-25T10:30:00+00:00",
+      "molecules": [
+        "adalimumab",
+        "ustekinumab"
+      ],
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-09T03:53:47.818942+00:00",
+      "type": "article"
+    },
+    {
       "id": "378c678251564db29ebc",
       "title": "The Bona Fide Marketing Standard and What That Means for Biosimilars and Generics",
       "url": "https://biosimilarsrr.com/2026/08/20/https-biosimilarsrr-com-2026-08-20-bona-fide-marketing-and-mfp-biosimilars/",
@@ -74,6 +103,20 @@
       ],
       "matchBasis": "article",
       "firstSeenAt": "2026-09-08T23:52:57.907395+00:00",
+      "type": "article"
+    },
+    {
+      "id": "54b4d20cdfb89da897f9",
+      "title": "Fresenius pulls one batch of Actemra biosim over glass particle concerns",
+      "url": "https://www.fiercepharma.com/pharma/fresenius-pulls-one-batch-actemra-biosim-over-glass-particle-concerns",
+      "source": "Fierce Pharma",
+      "sourceId": "fierce",
+      "publishedAt": "2026-08-12T13:13:54+00:00",
+      "molecules": [
+        "tocilizumab"
+      ],
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-09T03:53:47.818942+00:00",
       "type": "article"
     },
     {
@@ -123,6 +166,20 @@
       "type": "article"
     },
     {
+      "id": "27a4e846ce2966c41c65",
+      "title": "Drug Channels News Roundup, July 2026: Biosimilar Launch Strategy, Part D Spending Trends, Rural 340B Hospitals, What Employers Can Do About 340B, and Drug Channel Villains ",
+      "url": "https://www.drugchannels.net/2026/07/drug-channels-news-roundup-mid-july.html",
+      "source": "Drug Channels",
+      "sourceId": "drugchannels",
+      "publishedAt": "2026-07-28T10:30:00+00:00",
+      "molecules": [
+        "adalimumab"
+      ],
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-09T03:53:47.818942+00:00",
+      "type": "article"
+    },
+    {
       "id": "2d55ea89b8e5205a5bc6",
       "title": "Are Biosimilar Patient Copay Assistance Programs Lacking?",
       "url": "https://biosimilarsrr.com/2026/07/27/are-biosimilar-patient-copay-assistance-programs-lacking/",
@@ -162,6 +219,68 @@
       "type": "article"
     },
     {
+      "id": "54ddc2336549f0172548",
+      "title": "FDA accuses Amneal, BioCorRx of producing ‘false and misleading’ drug promos",
+      "url": "https://www.fiercepharma.com/marketing/fda-accuses-amneal-biocorrx-false-and-misleading-promotions",
+      "source": "Fierce Pharma",
+      "sourceId": "fierce",
+      "publishedAt": "2026-04-10T12:41:43+00:00",
+      "molecules": [
+        "bevacizumab"
+      ],
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-09T03:53:47.818942+00:00",
+      "type": "article"
+    },
+    {
+      "id": "d7f4b7778764c9a1fa66",
+      "title": "Egg-based drugmaker Neion Bio emerges from stealth to cook up multi-product biosimilar collab",
+      "url": "https://www.fiercepharma.com/manufacturing/egg-based-drugmaker-neion-bio-emerges-stealth-cook-multi-product-biosimilar-collab",
+      "source": "Fierce Pharma",
+      "sourceId": "fierce",
+      "publishedAt": "2026-03-26T17:00:00+00:00",
+      "molecules": [
+        "adalimumab",
+        "trastuzumab"
+      ],
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-09T03:53:47.818942+00:00",
+      "type": "article"
+    },
+    {
+      "id": "28123ac1dbcf6f340858",
+      "title": "As biosim industry confronts looming 'void,' 2026 marks a chance to take stock and embrace changing landscape",
+      "url": "https://www.fiercepharma.com/pharma/us-biosimilar-landscape-marked-too-many-question-marks-shifting-policy-complex-market",
+      "source": "Fierce Pharma",
+      "sourceId": "fierce",
+      "publishedAt": "2026-01-08T14:00:00+00:00",
+      "molecules": [
+        "adalimumab",
+        "aflibercept",
+        "insulin glargine",
+        "ustekinumab"
+      ],
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-09T03:53:47.818942+00:00",
+      "type": "article"
+    },
+    {
+      "id": "c8b1ac6b0824aa1262f2",
+      "title": "After delay, Sandoz's biosimilar Tyruko launches in US to pressure Biogen's blockbuster MS med Tysabri",
+      "url": "https://www.fiercepharma.com/pharma/after-delay-sandozs-biosimilar-tyruko-launches-us-put-pressure-biogens-blockbuster-ms-med",
+      "source": "Fierce Pharma",
+      "sourceId": "fierce",
+      "publishedAt": "2025-11-17T16:12:02+00:00",
+      "molecules": [
+        "denosumab",
+        "natalizumab",
+        "ustekinumab"
+      ],
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-09T03:53:47.818942+00:00",
+      "type": "article"
+    },
+    {
       "id": "7e2f997bacf959f3d419",
       "title": "Rheumatoid Arthritis Biosimilars: Regulatory and Clinical Considerations",
       "url": "https://www.fiercepharma.com/sponsored/rheumatoid-arthritis-biosimilars-regulatory-and-clinical-considerations",
@@ -173,64 +292,64 @@
       ],
       "matchBasis": "article",
       "firstSeenAt": "2026-09-08T23:52:57.907395+00:00",
-      "type": "article"
+      "type": "sponsored"
     }
   ],
   "sources": [
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-09-08T23:52:57.907395+00:00",
+      "checkedAt": "2026-09-09T03:53:47.818942+00:00",
       "status": "ok",
       "discovered": 10,
-      "new": 8,
+      "new": 0,
       "errors": 0,
-      "bodyMatched": 8,
-      "deferred": 0
+      "bodyMatched": 0,
+      "deferred": 2
     },
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-09-08T23:52:57.907395+00:00",
-      "status": "unavailable",
-      "discovered": 0,
-      "new": 0,
+      "checkedAt": "2026-09-09T03:53:47.818942+00:00",
+      "status": "ok",
+      "discovered": 25,
+      "new": 3,
       "errors": 0,
-      "bodyMatched": 0,
-      "lastError": "Unexpected publisher redirect/host"
+      "bodyMatched": 3,
+      "deferred": 0
     },
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-09-08T23:52:57.907395+00:00",
+      "checkedAt": "2026-09-09T03:53:47.818942+00:00",
       "status": "ok",
-      "discovered": 6000,
-      "new": 1,
+      "discovered": 6,
+      "new": 5,
       "errors": 0,
-      "bodyMatched": 1,
-      "deferred": 5960
+      "bodyMatched": 5,
+      "deferred": 0
     },
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-09-08T23:52:57.907395+00:00",
+      "checkedAt": "2026-09-09T03:53:47.818942+00:00",
       "status": "ok",
-      "discovered": 223,
-      "new": 1,
+      "discovered": 241,
+      "new": 0,
       "errors": 0,
-      "bodyMatched": 1,
-      "deferred": 183
+      "bodyMatched": 0,
+      "deferred": 200
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-09-08T23:52:57.907395+00:00",
+      "checkedAt": "2026-09-09T03:53:47.818942+00:00",
       "status": "ok",
       "discovered": 100,
-      "new": 1,
+      "new": 0,
       "errors": 0,
-      "bodyMatched": 1,
-      "deferred": 60
+      "bodyMatched": 0,
+      "deferred": 59
     }
   ],
   "molecules": [
