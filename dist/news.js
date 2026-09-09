@@ -12,7 +12,7 @@ const MarketNews=(()=>{
   return [start.toISOString().slice(0,10),end.toISOString().slice(0,10)];
  }
  function filtered(articles,from,to,molecules){
-  return articles.filter(a=>{const d=a.publishedAt?.slice(0,10);return d&&(!from||d>=from)&&(!to||d<=to)&&(!molecules.size||a.molecules.some(m=>molecules.has(m)))});
+  return articles.filter(a=>{const d=a.publishedAt?.slice(0,10);return d&&(!from||d>=from)&&(!to||d<=to)&&(!molecules.size||[...(a.molecules||[]),...(a.topics||[])].some(m=>molecules.has(m)))});
  }
  function render(){
   if(!el('newsList'))return;
@@ -22,16 +22,16 @@ const MarketNews=(()=>{
   const rows=invalid?[]:filtered(payload.articles,from,to,selected);
   el('newsResultCount').textContent=invalid?'시작일이 종료일보다 늦습니다.':rows.length+' articles';
   el('newsFreshness').textContent=payload.updatedAt?'게시본 업데이트 '+date(payload.updatedAt):'수집 대기';
-  el('newsCoverage').textContent=payload.coverageNote||'';
+  el('newsCoverage').textContent=(payload.coverageNote||'')+(payload.classificationPending?' 기존 기사 '+payload.classificationPending+'건은 새 주제 분류 확인 대기 중입니다.':'');
   const failures=(payload.sources||[]).filter(s=>s.status!=='ok');
   el('newsStatus').textContent=error|| (failures.length?failures.length+'개 매체 일부 수집 제한 · 기존 기사는 유지됩니다.':'');
   el('newsSources').innerHTML=(payload.sources||[]).map(s=>'<span class="source-health '+(s.status==='ok'?'':'limited')+'">'+escape(s.name)+' · '+({ok:'수집 완료',partial:'일부 수집',unavailable:'접근 제한'}[s.status]||s.status)+'</span>').join('');
-  el('newsList').innerHTML=rows.slice(0,visibleCount).map(a=>'<article class="news-card"><div class="news-meta"><span>'+escape(a.source)+'</span><span aria-hidden="true">·</span><time datetime="'+escape(a.publishedAt)+'">'+escape(date(a.publishedAt))+'</time>'+(a.type==='press-release'?'<span class="news-kind">보도자료</span>':a.type==='sponsored'?'<span class="news-kind">Sponsored</span>':'')+'</div><h2>'+(validUrl(a.url)?'<a href="'+escape(a.url)+'" target="_blank" rel="noopener noreferrer">'+escape(a.title)+' <span aria-label="새 창에서 원문 열기">↗</span></a>':escape(a.title))+'</h2><div class="news-tags">'+a.molecules.map(m=>'<button type="button" data-news-tag="'+escape(m)+'">'+escape(m)+'</button>').join('')+'</div></article>').join('')||'<div class="news-empty">'+(invalid?'기간을 다시 선택해 주세요.':'선택한 조건에 해당하는 수집 기사가 없습니다.<br>기간을 넓히거나 molecule 필터를 변경해 보세요.')+'</div>';
+  el('newsList').innerHTML=rows.slice(0,visibleCount).map(a=>'<article class="news-card"><div class="news-meta"><span>'+escape(a.source)+'</span><span aria-hidden="true">·</span><time datetime="'+escape(a.publishedAt)+'">'+escape(date(a.publishedAt))+'</time>'+(a.type==='press-release'?'<span class="news-kind">보도자료</span>':a.type==='sponsored'?'<span class="news-kind">Sponsored</span>':'')+'</div><h2>'+(validUrl(a.url)?'<a href="'+escape(a.url)+'" target="_blank" rel="noopener noreferrer">'+escape(a.title)+' <span aria-label="새 창에서 원문 열기">↗</span></a>':escape(a.title))+'</h2><div class="news-tags">'+[...(a.topics||[]),...(a.molecules||[])].map(m=>'<button type="button" data-news-tag="'+escape(m)+'">'+escape(m)+'</button>').join('')+'</div></article>').join('')||'<div class="news-empty">'+(invalid?'기간을 다시 선택해 주세요.':'선택한 조건에 해당하는 수집 기사가 없습니다.<br>기간을 넓히거나 molecule 필터를 변경해 보세요.')+'</div>';
   el('newsMore').hidden=rows.length<=visibleCount;
-  el('newsClear').textContent=selected.size?'Molecule 초기화 ('+selected.size+')':'전체 molecule';
+  el('newsClear').textContent=selected.size?'선택 초기화 ('+selected.size+')':'전체 주제';
  }
  function renderMolecules(){
-  el('newsMolecules').innerHTML=(payload?.molecules||[]).map(m=>'<label class="news-molecule"><input type="checkbox" value="'+escape(m)+'" '+(selected.has(m)?'checked':'')+'><span>'+escape(m)+'</span></label>').join('');
+  el('newsMolecules').innerHTML=[...(payload?.topics||['Market overall','Policy']),...(payload?.molecules||[])].map(m=>'<label class="news-molecule '+(['Market overall','Policy'].includes(m)?'news-topic':'')+'"><input type="checkbox" value="'+escape(m)+'" '+(selected.has(m)?'checked':'')+'><span>'+escape(m)+'</span></label>').join('');
  }
  async function load(){
   if(loading)return;loading=true;error='';render();

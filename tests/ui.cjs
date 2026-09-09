@@ -54,3 +54,10 @@ context.p.approvalLetter={status:'documented',facts:[{scope:'40 mg/0.8 mL',month
 assert.ok(run("coldFacts(p).some(r=>r.value==='2–8°C · 30 months'&&r.detail.includes('Sep 23, 2016'))"));
 assert.ok(run("sourceBody(p).includes('Approval')||sourceBody(p).includes('approval letter')"));
 console.log('News date/molecule filters, navigation, FDA-letter evidence passed.');
+context.articles=[{publishedAt:'2026-09-01T00:00:00Z',molecules:[],topics:['Market overall','Policy']},{publishedAt:'2026-09-02T00:00:00Z',molecules:['adalimumab'],topics:[]},{publishedAt:'2026-09-03T00:00:00Z',molecules:['ustekinumab']}];
+assert.equal(run("MarketNews.filtered(articles,'','',new Set(['Market overall'])).length"),1);
+assert.equal(run("MarketNews.filtered(articles,'','',new Set(['Policy'])).length"),1);
+assert.equal(run("MarketNews.filtered(articles,'','',new Set(['Policy','adalimumab'])).length"),2);
+assert.equal(run("MarketNews.filtered(articles,'2026-09-02','2026-09-03',new Set(['Policy'])).length"),0);
+assert.equal(run("MarketNews.filtered(articles,'','',new Set(['Policy','Market overall'])).length"),1);
+console.log('Topic-only articles, overlapping topics, date filters and OR with molecules verified.');

@@ -68,3 +68,16 @@ Home combines the reviewed Samsung Bioepis portfolio with the **current** `data.
 `dist/portfolio.json` is the small, editable portfolio catalog. It was reviewed against Samsung Bioepis’s official Products and Pipeline pages on Sep 09, 2026 (pipeline page: Aug 2026), with US names/suffixes reconciled to Purple Book and launch/access evidence linked per product. Global launch is not US launch. Ospomyv has a US supply/formulary announcement; Opuviz is FDA-approved but awaits US launch. Xbryk and Eticovo are labeled US launch unconfirmed. SB8 uses its development code rather than an overseas brand. Pipeline candidates do not inherit the reference drug’s FDA suffix. Novel ADCs carry target descriptions where no non-proprietary name is assigned.
 
 Portfolio lifecycle/launch states are **editorially reviewed**, not automatically changed by the monthly FDA or daily news workflow. To update a product, edit its catalog entry, evidence URL and `reviewedAt`; no app code changes are required. Competitor and recent-news content automatically follows the existing data refreshes. No market-share or price values are fabricated.
+
+## News topics and product aliases
+
+News matches article titles plus the isolated editorial body (or title/description when no body is available). Purple Book **brand names, molecule names and molecule+suffix names** all map to molecule filters; a brand-only article does not need to say “biosimilar.” The alias list automatically follows the current Purple Book data.
+
+Two additional, independently assigned topics require `biosimilar`/`biosimilars` and at least one keyword in the same article:
+
+- **Market overall:** CMS, Medicare, Medicaid, PBM, health plan, payer, insurance, Veterans affairs, Federal, patient.
+- **Policy:** policy, regulation, scheme, administration, executive order.
+
+Matching is case-insensitive, uses word boundaries, and recognizes ordinary plurals and spaces/hyphens. The rules intentionally use the requested broad terms: for example, “administration” also matches an article referring to the Food and Drug Administration. These are keyword topics, not an AI judgment about the article's main subject. One article may belong to multiple molecules/topics. Multiple selected filters use **OR**, and the period filter applies to all results. Articles with no molecule but a qualifying topic are included. Body content is never stored or republished.
+
+Schema v2 keeps `topics` separate from `molecules`, so Home's product news stays molecule-specific. A rule/alias signature triggers bounded reclassification of the existing archive, including URLs no longer in a feed, alongside discovery of new articles. First-seen dates are preserved. Unavailable articles retain their prior records and the UI displays how many are awaiting the new classification. Scheduled and manual GitHub Actions use the same rules without GPT or an API key.

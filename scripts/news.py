@@ -11,7 +11,7 @@ from email.utils import parsedate_to_datetime
 from html.parser import HTMLParser
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-UA = 'SBE-Market-News/1.0 (+https://github.com/j-hwan9/SBE-US-Market-Dashboard)'
+UA = 'SBE-Market-News/1.1 (+https://github.com/j-hwan9/SBE-US-Market-Dashboard)'
 SOURCES = [
  {'id':'brr','name':'BR&R','host':'biosimilarsrr.com','discovery':'https://biosimilarsrr.com/feed/','kind':'rss'},
  {'id':'drugchannels','name':'Drug Channels','host':'www.drugchannels.net','feedHosts':['feeds.feedblitz.com'],'discovery':'https://www.drugchannels.net/feeds/posts/default?alt=rss','kind':'rss'},
@@ -46,6 +46,21 @@ def match_molecules(text,aliases):
  for pattern,ms,_ in aliases:
   if pattern.search(value):molecules.update(ms)
  return sorted(molecules)
+
+# Matching rules are deterministic and versioned; bodies remain transient.
+CLASSIFICATION_VERSION = 2
+TOPIC_RULES = {
+ 'Market overall': r'cms|medicare|medicaid|pbms?|health[\s-]+plans?|payers?|insurance|veterans?[\s-]+affairs|federal|patients?',
+ 'Policy': r'polic(?:y|ies)|regulations?|schemes?|administrations?|executive[\s-]+orders?',
+}
+
+def match_topics(text):
+ value=norm(text)
+ if not re.search(r'(?<!\w)biosimilars?(?!\w)',value):return []
+ return [topic for topic,pattern in TOPIC_RULES.items() if re.search(r'(?<!\w)(?:'+pattern+r')(?!\w)',value)]
+
+def classification_signature(aliases):
+ return hashlib.sha256(json.dumps({'version':CLASSIFICATION_VERSION,'topics':TOPIC_RULES,'aliases':sorted((a,sorted(ms)) for _,ms,a in aliases)},sort_keys=True).encode()).hexdigest()
 
 class Node:
  def __init__(self,tag='',attrs=None):self.tag=tag;self.attrs=dict(attrs or []);self.children=[]
@@ -173,15 +188,23 @@ def discovery(raw,source,client,depth=0):
  # lastmod is NOT an article publication date.
  return out
 
-def collect_source(source,old,aliases,now,limit,scanned=None):
+def collect_source(source,old,aliases,now,limit,scanned=None,signature=None):
  status={'id':source['id'],'name':source['name'],'checkedAt':now.isoformat(),'status':'ok','discovered':0,'new':0,'errors':0,'bodyMatched':0}
- collected=[];seen={x['url'] for x in old};client=Client(source['host'],source.get('feedHosts'));scanned=scanned or {};status['scanned']=[]
+ signature=signature or classification_signature(aliases)
+ previous={x['url']:x for x in old if x.get('sourceId')==source['id']}
+ collected=[];seen={x['url'] for x in old if x.get('classificationSignature')==signature};client=Client(source['host'],source.get('feedHosts'));scanned=scanned or {};status['scanned']=[]
  try:
   entries=discovery(client.get(source['discovery']),source,client);status['discovered']=len(entries)
   if not entries:raise ValueError('No article links discovered')
   entries=list({x['url']:x for x in entries}.values());entries.sort(key=lambda x:x.get('publishedAt') or x.get('discoveryDate') or '',reverse=True)
-  # Already published entries remain in archive; fetch new candidates in bounded batches.
-  todo=[x for x in entries if x['url'] not in seen and (x['url'] not in scanned or scanned[x['url']]<(now-timedelta(days=30)).isoformat())][:limit]
+  # Revisit the archive after alias/rule changes, including URLs no longer in the feed.
+  archived=[dict(url=x['url'],title=x['title'],publishedAt=x['publishedAt']) for x in previous.values() if x['url'] not in seen]
+  archived_urls={x['url'] for x in archived}
+  fresh=[x for x in entries if x['url'] not in seen and x['url'] not in archived_urls and (x['url'] not in scanned or scanned[x['url']]<(now-timedelta(days=30)).isoformat())]
+  # Reserve capacity for both backfill and discovery, so neither starves the other.
+  quota=min(len(archived),max(1,limit//2)) if fresh else limit
+  todo=(archived[:quota]+fresh[:max(0,limit-quota)])[:limit]
+  if len(todo)<limit:todo+=archived[quota:quota+limit-len(todo)]
   status['deferred']=max(0,sum(x['url'] not in seen for x in entries)-len(todo))
   for entry in todo:
    try:
@@ -190,11 +213,17 @@ def collect_source(source,old,aliases,now,limit,scanned=None):
     if not date or not title:raise ValueError('Missing article publication date/title')
     if datetime.fromisoformat(date)>now+timedelta(minutes=10):raise ValueError('Future article publication date')
     text=title+' '+(facts['body'] if facts['bodyAvailable'] else facts['description'])
-    molecules=match_molecules(text,aliases)
+    molecules=match_molecules(text,aliases);topics=match_topics(text)
+    prior=previous.get(entry['url'])
+    if prior and not facts['bodyAvailable']:
+     molecules=sorted(set(molecules+prior.get('molecules',[])))
+     topics=sorted(set(topics+prior.get('topics',[])))
     status['scanned'].append(entry['url'])
-    if not molecules:continue
-    collected.append({'id':hashlib.sha256(entry['url'].encode()).hexdigest()[:20],'title':title,'url':entry['url'],'source':source['name'],'sourceId':source['id'],'publishedAt':date,'molecules':molecules,'matchBasis':'article' if facts['bodyAvailable'] else 'title-description','firstSeenAt':now.isoformat(),'type':'press-release' if '/press-releases/' in entry['url'] else 'sponsored' if '/sponsored/' in entry['url'] or '/spons/' in entry['url'] else 'article'})
-    status['bodyMatched']+=facts['bodyAvailable'];status['new']+=1
+    if not molecules and not topics:continue
+    collected.append({'id':hashlib.sha256(entry['url'].encode()).hexdigest()[:20],'title':title,'url':entry['url'],'source':source['name'],'sourceId':source['id'],'publishedAt':date,'molecules':molecules,'topics':topics,'classificationSignature':signature,'matchBasis':'article' if facts['bodyAvailable'] else 'title-description','firstSeenAt':prior.get('firstSeenAt',now.isoformat()) if prior else now.isoformat(),'type':'press-release' if '/press-releases/' in entry['url'] else 'sponsored' if '/sponsored/' in entry['url'] or '/spons/' in entry['url'] else 'article'})
+    status['bodyMatched']+=facts['bodyAvailable']
+    if prior:status['reclassified']=status.get('reclassified',0)+1
+    else:status['new']+=1
    except Exception as e:
     status['errors']+=1;status['lastError']=str(e)[:240]
   if status['errors']:status['status']='partial'
@@ -205,10 +234,10 @@ def refresh_news(output=None,limit=40):
  output=pathlib.Path(output or ROOT/'dist');path=output/'news.json'
  old=json.loads(path.read_text()) if path.exists() else {'articles':[],'sources':[]}
  products=json.loads((output/'data.json').read_text())['products'];aliases=alias_map(products);now=datetime.now(timezone.utc)
- results=[];scanpath=ROOT/'data/news-scan-index.json';scan=json.loads(scanpath.read_text()) if scanpath.exists() else {};signature=hashlib.sha256(json.dumps(sorted((a,sorted(ms)) for _,ms,a in aliases)).encode()).hexdigest()
+ results=[];scanpath=ROOT/'data/news-scan-index.json';scan=json.loads(scanpath.read_text()) if scanpath.exists() else {};signature=classification_signature(aliases)
  scanned=scan.get('urls',{}) if scan.get('aliasHash')==signature else {}
  with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
-  futures=[pool.submit(collect_source,s,old['articles'],aliases,now,limit,scanned) for s in SOURCES]
+  futures=[pool.submit(collect_source,s,old['articles'],aliases,now,limit,scanned,signature) for s in SOURCES]
   for f in futures:results.append(f.result())
  articles={x['url']:{**x,'type':'sponsored' if '/sponsored/' in x['url'] or '/spons/' in x['url'] else x.get('type','article')} for x in old['articles']}
  for rows,status in results:
@@ -220,7 +249,7 @@ def refresh_news(output=None,limit=40):
   # Retain archive and last successful timestamp, while exposing this failed attempt.
   updated=old.get('updatedAt')
  else:updated=now.isoformat()
- payload={'schemaVersion':1,'updatedAt':updated,'checkedAt':now.isoformat(),'articles':sorted(articles.values(),key=lambda x:(x['publishedAt'],x['id']),reverse=True),'sources':sources,'molecules':sorted(set(p['molecule'] for p in products)),'coverageNote':'수집 시작 이후 누적 기사입니다. 피드 제공 범위와 매체 접근 상태에 따라 과거 기사·일부 기사가 누락될 수 있습니다.'}
+ payload={'schemaVersion':2,'topics':list(TOPIC_RULES),'classificationVersion':CLASSIFICATION_VERSION,'classificationPending':sum(x.get('classificationSignature')!=signature for x in articles.values()),'updatedAt':updated,'checkedAt':now.isoformat(),'articles':sorted(articles.values(),key=lambda x:(x['publishedAt'],x['id']),reverse=True),'sources':sources,'molecules':sorted(set(p['molecule'] for p in products)),'coverageNote':'수집 시작 이후 누적 기사입니다. 피드 제공 범위와 매체 접근 상태에 따라 과거 기사·일부 기사가 누락될 수 있습니다.'}
  scanpath.parent.mkdir(parents=True,exist_ok=True);scanpath.write_text(json.dumps({'aliasHash':signature,'urls':scanned},ensure_ascii=False,indent=2))
  output.mkdir(parents=True,exist_ok=True);tmp=path.with_suffix('.tmp');tmp.write_text(json.dumps(payload,ensure_ascii=False,indent=2));tmp.replace(path)
  return payload

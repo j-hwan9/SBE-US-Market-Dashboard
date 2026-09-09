@@ -1,0 +1,31 @@
+name: Verify expanded news topics
+on:
+  push:
+    branches: [news-topics]
+permissions:
+  contents: write
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v6
+      - name: Verify classification rules and UI
+        run: |
+          python3 -m unittest discover -s tests -v
+          node tests/ui.cjs
+          node tests/home.cjs
+      - name: Collect and reclassify actual news
+        run: python3 scripts/news.py --limit 60
+      - name: Verify live topic filters
+        run: |
+          npm install --prefix /tmp/dashboard-browser-check --no-save --package-lock=false playwright@1.58.2
+          python3 -m http.server 8765 --directory dist >/tmp/dashboard-http.log 2>&1 &
+          node tests/topics-browser.cjs
+      - name: Save verified news snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist/news.json data/news-scan-index.json
+          git diff --cached --quiet || git commit -m "Reclassify news with Market overall and Policy topics"
+          git push origin HEAD:news-topics
