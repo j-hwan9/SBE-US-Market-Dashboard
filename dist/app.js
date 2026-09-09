@@ -169,8 +169,8 @@ async function loadLatest(){
  const ticket=++historyRequest;$('updateStatus').textContent='최신 게시본 확인 중…';
  try{
   const r=await fetch('data.json',{cache:'no-store'});if(!r.ok)throw Error('게시 데이터를 불러오지 못했습니다.');const data=await r.json();
-  const h=await fetch('history/index.json',{cache:'no-store'});const history=h.ok?await h.json():[];
-  if(ticket!==historyRequest)return;LATEST_DATA=data;HISTORY=history;applyDataset(data);if(typeof PortfolioHome!=='undefined')PortfolioHome.setData(data);
+  let history=null;try{const h=await fetch('history/index.json',{cache:'no-store'});if(h.ok){const value=await h.json();if(Array.isArray(value))history=value;}}catch{}
+  if(ticket!==historyRequest)return;LATEST_DATA=data;HISTORY=history||[];applyDataset(data);if(typeof PortfolioHome!=='undefined')PortfolioHome.setData(data,history);
   $('historySelect').innerHTML='<option value="">현재 게시본</option>'+HISTORY.map((h,i)=>`<option value="${esc(h.id)}">${esc(formatDate(h.checkedAt))}${h.baseline?' · 최초 저장본':' · 저장본 '+(HISTORY.length-i)}</option>`).join('');
   $('updateStatus').textContent='게시본 확인 완료 · 소스 재수집은 업데이트 버튼에서 실행';
  }catch(e){if(ticket===historyRequest)$('updateStatus').textContent=e.message;}
@@ -197,9 +197,10 @@ function navigatePage(){
  const page=location.hash.slice(1)||'home';
  $('landingPage').hidden=page!=='home';$('regulatoryPage').hidden=page!=='regulatory';
  $('newsPage').hidden=page!=='news';if(page==='news'&&typeof MarketNews!=='undefined')MarketNews.open();
- const titles={prices:'Price tracker',performance:'Performance tracker'};
+ $('pricePage').hidden=page!=='prices';
+ const titles={performance:'Performance tracker'};
  $('comingPage').hidden=!titles[page];$('comingTitle').textContent=titles[page]||'';
- if(!['home','regulatory','news',...Object.keys(titles)].includes(page))$('landingPage').hidden=false;
+ if(!['home','regulatory','news','prices',...Object.keys(titles)].includes(page))$('landingPage').hidden=false;
  document.querySelectorAll('.section-tabs a').forEach(a=>{if(a.hash==='#'+page)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
  if(page==='regulatory'&&DATA)drawMarketChart(DATA,molecule,chooseMolecule);
 }

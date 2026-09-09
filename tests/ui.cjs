@@ -30,7 +30,7 @@ assert.ok(!run('sourceBody(p)').includes('purplebooksearch'));
 assert.ok(!run('fields.some(f=>f.key==="dosage"||f.key==="storage")'));
 assert.equal(els.get('landingPage').hidden,false);assert.equal(els.get('regulatoryPage').hidden,true);
 run("location.hash='#regulatory';DATA=null;navigatePage()");assert.equal(els.get('regulatoryPage').hidden,false);
-run("location.hash='#prices';navigatePage()");assert.equal(els.get('comingTitle').textContent,'Price tracker');
+run("location.hash='#prices';navigatePage()");assert.equal(els.get('pricePage').hidden,false);assert.equal(els.get('comingPage').hidden,true);
 console.log('PI facts and navigation passed.');
 context.p=p('Actemra');assert.ok(run("PIFacts.storage(p,'prep').some(r=>r.value==='RT (온도 미기재) · 4 hours'&&r.detail==='0.45% NaCl')"));
 context.p=p('Avtozma');assert.ok(run("PIFacts.storage(p,'prep').some(r=>r.value==='2–8°C · 48 hours')"));assert.ok(!run("PIFacts.storage(p,'prep').some(r=>r.value==='≤ 30°C · 48 hours')"));

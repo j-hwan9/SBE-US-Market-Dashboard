@@ -89,3 +89,14 @@ Schema v2 keeps `topics` separate from `molecules`, so Home's product news stays
 - Market news: daily at 06:00 KST (`0 21 * * *`).
 - Both workflows retain a shared concurrency group to serialize repository writes and deployments. Monday runs can therefore queue behind each other; GitHub scheduling and collection time can delay publication.
 - Market news initially selects **Market overall** only. Policy and molecules start unchecked and use the same neutral/selected styles. Clearing the selection shows all topics; direct product-news navigation replaces the selection with that product’s molecule.
+
+### Enterprise UI / Home overview
+
+Home uses `dist/enterprise.css` for the shared blue/white design system; the original comparison behavior and data schemas remain intact. Portfolio filters apply to the portfolio table, KPI totals and intelligence tables. Product selection continues to open the matching Regulatory comparison and molecule-specific news.
+
+- Approved biosimilars: distinct molecule + brand across the filtered portfolio's molecule/reference scopes, including Samsung Bioepis brands and excluding originators.
+- Tracked record changes (30d): saved additions, changes and removals that can be mapped to those scopes. Baseline snapshots are excluded. These are dataset changes, including matching corrections, not a count of FDA approvals. Tracking coverage starts at the oldest saved snapshot; unmapped removals are excluded.
+- Market news (7d): collected, linked articles tagged with any filtered portfolio molecule. Windows use UTC calendar dates, including today; they are not claims of complete media coverage.
+- Pricing: no price source is currently connected. Missing prices and update counts are shown as `—`, never sample values or zero.
+
+`portfolio.json`, `data.json`, `history/index.json` and `news.json` remain the data sources. Portfolio review and Regulatory/news timestamps are shown separately. Collection schedules remain unchanged. `tests/refactor-browser.cjs` covers real-data navigation, filters, totals, missing-history handling and responsive layouts.

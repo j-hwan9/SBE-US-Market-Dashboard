@@ -16,3 +16,16 @@ assert.equal(get('sb38').length,0,'ADC must not match trastuzumab');
 context.news=[{title:'old',url:'https://example.org/1',publishedAt:'2026-01-01',molecules:['adalimumab']},{title:'new',url:'https://example.org/2',publishedAt:'2026-08-01',molecules:['adalimumab']},{title:'other',url:'https://example.org/3',publishedAt:'2026-09-01',molecules:['ustekinumab']}];
 assert.equal(run("PortfolioHome.related(news,'adalimumab')[0].title"),'new');
 console.log('Portfolio source mappings, BLA deduplication, reference scoping and recent-news selection verified.');
+
+context.history=JSON.parse(fs.readFileSync('dist/history/index.json'));
+assert.equal(run("PortfolioHome.filteredPortfolio(catalog.products,{molecule:'adalimumab'}).length"),1);
+assert.equal(run("PortfolioHome.filteredPortfolio(catalog.products,{stage:'pipeline',molecule:'adalimumab'}).length"),0);
+assert.equal(run("PortfolioHome.approvedCount(data.products,catalog.products.filter(p=>p.id==='hadlima'))"),get('hadlima').filter(p=>p.kind==='biosimilar').length);
+assert.equal(run("PortfolioHome.approvedCount([...data.products,...data.products],catalog.products.filter(p=>p.id==='hadlima'))"),get('hadlima').filter(p=>p.kind==='biosimilar').length);
+assert(run("PortfolioHome.recentDays('2026-09-03',7,new Date('2026-09-09T12:00:00Z'))"));
+assert(!run("PortfolioHome.recentDays('2026-09-02',7,new Date('2026-09-09T12:00:00Z'))"));
+assert(!run("PortfolioHome.recentDays('2026-09-10',7,new Date('2026-09-09T12:00:00Z'))"));
+assert.equal(run("PortfolioHome.historyRows([{baseline:true,changes:{added:[{brand:'Hadlima'}]}}],data.products,catalog.products).length"),0);
+assert.equal(run("PortfolioHome.scopedNews(news,catalog.products.filter(p=>p.id==='hadlima')).length"),2);
+assert.equal(run("PortfolioHome.historyRows([{checkedAt:'2026-09-09',changes:{changed:[{brand:'Hadlima',id:data.products.find(p=>p.brand==='Hadlima').id}]}}],data.products,catalog.products.filter(p=>p.id==='sb38')).length"),0);
+console.log('Home metrics: shared filters, brand deduplication, UTC windows, baseline exclusion and molecule scoping passed.');
