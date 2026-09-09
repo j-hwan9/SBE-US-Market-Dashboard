@@ -1,8 +1,31 @@
 {
-  "schemaVersion": 1,
-  "updatedAt": "2026-09-09T03:57:42.539866+00:00",
-  "checkedAt": "2026-09-09T03:57:42.539866+00:00",
+  "schemaVersion": 2,
+  "topics": [
+    "Market overall",
+    "Policy"
+  ],
+  "classificationVersion": 2,
+  "classificationPending": 0,
+  "updatedAt": "2026-09-09T09:19:16.698009+00:00",
+  "checkedAt": "2026-09-09T09:19:16.698009+00:00",
   "articles": [
+    {
+      "id": "e74e033b14a8122f9377",
+      "title": "Beyond China: Five other overseas destinations for biopharma dollars",
+      "url": "https://www.biospace.com/business/beyond-china-five-other-overseas-destinations-for-biopharma-dollars",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-09-09T04:20:00+00:00",
+      "molecules": [],
+      "topics": [
+        "Market overall",
+        "Policy"
+      ],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-09T09:19:16.698009+00:00",
+      "type": "article"
+    },
     {
       "id": "92db50150cfc6ff4f31b",
       "title": "IMDELLTRA® IN COMBINATION WITH IMFINZI® DEMONSTRATED LANDMARK IMPROVEMENT IN OVERALL SURVIVAL IN FIRST-LINE EXTENSIVE STAGE SMALL CELL LUNG CANCER",
@@ -13,6 +36,11 @@
       "molecules": [
         "tocilizumab"
       ],
+      "topics": [
+        "Market overall",
+        "Policy"
+      ],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-08T23:52:57.907395+00:00",
       "type": "press-release"
@@ -27,6 +55,10 @@
       "molecules": [
         "ustekinumab"
       ],
+      "topics": [
+        "Market overall"
+      ],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-08T23:52:57.907395+00:00",
       "type": "article"
@@ -42,6 +74,8 @@
         "adalimumab",
         "infliximab"
       ],
+      "topics": [],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-08T23:52:57.907395+00:00",
       "type": "article"
@@ -56,8 +90,29 @@
       "molecules": [
         "ustekinumab"
       ],
+      "topics": [
+        "Market overall"
+      ],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-09T03:53:47.818942+00:00",
+      "type": "article"
+    },
+    {
+      "id": "2a15f5c8a859f53aa2d9",
+      "title": "How Pharmaceutical Executives Can Navigate the Changing Pharmaceutical Landscape",
+      "url": "https://www.pharmexec.com/view/how-pharmaceutical-executives-can-navigate-the-changing-pharmaceutical-landscape",
+      "source": "Pharmaceutical Executive",
+      "sourceId": "pharmexec",
+      "publishedAt": "2026-08-27T19:00:00+00:00",
+      "molecules": [],
+      "topics": [
+        "Market overall",
+        "Policy"
+      ],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-09T09:19:16.698009+00:00",
       "type": "article"
     },
     {
@@ -71,8 +126,29 @@
         "adalimumab",
         "ustekinumab"
       ],
+      "topics": [
+        "Market overall",
+        "Policy"
+      ],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-09T03:53:47.818942+00:00",
+      "type": "article"
+    },
+    {
+      "id": "3e431acb9139e3eba1f9",
+      "title": "Fierce Pharma Asia—China's IIT scrutiny; Daiichi Sankyo, AZ ph. 3 win; Leo, Tanabe's dermatology deal",
+      "url": "https://www.fiercepharma.com/pharma/fierce-pharma-asia-chinas-iit-unravels-daiichi-sankyo-az-ph3-win-leo-tanabe-derm-deal",
+      "source": "Fierce Pharma",
+      "sourceId": "fierce",
+      "publishedAt": "2026-08-21T13:00:00+00:00",
+      "molecules": [],
+      "topics": [
+        "Market overall"
+      ],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-09T09:19:16.698009+00:00",
       "type": "article"
     },
     {
@@ -86,6 +162,10 @@
         "etanercept",
         "ustekinumab"
       ],
+      "topics": [
+        "Market overall"
+      ],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-08T23:52:57.907395+00:00",
       "type": "article"
@@ -101,8 +181,30 @@
         "adalimumab",
         "ustekinumab"
       ],
+      "topics": [
+        "Market overall",
+        "Policy"
+      ],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-08T23:52:57.907395+00:00",
+      "type": "article"
+    },
+    {
+      "id": "ff5089004843bfe3dddb",
+      "title": "The Second Entyvio Biosimilar Is Under Review at FDA",
+      "url": "https://biosimilarsrr.com/2026/08/12/the-second-entyvio-biosimilar-is-under-review-at-fda/",
+      "source": "BR&R",
+      "sourceId": "brr",
+      "publishedAt": "2026-08-12T17:53:05+00:00",
+      "molecules": [],
+      "topics": [
+        "Market overall",
+        "Policy"
+      ],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-09T09:19:16.698009+00:00",
       "type": "article"
     },
     {
@@ -115,6 +217,8 @@
       "molecules": [
         "tocilizumab"
       ],
+      "topics": [],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-09T03:53:47.818942+00:00",
       "type": "article"
@@ -130,6 +234,11 @@
         "adalimumab",
         "ustekinumab"
       ],
+      "topics": [
+        "Market overall",
+        "Policy"
+      ],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-08T23:52:57.907395+00:00",
       "type": "article"
@@ -146,6 +255,11 @@
         "etanercept",
         "ustekinumab"
       ],
+      "topics": [
+        "Market overall",
+        "Policy"
+      ],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-08T23:52:57.907395+00:00",
       "type": "article"
@@ -161,6 +275,10 @@
         "aflibercept",
         "rituximab"
       ],
+      "topics": [
+        "Market overall"
+      ],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-08T23:52:57.907395+00:00",
       "type": "article"
@@ -175,6 +293,10 @@
       "molecules": [
         "adalimumab"
       ],
+      "topics": [
+        "Market overall"
+      ],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-09T03:53:47.818942+00:00",
       "type": "article"
@@ -200,6 +322,10 @@
         "rituximab",
         "ustekinumab"
       ],
+      "topics": [
+        "Market overall"
+      ],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-08T23:52:57.907395+00:00",
       "type": "article"
@@ -214,8 +340,45 @@
       "molecules": [
         "ranibizumab"
       ],
+      "topics": [
+        "Market overall",
+        "Policy"
+      ],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-08T23:52:57.907395+00:00",
+      "type": "article"
+    },
+    {
+      "id": "aa6cff02ce32ece0abd8",
+      "title": "Tracking Two Bills to Remove the Clinical Efficacy Study Requirement for Biosimilar Development",
+      "url": "https://biosimilarsrr.com/2026/07/17/tracking-two-bills-to-remove-the-clinical-efficacy-study-requirement-for-biosimilar-development/",
+      "source": "BR&R",
+      "sourceId": "brr",
+      "publishedAt": "2026-07-17T16:40:46+00:00",
+      "molecules": [],
+      "topics": [
+        "Market overall"
+      ],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-09T09:19:16.698009+00:00",
+      "type": "article"
+    },
+    {
+      "id": "38e2655a359f578ad979",
+      "title": "Drug Channels News Roundup, Mid-June 2026: Biosimilar Development Barriers, Hospital Specialty Pharmacy Growth, Medicaid Incentives, Drug Pricing Tradeoffs, and the Prescription-Filling Process",
+      "url": "https://www.drugchannels.net/2026/06/drug-channels-news-roundup-mid-june.html",
+      "source": "Drug Channels",
+      "sourceId": "drugchannels",
+      "publishedAt": "2026-06-17T10:30:00+00:00",
+      "molecules": [],
+      "topics": [
+        "Market overall"
+      ],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-09T09:19:16.698009+00:00",
       "type": "article"
     },
     {
@@ -228,6 +391,11 @@
       "molecules": [
         "bevacizumab"
       ],
+      "topics": [
+        "Market overall",
+        "Policy"
+      ],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-09T03:53:47.818942+00:00",
       "type": "article"
@@ -243,6 +411,8 @@
         "adalimumab",
         "trastuzumab"
       ],
+      "topics": [],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-09T03:53:47.818942+00:00",
       "type": "article"
@@ -260,6 +430,11 @@
         "insulin glargine",
         "ustekinumab"
       ],
+      "topics": [
+        "Market overall",
+        "Policy"
+      ],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-09T03:53:47.818942+00:00",
       "type": "article"
@@ -276,6 +451,10 @@
         "natalizumab",
         "ustekinumab"
       ],
+      "topics": [
+        "Market overall"
+      ],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-09T03:53:47.818942+00:00",
       "type": "article"
@@ -290,6 +469,11 @@
       "molecules": [
         "infliximab"
       ],
+      "topics": [
+        "Market overall",
+        "Policy"
+      ],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-08T23:52:57.907395+00:00",
       "type": "sponsored"
@@ -299,57 +483,62 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-09-09T03:57:42.539866+00:00",
+      "checkedAt": "2026-09-09T09:19:16.698009+00:00",
       "status": "ok",
       "discovered": 10,
-      "new": 0,
+      "new": 2,
       "errors": 0,
-      "bodyMatched": 0,
-      "deferred": 2
+      "bodyMatched": 10,
+      "deferred": 0,
+      "reclassified": 8
     },
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-09-09T03:57:42.539866+00:00",
+      "checkedAt": "2026-09-09T09:19:16.698009+00:00",
       "status": "ok",
       "discovered": 25,
-      "new": 0,
+      "new": 1,
       "errors": 0,
-      "bodyMatched": 0,
-      "deferred": 22
+      "bodyMatched": 4,
+      "deferred": 0,
+      "reclassified": 3
     },
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-09-09T03:57:42.539866+00:00",
+      "checkedAt": "2026-09-09T09:19:16.698009+00:00",
       "status": "ok",
       "discovered": 6,
-      "new": 0,
+      "new": 1,
       "errors": 0,
-      "bodyMatched": 0,
-      "deferred": 1
+      "bodyMatched": 7,
+      "deferred": 0,
+      "reclassified": 6
     },
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-09-09T03:57:42.539866+00:00",
+      "checkedAt": "2026-09-09T09:19:16.698009+00:00",
       "status": "ok",
-      "discovered": 241,
-      "new": 0,
+      "discovered": 233,
+      "new": 1,
       "errors": 0,
-      "bodyMatched": 0,
-      "deferred": 200
+      "bodyMatched": 2,
+      "deferred": 173,
+      "reclassified": 1
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-09-09T03:57:42.539866+00:00",
+      "checkedAt": "2026-09-09T09:19:16.698009+00:00",
       "status": "ok",
       "discovered": 100,
-      "new": 0,
+      "new": 1,
       "errors": 0,
-      "bodyMatched": 0,
-      "deferred": 79
+      "bodyMatched": 2,
+      "deferred": 40,
+      "reclassified": 1
     }
   ],
   "molecules": [
