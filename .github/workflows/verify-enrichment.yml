@@ -30,6 +30,11 @@ jobs:
           python3 -m unittest discover -s tests -v
           node tests/ui.cjs
           python3 -c "import json; d=json.load(open('dist/news.json')); print('News articles:',len(d['articles'])); assert d['articles'], 'No source-backed articles collected'"
+      - name: Verify desktop and mobile browser behavior
+        run: |
+          npm install --prefix /tmp/dashboard-browser-check --no-save --package-lock=false playwright@1.58.2
+          python3 -m http.server 8765 --directory dist >/tmp/dashboard-http.log 2>&1 &
+          node tests/browser.cjs
       - name: Save reviewed source snapshot
         run: |
           git config user.name "github-actions[bot]"
@@ -45,3 +50,4 @@ jobs:
           path: |
             reports/
             dist/news.json
+            /tmp/dashboard-shots/

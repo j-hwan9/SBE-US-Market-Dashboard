@@ -1,0 +1,30 @@
+// Runs against the collected snapshot in GitHub's installed Chrome.
+const {chromium}=require('/tmp/dashboard-browser-check/node_modules/playwright');
+const assert=require('assert'),fs=require('fs');
+(async()=>{
+ const browser=await chromium.launch({executablePath:'/usr/bin/google-chrome',headless:true,args:['--no-sandbox']});
+ const page=await browser.newPage({viewport:{width:1280,height:960}}),errors=[];
+ page.on('pageerror',e=>errors.push(e.message));
+ await page.goto('http://127.0.0.1:8765/#news');
+ await page.locator('.news-card').first().waitFor();
+ const initial=await page.locator('.news-card').count();assert(initial>0);
+ await page.locator('#newsMolecules input[value="ustekinumab"]').check();
+ assert(await page.locator('.news-card').count()>0);
+ for(const card of await page.locator('.news-card').all())assert((await card.innerText()).includes('ustekinumab'));
+ await page.locator('#newsRange').selectOption('custom');
+ await page.locator('#newsFrom').fill('2026-09-08');await page.locator('#newsTo').fill('2026-01-01');
+ assert((await page.locator('#newsResultCount').innerText()).includes('시작일'));
+ await page.locator('#newsRange').selectOption('90');await page.locator('#newsClear').click();
+ fs.mkdirSync('/tmp/dashboard-shots',{recursive:true});
+ await page.screenshot({path:'/tmp/dashboard-shots/news-desktop.png',fullPage:true});
+ await page.setViewportSize({width:390,height:844});
+ assert(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+1));
+ await page.screenshot({path:'/tmp/dashboard-shots/news-mobile.png',fullPage:true});
+ await page.locator('a[href="#regulatory"]').click();
+ await page.locator('#molecule').selectOption('ustekinumab');
+ await page.getByRole('button',{name:'전체 선택',exact:true}).click();
+ await page.getByText('FDA letter 당시',{exact:false}).first().waitFor();
+ assert.equal(errors.length,0,errors.join('\n'));
+ console.log('Browser verified: source-backed news, molecule/date filters, mobile width, approval-letter rendering.');
+ await browser.close();
+})().catch(e=>{console.error(e);process.exit(1)});

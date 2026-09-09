@@ -43,7 +43,7 @@ def extract_periods(text,product,doc,sibling_brands=None):
   body=tail[:end.start()] if end else tail[:2500]
   for sentence in re.split(r'(?<=[.;])\s+(?=[A-Z])',clean(body)):
    if not re.search(r'(?:dating period|shelf.life)',sentence,re.I):continue
-   if re.search(r'drug substance|bulk substance|protocol|proposed|request|\(b\)\s*\(4\)|redacted',sentence,re.I):continue
+   if re.search(r'drug substance|bulk substance|diluent|diluting medium|protocol|proposed|request|\(b\)\s*\(4\)|redacted',sentence,re.I):continue
    named=bool(re.search(r'\b'+re.escape(brand)+r'\b',sentence,re.I))
    other_named=any(b.casefold()!=brand.casefold() and re.search(r'\b'+re.escape(b)+r'\b',sentence,re.I) for b in sibling_brands or [])
    if other_named:continue
@@ -60,6 +60,24 @@ def extract_periods(text,product,doc,sibling_brands=None):
    local_strengths=sorted(set(clean(m.group()) for m in re.finditer(r'\b\d+(?:\.\d+)?\s*mg\s*/\s*\d+(?:\.\d+)?\s*mL\b',sentence,re.I))) or strengths
    records.append({'presentation':', '.join(devices),'months':months,'temperature':'2–8°C','basis':'from manufacture' if re.search(r'from (?:the )?date of manufacture',sentence,re.I) else 'as stated in letter','brand':brand,'bla':bla,'strengths':local_strengths,'documentDate':doc['date'],'documentUrl':doc['url'],'submission':doc.get('submission',''),'page':text[:heading.start()].count('\f')+1,'evidence':sentence,'historical':True,'scope':(' / '.join(local_strengths) if local_strengths else '문서 대상 완제품 · 함량 범위 미확인')+(' · '+', '.join(devices) if devices else '')})
  return records
+
+def scoped_fact(original,product):
+ """Use the dating sentence's own subject; header strengths may belong to another device/brand."""
+ fact=dict(original);sentence=fact['evidence']
+ if re.search(r'diluent|diluting medium',sentence,re.I):return None
+ m=re.search(r'dating period for\s+(.*?)\s+(?:shall be|is|has been)',sentence,re.I)
+ subject=m[1] if m else ''
+ subject=re.sub(r'\b'+re.escape(product['brand'])+r'\b','',subject,flags=re.I)
+ subject=re.sub(r'\([^)]*\)','',subject)
+ subject=re.sub(r'^(?:the\s+)?(?:following\s+)?','',subject,flags=re.I).strip(' ;,')
+ devices=sorted(set(x.group().lower() for x in re.finditer(r'\b(?:PFS|prefilled syringes?|auto-?injectors?|vials?|cartridges?|pens?)\b',subject,re.I)))
+ presentations=' '.join(r.get('Product Presentation','') for r in product.get('presentations',[])).lower()
+ if presentations and devices:
+  matches=any(('syringe' in presentations if d=='pfs' or 'syringe' in d else 'auto' in presentations or 'pen' in presentations if 'injector' in d or 'pen' in d else 'vial' in presentations if 'vial' in d else 'cartridge' in presentations) for d in devices)
+  if not matches:return None
+ strengths=sorted(set(clean(x.group()) for x in re.finditer(r'\b\d+(?:\.\d+)?\s*mg\s*/\s*(?:\d+(?:\.\d+)?\s*)?mL\b',subject,re.I)))
+ fact.update(presentation=', '.join(devices),strengths=strengths,scope=subject if subject and subject.lower() not in ('injection','drug product','finished product') else '문서 당시 허가 제형 · 함량별 범위 미확인')
+ return fact
 
 def letter_documents(app,bla):
  if app.get('application_number')!='BLA'+bla:raise ValueError('FDA application number mismatch')
@@ -99,11 +117,8 @@ def enrich_products(products,sources,cache=None,force=False):
       cache[doc['url']]=entry
      for p in needs:
       for original in entry.get('products',{}).get(p['id'],[]):
-       fact=dict(original);sentence=fact['evidence']
-       devices=sorted(set(m.group().lower() for m in re.finditer(r'\b(?:prefilled syringes?|auto-?injectors?|vials?|cartridges?|pens?)\b',sentence,re.I)))
-       strengths=sorted(set(clean(m.group()) for m in re.finditer(r'\b\d+(?:\.\d+)?\s*mg\s*/\s*\d+(?:\.\d+)?\s*mL\b',sentence,re.I))) or fact['strengths']
-       fact.update(presentation=', '.join(devices),strengths=strengths,scope=(' / '.join(strengths) if strengths else '문서 대상 완제품 · 함량 범위 미확인')+(' · '+', '.join(devices) if devices else ''))
-       found[p['id']].append(fact)
+       fact=scoped_fact(original,p)
+       if fact:found[p['id']].append(fact)
      reviewed.append(doc['url'])
     except Exception as e:status['errors'].append({'url':doc['url'],'error':str(e)[:200]})
    for p in needs:
@@ -133,6 +148,7 @@ def run(output=None,force=False):
  cache=json.loads(path.read_text()) if path.exists() else {}
  report=enrich_products(payload['products'],Sources(),cache,force)
  atomic_json(path,cache);atomic_json(ROOT/'reports/approval-letters.json',report)
+ atomic_json(ROOT/'reports/approval-evidence.json',{'checkedAt':report['checkedAt'],'products':[{'id':p['id'],'brand':p['brand'],'bla':p['bla'],'evidence':p['approvalLetter']} for p in payload['products'] if p.get('approvalLetter',{}).get('facts')]})
  payload['approvalLettersCheckedAt']=report['checkedAt'];atomic_json(out/'data.json',payload)
  print(json.dumps({'productsWithEvidence':report['productsWithEvidence']}))
 

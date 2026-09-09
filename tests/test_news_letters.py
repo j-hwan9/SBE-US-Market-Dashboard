@@ -2,7 +2,7 @@ import copy,json,pathlib,sys,unittest
 from datetime import datetime,timezone
 ROOT=pathlib.Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'scripts'))
 from news import article,alias_map,match_molecules,discovery,iso_date
-from approval_letters import extract_periods,letter_documents,pi_has_unopened_period
+from approval_letters import extract_periods,letter_documents,pi_has_unopened_period,scoped_fact
 
 class NewsTests(unittest.TestCase):
  def test_article_date_not_request_time_and_body_not_sidebar(self):
@@ -25,6 +25,12 @@ class LetterTests(unittest.TestCase):
  def test_finished_product_not_substance(self):
   text='BLA 761024\nAmjevita 20 mg/0.4 mL and 40 mg/0.8 mL\nDATING PERIOD\nThe dating period for Amjevita shall be 30 months from the date of manufacture when stored at 2-8 °C. The dating period for your drug substance shall be 48 months when stored at 2-8 °C.\nFDA LOT RELEASE\n'
   facts=extract_periods(text,self.p,self.doc);self.assertEqual([f['months'] for f in facts],[30]);self.assertEqual(len(facts[0]['strengths']),2);self.assertTrue(facts[0]['historical'])
+ def test_scope_is_dating_sentence_not_other_device_header(self):
+  base={'evidence':'The dating period for Pyzchiva prefilled syringe shall be 24 months from the date of manufacture when stored at 2-8°C.','strengths':['130 mg/26 mL']}
+  p={'brand':'Pyzchiva','presentations':[{'Product Presentation':'Single-Dose Prefilled Syringe'}]}
+  fact=scoped_fact(base,p);self.assertEqual(fact['strengths'],[]);self.assertEqual(fact['scope'],'prefilled syringe')
+  p['presentations']=[{'Product Presentation':'Single-Dose Vial'}];self.assertIsNone(scoped_fact(base,p))
+  base['evidence']='The dating period for Insulin Diluting Medium for Kirsty shall be 12 months at 2-8°C.';self.assertIsNone(scoped_fact(base,{'brand':'Kirsty'}))
  def test_protocol_redaction_wrong_bla_and_temperature_never_fill(self):
   for body in ['We have approved the protocol for extending the dating period for Amjevita to 36 months at 2-8 °C.','The dating period for Amjevita shall be (b)(4) months when stored at 2-8 °C.','The dating period for Amjevita shall be 36 months at -20 °C.']:
    self.assertFalse(extract_periods('BLA 761024\nDATING PERIOD\n'+body,self.p,self.doc))
