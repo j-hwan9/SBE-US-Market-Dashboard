@@ -35,7 +35,7 @@ const MarketNews=(()=>{
  }
  async function load(){
   if(loading)return;loading=true;error='';render();
-  try{const r=await fetch('news.json',{cache:'no-store'});if(!r.ok)throw Error('뉴스 게시본을 불러오지 못했습니다. 잠시 후 다시 불러와 주세요.');const d=await r.json();if(!Array.isArray(d.articles)||!Array.isArray(d.molecules))throw Error('뉴스 데이터 형식을 확인해야 합니다.');payload=d;renderMolecules()}
+  try{const r=await fetch('news.json',{cache:'no-store'});if(!r.ok)throw Error('뉴스 게시본을 불러오지 못했습니다. 잠시 후 다시 불러와 주세요.');const d=await r.json();if(!Array.isArray(d.articles)||!Array.isArray(d.molecules))throw Error('뉴스 데이터 형식을 확인해야 합니다.');payload=d;renderMolecules();window.dispatchEvent(new CustomEvent('market-news-updated',{detail:d}))}
   catch(e){error=e.message}finally{loading=false;render()}
  }
  function init(){
@@ -47,5 +47,5 @@ const MarketNews=(()=>{
   el('newsMore').addEventListener('click',()=>{visibleCount+=40;render()});el('newsRefresh').addEventListener('click',load);
   el('newsRun').href='https://github.com/j-hwan9/SBE-US-Market-Dashboard/actions/workflows/news.yml';
  }
- init();return {open(){if(!payload&&!loading)load();else render()},filtered};
+ init();return {focusMolecule(m){selected=new Set([m]);range='all';el('newsRange').value='all';el('newsCustomDates').hidden=true;visibleCount=40;if(payload){renderMolecules();render()}else load()},open(){if(!payload&&!loading)load();else render()},filtered};
 })();

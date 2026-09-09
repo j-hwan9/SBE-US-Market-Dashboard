@@ -59,3 +59,12 @@ When PI lacks an explicit unopened refrigerated period, query openFDA Drugs@FDA 
 Only explicit 2–8°C finished-product dating periods in months are added. Drug substance, redacted values, stability protocols, ambiguous shared-BLA brand attribution, and unsupported temperatures remain unfilled. Evidence includes BLA, letter date, page, original quote, URL, and strengths found in the approval context. Display as **FDA letter 당시**, never as a guaranteed current expiry for all presentations. Older dated evidence can remain relevant as historical information; actual package expiry and current PI control use. Source errors are exposed separately and do not invalidate existing PI data.
 
 Run `python3 -m unittest discover -s tests -v` and `node tests/ui.cjs` before deployment.
+
+
+## Portfolio Home
+
+Home combines the reviewed Samsung Bioepis portfolio with the **current** `data.json` Purple Book snapshot and `news.json` article archive. Regulatory historical snapshots do not change the Home summary. Product selection links to the matching molecule/reference in Regulatory and to all collected matching news in Market news. The competitor number counts unique biosimilar brands excluding the selected brand; the originator is shown separately. Denosumab/Prolia and denosumab/Xgeva are separate competitor groups. Products outside current Purple Book coverage display “not connected,” not zero approvals. Prices remain placeholders.
+
+`dist/portfolio.json` is the small, editable portfolio catalog. It was reviewed against Samsung Bioepis’s official Products and Pipeline pages on Sep 09, 2026 (pipeline page: Aug 2026), with US names/suffixes reconciled to Purple Book and launch/access evidence linked per product. Global launch is not US launch. Ospomyv has a US supply/formulary announcement; Opuviz is FDA-approved but awaits US launch. Xbryk and Eticovo are labeled US launch unconfirmed. SB8 uses its development code rather than an overseas brand. Pipeline candidates do not inherit the reference drug’s FDA suffix. Novel ADCs carry target descriptions where no non-proprietary name is assigned.
+
+Portfolio lifecycle/launch states are **editorially reviewed**, not automatically changed by the monthly FDA or daily news workflow. To update a product, edit its catalog entry, evidence URL and `reviewedAt`; no app code changes are required. Competitor and recent-news content automatically follows the existing data refreshes. No market-share or price values are fabricated.

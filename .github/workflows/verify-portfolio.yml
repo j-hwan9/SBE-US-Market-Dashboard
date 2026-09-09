@@ -5,26 +5,24 @@ on:
 permissions:
   contents: read
 jobs:
-  sources:
+  verify:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v6
-      - name: Read official portfolio source
+      - name: Verify product mappings and existing logic
         run: |
-          python3 - <<'PY'
-          import urllib.request, ssl
-          from html.parser import HTMLParser
-          class Text(HTMLParser):
-              def __init__(self): super().__init__(); self.skip=0; self.rows=[]
-              def handle_starttag(self,t,a):
-                  if t in ('script','style'): self.skip+=1
-              def handle_endtag(self,t):
-                  if t in ('script','style'): self.skip=max(0,self.skip-1)
-              def handle_data(self,d):
-                  if not self.skip and d.strip(): self.rows.append(d.strip())
-          for path in ['product/product02.do','product/product01.do']:
-              url='https://www.samsungbioepis.com/en/'+path
-              try:
-                  raw=urllib.request.urlopen(url,timeout=60,context=ssl._create_unverified_context()).read().decode(); p=Text(); p.feed(raw); print(url); print('\n'.join(p.rows))
-              except Exception as e: print(url,e)
-          PY
+          python3 -m unittest discover -s tests -v
+          node tests/ui.cjs
+          node tests/home.cjs
+      - name: Verify desktop and mobile experience
+        run: |
+          npm install --prefix /tmp/dashboard-browser-check --no-save --package-lock=false playwright@1.58.2
+          python3 -m http.server 8765 --directory dist >/tmp/dashboard-http.log 2>&1 &
+          node tests/browser.cjs
+      - name: Preserve interface screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: portfolio-interface
+          path: /tmp/dashboard-shots/

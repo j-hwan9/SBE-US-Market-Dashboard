@@ -2,7 +2,7 @@
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const unique=a=>[...new Set(a.filter(Boolean))];
-let DATA, selected=[], molecule='', search='', referenceName='', HISTORY=[], CONFIG={};
+let LATEST_DATA, DATA, selected=[], molecule='', search='', referenceName='', HISTORY=[], CONFIG={};
 let historyRequest=0;
 const label=p=>p.labels?.[0];
 const missing=t=>`<span class="missing">${esc(t||'PI 미확보')}</span>`;
@@ -160,6 +160,7 @@ function applyDataset(data){
  DATA=data;const names=unique(data.products.map(p=>p.molecule)).sort();
  $('molecule').innerHTML=names.map(m=>`<option value="${esc(m)}">${esc(m)}</option>`).join('');$('molecule').disabled=false;
  $('snapshot').innerHTML=`Purple Book 월말 기준<br><strong>${esc(formatDate(data.purpleBookAsOf||data.purpleBookDate))}</strong><br>소스 확인 ${esc(formatDate(data.retrievedAt))}`;
+ $('regulatoryFreshness').textContent='소스 확인 '+formatDate(data.retrievedAt);
  $('footerNote').textContent='공식 공개자료 기반 비교 도구 · 소스 확인 '+formatDate(data.retrievedAt)+' · 미기재 정보를 없음으로 판정하지 않습니다.';
  chooseMolecule(names.includes(molecule)?molecule:names.includes('adalimumab')?'adalimumab':names[0]);
  const first=eligible().find(p=>p.brand==='Amjevita')||eligible()[0];selected=first?[first.id]:[];renderProducts();renderMatrix();
@@ -169,7 +170,7 @@ async function loadLatest(){
  try{
   const r=await fetch('data.json',{cache:'no-store'});if(!r.ok)throw Error('게시 데이터를 불러오지 못했습니다.');const data=await r.json();
   const h=await fetch('history/index.json',{cache:'no-store'});const history=h.ok?await h.json():[];
-  if(ticket!==historyRequest)return;HISTORY=history;applyDataset(data);
+  if(ticket!==historyRequest)return;LATEST_DATA=data;HISTORY=history;applyDataset(data);if(typeof PortfolioHome!=='undefined')PortfolioHome.setData(data);
   $('historySelect').innerHTML='<option value="">현재 게시본</option>'+HISTORY.map((h,i)=>`<option value="${esc(h.id)}">${esc(formatDate(h.checkedAt))}${h.baseline?' · 최초 저장본':' · 저장본 '+(HISTORY.length-i)}</option>`).join('');
   $('updateStatus').textContent='게시본 확인 완료 · 소스 재수집은 업데이트 버튼에서 실행';
  }catch(e){if(ticket===historyRequest)$('updateStatus').textContent=e.message;}
@@ -203,3 +204,4 @@ function navigatePage(){
  if(page==='regulatory'&&DATA)drawMarketChart(DATA,molecule,chooseMolecule);
 }
 window.addEventListener('hashchange',navigatePage);navigatePage();
+if(typeof PortfolioHome!=='undefined')PortfolioHome.init({openRegulatory(p){if(!LATEST_DATA)return;applyDataset(LATEST_DATA);$('historySelect').value='';$('updateStatus').textContent='현재 게시본';chooseMolecule(p.molecule);referenceName=p.reference;$('reference').value=p.reference;selected=eligible().filter(x=>x.brand.toLowerCase()===p.name.toLowerCase()).map(x=>x.id);renderProducts();renderMatrix();location.hash='regulatory';navigatePage();}});
