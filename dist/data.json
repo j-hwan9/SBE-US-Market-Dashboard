@@ -470,7 +470,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 7,
         "documentsChecked": 7,
         "facts": [],
@@ -882,7 +882,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 31,
         "documentsChecked": 31,
         "facts": [],
@@ -1249,7 +1249,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 23,
         "documentsChecked": 23,
         "facts": [],
@@ -1490,7 +1490,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "documented",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 2,
         "documentsChecked": 2,
         "facts": [
@@ -1507,7 +1507,7 @@
             "page": 2,
             "evidence": "The dating period for Ahzantive shall be 24 months from the date of manufacture when stored at 2°C - 8°C, protected from light.",
             "historical": true,
-            "scope": "문서 대상 완제품 · 함량 범위 미확인",
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
             "presentation": ""
           }
         ],
@@ -1797,7 +1797,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 1,
         "documentsChecked": 1,
         "facts": [],
@@ -2653,7 +2653,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "documented",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 13,
         "documentsChecked": 13,
         "facts": [
@@ -2663,17 +2663,14 @@
             "basis": "from manufacture",
             "brand": "Amjevita",
             "bla": "761024",
-            "strengths": [
-              "20 mg/0.4 mL",
-              "40 mg/0.8 mL"
-            ],
+            "strengths": [],
             "documentDate": "2016-09-23",
             "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2016/761024Orig1s000ltr.pdf",
             "submission": "ORIG 1",
             "page": 2,
             "evidence": "The dating period for Amjevita shall be 30 months from the date of manufacture when stored at 2-8 °C.",
             "historical": true,
-            "scope": "20 mg/0.4 mL / 40 mg/0.8 mL",
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
             "presentation": ""
           }
         ],
@@ -3219,7 +3216,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 13,
         "documentsChecked": 13,
         "facts": [],
@@ -3386,7 +3383,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 1,
         "documentsChecked": 1,
         "facts": [],
@@ -4120,7 +4117,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "documented",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 12,
         "documentsChecked": 12,
         "facts": [
@@ -4130,16 +4127,14 @@
             "basis": "from manufacture",
             "brand": "Hyrimoz",
             "bla": "761071",
-            "strengths": [
-              "40 mg/0.8 mL"
-            ],
+            "strengths": [],
             "documentDate": "2018-10-30",
             "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/761071Orig1s000ltr.pdf",
             "submission": "ORIG 1",
             "page": 2,
             "evidence": "The dating period for Hyrimoz shall be 24 months from the date of manufacture when stored at 2-8°C.",
             "historical": true,
-            "scope": "40 mg/0.8 mL",
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
             "presentation": ""
           }
         ],
@@ -4441,7 +4436,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 37,
         "documentsChecked": 37,
         "facts": [],
@@ -4640,7 +4635,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "documented",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 3,
         "documentsChecked": 3,
         "facts": [
@@ -4657,7 +4652,7 @@
             "page": 2,
             "evidence": "The dating period for Avsola shall be 48 months from the date of manufacture when stored at 2°C to 8°C.",
             "historical": true,
-            "scope": "문서 대상 완제품 · 함량 범위 미확인",
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
             "presentation": ""
           }
         ],
@@ -5172,7 +5167,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 11,
         "documentsChecked": 11,
         "facts": [],
@@ -5480,7 +5475,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 2,
         "documentsChecked": 2,
         "facts": [],
@@ -5629,7 +5624,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "documented",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 1,
         "documentsChecked": 1,
         "facts": [
@@ -5639,17 +5634,14 @@
             "basis": "from manufacture",
             "brand": "Avzivi",
             "bla": "761198",
-            "strengths": [
-              "100 mg/4 mL",
-              "400mg/16 mL"
-            ],
+            "strengths": [],
             "documentDate": "2023-12-06",
             "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2023/761198Orig1s000ltr.pdf",
             "submission": "ORIG 1",
             "page": 2,
             "evidence": "The dating period for Avzivi shall be 12 months from the date of manufacture when stored at 2-8 °C.",
             "historical": true,
-            "scope": "100 mg/4 mL / 400mg/16 mL",
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
             "presentation": ""
           }
         ],
@@ -5858,7 +5850,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 8,
         "documentsChecked": 8,
         "facts": [],
@@ -6039,7 +6031,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "documented",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 9,
         "documentsChecked": 9,
         "facts": [
@@ -6056,7 +6048,7 @@
             "page": 1,
             "evidence": "The dating period for BYOOVIZ shall be 30 months from the date of manufacture when stored at 2°C - 8°C, protected from light.",
             "historical": true,
-            "scope": "문서 대상 완제품 · 함량 범위 미확인",
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
             "presentation": ""
           }
         ],
@@ -6305,7 +6297,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 2,
         "documentsChecked": 2,
         "facts": [],
@@ -6911,7 +6903,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 11,
         "documentsChecked": 11,
         "facts": [],
@@ -7538,7 +7530,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "partial",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 46,
         "documentsChecked": 45,
         "facts": [],
@@ -7828,7 +7820,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "documented",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 5,
         "documentsChecked": 5,
         "facts": [
@@ -7838,17 +7830,14 @@
             "basis": "from manufacture",
             "brand": "Hulio",
             "bla": "761154",
-            "strengths": [
-              "20 mg/0.4 mL",
-              "40 mg/0.8 mL"
-            ],
+            "strengths": [],
             "documentDate": "2020-07-06",
             "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2020/761154Orig1s000ltr.pdf",
             "submission": "ORIG 1",
             "page": 2,
             "evidence": "The dating period for Hulio shall be 36 months from the date of manufacture when stored at 2 to 8 °C.",
             "historical": true,
-            "scope": "20 mg/0.4 mL / 40 mg/0.8 mL",
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
             "presentation": ""
           }
         ],
@@ -8010,7 +7999,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "documented",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 3,
         "documentsChecked": 3,
         "facts": [
@@ -8027,8 +8016,8 @@
             "page": 2,
             "evidence": "The dating period for Enzeevu PFS presentation shall be 24 months from the date of manufacture when stored at 2 to 8°C protected from light.",
             "historical": true,
-            "scope": "문서 대상 완제품 · 함량 범위 미확인",
-            "presentation": ""
+            "scope": "PFS presentation",
+            "presentation": "pfs"
           },
           {
             "months": 36,
@@ -8043,7 +8032,7 @@
             "page": 2,
             "evidence": "The dating period for Enzeevu vial kit presentation shall be 36 months from the date of manufacture when stored at 2 to 8°C protected from light.",
             "historical": true,
-            "scope": "문서 대상 완제품 · 함량 범위 미확인 · vial",
+            "scope": "vial kit presentation",
             "presentation": "vial"
           }
         ],
@@ -8269,7 +8258,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 12,
         "documentsChecked": 12,
         "facts": [],
@@ -8485,7 +8474,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "documented",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 5,
         "documentsChecked": 5,
         "facts": [
@@ -8502,7 +8491,7 @@
             "page": 2,
             "evidence": "The dating period for Erelzi 25 mg lyophilized powder in a multiple-dose vial shall be 36 months from the date of manufacture when stored at 2-8°C.",
             "historical": true,
-            "scope": "문서 대상 완제품 · 함량 범위 미확인 · vial",
+            "scope": "25 mg lyophilized powder in a multiple-dose vial",
             "presentation": "vial"
           },
           {
@@ -8511,16 +8500,14 @@
             "basis": "from manufacture",
             "brand": "Erelzi",
             "bla": "761042",
-            "strengths": [
-              "25 mg/0.5 mL"
-            ],
+            "strengths": [],
             "documentDate": "2016-08-30",
             "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2016/761042Orig1s000ltr.pdf",
             "submission": "ORIG 1",
             "page": 2,
             "evidence": "The dating period for Erelzi shall be 24 months from the date of manufacture when stored at 2- 8°C.",
             "historical": true,
-            "scope": "25 mg/0.5 mL",
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
             "presentation": ""
           }
         ],
@@ -8676,7 +8663,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 5,
         "documentsChecked": 5,
         "facts": [],
@@ -8875,7 +8862,7 @@
       "piCheckedAt": "2026-09-08T05:14:24.447860+00:00",
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 3,
         "documentsChecked": 3,
         "facts": [],
@@ -9144,7 +9131,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "documented",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 1,
         "documentsChecked": 1,
         "facts": [
@@ -9154,16 +9141,14 @@
             "basis": "from manufacture",
             "brand": "Eydenzelt",
             "bla": "761377",
-            "strengths": [
-              "2 mg/0.05 mL"
-            ],
+            "strengths": [],
             "documentDate": "2025-10-02",
             "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761377Orig1s000ltr.pdf",
             "submission": "ORIG 1",
             "page": 2,
             "evidence": "The dating period for Eydenzelt prefilled syringe shall be 24 months from the date of manufacture when stored at 2°C to 8°C.",
             "historical": true,
-            "scope": "2 mg/0.05 mL · prefilled syringe",
+            "scope": "prefilled syringe",
             "presentation": "prefilled syringe"
           },
           {
@@ -9172,16 +9157,14 @@
             "basis": "from manufacture",
             "brand": "Eydenzelt",
             "bla": "761377",
-            "strengths": [
-              "2 mg/0.05 mL"
-            ],
+            "strengths": [],
             "documentDate": "2025-10-02",
             "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761377Orig1s000ltr.pdf",
             "submission": "ORIG 1",
             "page": 2,
             "evidence": "The dating period for Eydenzelt vial presentation shall be 36 months from the date of manufacture when stored at 2°C to 8°C.",
             "historical": true,
-            "scope": "2 mg/0.05 mL · vial",
+            "scope": "vial presentation",
             "presentation": "vial"
           }
         ],
@@ -9452,7 +9435,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 18,
         "documentsChecked": 18,
         "facts": [],
@@ -9618,7 +9601,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 5,
         "documentsChecked": 5,
         "facts": [],
@@ -9795,7 +9778,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 2,
         "documentsChecked": 2,
         "facts": [],
@@ -10236,7 +10219,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "documented",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 8,
         "documentsChecked": 8,
         "facts": [
@@ -10246,16 +10229,14 @@
             "basis": "from manufacture",
             "brand": "Simlandi",
             "bla": "761299",
-            "strengths": [
-              "40 mg/0.4 mL"
-            ],
+            "strengths": [],
             "documentDate": "2024-02-23",
             "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/761299Orig1s000ltr.pdf",
             "submission": "ORIG 1",
             "page": 2,
             "evidence": "The dating period for Simlandi shall be 24 months from the date of manufacture when stored at 2°C to 8°C.",
             "historical": true,
-            "scope": "40 mg/0.4 mL",
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
             "presentation": ""
           }
         ],
@@ -10495,7 +10476,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 18,
         "documentsChecked": 18,
         "facts": [],
@@ -10762,7 +10743,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "documented",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 1,
         "documentsChecked": 1,
         "facts": [
@@ -10779,7 +10760,7 @@
             "page": 2,
             "evidence": "The dating period for Hercessi shall be 48 months from the date of manufacture when stored at 2 to 8 °C.",
             "historical": true,
-            "scope": "문서 대상 완제품 · 함량 범위 미확인",
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
             "presentation": ""
           }
         ],
@@ -11055,7 +11036,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 4,
         "documentsChecked": 4,
         "facts": [],
@@ -11226,7 +11207,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 3,
         "documentsChecked": 3,
         "facts": [],
@@ -12030,7 +12011,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 47,
         "documentsChecked": 47,
         "facts": [],
@@ -12217,7 +12198,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 3,
         "documentsChecked": 3,
         "facts": [],
@@ -12474,7 +12455,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 2,
         "documentsChecked": 2,
         "facts": [],
@@ -12658,7 +12639,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 2,
         "documentsChecked": 2,
         "facts": [],
@@ -12995,7 +12976,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 8,
         "documentsChecked": 8,
         "facts": [],
@@ -13362,7 +13343,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 4,
         "documentsChecked": 4,
         "facts": [],
@@ -13565,7 +13546,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 4,
         "documentsChecked": 4,
         "facts": [],
@@ -13709,7 +13690,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 4,
         "documentsChecked": 4,
         "facts": [],
@@ -14002,7 +13983,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "documented",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 1,
         "documentsChecked": 1,
         "facts": [
@@ -14012,17 +13993,14 @@
             "basis": "from manufacture",
             "brand": "Jobevne",
             "bla": "761175",
-            "strengths": [
-              "100 mg/4 mL",
-              "400 mg/16 mL"
-            ],
+            "strengths": [],
             "documentDate": "2025-04-09",
             "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761175Orig1s000ltr.pdf",
             "submission": "ORIG 1",
             "page": 2,
             "evidence": "The dating period for JOBEVNE shall be 24 months from the date of manufacture when stored at 2°C to 8°C.",
             "historical": true,
-            "scope": "100 mg/4 mL / 400 mg/16 mL",
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
             "presentation": ""
           }
         ],
@@ -14208,7 +14186,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 3,
         "documentsChecked": 3,
         "facts": [],
@@ -14371,7 +14349,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 1,
         "documentsChecked": 1,
         "facts": [],
@@ -14670,7 +14648,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 3,
         "documentsChecked": 3,
         "facts": [],
@@ -14858,7 +14836,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 1,
         "documentsChecked": 1,
         "facts": [],
@@ -15043,7 +15021,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "documented",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 2,
         "documentsChecked": 2,
         "facts": [
@@ -15053,16 +15031,14 @@
             "basis": "from manufacture",
             "brand": "Ospomyv",
             "bla": "761392",
-            "strengths": [
-              "120 mg/1.7 mL"
-            ],
+            "strengths": [],
             "documentDate": "2025-02-13",
             "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761392Orig1s000ltr.pdf",
             "submission": "ORIG 1",
             "page": 3,
             "evidence": "The dating period for Ospomyv (denosumab-dssb) injection shall be 36 months from the date of manufacture when stored at 2 - 8 °C protected from light.",
             "historical": true,
-            "scope": "120 mg/1.7 mL",
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
             "presentation": ""
           }
         ],
@@ -15424,7 +15400,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 16,
         "documentsChecked": 16,
         "facts": [],
@@ -15756,7 +15732,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 14,
         "documentsChecked": 14,
         "facts": [],
@@ -16037,7 +16013,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 1,
         "documentsChecked": 1,
         "facts": [],
@@ -16335,7 +16311,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "documented",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 4,
         "documentsChecked": 4,
         "facts": [
@@ -16345,17 +16321,14 @@
             "basis": "from manufacture",
             "brand": "Mvasi",
             "bla": "761028",
-            "strengths": [
-              "100 mg/4 mL",
-              "400 mg/16 mL"
-            ],
+            "strengths": [],
             "documentDate": "2017-09-14",
             "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2017/761028Orig1s000ltr.pdf",
             "submission": "ORIG 1",
             "page": 2,
             "evidence": "The dating period for Mvasi shall be 36 months from the date of manufacture when stored at 2-8°C and protected from light.",
             "historical": true,
-            "scope": "100 mg/4 mL / 400 mg/16 mL",
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
             "presentation": ""
           }
         ],
@@ -16627,7 +16600,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 22,
         "documentsChecked": 22,
         "facts": [],
@@ -17145,7 +17118,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 16,
         "documentsChecked": 16,
         "facts": [],
@@ -17589,7 +17562,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 4,
         "documentsChecked": 4,
         "facts": [],
@@ -18324,7 +18297,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 34,
         "documentsChecked": 34,
         "facts": [],
@@ -18573,7 +18546,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "documented",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 1,
         "documentsChecked": 1,
         "facts": [
@@ -18590,7 +18563,7 @@
             "page": 2,
             "evidence": "The dating period for Nypozi shall be 24 months from the date of manufacture when stored at 2°C to 8°C, protected from light.",
             "historical": true,
-            "scope": "문서 대상 완제품 · 함량 범위 미확인",
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
             "presentation": ""
           }
         ],
@@ -18756,7 +18729,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 3,
         "documentsChecked": 3,
         "facts": [],
@@ -19077,7 +19050,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 4,
         "documentsChecked": 4,
         "facts": [],
@@ -19204,7 +19177,7 @@
       "piCheckedAt": "2026-09-08T05:14:24.447860+00:00",
       "approvalLetter": {
         "status": "documented",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 2,
         "documentsChecked": 2,
         "facts": [
@@ -19214,16 +19187,14 @@
             "basis": "from manufacture",
             "brand": "Xbryk",
             "bla": "761392",
-            "strengths": [
-              "120 mg/1.7 mL"
-            ],
+            "strengths": [],
             "documentDate": "2025-02-13",
             "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761392Orig1s000ltr.pdf",
             "submission": "ORIG 1",
             "page": 3,
             "evidence": "The dating period for Xbryk (denosumab-dssb) injection shall be 36 months from the date of manufacture when stored at 2 - 8 °C protected from light.The date of manufacture shall be defined as the date of final sterile filtration of the formulated drug product.",
             "historical": true,
-            "scope": "120 mg/1.7 mL",
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
             "presentation": ""
           }
         ],
@@ -19391,7 +19362,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 2,
         "documentsChecked": 2,
         "facts": [],
@@ -19585,7 +19556,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 2,
         "documentsChecked": 2,
         "facts": [],
@@ -19868,7 +19839,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 4,
         "documentsChecked": 4,
         "facts": [],
@@ -19985,7 +19956,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 4,
         "documentsChecked": 4,
         "facts": [],
@@ -20200,7 +20171,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "documented",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 2,
         "documentsChecked": 2,
         "facts": [
@@ -20210,16 +20181,14 @@
             "basis": "from manufacture",
             "brand": "Bildyos",
             "bla": "761444",
-            "strengths": [
-              "120 mg/1.7 mL"
-            ],
+            "strengths": [],
             "documentDate": "2025-08-29",
             "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761444Orig1s000correctedltr.pdf",
             "submission": "ORIG 1",
             "page": 3,
             "evidence": "The dating period for Bildyos (denosumab-nxxp) injection shall be 24 months from the date of manufacture when stored at 2 - 8 °C protected from light.",
             "historical": true,
-            "scope": "120 mg/1.7 mL",
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
             "presentation": ""
           }
         ],
@@ -20387,7 +20356,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "documented",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 2,
         "documentsChecked": 2,
         "facts": [
@@ -20397,16 +20366,14 @@
             "basis": "from manufacture",
             "brand": "Bilprevda",
             "bla": "761444",
-            "strengths": [
-              "120 mg/1.7 mL"
-            ],
+            "strengths": [],
             "documentDate": "2025-08-29",
             "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761444Orig1s000correctedltr.pdf",
             "submission": "ORIG 1",
             "page": 3,
             "evidence": "The dating period for Bilprevda (denosumab-nxxp) injection shall be 24 months from the date of manufacture when stored at 2 - 8 °C protected from light.",
             "historical": true,
-            "scope": "120 mg/1.7 mL",
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
             "presentation": ""
           }
         ],
@@ -20600,7 +20567,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 2,
         "documentsChecked": 2,
         "facts": [],
@@ -20764,7 +20731,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 2,
         "documentsChecked": 2,
         "facts": [],
@@ -21133,7 +21100,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "documented",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 1,
         "documentsChecked": 1,
         "facts": [
@@ -21150,8 +21117,24 @@
             "page": 2,
             "evidence": "The dating period for Kirsty in 3 mL single-patient-use pre-filled pen shall be 24 months from the date of manufacture when stored at 2°C to 8°C.",
             "historical": true,
-            "scope": "문서 대상 완제품 · 함량 범위 미확인 · pen",
+            "scope": "in 3 mL single-patient-use pre-filled pen",
             "presentation": "pen"
+          },
+          {
+            "months": 30,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Kirsty",
+            "bla": "761188",
+            "strengths": [],
+            "documentDate": "2025-07-15",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761188Orig1s000ltr.pdf",
+            "submission": "ORIG 1",
+            "page": 2,
+            "evidence": "The dating period for Kirsty in 10 mL multiple-dose vial shall be 30 months from the date of manufacture when stored at 2°C to 8°C.",
+            "historical": true,
+            "scope": "in 10 mL multiple-dose vial",
+            "presentation": "vial"
           }
         ],
         "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
@@ -21444,7 +21427,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 2,
         "documentsChecked": 2,
         "facts": [],
@@ -21659,7 +21642,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 13,
         "documentsChecked": 13,
         "facts": [],
@@ -22054,7 +22037,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 1,
         "documentsChecked": 1,
         "facts": [],
@@ -22606,7 +22589,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 22,
         "documentsChecked": 22,
         "facts": [],
@@ -22829,7 +22812,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 46,
         "documentsChecked": 46,
         "facts": [],
@@ -22935,7 +22918,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 1,
         "documentsChecked": 1,
         "facts": [],
@@ -23309,7 +23292,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 4,
         "documentsChecked": 4,
         "facts": [],
@@ -23750,7 +23733,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "documented",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 4,
         "documentsChecked": 4,
         "facts": [
@@ -23767,7 +23750,7 @@
             "page": 2,
             "evidence": "The dating period for Releuko shall be 24 months from the date of manufacture when stored at 2°C -8 °C.",
             "historical": true,
-            "scope": "문서 대상 완제품 · 함량 범위 미확인",
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
             "presentation": ""
           }
         ],
@@ -23963,7 +23946,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 38,
         "documentsChecked": 38,
         "facts": [],
@@ -24164,7 +24147,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 5,
         "documentsChecked": 5,
         "facts": [],
@@ -25066,7 +25049,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 5,
         "documentsChecked": 5,
         "facts": [],
@@ -25271,7 +25254,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "documented",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 3,
         "documentsChecked": 3,
         "facts": [
@@ -25288,7 +25271,7 @@
             "page": 2,
             "evidence": "The dating period for Rezvoglar shall be 24 months from the date of manufacture when stored at 2-8 °C.",
             "historical": true,
-            "scope": "문서 대상 완제품 · 함량 범위 미확인",
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
             "presentation": ""
           }
         ],
@@ -25571,7 +25554,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 3,
         "documentsChecked": 3,
         "facts": [],
@@ -25868,7 +25851,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 33,
         "documentsChecked": 33,
         "facts": [],
@@ -26169,7 +26152,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 4,
         "documentsChecked": 4,
         "facts": [],
@@ -26656,7 +26639,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 9,
         "documentsChecked": 9,
         "facts": [],
@@ -26942,7 +26925,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 4,
         "documentsChecked": 4,
         "facts": [],
@@ -27417,7 +27400,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 7,
         "documentsChecked": 7,
         "facts": [],
@@ -27769,7 +27752,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 30,
         "documentsChecked": 30,
         "facts": [],
@@ -27951,7 +27934,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "documented",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 16,
         "documentsChecked": 16,
         "facts": [
@@ -27961,16 +27944,14 @@
             "basis": "from manufacture",
             "brand": "Simponi Aria",
             "bla": "125433",
-            "strengths": [
-              "50 mg/4 mL"
-            ],
+            "strengths": [],
             "documentDate": "2013-07-18",
             "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2013/125433Orig1s000ltr.pdf",
             "submission": "ORIG 1",
             "page": 2,
             "evidence": "The dating period for Simponi Aria shall be 24 months from the date of manufacture when stored at 2-8°C.",
             "historical": true,
-            "scope": "50 mg/4 mL",
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
             "presentation": ""
           }
         ],
@@ -28185,7 +28166,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 23,
         "documentsChecked": 23,
         "facts": [],
@@ -28616,7 +28597,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "documented",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 1,
         "documentsChecked": 1,
         "facts": [
@@ -28635,8 +28616,8 @@
             "page": 2,
             "evidence": "The dating period for the Starjemza 45 mg/0.5 ml PFS presentation shall be 36 months from the date of manufacture when stored at 2-8 °C, protected from light.",
             "historical": true,
-            "scope": "45 mg/0.5 ml",
-            "presentation": ""
+            "scope": "45 mg/0.5 ml PFS presentation",
+            "presentation": "pfs"
           },
           {
             "months": 18,
@@ -28646,7 +28627,8 @@
             "bla": "761419",
             "strengths": [
               "130 mg/26 ml",
-              "45 mg/0.5 ml"
+              "45 mg/0.5 ml",
+              "90 mg/ml"
             ],
             "documentDate": "2025-05-22",
             "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761419Orig1s000ltr.pdf",
@@ -28654,8 +28636,8 @@
             "page": 2,
             "evidence": "The dating period for the following Starjemza presentations; 90 mg/ml PFS, 45 mg/0.5 ml vial, and 130 mg/26 ml vial, shall be 18 months from the date of manufacture when stored at 2-8°C, protected from light.",
             "historical": true,
-            "scope": "130 mg/26 ml / 45 mg/0.5 ml · vial",
-            "presentation": "vial"
+            "scope": "presentations; 90 mg/ml PFS, 45 mg/0.5 ml vial, and 130 mg/26 ml vial",
+            "presentation": "pfs, vial"
           }
         ],
         "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
@@ -29104,7 +29086,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 31,
         "documentsChecked": 31,
         "facts": [],
@@ -29411,7 +29393,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "documented",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 14,
         "documentsChecked": 14,
         "facts": [
@@ -29421,16 +29403,14 @@
             "basis": "from manufacture",
             "brand": "Stelara",
             "bla": "761044",
-            "strengths": [
-              "130 mg/26 mL"
-            ],
+            "strengths": [],
             "documentDate": "2016-09-23",
             "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2016/761044Orig1s000ltr.pdf",
             "submission": "ORIG 1",
             "page": 1,
             "evidence": "The dating period for STELARA shall be 24 months from the date of manufacture when stored at 2 - 8 °C.",
             "historical": true,
-            "scope": "130 mg/26 mL",
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
             "presentation": ""
           }
         ],
@@ -29991,7 +29971,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "documented",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 4,
         "documentsChecked": 4,
         "facts": [
@@ -30010,7 +29990,7 @@
             "page": 2,
             "evidence": "The dating period for Yesintek 45 mg/0.5 mL prefilled syringe shall be 18 months from the date of manufacture when stored at 2°C to 8 °C.",
             "historical": true,
-            "scope": "45 mg/0.5 mL · prefilled syringe",
+            "scope": "45 mg/0.5 mL prefilled syringe",
             "presentation": "prefilled syringe"
           },
           {
@@ -30020,9 +30000,7 @@
             "brand": "Yesintek",
             "bla": "761406",
             "strengths": [
-              "130 mg/26 mL",
-              "45 mg/0.5 mL",
-              "45 mg/0.5mL"
+              "90 mg/mL"
             ],
             "documentDate": "2025-04-30",
             "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761406Orig2s000ltr.pdf",
@@ -30030,7 +30008,7 @@
             "page": 2,
             "evidence": "The dating period for Yesintek 90 mg/mL prefilled syringe shall be 6 months from the date of manufacture when stored at 2 °C to 8 °C.",
             "historical": true,
-            "scope": "130 mg/26 mL / 45 mg/0.5 mL / 45 mg/0.5mL · prefilled syringe",
+            "scope": "90 mg/mL prefilled syringe",
             "presentation": "prefilled syringe"
           },
           {
@@ -30049,7 +30027,7 @@
             "page": 2,
             "evidence": "The dating period for Yesintek 45 mg/0.5 mL vial and 130 mg/26 mL vial shall be 12 months from the date of manufacture when stored at 2 °C to 8 °C.",
             "historical": true,
-            "scope": "130 mg/26 mL / 45 mg/0.5 mL · vial",
+            "scope": "45 mg/0.5 mL vial and 130 mg/26 mL vial",
             "presentation": "vial"
           }
         ],
@@ -30224,7 +30202,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "documented",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 4,
         "documentsChecked": 4,
         "facts": [
@@ -30241,7 +30219,7 @@
             "page": 1,
             "evidence": "The dating period for Stimufend shall be 24 months from the date of manufacture when stored at 2°c to 8°C.",
             "historical": true,
-            "scope": "문서 대상 완제품 · 함량 범위 미확인",
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
             "presentation": ""
           }
         ],
@@ -30628,7 +30606,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "documented",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 5,
         "documentsChecked": 5,
         "facts": [
@@ -30638,21 +30616,14 @@
             "basis": "from manufacture",
             "brand": "Tofidence",
             "bla": "761354",
-            "strengths": [
-              "200 mg/10 mL",
-              "200mg/10mL",
-              "400 mg/20 mL",
-              "400mg/20mL",
-              "80 mg/4 mL",
-              "80mg/4mL"
-            ],
+            "strengths": [],
             "documentDate": "2023-09-29",
             "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2023/761354Orig1s000ltr.pdf",
             "submission": "ORIG 1",
             "page": 2,
             "evidence": "The dating period for Tofidence shall be 24 months from the date of manufacture when stored at 2°C to 8°C, protected from light.",
             "historical": true,
-            "scope": "200 mg/10 mL / 200mg/10mL / 400 mg/20 mL / 400mg/20mL / 80 mg/4 mL / 80mg/4mL",
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
             "presentation": ""
           }
         ],
@@ -30935,7 +30906,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 3,
         "documentsChecked": 3,
         "facts": [],
@@ -31218,7 +31189,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 7,
         "documentsChecked": 7,
         "facts": [],
@@ -31629,7 +31600,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 7,
         "documentsChecked": 7,
         "facts": [],
@@ -32010,7 +31981,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 3,
         "documentsChecked": 3,
         "facts": [],
@@ -32177,7 +32148,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "documented",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 3,
         "documentsChecked": 3,
         "facts": [
@@ -32187,16 +32158,14 @@
             "basis": "from manufacture",
             "brand": "Tyruko",
             "bla": "761322",
-            "strengths": [
-              "300 mg/15 mL"
-            ],
+            "strengths": [],
             "documentDate": "2023-08-24",
             "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2023/761322Orig1s000ltr.pdf",
             "submission": "ORIG 1",
             "page": 2,
             "evidence": "The dating period for Tyruko shall be 24 months from the date of manufacture when stored at 2°C to 8°C, protected from light.",
             "historical": true,
-            "scope": "300 mg/15 mL",
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
             "presentation": ""
           }
         ],
@@ -32362,7 +32331,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 22,
         "documentsChecked": 22,
         "facts": [],
@@ -32680,7 +32649,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "documented",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 8,
         "documentsChecked": 8,
         "facts": [
@@ -32690,16 +32659,14 @@
             "basis": "from manufacture",
             "brand": "Udenyca",
             "bla": "761039",
-            "strengths": [
-              "6 mg/0.6 mL"
-            ],
+            "strengths": [],
             "documentDate": "2018-11-02",
             "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2018/761039Orig1s000ltr.pdf",
             "submission": "ORIG 1",
             "page": 2,
             "evidence": "The dating period for UDENYCA shall be 36 months from the date of manufacture when stored at 2-8 °C.",
             "historical": true,
-            "scope": "6 mg/0.6 mL",
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
             "presentation": ""
           }
         ],
@@ -32987,7 +32954,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 8,
         "documentsChecked": 8,
         "facts": [],
@@ -33286,7 +33253,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 1,
         "documentsChecked": 1,
         "facts": [],
@@ -33887,7 +33854,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "documented",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 4,
         "documentsChecked": 4,
         "facts": [
@@ -33899,7 +33866,8 @@
             "brand": "Wezlana",
             "bla": "761285",
             "strengths": [
-              "45 mg/0.5 mL"
+              "45 mg/0.5 mL",
+              "90 mg/mL"
             ],
             "documentDate": "2023-10-31",
             "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2023/761285Orig1s000;%20761331Orig1s000ltr.pdf",
@@ -33907,7 +33875,7 @@
             "page": 2,
             "evidence": "The dating period for Wezlana 45 mg/0.5 mL prefilled syringe and 90 mg/mL prefilled syringe shall be 36 months from the date of manufacture when stored at 2 - 8 °C.",
             "historical": true,
-            "scope": "45 mg/0.5 mL · prefilled syringe"
+            "scope": "45 mg/0.5 mL prefilled syringe and 90 mg/mL prefilled syringe"
           },
           {
             "presentation": "vial",
@@ -33926,7 +33894,7 @@
             "page": 2,
             "evidence": "The dating period for Wezlana 45 mg/0.5 mL vial and 130 mg/26 mL vial shall be 24 months from the date of manufacture when stored at 2 - 8 °C.",
             "historical": true,
-            "scope": "130 mg/26 mL / 45 mg/0.5 mL · vial"
+            "scope": "45 mg/0.5 mL vial and 130 mg/26 mL vial"
           }
         ],
         "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
@@ -34219,28 +34187,10 @@
       "issues": [],
       "approvalLetter": {
         "status": "documented",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 4,
         "documentsChecked": 4,
         "facts": [
-          {
-            "presentation": "prefilled syringe",
-            "months": 36,
-            "temperature": "2–8°C",
-            "basis": "from manufacture",
-            "brand": "Wezlana",
-            "bla": "761331",
-            "strengths": [
-              "45 mg/0.5 mL"
-            ],
-            "documentDate": "2023-10-31",
-            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2023/761285Orig1s000;%20761331Orig1s000ltr.pdf",
-            "submission": "ORIG 1",
-            "page": 2,
-            "evidence": "The dating period for Wezlana 45 mg/0.5 mL prefilled syringe and 90 mg/mL prefilled syringe shall be 36 months from the date of manufacture when stored at 2 - 8 °C.",
-            "historical": true,
-            "scope": "45 mg/0.5 mL · prefilled syringe"
-          },
           {
             "presentation": "vial",
             "months": 24,
@@ -34258,7 +34208,7 @@
             "page": 2,
             "evidence": "The dating period for Wezlana 45 mg/0.5 mL vial and 130 mg/26 mL vial shall be 24 months from the date of manufacture when stored at 2 - 8 °C.",
             "historical": true,
-            "scope": "130 mg/26 mL / 45 mg/0.5 mL · vial"
+            "scope": "45 mg/0.5 mL vial and 130 mg/26 mL vial"
           }
         ],
         "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
@@ -34428,7 +34378,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 3,
         "documentsChecked": 3,
         "facts": [],
@@ -34595,7 +34545,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 46,
         "documentsChecked": 46,
         "facts": [],
@@ -35237,7 +35187,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 15,
         "documentsChecked": 15,
         "facts": [],
@@ -35748,7 +35698,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 5,
         "documentsChecked": 5,
         "facts": [],
@@ -36016,7 +35966,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "documented",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 3,
         "documentsChecked": 3,
         "facts": [
@@ -36033,7 +35983,7 @@
             "page": 2,
             "evidence": "The dating period for Yesafili shall be 36 months from the date of manufacture when stored at 2°C to 8°C, protected from light.",
             "historical": true,
-            "scope": "문서 대상 완제품 · 함량 범위 미확인",
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
             "presentation": ""
           }
         ],
@@ -36445,7 +36395,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "documented",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 7,
         "documentsChecked": 7,
         "facts": [
@@ -36456,17 +36406,14 @@
             "basis": "from manufacture",
             "brand": "Pyzchiva",
             "bla": "761373",
-            "strengths": [
-              "130 mg/26 mL",
-              "45 mg/0.5 mL"
-            ],
+            "strengths": [],
             "documentDate": "2025-04-30",
             "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761373Orig2s000;%20761425Orig2s000ltr.pdf",
             "submission": "ORIG 2",
             "page": 2,
             "evidence": "The dating period for Pyzchiva prefilled syringe shall be 36 months from the date of manufacture when stored at 2°C - 8°C protected from light.",
             "historical": true,
-            "scope": "130 mg/26 mL / 45 mg/0.5 mL · prefilled syringe"
+            "scope": "prefilled syringe"
           },
           {
             "presentation": "vial",
@@ -36475,35 +36422,14 @@
             "basis": "from manufacture",
             "brand": "Pyzchiva",
             "bla": "761373",
-            "strengths": [
-              "130 mg/26 mL"
-            ],
+            "strengths": [],
             "documentDate": "2025-04-30",
             "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761373Orig2s000;%20761425Orig2s000ltr.pdf",
             "submission": "ORIG 2",
             "page": 2,
             "evidence": "The dating period for Pyzchiva (130 mg/26 mL) vial presentation shall be 24 months from the date of manufacture when stored at 2°C - 8°C protected from light.",
             "historical": true,
-            "scope": "130 mg/26 mL · vial"
-          },
-          {
-            "months": 18,
-            "temperature": "2–8°C",
-            "basis": "from manufacture",
-            "brand": "Pyzchiva",
-            "bla": "761373",
-            "strengths": [
-              "130 mg/26 mL",
-              "45 mg/0.5 mL"
-            ],
-            "documentDate": "2024-06-28",
-            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/761373Orig1s000;761425Orig1s000correctedltr.pdf",
-            "submission": "ORIG 1",
-            "page": 3,
-            "evidence": "The dating period for Pyzchiva vial presentation shall be 18 months from the date of manufacture when stored at 2°C - 8°C protected from light.",
-            "historical": true,
-            "scope": "130 mg/26 mL / 45 mg/0.5 mL · vial",
-            "presentation": "vial"
+            "scope": "vial presentation"
           }
         ],
         "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
@@ -36769,29 +36695,10 @@
       "issues": [],
       "approvalLetter": {
         "status": "partial",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 5,
         "documentsChecked": 3,
         "facts": [
-          {
-            "presentation": "prefilled syringe",
-            "months": 36,
-            "temperature": "2–8°C",
-            "basis": "from manufacture",
-            "brand": "Pyzchiva",
-            "bla": "761425",
-            "strengths": [
-              "130 mg/26 mL",
-              "45 mg/0.5 mL"
-            ],
-            "documentDate": "2025-04-30",
-            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761373Orig2s000;%20761425Orig2s000ltr.pdf",
-            "submission": "ORIG 2",
-            "page": 2,
-            "evidence": "The dating period for Pyzchiva prefilled syringe shall be 36 months from the date of manufacture when stored at 2°C - 8°C protected from light.",
-            "historical": true,
-            "scope": "130 mg/26 mL / 45 mg/0.5 mL · prefilled syringe"
-          },
           {
             "presentation": "vial",
             "months": 24,
@@ -36799,35 +36706,14 @@
             "basis": "from manufacture",
             "brand": "Pyzchiva",
             "bla": "761425",
-            "strengths": [
-              "130 mg/26 mL"
-            ],
+            "strengths": [],
             "documentDate": "2025-04-30",
             "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761373Orig2s000;%20761425Orig2s000ltr.pdf",
             "submission": "ORIG 2",
             "page": 2,
             "evidence": "The dating period for Pyzchiva (130 mg/26 mL) vial presentation shall be 24 months from the date of manufacture when stored at 2°C - 8°C protected from light.",
             "historical": true,
-            "scope": "130 mg/26 mL · vial"
-          },
-          {
-            "presentation": "vial",
-            "months": 18,
-            "temperature": "2–8°C",
-            "basis": "from manufacture",
-            "brand": "Pyzchiva",
-            "bla": "761425",
-            "strengths": [
-              "130 mg/26 mL",
-              "45 mg/0.5 mL"
-            ],
-            "documentDate": "2024-06-28",
-            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/761373Orig1s000;761425Orig1s000correctedltr.pdf",
-            "submission": "ORIG 1",
-            "page": 3,
-            "evidence": "The dating period for Pyzchiva vial presentation shall be 18 months from the date of manufacture when stored at 2°C - 8°C protected from light.",
-            "historical": true,
-            "scope": "130 mg/26 mL / 45 mg/0.5 mL · vial"
+            "scope": "vial presentation"
           }
         ],
         "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
@@ -37123,7 +37009,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 6,
         "documentsChecked": 6,
         "facts": [],
@@ -37530,7 +37416,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 10,
         "documentsChecked": 10,
         "facts": [],
@@ -37706,7 +37592,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 5,
         "documentsChecked": 5,
         "facts": [],
@@ -37998,7 +37884,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "documented",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 4,
         "documentsChecked": 4,
         "facts": [
@@ -38008,19 +37894,14 @@
             "basis": "from manufacture",
             "brand": "Zirabev",
             "bla": "761099",
-            "strengths": [
-              "100 mg/4 mL",
-              "100 mg/4 ml",
-              "400 mg/16 mL",
-              "400 mg/16 ml"
-            ],
+            "strengths": [],
             "documentDate": "2019-06-27",
             "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/761099Orig1s000ltr.pdf",
             "submission": "ORIG 1",
             "page": 2,
             "evidence": "The dating period for Zirabev (bevacizumab-bvzr) shall be 42 months from the date of manufacture when stored at 2 - 8°C.",
             "historical": true,
-            "scope": "100 mg/4 mL / 100 mg/4 ml / 400 mg/16 mL / 400 mg/16 ml",
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
             "presentation": ""
           }
         ],
@@ -38278,7 +38159,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 1,
         "documentsChecked": 1,
         "facts": [],
@@ -38459,7 +38340,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 1,
         "documentsChecked": 1,
         "facts": [],
@@ -38622,7 +38503,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 1,
         "documentsChecked": 1,
         "facts": [],
@@ -38746,7 +38627,7 @@
       "piCheckedAt": "2026-09-08T05:14:24.447860+00:00",
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 1,
         "documentsChecked": 1,
         "facts": [],
@@ -38950,7 +38831,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 1,
         "documentsChecked": 1,
         "facts": [],
@@ -39062,7 +38943,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 1,
         "documentsChecked": 1,
         "facts": [],
@@ -39350,7 +39231,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 1,
         "documentsChecked": 1,
         "facts": [],
@@ -39479,7 +39360,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 1,
         "documentsChecked": 1,
         "facts": [],
@@ -39575,7 +39456,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 1,
         "documentsChecked": 1,
         "facts": [],
@@ -39959,7 +39840,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 1,
         "documentsChecked": 1,
         "facts": [],
@@ -40106,7 +39987,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "documented",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 1,
         "documentsChecked": 1,
         "facts": [
@@ -40116,19 +39997,14 @@
             "basis": "from manufacture",
             "brand": "Zimrixby",
             "bla": "761376",
-            "strengths": [
-              "100 mg/10 mL",
-              "100mg/10 mL",
-              "500 mg/50 mL",
-              "500 mg/50mL"
-            ],
+            "strengths": [],
             "documentDate": "2026-07-31",
             "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/761376Orig1s000ltr.pdf",
             "submission": "ORIG 1",
             "page": 2,
             "evidence": "The dating period for Zimrixby shall be 36 months from the date of manufacture when stored at 2°C to 8°C.",
             "historical": true,
-            "scope": "100 mg/10 mL / 100mg/10 mL / 500 mg/50 mL / 500 mg/50mL",
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
             "presentation": ""
           }
         ],
@@ -40378,7 +40254,7 @@
       "issues": [],
       "approvalLetter": {
         "status": "not_found",
-        "checkedAt": "2026-09-09T03:55:33+00:00",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
         "documentsDiscovered": 1,
         "documentsChecked": 1,
         "facts": [],
@@ -40465,5 +40341,5 @@
       ]
     }
   ],
-  "approvalLettersCheckedAt": "2026-09-09T03:55:33+00:00"
+  "approvalLettersCheckedAt": "2026-09-09T03:58:55+00:00"
 }

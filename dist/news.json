@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-09T03:53:47.818942+00:00",
-  "checkedAt": "2026-09-09T03:53:47.818942+00:00",
+  "updatedAt": "2026-09-09T03:57:42.539866+00:00",
+  "checkedAt": "2026-09-09T03:57:42.539866+00:00",
   "articles": [
     {
       "id": "92db50150cfc6ff4f31b",
@@ -299,7 +299,7 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-09-09T03:53:47.818942+00:00",
+      "checkedAt": "2026-09-09T03:57:42.539866+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -310,29 +310,29 @@
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-09-09T03:53:47.818942+00:00",
+      "checkedAt": "2026-09-09T03:57:42.539866+00:00",
       "status": "ok",
       "discovered": 25,
-      "new": 3,
+      "new": 0,
       "errors": 0,
-      "bodyMatched": 3,
-      "deferred": 0
+      "bodyMatched": 0,
+      "deferred": 22
     },
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-09-09T03:53:47.818942+00:00",
+      "checkedAt": "2026-09-09T03:57:42.539866+00:00",
       "status": "ok",
       "discovered": 6,
-      "new": 5,
+      "new": 0,
       "errors": 0,
-      "bodyMatched": 5,
-      "deferred": 0
+      "bodyMatched": 0,
+      "deferred": 1
     },
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-09-09T03:53:47.818942+00:00",
+      "checkedAt": "2026-09-09T03:57:42.539866+00:00",
       "status": "ok",
       "discovered": 241,
       "new": 0,
@@ -343,13 +343,13 @@
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-09-09T03:53:47.818942+00:00",
+      "checkedAt": "2026-09-09T03:57:42.539866+00:00",
       "status": "ok",
       "discovered": 100,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 59
+      "deferred": 79
     }
   ],
   "molecules": [

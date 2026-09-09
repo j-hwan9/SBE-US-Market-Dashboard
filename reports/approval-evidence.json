@@ -1,0 +1,1281 @@
+{
+  "checkedAt": "2026-09-09T03:58:55+00:00",
+  "products": [
+    {
+      "id": "ahzantive-761378",
+      "brand": "Ahzantive",
+      "bla": "761378",
+      "evidence": {
+        "status": "documented",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
+        "documentsDiscovered": 2,
+        "documentsChecked": 2,
+        "facts": [
+          {
+            "months": 24,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Ahzantive",
+            "bla": "761378",
+            "strengths": [],
+            "documentDate": "2024-06-28",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/761378Orig1s000ltr.pdf",
+            "submission": "ORIG 1",
+            "page": 2,
+            "evidence": "The dating period for Ahzantive shall be 24 months from the date of manufacture when stored at 2°C - 8°C, protected from light.",
+            "historical": true,
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
+            "presentation": ""
+          }
+        ],
+        "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
+      }
+    },
+    {
+      "id": "amjevita-761024",
+      "brand": "Amjevita",
+      "bla": "761024",
+      "evidence": {
+        "status": "documented",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
+        "documentsDiscovered": 13,
+        "documentsChecked": 13,
+        "facts": [
+          {
+            "months": 30,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Amjevita",
+            "bla": "761024",
+            "strengths": [],
+            "documentDate": "2016-09-23",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2016/761024Orig1s000ltr.pdf",
+            "submission": "ORIG 1",
+            "page": 2,
+            "evidence": "The dating period for Amjevita shall be 30 months from the date of manufacture when stored at 2-8 °C.",
+            "historical": true,
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
+            "presentation": ""
+          }
+        ],
+        "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
+      }
+    },
+    {
+      "id": "hyrimoz-761071",
+      "brand": "Hyrimoz",
+      "bla": "761071",
+      "evidence": {
+        "status": "documented",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
+        "documentsDiscovered": 12,
+        "documentsChecked": 12,
+        "facts": [
+          {
+            "months": 24,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Hyrimoz",
+            "bla": "761071",
+            "strengths": [],
+            "documentDate": "2018-10-30",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/761071Orig1s000ltr.pdf",
+            "submission": "ORIG 1",
+            "page": 2,
+            "evidence": "The dating period for Hyrimoz shall be 24 months from the date of manufacture when stored at 2-8°C.",
+            "historical": true,
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
+            "presentation": ""
+          }
+        ],
+        "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
+      }
+    },
+    {
+      "id": "avsola-761086",
+      "brand": "Avsola",
+      "bla": "761086",
+      "evidence": {
+        "status": "documented",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
+        "documentsDiscovered": 3,
+        "documentsChecked": 3,
+        "facts": [
+          {
+            "months": 48,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Avsola",
+            "bla": "761086",
+            "strengths": [],
+            "documentDate": "2019-12-06",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/761086Orig1s000ltr.pdf",
+            "submission": "ORIG 1",
+            "page": 2,
+            "evidence": "The dating period for Avsola shall be 48 months from the date of manufacture when stored at 2°C to 8°C.",
+            "historical": true,
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
+            "presentation": ""
+          }
+        ],
+        "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
+      }
+    },
+    {
+      "id": "avzivi-761198",
+      "brand": "Avzivi",
+      "bla": "761198",
+      "evidence": {
+        "status": "documented",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
+        "documentsDiscovered": 1,
+        "documentsChecked": 1,
+        "facts": [
+          {
+            "months": 12,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Avzivi",
+            "bla": "761198",
+            "strengths": [],
+            "documentDate": "2023-12-06",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2023/761198Orig1s000ltr.pdf",
+            "submission": "ORIG 1",
+            "page": 2,
+            "evidence": "The dating period for Avzivi shall be 12 months from the date of manufacture when stored at 2-8 °C.",
+            "historical": true,
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
+            "presentation": ""
+          }
+        ],
+        "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
+      }
+    },
+    {
+      "id": "byooviz-761202",
+      "brand": "Byooviz",
+      "bla": "761202",
+      "evidence": {
+        "status": "documented",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
+        "documentsDiscovered": 9,
+        "documentsChecked": 9,
+        "facts": [
+          {
+            "months": 30,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Byooviz",
+            "bla": "761202",
+            "strengths": [],
+            "documentDate": "2021-09-17",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2021/761202Orig1s000ltr.pdf",
+            "submission": "ORIG 1",
+            "page": 1,
+            "evidence": "The dating period for BYOOVIZ shall be 30 months from the date of manufacture when stored at 2°C - 8°C, protected from light.",
+            "historical": true,
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
+            "presentation": ""
+          }
+        ],
+        "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
+      }
+    },
+    {
+      "id": "hulio-761154",
+      "brand": "Hulio",
+      "bla": "761154",
+      "evidence": {
+        "status": "documented",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
+        "documentsDiscovered": 5,
+        "documentsChecked": 5,
+        "facts": [
+          {
+            "months": 36,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Hulio",
+            "bla": "761154",
+            "strengths": [],
+            "documentDate": "2020-07-06",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2020/761154Orig1s000ltr.pdf",
+            "submission": "ORIG 1",
+            "page": 2,
+            "evidence": "The dating period for Hulio shall be 36 months from the date of manufacture when stored at 2 to 8 °C.",
+            "historical": true,
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
+            "presentation": ""
+          }
+        ],
+        "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
+      }
+    },
+    {
+      "id": "enzeevu-761382",
+      "brand": "Enzeevu",
+      "bla": "761382",
+      "evidence": {
+        "status": "documented",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
+        "documentsDiscovered": 3,
+        "documentsChecked": 3,
+        "facts": [
+          {
+            "months": 24,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Enzeevu",
+            "bla": "761382",
+            "strengths": [],
+            "documentDate": "2024-08-09",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/761382Orig1s000ltr.pdf",
+            "submission": "ORIG 1",
+            "page": 2,
+            "evidence": "The dating period for Enzeevu PFS presentation shall be 24 months from the date of manufacture when stored at 2 to 8°C protected from light.",
+            "historical": true,
+            "scope": "PFS presentation",
+            "presentation": "pfs"
+          },
+          {
+            "months": 36,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Enzeevu",
+            "bla": "761382",
+            "strengths": [],
+            "documentDate": "2024-08-09",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/761382Orig1s000ltr.pdf",
+            "submission": "ORIG 1",
+            "page": 2,
+            "evidence": "The dating period for Enzeevu vial kit presentation shall be 36 months from the date of manufacture when stored at 2 to 8°C protected from light.",
+            "historical": true,
+            "scope": "vial kit presentation",
+            "presentation": "vial"
+          }
+        ],
+        "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
+      }
+    },
+    {
+      "id": "erelzi-761042",
+      "brand": "Erelzi",
+      "bla": "761042",
+      "evidence": {
+        "status": "documented",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
+        "documentsDiscovered": 5,
+        "documentsChecked": 5,
+        "facts": [
+          {
+            "months": 36,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Erelzi",
+            "bla": "761042",
+            "strengths": [],
+            "documentDate": "2022-11-10",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2022/761042Orig1s018ltr.pdf",
+            "submission": "SUPPL 18",
+            "page": 2,
+            "evidence": "The dating period for Erelzi 25 mg lyophilized powder in a multiple-dose vial shall be 36 months from the date of manufacture when stored at 2-8°C.",
+            "historical": true,
+            "scope": "25 mg lyophilized powder in a multiple-dose vial",
+            "presentation": "vial"
+          },
+          {
+            "months": 24,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Erelzi",
+            "bla": "761042",
+            "strengths": [],
+            "documentDate": "2016-08-30",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2016/761042Orig1s000ltr.pdf",
+            "submission": "ORIG 1",
+            "page": 2,
+            "evidence": "The dating period for Erelzi shall be 24 months from the date of manufacture when stored at 2- 8°C.",
+            "historical": true,
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
+            "presentation": ""
+          }
+        ],
+        "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
+      }
+    },
+    {
+      "id": "eydenzelt-761377",
+      "brand": "Eydenzelt",
+      "bla": "761377",
+      "evidence": {
+        "status": "documented",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
+        "documentsDiscovered": 1,
+        "documentsChecked": 1,
+        "facts": [
+          {
+            "months": 24,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Eydenzelt",
+            "bla": "761377",
+            "strengths": [],
+            "documentDate": "2025-10-02",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761377Orig1s000ltr.pdf",
+            "submission": "ORIG 1",
+            "page": 2,
+            "evidence": "The dating period for Eydenzelt prefilled syringe shall be 24 months from the date of manufacture when stored at 2°C to 8°C.",
+            "historical": true,
+            "scope": "prefilled syringe",
+            "presentation": "prefilled syringe"
+          },
+          {
+            "months": 36,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Eydenzelt",
+            "bla": "761377",
+            "strengths": [],
+            "documentDate": "2025-10-02",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761377Orig1s000ltr.pdf",
+            "submission": "ORIG 1",
+            "page": 2,
+            "evidence": "The dating period for Eydenzelt vial presentation shall be 36 months from the date of manufacture when stored at 2°C to 8°C.",
+            "historical": true,
+            "scope": "vial presentation",
+            "presentation": "vial"
+          }
+        ],
+        "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
+      }
+    },
+    {
+      "id": "simlandi-761299",
+      "brand": "Simlandi",
+      "bla": "761299",
+      "evidence": {
+        "status": "documented",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
+        "documentsDiscovered": 8,
+        "documentsChecked": 8,
+        "facts": [
+          {
+            "months": 24,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Simlandi",
+            "bla": "761299",
+            "strengths": [],
+            "documentDate": "2024-02-23",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/761299Orig1s000ltr.pdf",
+            "submission": "ORIG 1",
+            "page": 2,
+            "evidence": "The dating period for Simlandi shall be 24 months from the date of manufacture when stored at 2°C to 8°C.",
+            "historical": true,
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
+            "presentation": ""
+          }
+        ],
+        "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
+      }
+    },
+    {
+      "id": "hercessi-761346",
+      "brand": "Hercessi",
+      "bla": "761346",
+      "evidence": {
+        "status": "documented",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
+        "documentsDiscovered": 1,
+        "documentsChecked": 1,
+        "facts": [
+          {
+            "months": 48,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Hercessi",
+            "bla": "761346",
+            "strengths": [],
+            "documentDate": "2024-04-25",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/761346Orig1s000ltr.pdf",
+            "submission": "ORIG 1",
+            "page": 2,
+            "evidence": "The dating period for Hercessi shall be 48 months from the date of manufacture when stored at 2 to 8 °C.",
+            "historical": true,
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
+            "presentation": ""
+          }
+        ],
+        "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
+      }
+    },
+    {
+      "id": "jobevne-761175",
+      "brand": "Jobevne",
+      "bla": "761175",
+      "evidence": {
+        "status": "documented",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
+        "documentsDiscovered": 1,
+        "documentsChecked": 1,
+        "facts": [
+          {
+            "months": 24,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Jobevne",
+            "bla": "761175",
+            "strengths": [],
+            "documentDate": "2025-04-09",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761175Orig1s000ltr.pdf",
+            "submission": "ORIG 1",
+            "page": 2,
+            "evidence": "The dating period for JOBEVNE shall be 24 months from the date of manufacture when stored at 2°C to 8°C.",
+            "historical": true,
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
+            "presentation": ""
+          }
+        ],
+        "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
+      }
+    },
+    {
+      "id": "ospomyv-761392",
+      "brand": "Ospomyv",
+      "bla": "761392",
+      "evidence": {
+        "status": "documented",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
+        "documentsDiscovered": 2,
+        "documentsChecked": 2,
+        "facts": [
+          {
+            "months": 36,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Ospomyv",
+            "bla": "761392",
+            "strengths": [],
+            "documentDate": "2025-02-13",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761392Orig1s000ltr.pdf",
+            "submission": "ORIG 1",
+            "page": 3,
+            "evidence": "The dating period for Ospomyv (denosumab-dssb) injection shall be 36 months from the date of manufacture when stored at 2 - 8 °C protected from light.",
+            "historical": true,
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
+            "presentation": ""
+          }
+        ],
+        "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
+      }
+    },
+    {
+      "id": "mvasi-761028",
+      "brand": "Mvasi",
+      "bla": "761028",
+      "evidence": {
+        "status": "documented",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
+        "documentsDiscovered": 4,
+        "documentsChecked": 4,
+        "facts": [
+          {
+            "months": 36,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Mvasi",
+            "bla": "761028",
+            "strengths": [],
+            "documentDate": "2017-09-14",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2017/761028Orig1s000ltr.pdf",
+            "submission": "ORIG 1",
+            "page": 2,
+            "evidence": "The dating period for Mvasi shall be 36 months from the date of manufacture when stored at 2-8°C and protected from light.",
+            "historical": true,
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
+            "presentation": ""
+          }
+        ],
+        "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
+      }
+    },
+    {
+      "id": "nypozi-761126",
+      "brand": "Nypozi",
+      "bla": "761126",
+      "evidence": {
+        "status": "documented",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
+        "documentsDiscovered": 1,
+        "documentsChecked": 1,
+        "facts": [
+          {
+            "months": 24,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Nypozi",
+            "bla": "761126",
+            "strengths": [],
+            "documentDate": "2024-06-28",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/761126Orig1s000ltr.pdf",
+            "submission": "ORIG 1",
+            "page": 2,
+            "evidence": "The dating period for Nypozi shall be 24 months from the date of manufacture when stored at 2°C to 8°C, protected from light.",
+            "historical": true,
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
+            "presentation": ""
+          }
+        ],
+        "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
+      }
+    },
+    {
+      "id": "xbryk-761392",
+      "brand": "Xbryk",
+      "bla": "761392",
+      "evidence": {
+        "status": "documented",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
+        "documentsDiscovered": 2,
+        "documentsChecked": 2,
+        "facts": [
+          {
+            "months": 36,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Xbryk",
+            "bla": "761392",
+            "strengths": [],
+            "documentDate": "2025-02-13",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761392Orig1s000ltr.pdf",
+            "submission": "ORIG 1",
+            "page": 3,
+            "evidence": "The dating period for Xbryk (denosumab-dssb) injection shall be 36 months from the date of manufacture when stored at 2 - 8 °C protected from light.The date of manufacture shall be defined as the date of final sterile filtration of the formulated drug product.",
+            "historical": true,
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
+            "presentation": ""
+          }
+        ],
+        "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
+      }
+    },
+    {
+      "id": "bildyos-761444",
+      "brand": "Bildyos",
+      "bla": "761444",
+      "evidence": {
+        "status": "documented",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
+        "documentsDiscovered": 2,
+        "documentsChecked": 2,
+        "facts": [
+          {
+            "months": 24,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Bildyos",
+            "bla": "761444",
+            "strengths": [],
+            "documentDate": "2025-08-29",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761444Orig1s000correctedltr.pdf",
+            "submission": "ORIG 1",
+            "page": 3,
+            "evidence": "The dating period for Bildyos (denosumab-nxxp) injection shall be 24 months from the date of manufacture when stored at 2 - 8 °C protected from light.",
+            "historical": true,
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
+            "presentation": ""
+          }
+        ],
+        "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
+      }
+    },
+    {
+      "id": "bilprevda-761444",
+      "brand": "Bilprevda",
+      "bla": "761444",
+      "evidence": {
+        "status": "documented",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
+        "documentsDiscovered": 2,
+        "documentsChecked": 2,
+        "facts": [
+          {
+            "months": 24,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Bilprevda",
+            "bla": "761444",
+            "strengths": [],
+            "documentDate": "2025-08-29",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761444Orig1s000correctedltr.pdf",
+            "submission": "ORIG 1",
+            "page": 3,
+            "evidence": "The dating period for Bilprevda (denosumab-nxxp) injection shall be 24 months from the date of manufacture when stored at 2 - 8 °C protected from light.",
+            "historical": true,
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
+            "presentation": ""
+          }
+        ],
+        "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
+      }
+    },
+    {
+      "id": "kirsty-761188",
+      "brand": "Kirsty",
+      "bla": "761188",
+      "evidence": {
+        "status": "documented",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
+        "documentsDiscovered": 1,
+        "documentsChecked": 1,
+        "facts": [
+          {
+            "months": 24,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Kirsty",
+            "bla": "761188",
+            "strengths": [],
+            "documentDate": "2025-07-15",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761188Orig1s000ltr.pdf",
+            "submission": "ORIG 1",
+            "page": 2,
+            "evidence": "The dating period for Kirsty in 3 mL single-patient-use pre-filled pen shall be 24 months from the date of manufacture when stored at 2°C to 8°C.",
+            "historical": true,
+            "scope": "in 3 mL single-patient-use pre-filled pen",
+            "presentation": "pen"
+          },
+          {
+            "months": 30,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Kirsty",
+            "bla": "761188",
+            "strengths": [],
+            "documentDate": "2025-07-15",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761188Orig1s000ltr.pdf",
+            "submission": "ORIG 1",
+            "page": 2,
+            "evidence": "The dating period for Kirsty in 10 mL multiple-dose vial shall be 30 months from the date of manufacture when stored at 2°C to 8°C.",
+            "historical": true,
+            "scope": "in 10 mL multiple-dose vial",
+            "presentation": "vial"
+          }
+        ],
+        "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
+      }
+    },
+    {
+      "id": "releuko-761082",
+      "brand": "Releuko",
+      "bla": "761082",
+      "evidence": {
+        "status": "documented",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
+        "documentsDiscovered": 4,
+        "documentsChecked": 4,
+        "facts": [
+          {
+            "months": 24,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Releuko",
+            "bla": "761082",
+            "strengths": [],
+            "documentDate": "2022-02-25",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2022/761082Orig1s000Correctedltr.pdf",
+            "submission": "ORIG 1",
+            "page": 2,
+            "evidence": "The dating period for Releuko shall be 24 months from the date of manufacture when stored at 2°C -8 °C.",
+            "historical": true,
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
+            "presentation": ""
+          }
+        ],
+        "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
+      }
+    },
+    {
+      "id": "rezvoglar-761215",
+      "brand": "Rezvoglar",
+      "bla": "761215",
+      "evidence": {
+        "status": "documented",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
+        "documentsDiscovered": 3,
+        "documentsChecked": 3,
+        "facts": [
+          {
+            "months": 24,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Rezvoglar",
+            "bla": "761215",
+            "strengths": [],
+            "documentDate": "2021-12-17",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2021/761215Orig1s000ltr.pdf",
+            "submission": "ORIG 1",
+            "page": 2,
+            "evidence": "The dating period for Rezvoglar shall be 24 months from the date of manufacture when stored at 2-8 °C.",
+            "historical": true,
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
+            "presentation": ""
+          }
+        ],
+        "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
+      }
+    },
+    {
+      "id": "simponi-aria-125433",
+      "brand": "Simponi Aria",
+      "bla": "125433",
+      "evidence": {
+        "status": "documented",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
+        "documentsDiscovered": 16,
+        "documentsChecked": 16,
+        "facts": [
+          {
+            "months": 24,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Simponi Aria",
+            "bla": "125433",
+            "strengths": [],
+            "documentDate": "2013-07-18",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2013/125433Orig1s000ltr.pdf",
+            "submission": "ORIG 1",
+            "page": 2,
+            "evidence": "The dating period for Simponi Aria shall be 24 months from the date of manufacture when stored at 2-8°C.",
+            "historical": true,
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
+            "presentation": ""
+          }
+        ],
+        "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
+      }
+    },
+    {
+      "id": "starjemza-761419",
+      "brand": "Starjemza",
+      "bla": "761419",
+      "evidence": {
+        "status": "documented",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
+        "documentsDiscovered": 1,
+        "documentsChecked": 1,
+        "facts": [
+          {
+            "months": 36,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Starjemza",
+            "bla": "761419",
+            "strengths": [
+              "45 mg/0.5 ml"
+            ],
+            "documentDate": "2025-05-22",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761419Orig1s000ltr.pdf",
+            "submission": "ORIG 1",
+            "page": 2,
+            "evidence": "The dating period for the Starjemza 45 mg/0.5 ml PFS presentation shall be 36 months from the date of manufacture when stored at 2-8 °C, protected from light.",
+            "historical": true,
+            "scope": "45 mg/0.5 ml PFS presentation",
+            "presentation": "pfs"
+          },
+          {
+            "months": 18,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Starjemza",
+            "bla": "761419",
+            "strengths": [
+              "130 mg/26 ml",
+              "45 mg/0.5 ml",
+              "90 mg/ml"
+            ],
+            "documentDate": "2025-05-22",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761419Orig1s000ltr.pdf",
+            "submission": "ORIG 1",
+            "page": 2,
+            "evidence": "The dating period for the following Starjemza presentations; 90 mg/ml PFS, 45 mg/0.5 ml vial, and 130 mg/26 ml vial, shall be 18 months from the date of manufacture when stored at 2-8°C, protected from light.",
+            "historical": true,
+            "scope": "presentations; 90 mg/ml PFS, 45 mg/0.5 ml vial, and 130 mg/26 ml vial",
+            "presentation": "pfs, vial"
+          }
+        ],
+        "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
+      }
+    },
+    {
+      "id": "stelara-761044",
+      "brand": "Stelara",
+      "bla": "761044",
+      "evidence": {
+        "status": "documented",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
+        "documentsDiscovered": 14,
+        "documentsChecked": 14,
+        "facts": [
+          {
+            "months": 24,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Stelara",
+            "bla": "761044",
+            "strengths": [],
+            "documentDate": "2016-09-23",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2016/761044Orig1s000ltr.pdf",
+            "submission": "ORIG 1",
+            "page": 1,
+            "evidence": "The dating period for STELARA shall be 24 months from the date of manufacture when stored at 2 - 8 °C.",
+            "historical": true,
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
+            "presentation": ""
+          }
+        ],
+        "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
+      }
+    },
+    {
+      "id": "yesintek-761406",
+      "brand": "Yesintek",
+      "bla": "761406",
+      "evidence": {
+        "status": "documented",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
+        "documentsDiscovered": 4,
+        "documentsChecked": 4,
+        "facts": [
+          {
+            "months": 18,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Yesintek",
+            "bla": "761406",
+            "strengths": [
+              "45 mg/0.5 mL"
+            ],
+            "documentDate": "2025-04-30",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761406Orig2s000ltr.pdf",
+            "submission": "ORIG 2",
+            "page": 2,
+            "evidence": "The dating period for Yesintek 45 mg/0.5 mL prefilled syringe shall be 18 months from the date of manufacture when stored at 2°C to 8 °C.",
+            "historical": true,
+            "scope": "45 mg/0.5 mL prefilled syringe",
+            "presentation": "prefilled syringe"
+          },
+          {
+            "months": 6,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Yesintek",
+            "bla": "761406",
+            "strengths": [
+              "90 mg/mL"
+            ],
+            "documentDate": "2025-04-30",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761406Orig2s000ltr.pdf",
+            "submission": "ORIG 2",
+            "page": 2,
+            "evidence": "The dating period for Yesintek 90 mg/mL prefilled syringe shall be 6 months from the date of manufacture when stored at 2 °C to 8 °C.",
+            "historical": true,
+            "scope": "90 mg/mL prefilled syringe",
+            "presentation": "prefilled syringe"
+          },
+          {
+            "months": 12,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Yesintek",
+            "bla": "761406",
+            "strengths": [
+              "130 mg/26 mL",
+              "45 mg/0.5 mL"
+            ],
+            "documentDate": "2025-04-30",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761406Orig2s000ltr.pdf",
+            "submission": "ORIG 2",
+            "page": 2,
+            "evidence": "The dating period for Yesintek 45 mg/0.5 mL vial and 130 mg/26 mL vial shall be 12 months from the date of manufacture when stored at 2 °C to 8 °C.",
+            "historical": true,
+            "scope": "45 mg/0.5 mL vial and 130 mg/26 mL vial",
+            "presentation": "vial"
+          }
+        ],
+        "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
+      }
+    },
+    {
+      "id": "stimufend-761173",
+      "brand": "Stimufend",
+      "bla": "761173",
+      "evidence": {
+        "status": "documented",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
+        "documentsDiscovered": 4,
+        "documentsChecked": 4,
+        "facts": [
+          {
+            "months": 24,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Stimufend",
+            "bla": "761173",
+            "strengths": [],
+            "documentDate": "2022-09-01",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2022/761173Orig1s000ltr.pdf",
+            "submission": "ORIG 1",
+            "page": 1,
+            "evidence": "The dating period for Stimufend shall be 24 months from the date of manufacture when stored at 2°c to 8°C.",
+            "historical": true,
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
+            "presentation": ""
+          }
+        ],
+        "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
+      }
+    },
+    {
+      "id": "tofidence-761354",
+      "brand": "Tofidence",
+      "bla": "761354",
+      "evidence": {
+        "status": "documented",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
+        "documentsDiscovered": 5,
+        "documentsChecked": 5,
+        "facts": [
+          {
+            "months": 24,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Tofidence",
+            "bla": "761354",
+            "strengths": [],
+            "documentDate": "2023-09-29",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2023/761354Orig1s000ltr.pdf",
+            "submission": "ORIG 1",
+            "page": 2,
+            "evidence": "The dating period for Tofidence shall be 24 months from the date of manufacture when stored at 2°C to 8°C, protected from light.",
+            "historical": true,
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
+            "presentation": ""
+          }
+        ],
+        "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
+      }
+    },
+    {
+      "id": "tyruko-761322",
+      "brand": "Tyruko",
+      "bla": "761322",
+      "evidence": {
+        "status": "documented",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
+        "documentsDiscovered": 3,
+        "documentsChecked": 3,
+        "facts": [
+          {
+            "months": 24,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Tyruko",
+            "bla": "761322",
+            "strengths": [],
+            "documentDate": "2023-08-24",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2023/761322Orig1s000ltr.pdf",
+            "submission": "ORIG 1",
+            "page": 2,
+            "evidence": "The dating period for Tyruko shall be 24 months from the date of manufacture when stored at 2°C to 8°C, protected from light.",
+            "historical": true,
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
+            "presentation": ""
+          }
+        ],
+        "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
+      }
+    },
+    {
+      "id": "udenyca-761039",
+      "brand": "Udenyca",
+      "bla": "761039",
+      "evidence": {
+        "status": "documented",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
+        "documentsDiscovered": 8,
+        "documentsChecked": 8,
+        "facts": [
+          {
+            "months": 36,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Udenyca",
+            "bla": "761039",
+            "strengths": [],
+            "documentDate": "2018-11-02",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2018/761039Orig1s000ltr.pdf",
+            "submission": "ORIG 1",
+            "page": 2,
+            "evidence": "The dating period for UDENYCA shall be 36 months from the date of manufacture when stored at 2-8 °C.",
+            "historical": true,
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
+            "presentation": ""
+          }
+        ],
+        "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
+      }
+    },
+    {
+      "id": "wezlana-761285",
+      "brand": "Wezlana",
+      "bla": "761285",
+      "evidence": {
+        "status": "documented",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
+        "documentsDiscovered": 4,
+        "documentsChecked": 4,
+        "facts": [
+          {
+            "presentation": "prefilled syringe",
+            "months": 36,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Wezlana",
+            "bla": "761285",
+            "strengths": [
+              "45 mg/0.5 mL",
+              "90 mg/mL"
+            ],
+            "documentDate": "2023-10-31",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2023/761285Orig1s000;%20761331Orig1s000ltr.pdf",
+            "submission": "ORIG 1",
+            "page": 2,
+            "evidence": "The dating period for Wezlana 45 mg/0.5 mL prefilled syringe and 90 mg/mL prefilled syringe shall be 36 months from the date of manufacture when stored at 2 - 8 °C.",
+            "historical": true,
+            "scope": "45 mg/0.5 mL prefilled syringe and 90 mg/mL prefilled syringe"
+          },
+          {
+            "presentation": "vial",
+            "months": 24,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Wezlana",
+            "bla": "761285",
+            "strengths": [
+              "130 mg/26 mL",
+              "45 mg/0.5 mL"
+            ],
+            "documentDate": "2023-10-31",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2023/761285Orig1s000;%20761331Orig1s000ltr.pdf",
+            "submission": "ORIG 1",
+            "page": 2,
+            "evidence": "The dating period for Wezlana 45 mg/0.5 mL vial and 130 mg/26 mL vial shall be 24 months from the date of manufacture when stored at 2 - 8 °C.",
+            "historical": true,
+            "scope": "45 mg/0.5 mL vial and 130 mg/26 mL vial"
+          }
+        ],
+        "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
+      }
+    },
+    {
+      "id": "wezlana-761331",
+      "brand": "Wezlana",
+      "bla": "761331",
+      "evidence": {
+        "status": "documented",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
+        "documentsDiscovered": 4,
+        "documentsChecked": 4,
+        "facts": [
+          {
+            "presentation": "vial",
+            "months": 24,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Wezlana",
+            "bla": "761331",
+            "strengths": [
+              "130 mg/26 mL",
+              "45 mg/0.5 mL"
+            ],
+            "documentDate": "2023-10-31",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2023/761285Orig1s000;%20761331Orig1s000ltr.pdf",
+            "submission": "ORIG 1",
+            "page": 2,
+            "evidence": "The dating period for Wezlana 45 mg/0.5 mL vial and 130 mg/26 mL vial shall be 24 months from the date of manufacture when stored at 2 - 8 °C.",
+            "historical": true,
+            "scope": "45 mg/0.5 mL vial and 130 mg/26 mL vial"
+          }
+        ],
+        "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
+      }
+    },
+    {
+      "id": "yesafili-761274",
+      "brand": "Yesafili",
+      "bla": "761274",
+      "evidence": {
+        "status": "documented",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
+        "documentsDiscovered": 3,
+        "documentsChecked": 3,
+        "facts": [
+          {
+            "months": 36,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Yesafili",
+            "bla": "761274",
+            "strengths": [],
+            "documentDate": "2024-05-20",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2024/761274Orig1s000ltr.pdf",
+            "submission": "ORIG 1",
+            "page": 2,
+            "evidence": "The dating period for Yesafili shall be 36 months from the date of manufacture when stored at 2°C to 8°C, protected from light.",
+            "historical": true,
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
+            "presentation": ""
+          }
+        ],
+        "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
+      }
+    },
+    {
+      "id": "pyzchiva-761373",
+      "brand": "Pyzchiva",
+      "bla": "761373",
+      "evidence": {
+        "status": "documented",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
+        "documentsDiscovered": 7,
+        "documentsChecked": 7,
+        "facts": [
+          {
+            "presentation": "prefilled syringe",
+            "months": 36,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Pyzchiva",
+            "bla": "761373",
+            "strengths": [],
+            "documentDate": "2025-04-30",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761373Orig2s000;%20761425Orig2s000ltr.pdf",
+            "submission": "ORIG 2",
+            "page": 2,
+            "evidence": "The dating period for Pyzchiva prefilled syringe shall be 36 months from the date of manufacture when stored at 2°C - 8°C protected from light.",
+            "historical": true,
+            "scope": "prefilled syringe"
+          },
+          {
+            "presentation": "vial",
+            "months": 24,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Pyzchiva",
+            "bla": "761373",
+            "strengths": [],
+            "documentDate": "2025-04-30",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761373Orig2s000;%20761425Orig2s000ltr.pdf",
+            "submission": "ORIG 2",
+            "page": 2,
+            "evidence": "The dating period for Pyzchiva (130 mg/26 mL) vial presentation shall be 24 months from the date of manufacture when stored at 2°C - 8°C protected from light.",
+            "historical": true,
+            "scope": "vial presentation"
+          }
+        ],
+        "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
+      }
+    },
+    {
+      "id": "pyzchiva-761425",
+      "brand": "Pyzchiva",
+      "bla": "761425",
+      "evidence": {
+        "status": "partial",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
+        "documentsDiscovered": 5,
+        "documentsChecked": 3,
+        "facts": [
+          {
+            "presentation": "vial",
+            "months": 24,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Pyzchiva",
+            "bla": "761425",
+            "strengths": [],
+            "documentDate": "2025-04-30",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/761373Orig2s000;%20761425Orig2s000ltr.pdf",
+            "submission": "ORIG 2",
+            "page": 2,
+            "evidence": "The dating period for Pyzchiva (130 mg/26 mL) vial presentation shall be 24 months from the date of manufacture when stored at 2°C - 8°C protected from light.",
+            "historical": true,
+            "scope": "vial presentation"
+          }
+        ],
+        "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
+      }
+    },
+    {
+      "id": "zirabev-761099",
+      "brand": "Zirabev",
+      "bla": "761099",
+      "evidence": {
+        "status": "documented",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
+        "documentsDiscovered": 4,
+        "documentsChecked": 4,
+        "facts": [
+          {
+            "months": 42,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Zirabev",
+            "bla": "761099",
+            "strengths": [],
+            "documentDate": "2019-06-27",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2019/761099Orig1s000ltr.pdf",
+            "submission": "ORIG 1",
+            "page": 2,
+            "evidence": "The dating period for Zirabev (bevacizumab-bvzr) shall be 42 months from the date of manufacture when stored at 2 - 8°C.",
+            "historical": true,
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
+            "presentation": ""
+          }
+        ],
+        "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
+      }
+    },
+    {
+      "id": "zimrixby-761376",
+      "brand": "Zimrixby",
+      "bla": "761376",
+      "evidence": {
+        "status": "documented",
+        "checkedAt": "2026-09-09T03:58:55+00:00",
+        "documentsDiscovered": 1,
+        "documentsChecked": 1,
+        "facts": [
+          {
+            "months": 36,
+            "temperature": "2–8°C",
+            "basis": "from manufacture",
+            "brand": "Zimrixby",
+            "bla": "761376",
+            "strengths": [],
+            "documentDate": "2026-07-31",
+            "documentUrl": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2026/761376Orig1s000ltr.pdf",
+            "submission": "ORIG 1",
+            "page": 2,
+            "evidence": "The dating period for Zimrixby shall be 36 months from the date of manufacture when stored at 2°C to 8°C.",
+            "historical": true,
+            "scope": "문서 당시 허가 제형 · 함량별 범위 미확인",
+            "presentation": ""
+          }
+        ],
+        "note": "FDA letter 작성 당시 완제품 dating period. 현재 모든 제형의 유효기간을 의미하지 않으며 실제 포장 유효기간을 확인하세요."
+      }
+    }
+  ]
+}
