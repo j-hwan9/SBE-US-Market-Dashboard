@@ -6,9 +6,57 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-09-09T22:53:58.636340+00:00",
-  "checkedAt": "2026-09-09T22:53:58.636340+00:00",
+  "updatedAt": "2026-09-10T22:55:25.857534+00:00",
+  "checkedAt": "2026-09-10T22:55:25.857534+00:00",
   "articles": [
+    {
+      "id": "efaf8bf82fdf3b84661d",
+      "title": "Drugmakers cherry pick launch regions as MFN creates 'policy environment like an earthquake'",
+      "url": "https://www.biospace.com/drug-development/drugmakers-cherry-pick-launch-regions-as-mfn-creates-policy-environment-like-an-earthquake",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-09-10T13:26:46+00:00",
+      "molecules": [
+        "adalimumab"
+      ],
+      "topics": [],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-10T22:55:25.857534+00:00",
+      "type": "article"
+    },
+    {
+      "id": "92f6a53029c5dcf5f91d",
+      "title": "Legend Biotech to Present Updated Long-Term and Real-World Evidence from CARVYKTI Clinical Program at the International Myeloma Society Annual Meeting",
+      "url": "https://www.biospace.com/press-releases/legend-biotech-to-present-updated-long-term-and-real-world-evidence-from-carvykti-clinical-program-at-the-international-myeloma-society-annual-meeting",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-09-10T13:13:09+00:00",
+      "molecules": [
+        "tocilizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-10T22:55:25.857534+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "4be519869db64b83e6dd",
+      "title": "Biora Therapeutics to Initiate First Human Trial of BioJet™ Oral Biologic Delivery Capsule",
+      "url": "https://www.biospace.com/press-releases/biora-therapeutics-to-initiate-first-human-trial-of-biojet-oral-biologic-delivery-capsule",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-09-10T13:12:11+00:00",
+      "molecules": [
+        "adalimumab"
+      ],
+      "topics": [],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-10T22:55:25.857534+00:00",
+      "type": "press-release"
+    },
     {
       "id": "be39d8f2f50cbcf31979",
       "title": "Sandoz’s Wide Biosimilar Pipeline Getting Much Wider",
@@ -544,29 +592,29 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-09-09T22:53:58.636340+00:00",
+      "checkedAt": "2026-09-10T22:55:25.857534+00:00",
       "status": "ok",
       "discovered": 10,
-      "new": 1,
+      "new": 0,
       "errors": 0,
-      "bodyMatched": 1,
+      "bodyMatched": 0,
       "deferred": 0
     },
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-09-09T22:53:58.636340+00:00",
-      "status": "unavailable",
-      "discovered": 0,
+      "checkedAt": "2026-09-10T22:55:25.857534+00:00",
+      "status": "ok",
+      "discovered": 25,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "lastError": "The read operation timed out"
+      "deferred": 21
     },
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-09-09T22:53:58.636340+00:00",
+      "checkedAt": "2026-09-10T22:55:25.857534+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -577,25 +625,24 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-09-09T22:53:58.636340+00:00",
-      "status": "partial",
-      "discovered": 377,
-      "new": 0,
-      "errors": 1,
-      "bodyMatched": 0,
-      "deferred": 334,
-      "lastError": "Future article publication date"
+      "checkedAt": "2026-09-10T22:55:25.857534+00:00",
+      "status": "ok",
+      "discovered": 352,
+      "new": 3,
+      "errors": 0,
+      "bodyMatched": 3,
+      "deferred": 311
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-09-09T22:53:58.636340+00:00",
+      "checkedAt": "2026-09-10T22:55:25.857534+00:00",
       "status": "ok",
       "discovered": 100,
-      "new": 2,
+      "new": 0,
       "errors": 0,
-      "bodyMatched": 2,
-      "deferred": 58
+      "bodyMatched": 0,
+      "deferred": 89
     }
   ],
   "molecules": [
