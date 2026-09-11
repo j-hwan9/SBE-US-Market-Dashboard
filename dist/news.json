@@ -6,9 +6,25 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-09-10T22:55:25.857534+00:00",
-  "checkedAt": "2026-09-10T22:55:25.857534+00:00",
+  "updatedAt": "2026-09-11T22:57:00.186987+00:00",
+  "checkedAt": "2026-09-11T22:57:00.186987+00:00",
   "articles": [
+    {
+      "id": "f3fa82701cf86c6a2027",
+      "title": "Outlook Therapeutics Fireside Chat from H.C. Wainwright Conference Now Available On-Demand",
+      "url": "https://www.biospace.com/press-releases/outlook-therapeutics-fireside-chat-from-h-c-wainwright-conference-now-available-on-demand",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-09-11T12:18:55+00:00",
+      "molecules": [
+        "bevacizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-11T22:57:00.186987+00:00",
+      "type": "press-release"
+    },
     {
       "id": "efaf8bf82fdf3b84661d",
       "title": "Drugmakers cherry pick launch regions as MFN creates 'policy environment like an earthquake'",
@@ -592,7 +608,7 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-09-10T22:55:25.857534+00:00",
+      "checkedAt": "2026-09-11T22:57:00.186987+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -603,18 +619,18 @@
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-09-10T22:55:25.857534+00:00",
+      "checkedAt": "2026-09-11T22:57:00.186987+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 21
+      "deferred": 22
     },
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-09-10T22:55:25.857534+00:00",
+      "checkedAt": "2026-09-11T22:57:00.186987+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -625,24 +641,24 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-09-10T22:55:25.857534+00:00",
+      "checkedAt": "2026-09-11T22:57:00.186987+00:00",
       "status": "ok",
-      "discovered": 352,
-      "new": 3,
+      "discovered": 250,
+      "new": 1,
       "errors": 0,
-      "bodyMatched": 3,
-      "deferred": 311
+      "bodyMatched": 1,
+      "deferred": 207
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-09-10T22:55:25.857534+00:00",
+      "checkedAt": "2026-09-11T22:57:00.186987+00:00",
       "status": "ok",
       "discovered": 100,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 89
+      "deferred": 90
     }
   ],
   "molecules": [
