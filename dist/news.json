@@ -6,8 +6,8 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-09-11T22:57:00.186987+00:00",
-  "checkedAt": "2026-09-11T22:57:00.186987+00:00",
+  "updatedAt": "2026-09-12T22:49:04.999230+00:00",
+  "checkedAt": "2026-09-12T22:49:04.999230+00:00",
   "articles": [
     {
       "id": "f3fa82701cf86c6a2027",
@@ -23,6 +23,22 @@
       "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-11T22:57:00.186987+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "3d8e7e2c010ed1f925f9",
+      "title": "Lyell Immunopharma Completes Manufacturing Transfer for LYL273 and Provides Updated Timeline on Phase 1/2 Trial in Metastatic Colorectal Cancer",
+      "url": "https://www.biospace.com/press-releases/lyell-immunopharma-completes-manufacturing-transfer-for-lyl273-and-provides-updated-timeline-on-phase-1-2-trial-in-metastatic-colorectal-cancer",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-09-11T03:55:20+00:00",
+      "molecules": [
+        "infliximab"
+      ],
+      "topics": [],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-12T22:49:04.999230+00:00",
       "type": "press-release"
     },
     {
@@ -608,7 +624,7 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-09-11T22:57:00.186987+00:00",
+      "checkedAt": "2026-09-12T22:49:04.999230+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -619,7 +635,7 @@
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-09-11T22:57:00.186987+00:00",
+      "checkedAt": "2026-09-12T22:49:04.999230+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
@@ -630,7 +646,7 @@
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-09-11T22:57:00.186987+00:00",
+      "checkedAt": "2026-09-12T22:49:04.999230+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -641,24 +657,24 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-09-11T22:57:00.186987+00:00",
+      "checkedAt": "2026-09-12T22:49:04.999230+00:00",
       "status": "ok",
-      "discovered": 250,
+      "discovered": 95,
       "new": 1,
       "errors": 0,
       "bodyMatched": 1,
-      "deferred": 207
+      "deferred": 54
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-09-11T22:57:00.186987+00:00",
+      "checkedAt": "2026-09-12T22:49:04.999230+00:00",
       "status": "ok",
       "discovered": 100,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 90
+      "deferred": 97
     }
   ],
   "molecules": [
