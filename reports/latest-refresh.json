@@ -1,0 +1,67 @@
+{
+  "checkedAt": "2026-09-13T22:46:40+00:00",
+  "snapshot": "2026-08",
+  "products": 130,
+  "piObtained": 130,
+  "changes": {
+    "added": [],
+    "removed": [],
+    "changed": [
+      {
+        "id": "ennumo-761147",
+        "brand": "Ennumo",
+        "bla": "761147",
+        "fields": [
+          "Dosage"
+        ]
+      },
+      {
+        "id": "immgolis-761452",
+        "brand": "Immgolis",
+        "bla": "761452",
+        "fields": [
+          "Manufacturer"
+        ]
+      },
+      {
+        "id": "immgolis-intri-761452",
+        "brand": "Immgolis Intri",
+        "bla": "761452",
+        "fields": [
+          "Manufacturer"
+        ]
+      },
+      {
+        "id": "poherdy-761450",
+        "brand": "Poherdy",
+        "bla": "761450",
+        "fields": [
+          "Dosage",
+          "Indications"
+        ]
+      },
+      {
+        "id": "stelara-125261",
+        "brand": "Stelara",
+        "bla": "125261",
+        "fields": [
+          "Dosage",
+          "Indications",
+          "Storage·latex",
+          "PI version"
+        ]
+      },
+      {
+        "id": "stelara-761044",
+        "brand": "Stelara",
+        "bla": "761044",
+        "fields": [
+          "Dosage",
+          "Indications",
+          "Storage·latex",
+          "PI version"
+        ]
+      }
+    ]
+  }
+}
