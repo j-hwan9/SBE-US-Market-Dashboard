@@ -194,7 +194,7 @@ class Monitor:
   (self.output/'index.json').write_text(json.dumps(out,ensure_ascii=False,separators=(',',':'))+'\n')
   (ROOT/'data/competitive-state.json').write_text(json.dumps(self.states,ensure_ascii=False,separators=(',',':'))+'\n')
   # Keep immutable evidence referenced by current pages and historical events.
-  keep={r.get(k) for r in self.pages for k in ['currentScreenshot','previousScreenshot']}|{e.get(k) for e in self.events for k in ['before','after']}
+  keep={s.get('screenshot') for s in self.states.values()}|{r.get(k) for r in self.pages for k in ['currentScreenshot','previousScreenshot']}|{e.get(k) for e in self.events for k in ['before','after']}
   for f in (self.output/'images').glob('*.jpg'):
    if str(f.relative_to(ROOT/'dist')) not in keep:f.unlink()
   print(json.dumps({'brands':len(coverage),'tracking':sum(x['status']=='Tracking' for x in coverage),'pages':len(self.pages),'successful':sum(r['status']!='Needs review' for r in self.pages),'events':len(self.events),'catalogs':self.catalogResults},ensure_ascii=False),flush=True)
