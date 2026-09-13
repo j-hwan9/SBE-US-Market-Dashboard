@@ -159,7 +159,8 @@ class Monitor:
   self.pages.append(row)
   return sorted(set(children),key=lambda u:(category(u)=='Product page',u))
  async def product(self,p,sites):
-  queue=[(s,s['url'],0) for s in sites[:2]];seen=set();limit=self.cfg['maxPagesPerProduct']
+  pinned=sum(s['brand']==p['brand'] for s in self.cfg['sites'])
+  queue=[(s,s['url'],0) for s in sites[:max(2,pinned)]];seen=set();limit=self.cfg['maxPagesPerProduct']
   # Previously tracked URLs remain in scope even when removed from navigation.
   queue += [(sites[0],r['url'],r.get('depth',1)) for r in self.old['pages'] if r['brand']==p['brand'] and not re.search(r'hylecta|hycela|eylea[-_/ ]?hd',r['url'],re.I) and r['url'] not in [v[1] for v in queue]]
   while queue and len(seen)<limit:
