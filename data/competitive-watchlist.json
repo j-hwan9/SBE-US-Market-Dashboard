@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "schedule": "Weekly Monday 07:00 KST · GitHub Actions manual run available",
+  "maxPagesPerProduct": 5,
+  "maxDepth": 2,
+  "catalogs": [
+    {"operator":"Amgen","url":"https://www.amgen.com/products"},
+    {"operator":"Genentech","url":"https://www.gene.com/medical-professionals/medicines"},
+    {"operator":"Pfizer","url":"https://www.pfizer.com/products"},
+    {"operator":"Organon","url":"https://organonpro.com/en-us/products/"},
+    {"operator":"Organon","url":"https://www.organonaccessprogram.com/"},
+    {"operator":"Teva","url":"https://www.tevausa.com/our-products/article-pages/biosimilars-list/"},
+    {"operator":"Celltrion USA","url":"https://www.celltrionusa.com/"},
+    {"operator":"Sandoz US","url":"https://www.us.sandoz.com/"},
+    {"operator":"Biocon Biologics","url":"https://www.bioconbiologics.com/"},
+    {"operator":"Fresenius Kabi US","url":"https://www.fresenius-kabi.com/us/products"},
+    {"operator":"Harrow","url":"https://www.harrow.com/"},
+    {"operator":"Accord US","url":"https://www.accordhealthcare.us/"},
+    {"operator":"Amneal","url":"https://amneal.com/products/biosimilars/"},
+    {"operator":"Johnson & Johnson US","url":"https://www.jnjwithme.com/"},
+    {"operator":"Sanofi US","url":"https://www.sanofipatientconnection.com/"},
+    {"operator":"Novo Nordisk US","url":"https://www.novomedlink.com/"},
+    {"operator":"Alexion US","url":"https://alexion.com/our-medicines/medicines"},
+    {"operator":"Cordavis","url":"https://www.cordavis.com/"}
+  ],
+  "sites": [
+    {"brand":"Pyzchiva","operator":"Sandoz","url":"https://www.pyzchiva.com/","evidence":"https://www.pyzchiva.com/"},
+    {"brand":"Hyrimoz","operator":"Sandoz","url":"https://www.hyrimoz.com/","evidence":"https://www.hyrimoz.com/"},
+    {"brand":"Jubbonti","operator":"Sandoz","url":"https://www.jubbonti.com/","evidence":"https://www.jubbonti.com/"},
+    {"brand":"Byooviz","operator":"Harrow","url":"https://www.byooviz.com/","evidence":"https://www.harrow.com/"},
+    {"brand":"Trazimera","operator":"Pfizer","url":"https://trazimera.pfizerpro.com/","evidence":"https://www.pfizer.com/products"},
+    {"brand":"Retacrit","operator":"Pfizer","url":"https://retacrit.pfizerpro.com/","evidence":"https://www.pfizer.com/products"},
+    {"brand":"Nyvepria","operator":"Pfizer","url":"https://nyvepria.pfizerpro.com/","evidence":"https://www.pfizer.com/products"},
+    {"brand":"Avsola","operator":"Amgen","url":"https://www.avsola.com/","evidence":"https://www.amgen.com/products"}
+  ]
+}

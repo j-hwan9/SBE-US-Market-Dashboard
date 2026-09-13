@@ -1,0 +1,51 @@
+name: Monitor official product websites
+on:
+  schedule:
+    - cron: '0 22 * * 0' # Monday 07:00 KST
+  workflow_dispatch:
+  push:
+    branches: [competitive-monitor]
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: competitive-monitor-${{ github.ref_name }}
+  cancel-in-progress: false
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v6
+      - name: Test change detection
+        run: |
+          python3 -m unittest discover -s tests -v
+          node tests/ui.cjs
+          node --check dist/competitive.js
+      - name: Install capture runtime
+        run: |
+          pip install requests playwright pillow
+          python3 -m playwright install --with-deps chromium
+      - name: Capture official pages and compare
+        run: python3 scripts/competitive.py
+      - name: Set up browser verification
+        run: |
+          npm install --prefix /tmp/dashboard-browser-check playwright@1.58.2
+          sudo apt-get install -y fonts-noto-cjk >/dev/null
+      - name: Verify dashboard with real collected data
+        run: |
+          python3 -m http.server 8765 --directory dist >/tmp/ci-server.log 2>&1 &
+          node tests/competitive-browser.cjs
+      - name: Save snapshots and evidence
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email github-actions[bot]@users.noreply.github.com
+          git add dist/competitive data/competitive-state.json
+          git diff --cached --quiet || git commit -m "Update official website monitoring snapshots"
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin "HEAD:$GITHUB_REF_NAME"
+      - name: Publish refreshed dashboard
+        if: github.ref_name == 'main'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pages.yml --ref main
