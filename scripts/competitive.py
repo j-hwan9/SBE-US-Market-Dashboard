@@ -2,7 +2,7 @@
 Official catalog links establish provenance; Purple Book establishes product scope.
 """
 import asyncio,hashlib,io,json,re,sys,os,textwrap
-from datetime import datetime,timezone
+from datetime import datetime,timezone,timedelta
 from pathlib import Path
 from urllib.parse import urljoin,urlsplit,urlunsplit,parse_qsl,urlencode
 from urllib.robotparser import RobotFileParser
@@ -11,6 +11,7 @@ UA='SBEUSMonitor/1.0 (+https://github.com/j-hwan9/SBE-US-Market-Dashboard)'
 STAMP=datetime.now(timezone.utc).isoformat()
 SKIP=re.compile(r'privacy|cookie|terms|legal|login|sign.in|register|unsubscribe|careers|search|facebook|linkedin|twitter|youtube|instagram',re.I)
 TOPICS=[('Access / support',r'access|reimburse|copay|co-pay|saving|support|coverage|insurance'),('Resources',r'resource|download|material|brochure|guide'),('Clinical data',r'clinical|efficacy|study|studies|data'),('Safety',r'safety|warning'),('HCP',r'hcp|professional|provider'),('Patient',r'patient|caregiver'),('Events',r'congress|event|symposium')]
+def month_key(stamp):return datetime.fromisoformat(stamp.replace('Z','+00:00')).astimezone(timezone(timedelta(hours=9))).strftime('%Y-%m')
 def digest(v):return hashlib.sha256(v if isinstance(v,bytes) else v.encode()).hexdigest()
 def canonical(url,base=''):
  try:
@@ -190,12 +191,15 @@ class Monitor:
   coverage=[]
   for p in products:
    pages=[r for r in self.pages if r['brand']==p['brand']];coverage.append(dict(p,sites=len(mapped[p['brand']]),pages=len(pages),successful=sum(r['status']!='Needs review' for r in pages),status='Not mapped' if not pages else 'Needs review' if all(r['status']=='Needs review' for r in pages) else 'Tracking'))
-  out=dict(schemaVersion=1,checkedAt=STAMP,schedule=self.cfg['schedule'],maxPagesPerProduct=self.cfg['maxPagesPerProduct'],maxDepth=self.cfg['maxDepth'],catalogs=self.catalogResults,sites=sites,coverage=coverage,pages=self.pages,events=self.events)
+  monthly=self.old.get('monthlySnapshots',{})
+  monthly[month_key(STAMP)]=dict(checkedAt=STAMP,pages=self.pages)
+  out=dict(monthlySnapshots=monthly,schemaVersion=1,checkedAt=STAMP,schedule=self.cfg['schedule'],maxPagesPerProduct=self.cfg['maxPagesPerProduct'],maxDepth=self.cfg['maxDepth'],catalogs=self.catalogResults,sites=sites,coverage=coverage,pages=self.pages,events=self.events)
   if not any(r.get('lastSuccess')==STAMP for r in self.pages):raise RuntimeError('No successful captures; published baseline preserved')
   (self.output/'index.json').write_text(json.dumps(out,ensure_ascii=False,separators=(',',':'))+'\n')
   (ROOT/'data/competitive-state.json').write_text(json.dumps(self.states,ensure_ascii=False,separators=(',',':'))+'\n')
   # Keep immutable evidence referenced by current pages and historical events.
   keep={s.get('screenshot') for s in self.states.values()}|{r.get(k) for r in self.pages for k in ['currentScreenshot','previousScreenshot']}|{e.get(k) for e in self.events for k in ['before','after']}
+  keep|={r.get(k) for snapshot in monthly.values() for r in snapshot['pages'] for k in ['currentScreenshot','previousScreenshot']}
   for f in (self.output/'images').glob('*.jpg'):
    if str(f.relative_to(ROOT/'dist')) not in keep:f.unlink()
   print(json.dumps({'brands':len(coverage),'tracking':sum(x['status']=='Tracking' for x in coverage),'pages':len(self.pages),'successful':sum(r['status']!='Needs review' for r in self.pages),'events':len(self.events),'catalogs':self.catalogResults},ensure_ascii=False),flush=True)

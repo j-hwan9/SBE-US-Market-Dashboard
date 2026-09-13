@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "schedule": "Weekly Monday 07:00 KST \u00b7 GitHub Actions manual run available",
+  "schedule": "Monthly on day 1 at 09:00 KST · GitHub Actions manual run available",
   "maxPagesPerProduct": 5,
   "maxDepth": 2,
   "catalogs": [

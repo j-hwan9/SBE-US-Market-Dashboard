@@ -1,7 +1,7 @@
 name: Monitor official product websites
 on:
   schedule:
-    - cron: '0 22 * * 0' # Monday 07:00 KST
+    - cron: '0 0 1 * *' # First day of each month, 09:00 KST
   workflow_dispatch:
   push:
     branches: [competitive-monitor]
