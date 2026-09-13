@@ -115,7 +115,7 @@ def parse_workbook(data,filename):
  return out
 def parse_crosswalk(content):
  import pandas as pd
- archive=zipfile.ZipFile(io.BytesIO(content));out={}
+ archive=zipfile.ZipFile(io.BytesIO(content));out={};headers=[]
  for name in archive.namelist():
   if not name.lower().endswith(('.xls','.xlsx','.csv')):continue
   if name.lower().endswith('.csv'):
@@ -124,6 +124,7 @@ def parse_crosswalk(content):
   for frame in frames:
    for i in range(min(35,len(frame))):
     h=[str(v).lower() for v in frame.iloc[i]]
+    if any('hcpcs' in v or 'ndc' in v for v in h):headers.append(h)
     hc=next((j for j,v in enumerate(h) if 'hcpcs' in v and 'dosage' not in v and 'unit' not in v),None)
     nc=next((j for j,v in enumerate(h) if ('ndc' in v or 'national drug code' in v) and not any(w in v for w in ['unit','quantity','package','name'])),None)
     if hc is None or nc is None:continue
@@ -131,7 +132,7 @@ def parse_crosswalk(content):
      code=str(r.iloc[hc]).strip().upper();n=re.sub(r'\.0$','',str(r.iloc[nc]).strip());n=re.sub(r'[^0-9]','',n)
      if re.fullmatch('[JQC][0-9]{4}',code) and 9<=len(n)<=11:out.setdefault(code,set()).add(n.zfill(11))
     break
- if not out:raise ValueError('CMS crosswalk schema not recognized')
+ if not out:raise ValueError('CMS crosswalk schema not recognized: '+str(headers[:2]))
  return out
 
 def display_molecule(s):return next((k for k in CONFIG if k.lower()==s.lower()),s[:1].upper()+s[1:])
