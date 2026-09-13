@@ -2,9 +2,10 @@
 import re
 
 OVERLAYS = r'''() => {
+ document.querySelectorAll('[data-ci-overlay]').forEach(e=>e.removeAttribute('data-ci-overlay'));
  const visible=e=>{const r=e.getBoundingClientRect(),s=getComputedStyle(e);return r.width>180&&r.height>80&&s.display!=='none'&&s.visibility!=='hidden'&&Number(s.opacity)!==0};
  const nodes=[...document.querySelectorAll('[role="dialog"],dialog,[aria-modal="true"],[class*="modal" i],[id*="modal" i],[class*="popup" i],[id*="popup" i],[class*="pop-up" i],[id*="onetrust-banner"],[class*="cookie-banner" i]')].filter(visible);
- const candidates=nodes.filter(e=>{const s=getComputedStyle(e);return e.matches('[role="dialog"],dialog,[aria-modal="true"]')||s.position==='fixed'||Number(s.zIndex)>=20||!!e.querySelector('[aria-label*="close" i],.close,[class*="close" i],[data-dismiss="modal"]')});
+ const candidates=nodes.filter(e=>{if(e.closest('header,nav')||e.matches('aside')||e.querySelector('main'))return false;const s=getComputedStyle(e);return e.matches('[role="dialog"],dialog,[aria-modal="true"]')||s.position==='fixed'||Number(s.zIndex)>=20||!!e.querySelector('[aria-label*="close" i],.close,[class*="close" i],[data-dismiss="modal"]')});
  return candidates.filter(e=>!candidates.some(p=>p!==e&&p.contains(e))).map((e,i)=>{e.setAttribute('data-ci-overlay',String(i));return {id:String(i),text:(e.innerText||'').trim(),links:[...e.querySelectorAll('a[href]')].map(a=>({url:a.href,label:(a.innerText||a.title||'').trim(),context:(a.innerText||'').trim()})),cookie:/cookie|onetrust|consent/i.test(e.id+' '+e.className)||/cookies.*personaliz|non-essential cookies/i.test(e.innerText)}});
 }'''
 GATE=re.compile(r'verify.{0,30}(human|identity)|captcha|are you.{0,50}(healthcare|health care|medical professional)|confirm.{0,50}(healthcare|health care|professional)|sign in to access|log in to access',re.I)

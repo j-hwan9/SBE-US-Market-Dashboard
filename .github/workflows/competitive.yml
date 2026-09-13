@@ -31,7 +31,7 @@ jobs:
       - name: Capture official pages and compare
         run: |
           python3 tests/capture-browser.py
-          python3 tests/live-teva.py
+          if [ "$GITHUB_REF_NAME" = "competitive-monitor" ]; then python3 tests/live-teva.py; fi
           python3 scripts/competitive.py
       - name: Set up browser verification
         run: |
