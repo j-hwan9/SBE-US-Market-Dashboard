@@ -122,7 +122,7 @@ def parse_crosswalk(content):
    frames=[pd.read_csv(io.BytesIO(archive.read(name)),header=None,dtype=str,encoding='latin1')]
   else:frames=list(pd.read_excel(io.BytesIO(archive.read(name)),sheet_name=None,header=None,dtype=str,engine='xlrd' if name.lower().endswith('.xls') else 'openpyxl').values())
   for frame in frames:
-   for i in range(min(35,len(frame))):
+   for i in range(min(100,len(frame))):
     h=[str(v).lower() for v in frame.iloc[i]]
     if any('hcpcs' in v or 'ndc' in v for v in h):headers.append(h)
     hc=next((j for j,v in enumerate(h) if 'hcpcs' in v and 'dosage' not in v and 'unit' not in v),None)
@@ -132,7 +132,7 @@ def parse_crosswalk(content):
      code=str(r.iloc[hc]).strip().upper();n=re.sub(r'\.0$','',str(r.iloc[nc]).strip());n=re.sub(r'[^0-9]','',n)
      if re.fullmatch('[JQC][0-9]{4}',code) and 9<=len(n)<=11:out.setdefault(code,set()).add(n.zfill(11))
     break
- if not out:raise ValueError('CMS crosswalk schema not recognized: '+str(headers[:2]))
+ if not out:raise ValueError('CMS crosswalk schema not recognized: '+str(headers[-2:]))
  return out
 
 def display_molecule(s):return next((k for k in CONFIG if k.lower()==s.lower()),s[:1].upper()+s[1:])
