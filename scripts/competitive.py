@@ -1,6 +1,7 @@
 """Official-site snapshots and deterministic change detection. No AI or login bypass.
 Official catalog links establish provenance; Purple Book establishes product scope.
 """
+from competitive_capture import prepare_page,full_screenshot
 import asyncio,hashlib,io,json,re,sys,os,textwrap
 from datetime import datetime,timezone,timedelta
 from pathlib import Path
@@ -50,7 +51,7 @@ class Monitor:
   self.output=ROOT/'dist/competitive';self.output.mkdir(exist_ok=True);(self.output/'images').mkdir(exist_ok=True)
   self.old=json.loads((self.output/'index.json').read_text()) if (self.output/'index.json').exists() else {'pages':[],'events':[]}
   self.states=json.loads((ROOT/'data/competitive-state.json').read_text()) if (ROOT/'data/competitive-state.json').exists() else {}
-  self.events=[e for e in self.old['events'] if e.get('extractorVersion')==2];self.pages=[];self.initial=not self.old.get('checkedAt')
+  self.events=[e for e in self.old['events'] if e.get('extractorVersion',0)>=2];self.pages=[];self.initial=not self.old.get('checkedAt')
  async def allowed(self,url):
   import requests
   origin=urlsplit(url).scheme+'://'+urlsplit(url).netloc
@@ -81,12 +82,15 @@ class Monitor:
      await p.evaluate('''()=>document.querySelectorAll('video,audio').forEach(v=>{v.pause();try{v.currentTime=0}catch(e){}})''')
      text=await p.locator('body').inner_text(timeout=10000)
      if len(text)<120 or re.search(r'just a moment|verify you are human|access denied|captcha|request blocked|CSS Error|This page has an error',text[:1600],re.I):raise ValueError('Blocked, verification required, or empty page')
+     popups,captureWarnings=await prepare_page(p,screenshot)
      result=await p.evaluate('''()=>{const root=document.querySelector('main')||document.body;const clone=root.cloneNode(true);clone.querySelectorAll('script,style,nav,footer,header,video,audio,iframe,.vjs-control-bar,[class*="breadcrumb"],[id*="onetrust"],[class*="cookie-banner"]').forEach(x=>x.remove());clone.querySelectorAll('p,li,h1,h2,h3,h4,h5,div,section,article,br,tr').forEach(x=>{x.prepend('\\n');x.append('\\n')});return {title:document.title,text:clone.textContent,links:Array.from(document.querySelectorAll('a[href]')).map(a=>({url:a.href,label:(a.innerText||a.title||a.querySelector('img')?.alt||'').trim().slice(0,160),context:a.parentElement.innerText.slice(0,1000)})),images:Array.from(root.querySelectorAll('img[src]')).map(i=>i.currentSrc||i.src)}}''')
      result['finalUrl']=final
+     result['text']+='\n'+'\n'.join('Promotional popup: '+x['text'] for x in popups)
+     result['links'] += [link for x in popups for link in x['links']]
+     result['popups']=popups;result['captureWarnings']=captureWarnings
      if screenshot:
-      await p.add_style_tag(content='*,*::before,*::after{animation:none!important;transition:none!important;caret-color:transparent!important} #onetrust-banner-sdk,.onetrust-pc-dark-filter{visibility:hidden!important}')
-      height=min(2400,await p.evaluate('document.documentElement.scrollHeight'))
-      result['image']=await p.screenshot(type='jpeg',quality=50,clip={'x':0,'y':0,'width':1280,'height':height},timeout=15000)
+      result['image']=await full_screenshot(p)
+      result['dimensions']=await p.evaluate('({width:document.documentElement.scrollWidth,height:document.documentElement.scrollHeight})')
      return result
     finally:await p.close()
  async def discover_catalog(self,source,products):
@@ -140,9 +144,13 @@ class Monitor:
    hashes=await asyncio.gather(*(self.file_hash(v['url']) for v in pdfs))
    for v,h in zip(pdfs,hashes):
     if h:v['fileHash']=h
+   popupPaths=[]
+   for popup in r.pop('popups',[]):
+    if popup.get('image'):
+     path='competitive/images/'+digest(popup['image'])[:24]+'.jpg';(ROOT/'dist'/path).write_bytes(popup['image']);popupPaths.append(path)
    shot=r.pop('image');imagePath='competitive/images/'+digest(shot)[:24]+'.jpg';(ROOT/'dist'/imagePath).write_bytes(shot)
-   current=dict(extractorVersion=2,text=text_state(r['text']),links=links[:250],images=sorted(set(canonical(x,url) for x in r['images'] if canonical(x,url)))[:100],screenshot=imagePath)
-   if old and old.get('extractorVersion')==2:
+   current=dict(extractorVersion=3,popupScreenshots=popupPaths,text=text_state(r['text']),links=links[:250],images=sorted(set(canonical(x,url) for x in r['images'] if canonical(x,url)))[:100],screenshot=imagePath)
+   if old and old.get('extractorVersion')==3:
     from PIL import Image,ImageChops,ImageStat
     try:
      a=Image.open(ROOT/'dist'/old['screenshot']).convert('RGB').resize((128,240));b=Image.open(io.BytesIO(shot)).convert('RGB').resize((128,240))
@@ -150,16 +158,17 @@ class Monitor:
     except Exception:current['visualChanged']=False
     change=difference(old,current);row['status']='Changed' if change['types'] else 'Unchanged'
     if change['types']:
-     event=dict(extractorVersion=2,id=digest(key+STAMP)[:24],pageId=key,brand=row['brand'],molecule=row['molecule'],operator=row['operator'],pageType=row['pageType'],url=url,detectedAt=STAMP,previousCheckedAt=prior.get('lastSuccess'),quarter=f'{STAMP[:4]} Q{(int(STAMP[5:7])-1)//3+1}',before=old['screenshot'],after=imagePath,**change)
+     event=dict(extractorVersion=3,id=digest(key+STAMP)[:24],pageId=key,brand=row['brand'],molecule=row['molecule'],operator=row['operator'],pageType=row['pageType'],url=url,detectedAt=STAMP,previousCheckedAt=prior.get('lastSuccess'),quarter=f'{STAMP[:4]} Q{(int(STAMP[5:7])-1)//3+1}',before=old['screenshot'],after=imagePath,beforePopups=old.get('popupScreenshots',[]),afterPopups=popupPaths,**change)
      self.events.append(event);row['lastChanged']=STAMP
    else:
     row['status']='Baseline'
     if not self.initial and not old:
-     self.events.append(dict(extractorVersion=2,id=digest(key+STAMP)[:24],pageId=key,brand=row['brand'],molecule=row['molecule'],operator=row['operator'],pageType=row['pageType'],url=url,detectedAt=STAMP,previousCheckedAt=None,quarter=f'{STAMP[:4]} Q{(int(STAMP[5:7])-1)//3+1}',before=None,after=imagePath,types=['New monitored page'],added=[],removed=[],addedCount=0,removedCount=0,linksAdded=[],linksRemoved=[],filesChanged=[]))
-   row.update(currentScreenshot=imagePath,previousScreenshot=old.get('screenshot') if old else None,lastChanged=row.get('lastChanged',prior.get('lastChanged')),linkCount=len(links),pdfCount=len(pdfs))
+     self.events.append(dict(extractorVersion=3,id=digest(key+STAMP)[:24],pageId=key,brand=row['brand'],molecule=row['molecule'],operator=row['operator'],pageType=row['pageType'],url=url,detectedAt=STAMP,previousCheckedAt=None,quarter=f'{STAMP[:4]} Q{(int(STAMP[5:7])-1)//3+1}',before=None,after=imagePath,beforePopups=[],afterPopups=popupPaths,types=['New monitored page'],added=[],removed=[],addedCount=0,removedCount=0,linksAdded=[],linksRemoved=[],filesChanged=[]))
+   row.update(captureMode='full-page',dimensions=r['dimensions'],captureWarnings=r['captureWarnings'],popupScreenshots=popupPaths,previousPopupScreenshots=old.get('popupScreenshots',[]) if old else [],currentScreenshot=imagePath,previousScreenshot=old.get('screenshot') if old else None,lastChanged=row.get('lastChanged',prior.get('lastChanged')),linkCount=len(links),pdfCount=len(pdfs))
    self.states[key]=current
+   if r['captureWarnings']:row.update(status='Needs review',error='; '.join(r['captureWarnings']))
   except Exception as e:
-   row.update(status='Needs review',error=str(e)[:240],currentScreenshot=prior.get('currentScreenshot'),previousScreenshot=prior.get('previousScreenshot'),lastChanged=prior.get('lastChanged'))
+   row.update(captureMode=prior.get('captureMode','legacy-cropped'),popupScreenshots=prior.get('popupScreenshots',[]),previousPopupScreenshots=prior.get('previousPopupScreenshots',[]),status='Needs review',error=str(e)[:240],currentScreenshot=prior.get('currentScreenshot'),previousScreenshot=prior.get('previousScreenshot'),lastChanged=prior.get('lastChanged'))
   self.pages.append(row)
   return sorted(set(children),key=lambda u:(category(u)=='Product page',u))
  async def product(self,p,sites):
@@ -200,6 +209,9 @@ class Monitor:
   # Keep immutable evidence referenced by current pages and historical events.
   keep={s.get('screenshot') for s in self.states.values()}|{r.get(k) for r in self.pages for k in ['currentScreenshot','previousScreenshot']}|{e.get(k) for e in self.events for k in ['before','after']}
   keep|={r.get(k) for snapshot in monthly.values() for r in snapshot['pages'] for k in ['currentScreenshot','previousScreenshot']}
+  keep|={u for row in self.pages+[r for snap in monthly.values() for r in snap['pages']] for key in ['popupScreenshots','previousPopupScreenshots'] for u in row.get(key,[])}
+  keep|={u for e in self.events for key in ['beforePopups','afterPopups'] for u in e.get(key,[])}
+  keep|={u for state in self.states.values() for u in state.get('popupScreenshots',[])}
   for f in (self.output/'images').glob('*.jpg'):
    if str(f.relative_to(ROOT/'dist')) not in keep:f.unlink()
   print(json.dumps({'brands':len(coverage),'tracking':sum(x['status']=='Tracking' for x in coverage),'pages':len(self.pages),'successful':sum(r['status']!='Needs review' for r in self.pages),'events':len(self.events),'catalogs':self.catalogResults},ensure_ascii=False),flush=True)
