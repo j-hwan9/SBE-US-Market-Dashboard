@@ -253,6 +253,54 @@
       "operator": "Amgen / Nuvaila",
       "url": "https://www.wezlana.com/",
       "evidence": "https://www.wezlana.com/"
+    },
+    {
+      "brand": "Humira",
+      "operator": "AbbVie",
+      "url": "https://www.humira.com/",
+      "evidence": "https://www.humira.com/"
+    },
+    {
+      "brand": "Simponi Aria",
+      "operator": "Johnson & Johnson",
+      "url": "https://www.simponiaria.com/",
+      "evidence": "https://www.simponiaria.com/"
+    },
+    {
+      "brand": "Procrit",
+      "operator": "Johnson & Johnson",
+      "url": "https://www.procrit.com/",
+      "evidence": "https://www.procrit.com/"
+    },
+    {
+      "brand": "Soliris",
+      "operator": "Alexion",
+      "url": "https://alexiononesource.com/soliris",
+      "evidence": "https://alexiononesource.com/soliris"
+    },
+    {
+      "brand": "Soliris",
+      "operator": "Alexion",
+      "url": "https://alexionaccessnavigator.com/soliris",
+      "evidence": "https://alexionaccessnavigator.com/soliris"
+    },
+    {
+      "brand": "Zarxio",
+      "operator": "Sandoz",
+      "url": "https://www.zarxio.com/",
+      "evidence": "https://www.zarxio.com/"
+    },
+    {
+      "brand": "Wyost",
+      "operator": "Sandoz",
+      "url": "https://www.wyost.com/",
+      "evidence": "https://www.wyost.com/"
+    },
+    {
+      "brand": "Udenyca Onbody",
+      "operator": "Accord BioPharma",
+      "url": "https://www.udenyca.com/",
+      "evidence": "https://www.udenyca.com/"
     }
   ]
 }
