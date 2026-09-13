@@ -37,10 +37,6 @@
       "url": "https://www.us.sandoz.com/"
     },
     {
-      "operator": "Biocon Biologics",
-      "url": "https://www.bioconbiologics.com/"
-    },
-    {
       "operator": "Fresenius Kabi US",
       "url": "https://www.fresenius-kabi.com/us/products"
     },
@@ -83,6 +79,10 @@
     {
       "operator": "AbbVie US",
       "url": "https://www.abbvie.com/patients/products.html"
+    },
+    {
+      "operator": "Biocon Biologics US",
+      "url": "https://www.bioconbiologicsus.com/"
     }
   ],
   "sites": [
@@ -187,6 +187,48 @@
       "operator": "Accord BioPharma",
       "url": "https://www.udenyca.com/",
       "evidence": "https://www.udenyca.com/"
+    },
+    {
+      "brand": "Yesintek",
+      "operator": "Biocon Biologics",
+      "url": "https://www.yesintek.com/",
+      "evidence": "https://www.yesintek.com/"
+    },
+    {
+      "brand": "Ogivri",
+      "operator": "Biocon Biologics",
+      "url": "https://ogivrihcp.com/",
+      "evidence": "https://www.ogivri.com/"
+    },
+    {
+      "brand": "Fulphila",
+      "operator": "Biocon Biologics",
+      "url": "https://fulphila.com/",
+      "evidence": "https://www.fulphila.com/"
+    },
+    {
+      "brand": "Stelara",
+      "operator": "Johnson & Johnson",
+      "url": "https://www.stelarainfo.com/",
+      "evidence": "https://www.stelarainfo.com/"
+    },
+    {
+      "brand": "Lantus",
+      "operator": "Sanofi",
+      "url": "https://www.lantus.com/",
+      "evidence": "https://www.lantus.com/"
+    },
+    {
+      "brand": "Remicade",
+      "operator": "Johnson & Johnson",
+      "url": "https://www.remicade.com/",
+      "evidence": "https://www.remicade.com/"
+    },
+    {
+      "brand": "Novolog",
+      "operator": "Novo Nordisk",
+      "url": "https://www.novomedlink.com/diabetes/products/treatments/novolog.html",
+      "evidence": "https://www.novomedlink.com/diabetes/products/treatments/novolog.html"
     }
   ]
 }

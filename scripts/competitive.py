@@ -96,7 +96,7 @@ class Monitor:
      direct=brand_match(p['brand'],u+' '+link['label'])
      contextual=brand_match(p['brand'],link['context']) and bool(re.search('product website|visit.*site|learn more',link['label'],re.I))
      if not (direct or contextual):continue
-     if re.search(r'hylecta|hycela|eylea.hd',u+' '+link['label'],re.I):continue
+     if re.search(r'hylecta|hycela|eylea[-_/ ]?hd',u+' '+link['label'],re.I):continue
      # Cross-domain discovery must identify the brand in the destination hostname.
      if host(u)!=host(source['url']) and p['brand'].lower().replace(' ','') not in host(u).replace('-',''):continue
      if re.search(r'/news|press.release|/media|/investor',u,re.I):continue
@@ -131,7 +131,7 @@ class Monitor:
     if (host(u)==host(url) or product['brand'].lower().replace(' ','') in host(u).replace('-','')) and u!=url and not re.search(r'\.(pdf|zip|docx?|jpe?g|png|mp4)$',urlsplit(u).path,re.I):
      # Corporate sites stay inside the product subtree; brand sites can discover all relevant pages.
      branded=product['brand'].lower().replace(' ','') in host(url).replace('-','')
-     if (branded or brand_match(product['brand'],u)) and not re.search(r'hylecta|hycela|eylea.hd',u,re.I):children.append(u)
+     if (branded or brand_match(product['brand'],u)) and not re.search(r'hylecta|hycela|eylea[-_/ ]?hd',u,re.I):children.append(u)
    pdfs=[v for v in links if urlsplit(v['url']).path.lower().endswith('.pdf')][:6]
    hashes=await asyncio.gather(*(self.file_hash(v['url']) for v in pdfs))
    for v,h in zip(pdfs,hashes):
@@ -161,7 +161,7 @@ class Monitor:
  async def product(self,p,sites):
   queue=[(s,s['url'],0) for s in sites[:2]];seen=set();limit=self.cfg['maxPagesPerProduct']
   # Previously tracked URLs remain in scope even when removed from navigation.
-  queue += [(sites[0],r['url'],r.get('depth',1)) for r in self.old['pages'] if r['brand']==p['brand'] and r['url'] not in [v[1] for v in queue]]
+  queue += [(sites[0],r['url'],r.get('depth',1)) for r in self.old['pages'] if r['brand']==p['brand'] and not re.search(r'hylecta|hycela|eylea[-_/ ]?hd',r['url'],re.I) and r['url'] not in [v[1] for v in queue]]
   while queue and len(seen)<limit:
    site,u,depth=queue.pop(0)
    if u in seen:continue
@@ -178,7 +178,7 @@ class Monitor:
    sites=self.cfg['sites'][:]+[x for group in discovered for x in group]
    # Preserve previously proven official links through temporary catalog failures.
    sites+=self.old.get('sites',[])
-   sites=list({(s['brand'],s['url']):s for s in sites}.values())
+   sites=list({(s['brand'],s['url']):s for s in sites if not re.search(r'hylecta|hycela|eylea[-_/ ]?hd',s['url'],re.I)}.values())
    mapped={p['brand']:[s for s in sites if s['brand']==p['brand']] for p in products}
    await asyncio.gather(*(self.product(p,mapped[p['brand']]) for p in products if mapped[p['brand']]))
    await self.browser.close()
