@@ -127,7 +127,7 @@ def parse_crosswalk(content):
     if any('hcpcs' in v or 'ndc' in v for v in h):headers.append(h)
     hc=next((j for j,v in enumerate(h) if 'hcpcs' in v and 'dosage' not in v and 'unit' not in v),None)
     nc=next((j for j,v in enumerate(h) if ('ndc' in v or 'national drug code' in v) and not any(w in v for w in ['unit','quantity','package','name'])),None)
-    if hc is None or nc is None:continue
+    if hc is None or nc is None or hc==nc:continue
     for _,r in frame.iloc[i+1:].iterrows():
      code=str(r.iloc[hc]).strip().upper();n=re.sub(r'\.0$','',str(r.iloc[nc]).strip());n=re.sub(r'[^0-9]','',n)
      if re.fullmatch('[JQC][0-9]{4}',code) and 9<=len(n)<=11:out.setdefault(code,set()).add(n.zfill(11))
