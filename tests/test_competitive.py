@@ -16,5 +16,7 @@ class CompetitiveTests(unittest.TestCase):
   self.assertIn('PDF updated',d['types'])
  def test_product_boundary(self):
   self.assertTrue(brand_match('Kanjinti','https://www.kanjinti.com/hcp'));self.assertFalse(brand_match('Avsola','NotAvsola'))
+ def test_long_text_excerpt_is_inspectable(self):
+  chunks=text_state('word '*200);self.assertGreater(len(chunks),1);self.assertTrue(all(len(x['excerpt'])<=220 for x in chunks))
  def test_category(self):self.assertEqual(category('https://site.com/reimbursement'),'Access / support')
 if __name__=='__main__':unittest.main()

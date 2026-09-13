@@ -1,7 +1,7 @@
 """Official-site snapshots and deterministic change detection. No AI or login bypass.
 Official catalog links establish provenance; Purple Book establishes product scope.
 """
-import asyncio,hashlib,io,json,re,sys,os
+import asyncio,hashlib,io,json,re,sys,os,textwrap
 from datetime import datetime,timezone
 from pathlib import Path
 from urllib.parse import urljoin,urlsplit,urlunsplit,parse_qsl,urlencode
@@ -17,7 +17,7 @@ def canonical(url,base=''):
   u=urlsplit(urljoin(base,url));h=(u.hostname or '').lower()
   if u.scheme not in ('https','http') or not h or u.username or u.port not in (None,80,443) or h in ('localhost','127.0.0.1') or ':' in h or re.fullmatch(r'[\d.]+',h):return None
   query=urlencode([(k,v) for k,v in parse_qsl(u.query) if not k.lower().startswith(('utm_','gclid','fbclid'))])
-  return urlunsplit((u.scheme,h,u.path or '/',query,''))
+  return urlunsplit(('https',h,u.path or '/',query,''))
  except ValueError:return None
 def host(u):return (urlsplit(u).hostname or '').removeprefix('www.')
 def brand_match(brand,text):return bool(re.search(r'(?<![a-z0-9])'+re.escape(brand.lower())+r'(?![a-z0-9])',text.lower()))
@@ -28,7 +28,7 @@ def lines(text):
   s=' '.join(s.split())
   if len(s)>3 and not re.search(r'^(©|copyright|all rights reserved|cookie settings)',s,re.I):out.append(s)
  return list(dict.fromkeys(out))
-def text_state(text):return [{'hash':digest(s),'excerpt':s[:220]} for s in lines(text)]
+def text_state(text):return [{'hash':digest(chunk),'excerpt':chunk} for s in lines(text) for chunk in textwrap.wrap(s,220,break_long_words=True,break_on_hyphens=False)]
 def difference(old,new):
  a={v['hash']:v['excerpt'] for v in old['text']};b={v['hash']:v['excerpt'] for v in new['text']}
  added=[b[k] for k in b if k not in a];removed=[a[k] for k in a if k not in b]
@@ -49,7 +49,7 @@ class Monitor:
   self.output=ROOT/'dist/competitive';self.output.mkdir(exist_ok=True);(self.output/'images').mkdir(exist_ok=True)
   self.old=json.loads((self.output/'index.json').read_text()) if (self.output/'index.json').exists() else {'pages':[],'events':[]}
   self.states=json.loads((ROOT/'data/competitive-state.json').read_text()) if (ROOT/'data/competitive-state.json').exists() else {}
-  self.events=self.old['events'][:];self.pages=[];self.initial=not self.old.get('checkedAt')
+  self.events=[e for e in self.old['events'] if e.get('extractorVersion')==2];self.pages=[];self.initial=not self.old.get('checkedAt')
  async def allowed(self,url):
   import requests
   origin=urlsplit(url).scheme+'://'+urlsplit(url).netloc
@@ -74,10 +74,13 @@ class Monitor:
      if not response or response.status>=400:raise ValueError('HTTP '+str(response.status if response else 'no response'))
      final=canonical(p.url)
      if host(final)!=host(url):raise ValueError('Redirect needs official-site review: '+final)
-     await p.wait_for_timeout(1200)
+     try:await p.wait_for_load_state('networkidle',timeout=5000)
+     except Exception:pass
+     await p.wait_for_timeout(600)
+     await p.evaluate('''()=>document.querySelectorAll('video,audio').forEach(v=>{v.pause();try{v.currentTime=0}catch(e){}})''')
      text=await p.locator('body').inner_text(timeout=10000)
      if len(text)<120 or re.search(r'just a moment|verify you are human|access denied|captcha|request blocked',text[:1600],re.I):raise ValueError('Blocked, verification required, or empty page')
-     result=await p.evaluate('''()=>{const root=document.querySelector('main')||document.body;const clone=root.cloneNode(true);clone.querySelectorAll('script,style,nav,footer,[id*="onetrust"],[class*="cookie-banner"]').forEach(x=>x.remove());return {title:document.title,text:clone.innerText||clone.textContent,links:Array.from(document.querySelectorAll('a[href]')).map(a=>({url:a.href,label:(a.innerText||a.title||a.querySelector('img')?.alt||'').trim().slice(0,160),context:a.parentElement.innerText.slice(0,1000)})),images:Array.from(root.querySelectorAll('img[src]')).map(i=>i.currentSrc||i.src)}}''')
+     result=await p.evaluate('''()=>{const root=document.querySelector('main')||document.body;const clone=root.cloneNode(true);clone.querySelectorAll('script,style,nav,footer,header,video,audio,iframe,.vjs-control-bar,[class*="breadcrumb"],[id*="onetrust"],[class*="cookie-banner"]').forEach(x=>x.remove());clone.querySelectorAll('p,li,h1,h2,h3,h4,h5,div,section,article,br,tr').forEach(x=>{x.prepend('\\n');x.append('\\n')});return {title:document.title,text:clone.textContent,links:Array.from(document.querySelectorAll('a[href]')).map(a=>({url:a.href,label:(a.innerText||a.title||a.querySelector('img')?.alt||'').trim().slice(0,160),context:a.parentElement.innerText.slice(0,1000)})),images:Array.from(root.querySelectorAll('img[src]')).map(i=>i.currentSrc||i.src)}}''')
      result['finalUrl']=final
      if screenshot:
       await p.add_style_tag(content='*,*::before,*::after{animation:none!important;transition:none!important;caret-color:transparent!important} #onetrust-banner-sdk,.onetrust-pc-dark-filter{visibility:hidden!important}')
@@ -137,8 +140,8 @@ class Monitor:
    for v,h in zip(pdfs,hashes):
     if h:v['fileHash']=h
    shot=r.pop('image');imagePath='competitive/images/'+digest(shot)[:24]+'.jpg';(ROOT/'dist'/imagePath).write_bytes(shot)
-   current=dict(text=text_state(r['text']),links=links[:250],images=sorted(set(canonical(x,url) for x in r['images'] if canonical(x,url)))[:100],screenshot=imagePath)
-   if old:
+   current=dict(extractorVersion=2,text=text_state(r['text']),links=links[:250],images=sorted(set(canonical(x,url) for x in r['images'] if canonical(x,url)))[:100],screenshot=imagePath)
+   if old and old.get('extractorVersion')==2:
     from PIL import Image,ImageChops,ImageStat
     try:
      a=Image.open(ROOT/'dist'/old['screenshot']).convert('RGB').resize((128,240));b=Image.open(io.BytesIO(shot)).convert('RGB').resize((128,240))
@@ -146,12 +149,12 @@ class Monitor:
     except Exception:current['visualChanged']=False
     change=difference(old,current);row['status']='Changed' if change['types'] else 'Unchanged'
     if change['types']:
-     event=dict(id=digest(key+STAMP)[:24],pageId=key,brand=row['brand'],molecule=row['molecule'],operator=row['operator'],pageType=row['pageType'],url=url,detectedAt=STAMP,previousCheckedAt=prior.get('lastSuccess'),quarter=f'{STAMP[:4]} Q{(int(STAMP[5:7])-1)//3+1}',before=old['screenshot'],after=imagePath,**change)
+     event=dict(extractorVersion=2,id=digest(key+STAMP)[:24],pageId=key,brand=row['brand'],molecule=row['molecule'],operator=row['operator'],pageType=row['pageType'],url=url,detectedAt=STAMP,previousCheckedAt=prior.get('lastSuccess'),quarter=f'{STAMP[:4]} Q{(int(STAMP[5:7])-1)//3+1}',before=old['screenshot'],after=imagePath,**change)
      self.events.append(event);row['lastChanged']=STAMP
    else:
     row['status']='Baseline'
-    if not self.initial:
-     self.events.append(dict(id=digest(key+STAMP)[:24],pageId=key,brand=row['brand'],molecule=row['molecule'],operator=row['operator'],pageType=row['pageType'],url=url,detectedAt=STAMP,previousCheckedAt=None,quarter=f'{STAMP[:4]} Q{(int(STAMP[5:7])-1)//3+1}',before=None,after=imagePath,types=['New monitored page'],added=[],removed=[],addedCount=0,removedCount=0,linksAdded=[],linksRemoved=[],filesChanged=[]))
+    if not self.initial and not old:
+     self.events.append(dict(extractorVersion=2,id=digest(key+STAMP)[:24],pageId=key,brand=row['brand'],molecule=row['molecule'],operator=row['operator'],pageType=row['pageType'],url=url,detectedAt=STAMP,previousCheckedAt=None,quarter=f'{STAMP[:4]} Q{(int(STAMP[5:7])-1)//3+1}',before=None,after=imagePath,types=['New monitored page'],added=[],removed=[],addedCount=0,removedCount=0,linksAdded=[],linksRemoved=[],filesChanged=[]))
    row.update(currentScreenshot=imagePath,previousScreenshot=old.get('screenshot') if old else None,lastChanged=row.get('lastChanged',prior.get('lastChanged')),linkCount=len(links),pdfCount=len(pdfs))
    self.states[key]=current
   except Exception as e:
