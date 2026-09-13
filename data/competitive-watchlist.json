@@ -87,6 +87,24 @@
   ],
   "sites": [
     {
+      "brand": "Renflexis",
+      "operator": "Organon",
+      "url": "https://organonpro.com/en-us/product/renflexis/coverage/",
+      "evidence": "https://organonpro.com/en-us/product/renflexis/coverage/"
+    },
+    {
+      "brand": "Hadlima",
+      "operator": "Organon",
+      "url": "https://organonpro.com/en-us/product/hadlima/about-hadlima/",
+      "evidence": "https://organonpro.com/en-us/product/hadlima/about-hadlima/"
+    },
+    {
+      "brand": "Ontruzant",
+      "operator": "Organon",
+      "url": "https://organonpro.com/en-us/product/ontruzant/dosing-administration/",
+      "evidence": "https://organonpro.com/en-us/product/ontruzant/dosing-administration/"
+    },
+    {
       "brand": "Pyzchiva",
       "operator": "Sandoz",
       "url": "https://www.pyzchiva.com/",
@@ -229,6 +247,12 @@
       "operator": "Novo Nordisk",
       "url": "https://www.novomedlink.com/diabetes/products/treatments/novolog.html",
       "evidence": "https://www.novomedlink.com/diabetes/products/treatments/novolog.html"
+    },
+    {
+      "brand": "Wezlana",
+      "operator": "Amgen / Nuvaila",
+      "url": "https://www.wezlana.com/",
+      "evidence": "https://www.wezlana.com/"
     }
   ]
 }
