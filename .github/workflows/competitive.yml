@@ -17,6 +17,8 @@ jobs:
     timeout-minutes: 45
     steps:
       - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.ref_name }}
       - name: Test change detection
         run: |
           python3 -m unittest discover -s tests -v
