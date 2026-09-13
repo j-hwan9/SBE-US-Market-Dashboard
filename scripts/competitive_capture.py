@@ -13,7 +13,7 @@ async def prepare_page(page, evidence=True):
  """Dismiss only ordinary close/reject controls; never satisfy access attestations."""
  popups=[];warnings=[]
  for _ in range(3):
-  overlays=await page.evaluate(OVERLAYS)
+  overlays=sorted(await page.evaluate(OVERLAYS),key=lambda x:not x['cookie'])
   if not overlays:break
   progressed=False
   for item in overlays:
@@ -29,13 +29,28 @@ async def prepare_page(page, evidence=True):
     if not await button.is_visible():continue
     try:
      await button.click(timeout=2000)
-     await page.wait_for_timeout(300)
+     try:await box.wait_for(state='hidden',timeout=2500)
+     except Exception:pass
      popup['closed']=not await box.is_visible()
      if popup['closed']:progressed=True;break
     except Exception:continue
    if not item['cookie'] and not any(p['text']==popup['text'] for p in popups):popups.append(popup)
    if not popup['closed']:warnings.append('Visible overlay could not be dismissed: '+item['text'][:100])
   if not progressed:break
+ remaining=await page.evaluate(OVERLAYS)
+ warnings=['Visible overlay could not be dismissed: '+x['text'][:100] for x in remaining]
+ if not remaining:
+  # Expand nested scroll panels, including fixed Important Safety Information drawers.
+  await page.evaluate('''()=>{
+   for(const root of [document.documentElement,document.body]){root.style.setProperty('overflow','visible','important');root.style.setProperty('height','auto','important');root.style.setProperty('max-height','none','important')}
+   for(let pass=0;pass<3;pass++)for(const e of [...document.querySelectorAll('body *')].reverse()){
+    const r=e.getBoundingClientRect(),s=getComputedStyle(e);
+    if(r.width<200||e.clientHeight<80||e.scrollHeight<e.clientHeight+100||e.closest('[role="dialog"],dialog,[aria-modal="true"],nav'))continue;
+    if(!/auto|scroll|hidden/.test(s.overflowY)&&!['fixed','sticky'].includes(s.position))continue;
+    const height=e.scrollHeight;e.style.setProperty('height',height+'px','important');e.style.setProperty('max-height','none','important');e.style.setProperty('overflow','visible','important');
+    if(['fixed','sticky'].includes(s.position)){e.style.setProperty('position','relative','important');e.style.setProperty('top','auto','important');e.style.setProperty('bottom','auto','important')}
+   }
+  }''')
  # Trigger images/sections that load only while scrolling. Never remove overlays by CSS.
  complete=False
  for _ in range(90):
