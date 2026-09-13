@@ -31,7 +31,7 @@ def lines(text):
 def text_state(text):return [{'hash':digest(s),'excerpt':s[:220]} for s in lines(text)]
 def difference(old,new):
  a={v['hash']:v['excerpt'] for v in old['text']};b={v['hash']:v['excerpt'] for v in new['text']}
- added=[b[k] for k in b.keys()-a.keys()];removed=[a[k] for k in a.keys()-b.keys()]
+ added=[b[k] for k in b if k not in a];removed=[a[k] for k in a if k not in b]
  x={v['url']:v for v in old.get('links',[])};y={v['url']:v for v in new.get('links',[])}
  la=[y[k] for k in sorted(y.keys()-x.keys())];lr=[x[k] for k in sorted(x.keys()-y.keys())]
  files=[{'url':k,'label':y[k]['label']} for k in x.keys()&y.keys() if y[k].get('fileHash') and x[k].get('fileHash') and x[k]['fileHash']!=y[k]['fileHash']]
@@ -45,7 +45,7 @@ def difference(old,new):
  return dict(types=types,added=added[:8],removed=removed[:8],addedCount=len(added),removedCount=len(removed),linksAdded=la[:12],linksRemoved=lr[:12],filesChanged=files,imagesChanged=len(images))
 class Monitor:
  def __init__(self):
-  self.cfg=json.loads((ROOT/'data/competitive-watchlist.json').read_text());self.robot={};self.sem=asyncio.Semaphore(5);self.hostlocks={};self.catalogResults=[]
+  self.cfg=json.loads((ROOT/'data/competitive-watchlist.json').read_text());self.robot={};self.pdfsem=asyncio.Semaphore(5);self.sem=asyncio.Semaphore(5);self.hostlocks={};self.catalogResults=[]
   self.output=ROOT/'dist/competitive';self.output.mkdir(exist_ok=True);(self.output/'images').mkdir(exist_ok=True)
   self.old=json.loads((self.output/'index.json').read_text()) if (self.output/'index.json').exists() else {'pages':[],'events':[]}
   self.states=json.loads((ROOT/'data/competitive-state.json').read_text()) if (ROOT/'data/competitive-state.json').exists() else {}
@@ -96,6 +96,7 @@ class Monitor:
      direct=brand_match(p['brand'],u+' '+link['label'])
      contextual=brand_match(p['brand'],link['context']) and bool(re.search('product website|visit.*site|learn more',link['label'],re.I))
      if not (direct or contextual):continue
+     if re.search(r'hylecta|hycela|eylea.hd',u+' '+link['label'],re.I):continue
      # Cross-domain discovery must identify the brand in the destination hostname.
      if host(u)!=host(source['url']) and p['brand'].lower().replace(' ','') not in host(u).replace('-',''):continue
      if re.search(r'/news|press.release|/media|/investor',u,re.I):continue
@@ -115,7 +116,7 @@ class Monitor:
       if len(data)>8_000_000:return None
      return digest(data) if data.startswith(b'%PDF') else None
    except Exception:return None
-  return await asyncio.to_thread(get)
+  async with self.pdfsem:return await asyncio.to_thread(get)
  async def visit(self,product,site,url,depth):
   key=digest(product['brand']+'|'+url)[:20];old=self.states.get(key);prior=next((x for x in self.old['pages'] if x['id']==key),{})
   row=dict(id=key,brand=product['brand'],molecule=product['molecule'],kind=product['kind'],operator=site['operator'],url=url,evidence=site['evidence'],depth=depth,checkedAt=STAMP,firstSeen=prior.get('firstSeen',STAMP),lastSuccess=prior.get('lastSuccess'),status='Pending',pageType=category(url))
@@ -127,10 +128,10 @@ class Monitor:
     u=canonical(x['url'],url)
     if not u or SKIP.search(u):continue
     if u not in {v['url'] for v in links}:links.append(dict(url=u,label=x['label']))
-    if host(u)==host(url) and u!=url and not re.search(r'\.(pdf|zip|docx?|jpe?g|png|mp4)$',urlsplit(u).path,re.I):
+    if (host(u)==host(url) or product['brand'].lower().replace(' ','') in host(u).replace('-','')) and u!=url and not re.search(r'\.(pdf|zip|docx?|jpe?g|png|mp4)$',urlsplit(u).path,re.I):
      # Corporate sites stay inside the product subtree; brand sites can discover all relevant pages.
      branded=product['brand'].lower().replace(' ','') in host(url).replace('-','')
-     if branded or brand_match(product['brand'],u):children.append(u)
+     if (branded or brand_match(product['brand'],u)) and not re.search(r'hylecta|hycela|eylea.hd',u,re.I):children.append(u)
    pdfs=[v for v in links if urlsplit(v['url']).path.lower().endswith('.pdf')][:6]
    hashes=await asyncio.gather(*(self.file_hash(v['url']) for v in pdfs))
    for v,h in zip(pdfs,hashes):
@@ -147,7 +148,10 @@ class Monitor:
     if change['types']:
      event=dict(id=digest(key+STAMP)[:24],pageId=key,brand=row['brand'],molecule=row['molecule'],operator=row['operator'],pageType=row['pageType'],url=url,detectedAt=STAMP,previousCheckedAt=prior.get('lastSuccess'),quarter=f'{STAMP[:4]} Q{(int(STAMP[5:7])-1)//3+1}',before=old['screenshot'],after=imagePath,**change)
      self.events.append(event);row['lastChanged']=STAMP
-   else:row['status']='Baseline'
+   else:
+    row['status']='Baseline'
+    if not self.initial:
+     self.events.append(dict(id=digest(key+STAMP)[:24],pageId=key,brand=row['brand'],molecule=row['molecule'],operator=row['operator'],pageType=row['pageType'],url=url,detectedAt=STAMP,previousCheckedAt=None,quarter=f'{STAMP[:4]} Q{(int(STAMP[5:7])-1)//3+1}',before=None,after=imagePath,types=['New monitored page'],added=[],removed=[],addedCount=0,removedCount=0,linksAdded=[],linksRemoved=[],filesChanged=[]))
    row.update(currentScreenshot=imagePath,previousScreenshot=old.get('screenshot') if old else None,lastChanged=row.get('lastChanged',prior.get('lastChanged')),linkCount=len(links),pdfCount=len(pdfs))
    self.states[key]=current
   except Exception as e:
