@@ -45,7 +45,7 @@ def match_catalog(raw,catalog,crosswalk=None):
   out={};s=suffix(p)
   for code,v in raw.items():
    if s and token(v['description'],s):out[code]='FDA suffix'
-   elif norm(p['brand'])!=norm(p['molecule']) and token(v['description'],p['brand']):out[code]='Brand name'
+   elif norm(p['brand'])!=norm(p['molecule']) and token(v['description'],p['brand']) and not re.search(r'hyaluron|hylecta|high.?dose|\bhd\b|implant',v['description'],re.I):out[code]='Brand name'
    if any(n in p['ndcs'] or n[:9] in p['productNdcs'] for n in crosswalk.get(code,[])):out[code]='DailyMed NDC → CMS crosswalk'
   matches[p['id']]=out
  # Unqualified reference molecule wording only; never assign a biosimilar from
