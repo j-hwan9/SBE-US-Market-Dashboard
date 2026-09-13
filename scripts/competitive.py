@@ -165,7 +165,7 @@ class Monitor:
   pinned=sum(s['brand']==p['brand'] for s in self.cfg['sites'])
   queue=[(s,s['url'],0) for s in sites[:max(2,pinned)]];seen=set();limit=self.cfg['maxPagesPerProduct']
   # Previously tracked URLs remain in scope even when removed from navigation.
-  queue += [(sites[0],r['url'],r.get('depth',1)) for r in self.old['pages'] if r['brand']==p['brand'] and not re.search(r'hylecta|hycela|eylea[-_/ ]?hd',r['url'],re.I) and r['url'] not in [v[1] for v in queue]]
+  queue += [(sites[0],canonical(r['url']),r.get('depth',1)) for r in self.old['pages'] if r['brand']==p['brand'] and not re.search(r'hylecta|hycela|eylea[-_/ ]?hd',r['url'],re.I) and r['url'] not in [v[1] for v in queue]]
   while queue and len(seen)<limit:
    site,u,depth=queue.pop(0)
    if u in seen:continue
@@ -182,6 +182,7 @@ class Monitor:
    sites=self.cfg['sites'][:]+[x for group in discovered for x in group]
    # Preserve previously proven official links through temporary catalog failures.
    sites+=self.old.get('sites',[])
+   sites=[dict(s,url=canonical(s['url'])) for s in sites if canonical(s['url'])]
    sites=list({(s['brand'],s['url']):s for s in sites if not re.search(r'hylecta|hycela|eylea[-_/ ]?hd',s['url'],re.I)}.values())
    mapped={p['brand']:[s for s in sites if s['brand']==p['brand']] for p in products}
    await asyncio.gather(*(self.product(p,mapped[p['brand']]) for p in products if mapped[p['brand']]))
