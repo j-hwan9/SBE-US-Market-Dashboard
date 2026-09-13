@@ -41,11 +41,13 @@ jobs:
           else
             python3 scripts/refresh.py
           fi
+      - name: Sync approved-brand ASP catalog
+        run: python3 scripts/asp.py --catalog-only
       - name: Save successful snapshot and weekly history
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add dist/data.json dist/history data/sources data/approval-letter-cache.json reports/latest-refresh.json reports/approval-letters.json
+          git add dist/data.json dist/asp.json dist/history data/sources data/approval-letter-cache.json reports/latest-refresh.json reports/approval-letters.json
           git diff --cached --quiet || git commit -m "Update official Purple Book and PI snapshot"
           git push
       - name: Configure public deployment

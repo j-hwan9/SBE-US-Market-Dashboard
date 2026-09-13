@@ -1,0 +1,47 @@
+name: Verify Purple Book ASP coverage
+on:
+  push:
+    branches: [purplebook-asp-coverage]
+permissions:
+  contents: write
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v6
+      - name: Unit and regression checks
+        run: |
+          python3 -m unittest discover -s tests -q
+          node tests/ui.cjs
+          node tests/home.cjs
+          node tests/price.cjs
+      - name: Collect CMS against entire Purple Book roster
+        run: |
+          pip install requests pandas openpyxl xlrd
+          python3 scripts/asp.py
+          python3 - <<'PY'
+          import json
+          d=json.load(open('dist/asp.json'))
+          q=max(r['quarter'] for r in d['rows'])
+          print('SCOPE',len(d['catalog']),len(d['rows']),q)
+          print('COLLECTION_ERRORS',d['collectionErrors'])
+          print('DENOSUMAB',[(r['brand'],r['hcpcs'],r['estimatedAsp'],r['matchBasis']) for r in d['rows'] if r['molecule']=='Denosumab' and r['quarter']==q])
+          print('DENOSUMAB_RAW',json.load(open('reports/asp-matching.json'))['quarters'][-1]['denosumabCms'])
+          PY
+      - name: Browser setup
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y fonts-noto-cjk
+          npm install --prefix /tmp/dashboard-browser-check --no-save --package-lock=false playwright@1.58.2
+      - name: Verify browser
+        run: |
+          python3 -m http.server 8765 --directory dist >/tmp/dashboard-http.log 2>&1 &
+          node tests/pb-asp-browser.cjs
+      - name: Save verified CMS data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist/asp.json reports/asp-matching.json
+          git diff --cached --quiet || git commit -m "Refresh CMS ASP using complete Purple Book catalog"
+          git push
