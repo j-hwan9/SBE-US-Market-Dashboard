@@ -80,7 +80,7 @@ class Monitor:
      await p.wait_for_timeout(600)
      await p.evaluate('''()=>document.querySelectorAll('video,audio').forEach(v=>{v.pause();try{v.currentTime=0}catch(e){}})''')
      text=await p.locator('body').inner_text(timeout=10000)
-     if len(text)<120 or re.search(r'just a moment|verify you are human|access denied|captcha|request blocked',text[:1600],re.I):raise ValueError('Blocked, verification required, or empty page')
+     if len(text)<120 or re.search(r'just a moment|verify you are human|access denied|captcha|request blocked|CSS Error|This page has an error',text[:1600],re.I):raise ValueError('Blocked, verification required, or empty page')
      result=await p.evaluate('''()=>{const root=document.querySelector('main')||document.body;const clone=root.cloneNode(true);clone.querySelectorAll('script,style,nav,footer,header,video,audio,iframe,.vjs-control-bar,[class*="breadcrumb"],[id*="onetrust"],[class*="cookie-banner"]').forEach(x=>x.remove());clone.querySelectorAll('p,li,h1,h2,h3,h4,h5,div,section,article,br,tr').forEach(x=>{x.prepend('\\n');x.append('\\n')});return {title:document.title,text:clone.textContent,links:Array.from(document.querySelectorAll('a[href]')).map(a=>({url:a.href,label:(a.innerText||a.title||a.querySelector('img')?.alt||'').trim().slice(0,160),context:a.parentElement.innerText.slice(0,1000)})),images:Array.from(root.querySelectorAll('img[src]')).map(i=>i.currentSrc||i.src)}}''')
      result['finalUrl']=final
      if screenshot:
