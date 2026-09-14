@@ -6,9 +6,42 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-09-13T22:51:15.184340+00:00",
-  "checkedAt": "2026-09-13T22:51:15.184340+00:00",
+  "updatedAt": "2026-09-14T23:40:47.951577+00:00",
+  "checkedAt": "2026-09-14T23:40:47.951577+00:00",
   "articles": [
+    {
+      "id": "2274ae9ec7edd9c446c9",
+      "title": "AAM sounds alarm on ‘unsustainable, race to the bottom’ for generics and biosimilars",
+      "url": "https://www.biospace.com/drug-delivery/aam-sounds-alarm-on-unsustainable-race-to-the-bottom-for-generics-and-biosimilars",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-09-14T17:57:47+00:00",
+      "molecules": [],
+      "topics": [
+        "Market overall",
+        "Policy"
+      ],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-14T23:40:47.951577+00:00",
+      "type": "article"
+    },
+    {
+      "id": "bb68d6e9938a1e51bce7",
+      "title": "Cardiff Oncology and Nerviano Medical Sciences Amend their 2017 Exclusive License Agreement",
+      "url": "https://www.biospace.com/press-releases/cardiff-oncology-and-nerviano-medical-sciences-amend-their-2017-exclusive-license-agreement",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-09-14T13:35:20+00:00",
+      "molecules": [
+        "bevacizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-14T23:40:47.951577+00:00",
+      "type": "press-release"
+    },
     {
       "id": "f3fa82701cf86c6a2027",
       "title": "Outlook Therapeutics Fireside Chat from H.C. Wainwright Conference Now Available On-Demand",
@@ -624,7 +657,7 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-09-13T22:51:15.184340+00:00",
+      "checkedAt": "2026-09-14T23:40:47.951577+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -635,18 +668,18 @@
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-09-13T22:51:15.184340+00:00",
+      "checkedAt": "2026-09-14T23:40:47.951577+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 22
+      "deferred": 21
     },
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-09-13T22:51:15.184340+00:00",
+      "checkedAt": "2026-09-14T23:40:47.951577+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -657,24 +690,24 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-09-13T22:51:15.184340+00:00",
+      "checkedAt": "2026-09-14T23:40:47.951577+00:00",
       "status": "ok",
-      "discovered": 2,
-      "new": 0,
+      "discovered": 133,
+      "new": 2,
       "errors": 0,
-      "bodyMatched": 0,
-      "deferred": 2
+      "bodyMatched": 2,
+      "deferred": 93
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-09-13T22:51:15.184340+00:00",
+      "checkedAt": "2026-09-14T23:40:47.951577+00:00",
       "status": "ok",
       "discovered": 100,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 97
+      "deferred": 91
     }
   ],
   "molecules": [
