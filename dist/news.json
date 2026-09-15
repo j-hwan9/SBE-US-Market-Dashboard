@@ -6,9 +6,42 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-09-14T23:40:47.951577+00:00",
-  "checkedAt": "2026-09-14T23:40:47.951577+00:00",
+  "updatedAt": "2026-09-15T23:23:31.776424+00:00",
+  "checkedAt": "2026-09-15T23:23:31.776424+00:00",
   "articles": [
+    {
+      "id": "ad75720ff687a63b2467",
+      "title": "Sionna says good-bye to 46% of staffers, including exec",
+      "url": "https://www.biospace.com/biospace-layoff-tracker",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-09-15T14:25:00+00:00",
+      "molecules": [
+        "rituximab",
+        "ustekinumab"
+      ],
+      "topics": [],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-15T23:23:31.776424+00:00",
+      "type": "article"
+    },
+    {
+      "id": "22869f29f470f95b77c5",
+      "title": "Preorder DCI’s New 2026-27 Economic Report on Pharmaceutical Wholesalers and Specialty Distributors",
+      "url": "https://www.drugchannels.net/2026/09/preorder-dcis-new-2026-27-economic.html",
+      "source": "Drug Channels",
+      "sourceId": "drugchannels",
+      "publishedAt": "2026-09-15T10:00:00+00:00",
+      "molecules": [],
+      "topics": [
+        "Market overall"
+      ],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-15T23:23:31.776424+00:00",
+      "type": "article"
+    },
     {
       "id": "2274ae9ec7edd9c446c9",
       "title": "AAM sounds alarm on ‘unsustainable, race to the bottom’ for generics and biosimilars",
@@ -657,7 +690,7 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-09-14T23:40:47.951577+00:00",
+      "checkedAt": "2026-09-15T23:23:31.776424+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -668,18 +701,18 @@
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-09-14T23:40:47.951577+00:00",
+      "checkedAt": "2026-09-15T23:23:31.776424+00:00",
       "status": "ok",
       "discovered": 25,
-      "new": 0,
+      "new": 1,
       "errors": 0,
-      "bodyMatched": 0,
+      "bodyMatched": 1,
       "deferred": 21
     },
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-09-14T23:40:47.951577+00:00",
+      "checkedAt": "2026-09-15T23:23:31.776424+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -690,24 +723,24 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-09-14T23:40:47.951577+00:00",
+      "checkedAt": "2026-09-15T23:23:31.776424+00:00",
       "status": "ok",
-      "discovered": 133,
-      "new": 2,
+      "discovered": 279,
+      "new": 1,
       "errors": 0,
-      "bodyMatched": 2,
-      "deferred": 93
+      "bodyMatched": 1,
+      "deferred": 237
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-09-14T23:40:47.951577+00:00",
+      "checkedAt": "2026-09-15T23:23:31.776424+00:00",
       "status": "ok",
       "discovered": 100,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 91
+      "deferred": 89
     }
   ],
   "molecules": [
