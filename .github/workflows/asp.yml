@@ -2,7 +2,7 @@ name: Refresh CMS ASP
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * 1'
+    - cron: '0 21 * * 0' # Monday 06:00 KST (Sunday 21:00 UTC)
 permissions:
   contents: write
   pages: write

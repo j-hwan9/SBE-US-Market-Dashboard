@@ -1,7 +1,7 @@
 name: Monitor official product websites
 on:
   schedule:
-    - cron: '0 0 1 * *' # First day of each month, 09:00 KST
+    - cron: '0 21 28-31 * *' # Last UTC calendar day at 21:00 = day 1, 06:00 KST; guarded below
   workflow_dispatch:
   push:
     branches: [competitive-monitor]
@@ -12,7 +12,24 @@ concurrency:
   group: competitive-monitor-${{ github.ref_name }}
   cancel-in-progress: false
 jobs:
+  schedule-check:
+    runs-on: ubuntu-latest
+    outputs:
+      due: ${{ steps.check.outputs.due }}
+    steps:
+      - id: check
+        name: Check first day in Korea
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          if [ "$EVENT_NAME" != "schedule" ] || [ "$(TZ=Asia/Seoul date +%d)" = "01" ]; then
+            echo "due=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "due=false" >> "$GITHUB_OUTPUT"
+          fi
   monitor:
+    needs: schedule-check
+    if: needs.schedule-check.outputs.due == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
