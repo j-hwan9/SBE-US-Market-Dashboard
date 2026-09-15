@@ -1,8 +1,7 @@
 name: Refresh CMS ASP
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 21 * * 0' # Monday 06:00 KST (Sunday 21:00 UTC)
+  # Daily 06:00 KST collection is coordinated by refresh.yml. Manual ASP-only runs remain available.
 permissions:
   contents: write
   pages: write
@@ -30,7 +29,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add dist/asp.json reports/asp-matching.json
+          git add dist/asp.json reports/asp-matching.json reports/latest-asp-refresh.json
+          if [ -d dist/asp-history ]; then git add dist/asp-history; fi
           git diff --cached --quiet || git commit -m "Refresh CMS ASP quarterly payment data"
           git push
       - name: Configure deployment

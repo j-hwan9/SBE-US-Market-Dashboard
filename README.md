@@ -26,7 +26,7 @@ FDA Purple Book August 2026 full monthly snapshot, restricted to licensed 351(k)
 - `scripts/fda_fallback.py`: Drugs@FDA label fallback; combined Immgolis/Immgolis Intri PDF sections separated.
 - `scripts/finalize.py`: current licensure scope, per-SPL-product BLA checks, manufacturer statements, verification summary.
 
-The three original scripts document the first snapshot. Use `scripts/refresh.py` for ongoing maintenance; do not run the legacy scripts for weekly updates. The public application reads a published snapshot. `scripts/refresh.py` discovers fresh official sources and publishes only after validation. `.github/workflows/refresh.yml` supports manual and weekly execution after GitHub is connected. See SETUP_GITHUB.md.
+The three original scripts document the first snapshot. Use `scripts/refresh.py` for ongoing maintenance; do not run the legacy scripts for scheduled updates. The public application reads a published snapshot. `scripts/refresh.py` discovers fresh official sources and publishes only after validation. `.github/workflows/refresh.yml` supports manual and daily execution after GitHub is connected. See SETUP_GITHUB.md.
 
 ## Interpretation limits
 
@@ -54,7 +54,7 @@ The Market news tab lists publisher titles, publication dates, molecule tags, an
 
 ## FDA approval-letter dating periods
 
-When PI lacks an explicit unopened refrigerated period, query openFDA Drugs@FDA by exact BLA. Discover all indexed approved application/supplement letters, newest first, and extract PDF dating-period sections. Cache extracted evidence by document and parser identity. Weekly official refresh rechecks the letter index; manual news refresh can optionally recheck letters.
+When PI lacks an explicit unopened refrigerated period, query openFDA Drugs@FDA by exact BLA. Discover all indexed approved application/supplement letters, newest first, and extract PDF dating-period sections. Cache extracted evidence by document and parser identity. Daily official refresh rechecks the letter index; manual news refresh can optionally recheck letters.
 
 Only explicit 2–8°C finished-product dating periods in months are added. Drug substance, redacted values, stability protocols, ambiguous shared-BLA brand attribution, and unsupported temperatures remain unfilled. Evidence includes BLA, letter date, page, original quote, URL, and strengths found in the approval context. Display as **FDA letter 당시**, never as a guaranteed current expiry for all presentations. Older dated evidence can remain relevant as historical information; actual package expiry and current PI control use. Source errors are exposed separately and do not invalidate existing PI data.
 
@@ -67,7 +67,7 @@ Home combines the reviewed Samsung Bioepis portfolio with the **current** `data.
 
 `dist/portfolio.json` is the small, editable portfolio catalog. It was reviewed against Samsung Bioepis’s official Products and Pipeline pages on Sep 09, 2026 (pipeline page: Aug 2026), with US names/suffixes reconciled to Purple Book and launch/access evidence linked per product. Global launch is not US launch. Ospomyv has a US supply/formulary announcement; Opuviz is FDA-approved but awaits US launch. Xbryk and Eticovo are labeled US launch unconfirmed. SB8 uses its development code rather than an overseas brand. Pipeline candidates do not inherit the reference drug’s FDA suffix. Novel ADCs carry target descriptions where no non-proprietary name is assigned.
 
-Portfolio lifecycle/launch states are **editorially reviewed**, not automatically changed by the weekly FDA or daily news workflow. To update a product, edit its catalog entry, evidence URL and `reviewedAt`; no app code changes are required. Competitor and recent-news content automatically follows the existing data refreshes. No market-share or price values are fabricated.
+Portfolio lifecycle/launch states are **editorially reviewed**, not automatically changed by the daily FDA or daily news workflow. To update a product, edit its catalog entry, evidence URL and `reviewedAt`; no app code changes are required. Competitor and recent-news content automatically follows the existing data refreshes. No market-share or price values are fabricated.
 
 ## News topics and product aliases
 
@@ -85,9 +85,9 @@ Schema v2 keeps `topics` separate from `molecules`, so Home's product news stays
 
 ## Refresh schedule and default news filter
 
-- Regulatory: every Monday at 06:00 KST (`0 21 * * 0`, Sunday 21:00 UTC).
+- Regulatory and CMS ASP: daily at 06:00 KST (`0 21 * * *`), coordinated sequentially by `refresh.yml`.
 - Market news: daily at 06:00 KST (`0 21 * * *`).
-- Both workflows retain a shared concurrency group to serialize repository writes and deployments. Monday runs can therefore queue behind each other; GitHub scheduling and collection time can delay publication.
+- Both workflows retain a shared concurrency group to serialize repository writes and deployments. Daily runs can therefore queue behind each other; GitHub scheduling and collection time can delay publication.
 - Market news initially selects **Market overall** only. Policy and molecules start unchecked and use the same neutral/selected styles. Clearing the selection shows all topics; direct product-news navigation replaces the selection with that product’s molecule.
 
 ### Enterprise UI / Home overview
@@ -109,7 +109,7 @@ Price information displays the current KST month (`MMM YYYY`) and remains a plac
 
 CMS mapping and discovery were adapted from `j-hwan9/biosimilar-monitor`, commit `39ac46d96502ce2e05a291b1d6915205efbb8c8f`. Only the product mapping and public pricing data were reused. Email code and credentials were not copied. `scripts/asp.py` rechecks the CMS landing page and redownloads the current linked quarterly files, including revisions. Ambiguous or failed quarters retain their previous records and appear in coverage diagnostics. All-source failure leaves the published snapshot unchanged.
 
-CMS refresh: `.github/workflows/asp.yml`, Monday 06:00 KST, or manual **CMS 업데이트 실행**. **최신 게시본 불러오기** loads the saved JSON; it does not initiate CMS collection. Regulatory and Market News schedules are unchanged.
+CMS refresh: daily at 06:00 KST via `.github/workflows/refresh.yml`, or ASP-only manual `.github/workflows/asp.yml` / **CMS 업데이트 실행**. **최신 게시본 불러오기** loads the saved JSON; it does not initiate CMS collection. Regulatory and Market News schedules are unchanged.
 
 Calculation changes from the source monitor: use explicit CMS 8% notes only from 2022 Q4 onward; withhold ASP for AMP/WAC/other non-ASP bases, uncertain notes, missing/ambiguous reference data or incompatible billing units. The published value is an **estimated** ASP, not a manufacturer ASP disclosure. HCPCS billing units are shown; standardized-dose equivalents are not package prices. The inherited scope contains 10 molecules and is not the complete Purple Book portfolio. Archived CSV rows that have not been rechecked retain their original source and are clearly identified.
 
@@ -121,7 +121,7 @@ CMS records are matched using FDA suffix, exact brand tokens and DailyMed NDCs a
 
 Home displays own-product latest valid estimated ASP and strict quarter-over-quarter change: `(current / immediately preceding quarter - 1) × 100`, on the same brand/reference/HCPCS and dose equivalent. Missing prior quarters, incompatible units and unavailable estimates show N/A rather than using a nonadjacent quarter. The competitor table uses the displayed own-product quarter (or latest market quarter when own ASP is unavailable), includes the reference and all approved biosimilars in the same reference group, and retains N/A rows. Prolia and Xgeva groups are kept distinct. WAC remains `-`.
 
-Regulatory refresh synchronizes the approved ASP roster immediately (`--catalog-only`) while retaining CMS observations. The next weekly Monday 06:00 KST CMS run or manual run searches the new roster against CMS files. Existing Regulatory and Market News schedules are unchanged.
+Regulatory refresh synchronizes the approved ASP roster immediately (`--catalog-only`) while retaining CMS observations. The same daily workflow then searches the approved roster against CMS files; an ASP-only manual run is also available. Existing Regulatory and Market News schedules are unchanged.
 
 ### Competitive Intelligence — official website monitoring
 
@@ -140,3 +140,8 @@ Monthly monitoring uses KST calendar months. Each month retains its latest succe
 Full-page capture (v3): scroll through the document to load lazy content, preserve promotional popup screenshots/text/links, use visible close or reject controls, then capture the full page. Authentication and professional attestations are not completed. Unclosed overlays are flagged Needs review. Clicking an evidence image opens the original. Earlier cropped evidence remains available; the first v3 capture establishes a new baseline to avoid reporting capture-method changes as site edits. Popup images are retained alongside monthly and event evidence.
 
 Website monitoring uses a UTC month-end candidate schedule with a KST day-1 guard, so collection remains monthly at 06:00 KST across 28/29/30/31-day months. Candidate dates only check the calendar; full collection runs on KST day 1. Manual runs remain available on any date.
+
+## Daily checks and change-only archives
+Regulatory and CMS ASP checks begin in the daily 06:00 KST workflow; collection runs sequentially and publication follows completion. Market News and monthly website monitoring retain their schedules. `asp.yml` remains available for manual ASP-only collection. This avoids three simultaneous scheduled workflows competing for GitHub's single pending slot in the shared deployment concurrency group.
+
+A successful unchanged check updates verification metadata and diagnostics but appends no archive entry. Regulatory history remains in `dist/history`; ASP full snapshots and row-level before/after changes are stored in `dist/asp-history/index.json` and linked snapshots. The first material change preserves the prior state as a baseline if needed. Existing historical files are not deleted. Content comparisons exclude collection timestamps and ignore product/row ordering; actual price, unit, product, label and source-content changes are retained. Purple Book publication-month metadata alone does not create a duplicate product archive. ASP source files are still re-downloaded to detect in-place CMS revisions; this change reduces duplicate history storage, not the frequency of source requests. Failed regulatory collection preserves the previously published data; ASP keeps its existing partial-quarter retention and all-download-failure safeguards. Outcomes are shown separately in the workflow summary.

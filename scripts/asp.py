@@ -5,6 +5,7 @@ Estimated ASP is withheld for non-ASP bases and ambiguous references/units.
 import argparse,csv,hashlib,io,json,math,re,sys,zipfile
 sys.path.insert(0,str(__import__('pathlib').Path(__file__).resolve().parent))
 from asp_catalog import build_catalog,match_catalog,norm
+from snapshot_history import archive,asp_content,asp_changes,atomic_json
 from datetime import datetime,timezone
 from html.parser import HTMLParser
 from pathlib import Path
@@ -158,10 +159,19 @@ def validate(rows):
  if not rows or len(keys)!=len(set(keys)):raise ValueError('Empty or duplicate ASP records')
  for r in rows:
   if not quarter(r['quarter']) or not number(r['paymentLimit']):raise ValueError('Invalid payment record')
+def save_snapshot(obj,stamp):
+ target=ROOT/'dist/asp.json'
+ previous=json.loads(target.read_text()) if target.exists() else {}
+ delta=asp_changes(previous,obj)
+ recorded=archive(ROOT/'dist/asp-history',previous,obj,stamp,asp_content,delta,{'rowCount':len(obj.get('rows',[]))})
+ if not recorded and previous.get('builtAt'):obj['builtAt']=previous['builtAt']
+ atomic_json(target,obj)
+ atomic_json(ROOT/'reports/latest-asp-refresh.json',{'checkedAt':stamp,'historyRecorded':recorded,'changes':delta,'collectionErrors':obj.get('collectionErrors',[])})
+ return recorded
 def publish(rows,checked=None,files=None,errors=None,catalog=None,purple=None):
  validate(rows)
  obj={'schemaVersion':1,'sourceRepository':SOURCE_REPO,'sourceCommit':SOURCE_COMMIT,'sourceRepositoryUpdatedAt':'2026-06-08T03:35:15Z','cmsCheckedAt':checked,'builtAt':datetime.now(timezone.utc).isoformat(),'catalog':[dict(p,molecule=display_molecule(p['molecule'])) for p in (catalog or [])],'purpleBookAsOf':(purple or {}).get('purpleBookAsOf',(purple or {}).get('purpleBookDate')),'coverage':'All approved brands in the Regulatory Purple Book snapshot. CMS-matched HCPCS prices only; brands without matched ASP remain N/A. Shared-HCPCS prices are not independently reported brand prices.','files':files or [],'collectionErrors':errors or [],'rows':derive(rows)}
- target=ROOT/'dist/asp.json';tmp=target.with_suffix('.tmp');tmp.write_text(json.dumps(obj,ensure_ascii=False,separators=(',',':'))+'\n');tmp.replace(target)
+ save_snapshot(obj,checked or obj['builtAt'])
  print(f'ASP snapshot: {len(rows)} rows / {len(set(r["molecule"] for r in rows))} molecules / {len(set(r["quarter"] for r in rows))} quarters')
 def refresh():
  import requests
@@ -200,7 +210,7 @@ def refresh_catalog():
  previous['catalog']=[dict(p,molecule=display_molecule(p['molecule'])) for p in catalog]
  previous['purpleBookAsOf']=purple.get('purpleBookAsOf',purple.get('purpleBookDate'))
  previous['catalogUpdatedAt']=datetime.now(timezone.utc).isoformat()
- tmp=target.with_suffix('.tmp');tmp.write_text(json.dumps(previous,ensure_ascii=False,separators=(',',':'))+'\n');tmp.replace(target)
+ save_snapshot(previous,previous['catalogUpdatedAt'])
  print('Purple Book ASP catalog:',len(catalog),'approved brands; existing CMS price observations retained')
 if __name__=='__main__':
  p=argparse.ArgumentParser();p.add_argument('--seed-csv');p.add_argument('--catalog-only',action='store_true');args=p.parse_args()

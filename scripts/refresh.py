@@ -7,6 +7,7 @@ import argparse,calendar,concurrent.futures,csv,copy,hashlib,io,json,os,pathlib,
 from datetime import datetime,timezone
 from html.parser import HTMLParser
 from collect import parse as parse_spl
+from snapshot_history import archive,regulatory_content,encoded
 
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 DOWNLOADS='https://purplebooksearch.fda.gov/downloads'
@@ -149,6 +150,7 @@ def changes(old,new):
  changed=[]
  for key in sorted(before.keys()&after.keys()):
   a,b=compare_fields(before[key]),compare_fields(after[key]);fields=[f for f in a if a[f]!=b[f]]
+  if not fields and encoded(regulatory_content({'products':[before[key]]}))!=encoded(regulatory_content({'products':[after[key]]})):fields=['Product / source data']
   if fields:changed.append({'id':key,'brand':after[key]['brand'],'bla':after[key]['bla'],'fields':fields})
  brief=lambda p:{'id':p['id'],'brand':p['brand'],'bla':p['bla'],'molecule':p['molecule']}
  return {'added':[brief(after[k]) for k in sorted(after.keys()-before.keys())],'removed':[brief(before[k]) for k in sorted(before.keys()-after.keys())],'changed':changed}
@@ -200,17 +202,11 @@ def refresh(args):
   atomic_json(ROOT/'reports/refresh-errors.json',{'checkedAt':stamp,'errors':errors});raise CollectionError(f'{len(errors)} source errors; published data unchanged')
  validate(payload,previous);delta=changes(previous,payload)
  if args.check_only:print('Validation passed; no published files changed',flush=True);return
- history=out/'history';history.mkdir(exist_ok=True)
- index=json.loads((history/'index.json').read_text()) if (history/'index.json').exists() else []
- if previous and not index:
-  atomic_json(history/'baseline.json',previous);index.append({'id':'baseline','path':'history/baseline.json','checkedAt':previous['retrievedAt'],'purpleBookDate':previous['purpleBookDate'],'changes':{'added':[],'removed':[],'changed':[]},'baseline':True})
- revision=now.strftime('%Y%m%dT%H%M%SZ');payload['revision']=revision
- atomic_json(history/(revision+'.json'),payload)
- index.insert(0,{'id':revision,'path':'history/'+revision+'.json','checkedAt':stamp,'purpleBookDate':month,'productCount':len(products),'changes':delta})
- atomic_json(history/'index.json',index)
+ history=out/'history'
+ recorded=archive(history,previous,payload,stamp,regulatory_content,delta,{'purpleBookDate':month,'productCount':len(products)})
  atomic_json(out/'data.json',payload) # last write: all validation completed
  rawdir=ROOT/'data/sources';rawdir.mkdir(exist_ok=True);(rawdir/(month+'.csv')).write_bytes(raw)
- atomic_json(ROOT/'reports/latest-refresh.json',{'checkedAt':stamp,'snapshot':month,'products':len(products),'piObtained':sum(bool(p['labels']) for p in products),'changes':delta})
+ atomic_json(ROOT/'reports/latest-refresh.json',{'checkedAt':stamp,'snapshot':month,'products':len(products),'piObtained':sum(bool(p['labels']) for p in products),'historyRecorded':recorded,'changes':delta})
  print(f'Published snapshot: {len(delta["added"])} added, {len(delta["removed"])} removed, {len(delta["changed"])} changed',flush=True)
 
 if __name__=='__main__':
