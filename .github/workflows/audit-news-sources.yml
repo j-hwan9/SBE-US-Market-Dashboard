@@ -1,0 +1,25 @@
+name: Audit US news sources
+on:
+  push:
+    branches: [audit-news-sources-20260916]
+    paths: ['scripts/audit_news_sources.py', '.github/workflows/audit-news-sources.yml']
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    strategy:
+      matrix:
+        attempt: [1, 2]
+    steps:
+      - uses: actions/checkout@v6
+      - name: Check public publisher feeds
+        env:
+          AUDIT_ATTEMPT: ${{ matrix.attempt }}
+        run: python3 scripts/audit_news_sources.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: news-source-audit-${{ matrix.attempt }}
+          path: news-source-audit.json
+          retention-days: 14
