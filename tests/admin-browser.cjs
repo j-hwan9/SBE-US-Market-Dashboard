@@ -5,6 +5,7 @@ const assert=require('node:assert/strict');
  try{
   const page=await browser.newPage({viewport:{width:1440,height:1000}}),errors=[];
   page.on('pageerror',e=>errors.push(e.message));
+  await page.route('**/analytics-config.json',r=>r.fulfill({json:{measurementId:'',propertyId:'',oauthClientId:''}}));
   await page.goto('http://127.0.0.1:8765/#admin');
   await page.locator('#adminPin').fill('000000');await page.locator('#adminPinForm button').click();
   assert.match(await page.locator('#adminPinError').innerText(),/일치하지/);assert.equal(await page.locator('#adminUnlocked').isVisible(),false);
