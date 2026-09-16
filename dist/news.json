@@ -6,9 +6,57 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-09-15T23:23:31.776424+00:00",
-  "checkedAt": "2026-09-15T23:23:31.776424+00:00",
+  "updatedAt": "2026-09-16T23:33:50.855087+00:00",
+  "checkedAt": "2026-09-16T23:33:50.855087+00:00",
   "articles": [
+    {
+      "id": "35325fb73f4d995cccb9",
+      "title": "First Opdivo Biosimilar FDA Application Submitted by Amgen",
+      "url": "https://biosimilarsrr.com/2026/09/16/first-opdivo-biosimilar-fda-application-submitted-by-amgen/",
+      "source": "BR&R",
+      "sourceId": "brr",
+      "publishedAt": "2026-09-16T18:38:13+00:00",
+      "molecules": [
+        "aflibercept"
+      ],
+      "topics": [],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-16T23:33:50.855087+00:00",
+      "type": "article"
+    },
+    {
+      "id": "117e5e8379e1474f1a23",
+      "title": "VivoSim Labs Unveils New NAMkind™ Drug Toxicity Data at EUROTOX 2026, Demonstrating Predictive Superiority in Liver and Gastrointestinal Safety Across Small Molecules and ADCs",
+      "url": "https://www.biospace.com/press-releases/vivosim-labs-unveils-new-namkind-drug-toxicity-data-at-eurotox-2026-demonstrating-predictive-superiority-in-liver-and-gastrointestinal-safety-across-small-molecules-and-adcs",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-09-16T13:06:16+00:00",
+      "molecules": [
+        "trastuzumab"
+      ],
+      "topics": [],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-16T23:33:50.855087+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "dd243c7abd5c9372564b",
+      "title": "OncoC4 Receives FDA Fast Track Designation for Cesalatamig, an Investigational PD-1/VEGF Bispecific Antibody",
+      "url": "https://www.biospace.com/press-releases/oncoc4-receives-fda-fast-track-designation-for-cesalatamig-an-investigational-pd-1-vegf-bispecific-antibody",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-09-16T12:37:26+00:00",
+      "molecules": [
+        "bevacizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-16T23:33:50.855087+00:00",
+      "type": "press-release"
+    },
     {
       "id": "ad75720ff687a63b2467",
       "title": "Sionna says good-bye to 46% of staffers, including exec",
@@ -690,29 +738,29 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-09-15T23:23:31.776424+00:00",
+      "checkedAt": "2026-09-16T23:33:50.855087+00:00",
       "status": "ok",
       "discovered": 10,
-      "new": 0,
+      "new": 1,
       "errors": 0,
-      "bodyMatched": 0,
+      "bodyMatched": 1,
       "deferred": 0
     },
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-09-15T23:23:31.776424+00:00",
+      "checkedAt": "2026-09-16T23:33:50.855087+00:00",
       "status": "ok",
       "discovered": 25,
-      "new": 1,
+      "new": 0,
       "errors": 0,
-      "bodyMatched": 1,
+      "bodyMatched": 0,
       "deferred": 21
     },
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-09-15T23:23:31.776424+00:00",
+      "checkedAt": "2026-09-16T23:33:50.855087+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -723,24 +771,24 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-09-15T23:23:31.776424+00:00",
+      "checkedAt": "2026-09-16T23:33:50.855087+00:00",
       "status": "ok",
-      "discovered": 279,
-      "new": 1,
+      "discovered": 260,
+      "new": 2,
       "errors": 0,
-      "bodyMatched": 1,
-      "deferred": 237
+      "bodyMatched": 2,
+      "deferred": 219
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-09-15T23:23:31.776424+00:00",
+      "checkedAt": "2026-09-16T23:33:50.855087+00:00",
       "status": "ok",
       "discovered": 100,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 89
+      "deferred": 90
     }
   ],
   "molecules": [
