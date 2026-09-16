@@ -16,8 +16,8 @@ const assert=require('node:assert/strict');
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),true);
   await page.screenshot({path:'/tmp/admin-mobile.png',fullPage:true});
   await page.locator('#adminLock').click();assert.equal(await page.locator('#adminLocked').isVisible(),true);
-  await page.locator('.section-tabs a[href="#home"]').click();assert.equal(await page.locator('#landingPage').isVisible(),true);assert.equal(await page.locator('#adminPage').isVisible(),false);
-  for(const [route,id] of [['regulatory','regulatoryPage'],['news','newsPage'],['prices','pricePage']]){await page.locator('.section-tabs a[href="#'+route+'"]').click();assert.equal(await page.locator('#'+id).isVisible(),true);}
+  await page.locator('.section-tabs a[href="#home"]').click();await page.locator('#landingPage').waitFor({state:'visible'});assert.equal(await page.locator('#adminPage').isVisible(),false);
+  for(const [route,id] of [['regulatory','regulatoryPage'],['news','newsPage'],['prices','pricePage']]){await page.locator('.section-tabs a[href="#'+route+'"]').click();await page.locator('#'+id).waitFor({state:'visible'});}
   // Auth/API fixtures are only used here, never in production data or configuration.
   await page.route('**/analytics-config.json',r=>r.fulfill({json:{measurementId:'G-TEST123',propertyId:'12345',oauthClientId:'test.apps.googleusercontent.com'}}));
   await page.route('https://accounts.google.com/gsi/client',r=>r.fulfill({contentType:'text/javascript',body:`window.google={accounts:{oauth2:{initTokenClient(c){return {requestAccessToken(){c.callback({access_token:'test-only-token',expires_in:3600})}}},hasGrantedAllScopes(){return true},revoke(t,cb){cb()}}}};`}));
@@ -44,7 +44,7 @@ const assert=require('node:assert/strict');
   denied=true;await page.locator('#adminRefresh').click();await page.waitForFunction(()=>document.querySelector('#adminStatus').textContent.includes('권한'));
   assert.equal(await page.locator('#adminUsers').innerText(),'—');
   await page.locator('.section-tabs a[href="#home"]').click();
-  await page.locator('.section-tabs a[href="#admin"]').click();assert.equal(await page.locator('#adminLocked').isVisible(),true);
+  await page.locator('.section-tabs a[href="#admin"]').click();await page.locator('#adminPage').waitFor({state:'visible'});assert.equal(await page.locator('#adminLocked').isVisible(),true);
   assert.equal(await page.evaluate(()=>JSON.stringify(localStorage).includes('test-only-token')),false);
   assert.deepEqual(errors,[]);console.log('Admin browser verified: PIN, mobile, existing routes, no fake data, OAuth reports, period totals, escaped content, failure clears stale stats, lock clears access.');
  }finally{await browser.close();}
