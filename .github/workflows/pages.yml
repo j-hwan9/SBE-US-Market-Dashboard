@@ -22,6 +22,7 @@ jobs:
         run: |
           python3 -m unittest discover -s tests -v
           node tests/ui.cjs
+          node tests/admin.cjs
       - name: Configure public deployment
         run: python3 scripts/prepare_public.py
       - uses: actions/configure-pages@v5

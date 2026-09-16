@@ -199,9 +199,10 @@ function navigatePage(){
  $('newsPage').hidden=page!=='news';if(page==='news'&&typeof MarketNews!=='undefined')MarketNews.open();
  $('pricePage').hidden=page!=='prices';if(page==='prices'&&typeof PriceTracker!=='undefined')PriceTracker.open();
  $('competitivePage').hidden=page!=='competitive';if(page==='competitive'&&typeof CompetitiveIntelligence!=='undefined')CompetitiveIntelligence.open();
+ $('adminPage').hidden=page!=='admin';if(page==='admin'&&typeof AdminDashboard!=='undefined')AdminDashboard.open();
  const titles={performance:'Performance tracker'};
  $('comingPage').hidden=!titles[page];$('comingTitle').textContent=titles[page]||'';
- if(!['home','regulatory','news','prices','competitive',...Object.keys(titles)].includes(page))$('landingPage').hidden=false;
+ if(!['home','regulatory','news','prices','competitive','admin',...Object.keys(titles)].includes(page))$('landingPage').hidden=false;
  document.querySelectorAll('.section-tabs a').forEach(a=>{if(a.hash==='#'+page)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
  if(page==='regulatory'&&DATA)drawMarketChart(DATA,molecule,chooseMolecule);
 }

@@ -1,0 +1,32 @@
+name: Verify admin analytics
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'dist/admin.*'
+      - 'dist/analytics*'
+      - 'dist/index.html'
+      - 'dist/app.js'
+      - 'tests/admin*'
+      - '.github/workflows/verify-admin.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - run: node tests/admin.cjs
+      - name: Install browser test runner
+        run: npm install --prefix /tmp/dashboard-browser-check playwright@1.58.2
+      - name: Verify admin in browser
+        run: |
+          python3 -m http.server 8765 --directory dist >/tmp/dashboard-http.log 2>&1 &
+          node tests/admin-browser.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: admin-screenshots
+          path: /tmp/admin-*.png
+          retention-days: 7
