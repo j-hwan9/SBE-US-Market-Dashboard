@@ -32,6 +32,7 @@ const assert=require('node:assert/strict');
    return r.fulfill({json:{rows,metadata:{timeZone:'Asia/Seoul'}}});
   });
   await page.goto('http://127.0.0.1:8765/#admin');
+  await page.reload(); // Hash-only navigation keeps the previous config promise; reload to apply test config.
   await page.locator('#adminPin').fill('970513');await page.locator('#adminPinForm button').click();
   await page.waitForFunction(()=>!document.querySelector('#adminConnect').disabled);await page.locator('#adminConnect').click();
   await page.waitForFunction(()=>document.querySelector('#adminStatus').textContent.includes('조회 완료'));
