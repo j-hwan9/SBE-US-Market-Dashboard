@@ -1,0 +1,1698 @@
+{
+  "date": "2026-09-16",
+  "scope": "Public endpoint feasibility only. Two GitHub hosted runners per round on the same day; not long-term reliability. No proxy, authentication or production configuration change.",
+  "initialRun": 35102390902,
+  "followupRun": 35102719327,
+  "initial": [
+    {
+      "jobId": 104814790237,
+      "results": [
+        {
+          "checkedAt": "2026-09-16T13:31:06.584136+00:00",
+          "discoveredFeeds": [
+            "/rss/Fierce Biotech Homepage/xml"
+          ],
+          "feeds": [
+            {
+              "complete": 0,
+              "count": 25,
+              "requested": "https://www.fiercebiotech.com/rss/biotech/xml",
+              "sample": [
+                {
+                  "url": "https://www.fiercebiotech.com/biotech/novartis-pays-sironax-125m-acquire-platform-crossing-blood-brain-barrier",
+                  "date": "Sep 16, 2026 8:32am",
+                  "hasTitle": false,
+                  "hasSummary": true
+                },
+                {
+                  "url": "https://www.fiercebiotech.com/biotech/its-cancer-and-inflammation-expansion-critical-mass-gileads-oday-eyes-companys-next-chapter",
+                  "date": "Sep 9, 2026 5:09pm",
+                  "hasTitle": false,
+                  "hasSummary": true
+                }
+              ],
+              "status": 200,
+              "url": "https://www.fiercebiotech.com/rss/biotech/xml"
+            },
+            {
+              "error": "URL can't contain control characters. '/rss/Fierce Biotech Homepage/xml' (found at least ' ')",
+              "requested": "https://www.fiercebiotech.com/rss/Fierce Biotech Homepage/xml",
+              "sample": []
+            }
+          ],
+          "home": "https://www.fiercebiotech.com/",
+          "homeStatus": 200,
+          "name": "Fierce Biotech",
+          "robots": [
+            {
+              "origin": "https://www.fiercebiotech.com",
+              "status": 200,
+              "valid": true
+            }
+          ]
+        },
+        {
+          "checkedAt": "2026-09-16T13:31:06.584293+00:00",
+          "discoveredFeeds": [
+            "/rss/Fierce Healthcare Homepage/xml"
+          ],
+          "feeds": [
+            {
+              "complete": 0,
+              "count": 0,
+              "requested": "https://www.fiercehealthcare.com/rss/healthcare/xml",
+              "sample": [],
+              "status": 200,
+              "url": "https://www.fiercehealthcare.com/rss/healthcare/xml"
+            },
+            {
+              "error": "URL can't contain control characters. '/rss/Fierce Healthcare Homepage/xml' (found at least ' ')",
+              "requested": "https://www.fiercehealthcare.com/rss/Fierce Healthcare Homepage/xml",
+              "sample": []
+            }
+          ],
+          "home": "https://www.fiercehealthcare.com/",
+          "homeStatus": 200,
+          "name": "Fierce Healthcare",
+          "robots": [
+            {
+              "origin": "https://www.fiercehealthcare.com",
+              "status": 200,
+              "valid": true
+            }
+          ]
+        },
+        {
+          "checkedAt": "2026-09-16T13:31:06.583776+00:00",
+          "discoveredFeeds": [
+            "https://www.statnews.com/feed/"
+          ],
+          "feeds": [
+            {
+              "complete": 20,
+              "count": 20,
+              "requested": "https://www.statnews.com/category/pharma/feed/",
+              "sample": [
+                {
+                  "url": "https://www.statnews.com/pharmalot/2026/09/16/fda-plans-to-speed-approvals-experimental-drugs-in-montana/?utm_campaign=rss",
+                  "date": "Wed, 16 Sep 2026 13:29:12 +0000",
+                  "hasTitle": true,
+                  "hasSummary": true
+                },
+                {
+                  "url": "https://www.statnews.com/2026/09/15/fda-launches-program-to-shorten-drug-approval-times/?utm_campaign=rss",
+                  "date": "Tue, 15 Sep 2026 14:00:00 +0000",
+                  "hasTitle": true,
+                  "hasSummary": true
+                }
+              ],
+              "status": 200,
+              "url": "https://www.statnews.com/category/pharma/feed/"
+            },
+            {
+              "complete": 20,
+              "count": 20,
+              "requested": "https://www.statnews.com/category/biotech/feed/",
+              "sample": [
+                {
+                  "url": "https://www.statnews.com/2026/09/15/biotech-news-obesity-drugmakers-are-testing-in-kids-as-young-as-si/?utm_campaign=rss",
+                  "date": "Tue, 15 Sep 2026 13:50:15 +0000",
+                  "hasTitle": true,
+                  "hasSummary": true
+                },
+                {
+                  "url": "https://www.statnews.com/2026/09/15/vera-kidney-drug-trutakna-shows-strong-phase-3-results-igan/?utm_campaign=rss",
+                  "date": "Tue, 15 Sep 2026 10:30:00 +0000",
+                  "hasTitle": true,
+                  "hasSummary": true
+                }
+              ],
+              "status": 200,
+              "url": "https://www.statnews.com/category/biotech/feed/"
+            },
+            {
+              "complete": 20,
+              "count": 20,
+              "requested": "https://www.statnews.com/feed/",
+              "sample": [
+                {
+                  "url": "https://www.statnews.com/pharmalot/2026/09/16/fda-plans-to-speed-approvals-experimental-drugs-in-montana/?utm_campaign=rss",
+                  "date": "Wed, 16 Sep 2026 13:29:12 +0000",
+                  "hasTitle": true,
+                  "hasSummary": true
+                },
+                {
+                  "url": "https://www.statnews.com/2026/09/16/health-news-us-reaches-measles-death-high-in-decades/?utm_campaign=rss",
+                  "date": "Wed, 16 Sep 2026 11:56:12 +0000",
+                  "hasTitle": true,
+                  "hasSummary": true
+                }
+              ],
+              "status": 200,
+              "url": "https://www.statnews.com/feed/"
+            }
+          ],
+          "home": "https://www.statnews.com/",
+          "homeStatus": 200,
+          "name": "STAT",
+          "robots": [
+            {
+              "origin": "https://www.statnews.com",
+              "status": 200,
+              "valid": true
+            }
+          ],
+          "sampleArticle": {
+            "dateMeta": "2026-09-16T13:29:12+00:00",
+            "status": 200,
+            "titleMeta": true,
+            "url": "https://www.statnews.com/pharmalot/2026/09/16/fda-plans-to-speed-approvals-experimental-drugs-in-montana/?utm_campaign=rss"
+          }
+        },
+        {
+          "checkedAt": "2026-09-16T13:31:11.993188+00:00",
+          "discoveredFeeds": [],
+          "feeds": [],
+          "home": "https://www.biosimilardevelopment.com/",
+          "homeStatus": 200,
+          "name": "Biosimilar Development",
+          "robots": [
+            {
+              "origin": "https://www.biosimilardevelopment.com",
+              "status": 200,
+              "valid": true
+            }
+          ]
+        },
+        {
+          "checkedAt": "2026-09-16T13:31:10.221019+00:00",
+          "discoveredFeeds": [
+            "https://bio.news/feed/",
+            "https://bio.news/comments/feed/"
+          ],
+          "feeds": [
+            {
+              "complete": 10,
+              "count": 10,
+              "requested": "https://bio.news/feed/",
+              "sample": [
+                {
+                  "url": "https://bio.news/federal-policy/with-pharmaceutical-tariffs-looming-guidance-on-compliance-is-still-lacking/",
+                  "date": "Mon, 14 Sep 2026 10:50:21 +0000",
+                  "hasTitle": true,
+                  "hasSummary": true
+                },
+                {
+                  "url": "https://bio.news/international/strong-ip-ecosystems-drive-biotech-rd-and-investment-report-shows/",
+                  "date": "Fri, 04 Sep 2026 05:36:55 +0000",
+                  "hasTitle": true,
+                  "hasSummary": true
+                }
+              ],
+              "status": 200,
+              "url": "https://bio.news/feed/"
+            }
+          ],
+          "home": "https://bio.news/",
+          "homeStatus": 200,
+          "name": "Bio.News",
+          "robots": [
+            {
+              "origin": "https://bio.news",
+              "status": 200,
+              "valid": true
+            }
+          ],
+          "sampleArticle": {
+            "dateMeta": "2026-09-14T10:50:21+00:00",
+            "status": 200,
+            "titleMeta": true,
+            "url": "https://bio.news/federal-policy/with-pharmaceutical-tariffs-looming-guidance-on-compliance-is-still-lacking/"
+          }
+        },
+        {
+          "checkedAt": "2026-09-16T13:31:10.084187+00:00",
+          "discoveredFeeds": [
+            "https://www.drugdiscoverytrends.com/feed/",
+            "https://www.drugdiscoverytrends.com/comments/feed/"
+          ],
+          "feeds": [
+            {
+              "complete": 25,
+              "count": 25,
+              "requested": "https://www.drugdiscoverytrends.com/feed/",
+              "sample": [
+                {
+                  "url": "https://www.drugdiscoverytrends.com/pharma-vendor-selection-rx-almanac/",
+                  "date": "Thu, 10 Sep 2026 16:38:45 +0000",
+                  "hasTitle": true,
+                  "hasSummary": true
+                },
+                {
+                  "url": "https://www.drugdiscoverytrends.com/after-decades-of-trial-failures-in-chemotherapy-linked-neuropathy-psilocybin-shows-promise-in-preventing-it-in-mice/",
+                  "date": "Tue, 08 Sep 2026 16:17:26 +0000",
+                  "hasTitle": true,
+                  "hasSummary": true
+                }
+              ],
+              "status": 200,
+              "url": "https://www.drugdiscoverytrends.com/feed/"
+            }
+          ],
+          "home": "https://www.drugdiscoverytrends.com/",
+          "homeStatus": 200,
+          "name": "Drug Discovery & Development",
+          "robots": [
+            {
+              "origin": "https://www.drugdiscoverytrends.com",
+              "status": 200,
+              "valid": true
+            }
+          ],
+          "sampleArticle": {
+            "dateMeta": "2026-09-10T16:38:45+00:00",
+            "status": 200,
+            "titleMeta": true,
+            "url": "https://www.drugdiscoverytrends.com/pharma-vendor-selection-rx-almanac/"
+          }
+        },
+        {
+          "checkedAt": "2026-09-16T13:31:15.279741+00:00",
+          "error": "robots unavailable 403",
+          "feeds": [],
+          "home": "https://www.biopharminternational.com/",
+          "name": "BioPharm International",
+          "robots": [
+            {
+              "origin": "https://www.biopharminternational.com",
+              "status": 403,
+              "valid": false
+            }
+          ]
+        },
+        {
+          "checkedAt": "2026-09-16T13:31:15.395810+00:00",
+          "error": "robots unavailable 403",
+          "feeds": [],
+          "home": "https://www.pharmtech.com/",
+          "name": "Pharmaceutical Technology",
+          "robots": [
+            {
+              "origin": "https://www.pharmtech.com",
+              "status": 403,
+              "valid": false
+            }
+          ]
+        },
+        {
+          "checkedAt": "2026-09-16T13:31:14.497319+00:00",
+          "discoveredFeeds": [],
+          "feeds": [],
+          "home": "https://www.lifescienceleader.com/",
+          "homeStatus": 200,
+          "name": "Life Science Leader",
+          "robots": [
+            {
+              "origin": "https://www.lifescienceleader.com",
+              "status": 200,
+              "valid": true
+            }
+          ]
+        },
+        {
+          "checkedAt": "2026-09-16T13:31:16.185697+00:00",
+          "error": "robots unavailable 403",
+          "feeds": [],
+          "home": "https://endpts.com/",
+          "name": "Endpoints News",
+          "robots": [
+            {
+              "origin": "https://endpts.com",
+              "status": 403,
+              "valid": false
+            }
+          ]
+        },
+        {
+          "checkedAt": "2026-09-16T13:31:16.263280+00:00",
+          "discoveredFeeds": [
+            "https://www.thefdalawblog.com/feed/",
+            "https://www.thefdalawblog.com/comments/feed/"
+          ],
+          "feeds": [
+            {
+              "complete": 10,
+              "count": 10,
+              "requested": "https://www.thefdalawblog.com/feed/",
+              "sample": [
+                {
+                  "url": "https://www.thefdalawblog.com/2026/09/dompe-u-s-pays-32-million-to-resolve-co-pay-foundation-kickback-allegations-following-voluntary-self-disclosure/?utm_source=rss&utm_medium=rss&utm_campaign=dompe-u-s-pays-32-million-to-resolve-co-pay-foundation-kickback-allegations-following-voluntary-self-disclosure",
+                  "date": "Tue, 15 Sep 2026 11:00:36 +0000",
+                  "hasTitle": true,
+                  "hasSummary": true
+                },
+                {
+                  "url": "https://www.thefdalawblog.com/2026/09/confirmatory-evidence-for-all-fdas-approval-of-lytenava-for-wet-amd-shows-how-non-rare-diseases-can-use-confirmatory-evidence-and-that-failed-studies-can-provide-confirmato/?utm_source=rss&utm_medium=rss&utm_campaign=confirmatory-evidence-for-all-fdas-approval-of-lytenava-for-wet-amd-shows-how-non-rare-diseases-can-use-confirmatory-evidence-and-that-failed-studies-can-provide-confirmato",
+                  "date": "Mon, 14 Sep 2026 09:03:39 +0000",
+                  "hasTitle": true,
+                  "hasSummary": true
+                }
+              ],
+              "status": 200,
+              "url": "https://www.thefdalawblog.com/feed/"
+            }
+          ],
+          "home": "https://www.thefdalawblog.com/",
+          "homeStatus": 200,
+          "name": "FDA Law Blog",
+          "robots": [
+            {
+              "origin": "https://www.thefdalawblog.com",
+              "status": 200,
+              "valid": true
+            }
+          ],
+          "sampleArticle": {
+            "dateMeta": "2026-09-15T11:00:36+00:00",
+            "status": 200,
+            "titleMeta": true,
+            "url": "https://www.thefdalawblog.com/2026/09/dompe-u-s-pays-32-million-to-resolve-co-pay-foundation-kickback-allegations-following-voluntary-self-disclosure/?utm_source=rss&utm_medium=rss&utm_campaign=dompe-u-s-pays-32-million-to-resolve-co-pay-foundation-kickback-allegations-following-voluntary-self-disclosure"
+          }
+        },
+        {
+          "checkedAt": "2026-09-16T13:31:18.007893+00:00",
+          "discoveredFeeds": [
+            "https://kffhealthnews.org/feed/",
+            "https://kffhealthnews.org/comments/feed/"
+          ],
+          "feeds": [
+            {
+              "complete": 10,
+              "count": 10,
+              "requested": "https://kffhealthnews.org/feed/",
+              "sample": [
+                {
+                  "url": "https://kffhealthnews.org/rural-health/rural-health-tech-startups-funding-louisiana/",
+                  "date": "Wed, 16 Sep 2026 09:00:00 +0000",
+                  "hasTitle": true,
+                  "hasSummary": true
+                },
+                {
+                  "url": "https://kffhealthnews.org/courts/department-labor-employer-health-plans-aca-limited-partnership-settlement/",
+                  "date": "Wed, 16 Sep 2026 09:00:00 +0000",
+                  "hasTitle": true,
+                  "hasSummary": true
+                }
+              ],
+              "status": 200,
+              "url": "https://kffhealthnews.org/feed/"
+            }
+          ],
+          "home": "https://kffhealthnews.org/",
+          "homeStatus": 200,
+          "name": "KFF Health News",
+          "robots": [
+            {
+              "origin": "https://kffhealthnews.org",
+              "status": 200,
+              "valid": true
+            }
+          ],
+          "sampleArticle": {
+            "dateMeta": "2026-09-16T09:00:00+00:00",
+            "status": 200,
+            "titleMeta": true,
+            "url": "https://kffhealthnews.org/rural-health/rural-health-tech-startups-funding-louisiana/"
+          }
+        },
+        {
+          "checkedAt": "2026-09-16T13:31:29.056333+00:00",
+          "error": "robots unavailable 403",
+          "feeds": [],
+          "home": "https://www.centerforbiosimilars.com/",
+          "name": "Center for Biosimilars",
+          "robots": [
+            {
+              "origin": "https://www.centerforbiosimilars.com",
+              "status": 403,
+              "valid": false
+            }
+          ]
+        },
+        {
+          "checkedAt": "2026-09-16T13:31:29.976059+00:00",
+          "discoveredFeeds": [],
+          "feeds": [
+            {
+              "requested": "https://www.managedhealthcareexecutive.com/sitemap-news.xml",
+              "status": 403,
+              "url": "https://www.managedhealthcareexecutive.com/sitemap-news.xml",
+              "sample": []
+            }
+          ],
+          "home": "https://www.managedhealthcareexecutive.com/",
+          "homeStatus": 403,
+          "name": "Managed Healthcare Executive",
+          "robots": [
+            {
+              "origin": "https://www.managedhealthcareexecutive.com",
+              "status": 200,
+              "valid": true
+            }
+          ]
+        },
+        {
+          "checkedAt": "2026-09-16T13:31:32.623790+00:00",
+          "error": "robots unavailable 403",
+          "feeds": [],
+          "home": "https://www.drugtopics.com/",
+          "name": "Drug Topics",
+          "robots": [
+            {
+              "origin": "https://www.drugtopics.com",
+              "status": 403,
+              "valid": false
+            }
+          ]
+        },
+        {
+          "checkedAt": "2026-09-16T13:31:33.494418+00:00",
+          "error": "robots unavailable 403",
+          "feeds": [],
+          "home": "https://www.pharmacytimes.com/",
+          "name": "Pharmacy Times",
+          "robots": [
+            {
+              "origin": "https://www.pharmacytimes.com",
+              "status": 403,
+              "valid": false
+            }
+          ]
+        },
+        {
+          "checkedAt": "2026-09-16T13:31:34.369156+00:00",
+          "error": "robots unavailable 403",
+          "feeds": [],
+          "home": "https://www.ajmc.com/",
+          "name": "AJMC",
+          "robots": [
+            {
+              "origin": "https://www.ajmc.com",
+              "status": 403,
+              "valid": false
+            }
+          ]
+        },
+        {
+          "checkedAt": "2026-09-16T13:31:22.951310+00:00",
+          "discoveredFeeds": [],
+          "feeds": [
+            {
+              "complete": 10,
+              "count": 10,
+              "requested": "https://www.biopharmadive.com/feeds/news/",
+              "sample": [
+                {
+                  "url": "https://www.biopharmadive.com/news/radioligand-generic-sionna-layoffs-novo-contineum-arrowhead-corbus/830246/",
+                  "date": "Tue, 15 Sep 2026 17:13:00 -0400",
+                  "hasTitle": true,
+                  "hasSummary": true
+                },
+                {
+                  "url": "https://www.biopharmadive.com/news/wclc-2026-adc-b7h3-china-study-results-astrazeneca/830247/",
+                  "date": "Tue, 15 Sep 2026 12:02:00 -0400",
+                  "hasTitle": true,
+                  "hasSummary": true
+                }
+              ],
+              "status": 200,
+              "url": "https://www.biopharmadive.com/feeds/news/"
+            }
+          ],
+          "home": "https://www.biopharmadive.com/",
+          "homeStatus": 403,
+          "name": "BioPharma Dive",
+          "robots": [
+            {
+              "origin": "https://www.biopharmadive.com",
+              "status": 200,
+              "valid": true
+            }
+          ],
+          "sampleArticle": {
+            "dateMeta": null,
+            "status": 403,
+            "titleMeta": false,
+            "url": "https://www.biopharmadive.com/news/radioligand-generic-sionna-layoffs-novo-contineum-arrowhead-corbus/830246/"
+          }
+        },
+        {
+          "checkedAt": "2026-09-16T13:31:06.583979+00:00",
+          "discoveredFeeds": [
+            "https://www.genengnews.com/feed/",
+            "https://www.genengnews.com/comments/feed/",
+            "http://feeds.feedburner.com/GenGeneticEngineeringAndBiotechnologyNews",
+            "http://feeds.feedburner.com/GenGeneticEngineeringAndBiotechnologyNews"
+          ],
+          "feeds": [
+            {
+              "complete": 10,
+              "count": 10,
+              "requested": "https://www.genengnews.com/feed/",
+              "sample": [
+                {
+                  "url": "https://www.genengnews.com/topics/omics/microprotein-atlas-links-brain-immune-cell-dysfunction-to-alzheimers/",
+                  "date": "Wed, 16 Sep 2026 01:36:14 +0000",
+                  "hasTitle": true,
+                  "hasSummary": true
+                },
+                {
+                  "url": "https://www.genengnews.com/topics/translational-medicine/exosomes-linked-to-nerve-irritation-dysfunction-and-lingering-pain-after-shingles/",
+                  "date": "Tue, 15 Sep 2026 19:28:54 +0000",
+                  "hasTitle": true,
+                  "hasSummary": true
+                }
+              ],
+              "status": 200,
+              "url": "https://www.genengnews.com/feed/"
+            },
+            {
+              "error": "robots unavailable 200",
+              "requested": "http://feeds.feedburner.com/GenGeneticEngineeringAndBiotechnologyNews",
+              "sample": []
+            }
+          ],
+          "home": "https://www.genengnews.com/",
+          "homeStatus": 200,
+          "name": "GEN",
+          "robots": [
+            {
+              "origin": "https://www.genengnews.com",
+              "status": 200,
+              "valid": true
+            },
+            {
+              "origin": "http://feeds.feedburner.com",
+              "status": 200,
+              "valid": false
+            }
+          ],
+          "sampleArticle": {
+            "dateMeta": null,
+            "status": 200,
+            "titleMeta": true,
+            "url": "https://www.genengnews.com/topics/omics/microprotein-atlas-links-brain-immune-cell-dysfunction-to-alzheimers/"
+          }
+        },
+        {
+          "checkedAt": "2026-09-16T13:31:16.953681+00:00",
+          "discoveredFeeds": [
+            "https://www.biosimilarsip.com/feed/",
+            "https://www.biosimilarsip.com/comments/feed/",
+            "/feed/",
+            "/feed/"
+          ],
+          "feeds": [
+            {
+              "complete": 10,
+              "count": 10,
+              "requested": "https://www.biosimilarsip.com/feed/",
+              "sample": [
+                {
+                  "url": "https://www.biosimilarsip.com/2026/06/11/supreme-courts-unanimous-ruling-in-hikma-v-amarin-a-game-changer-for-skinny-label-strategies/",
+                  "date": "Thu, 11 Jun 2026 18:06:00 +0000",
+                  "hasTitle": true,
+                  "hasSummary": true
+                },
+                {
+                  "url": "https://www.biosimilarsip.com/2026/05/20/supreme-court-hears-skinny-label-arguments-in-hikma-v-amarin-signaling-impact-on-hatch-waxman-carve-out-strategy/",
+                  "date": "Wed, 20 May 2026 18:30:59 +0000",
+                  "hasTitle": true,
+                  "hasSummary": true
+                }
+              ],
+              "status": 200,
+              "url": "https://www.biosimilarsip.com/feed/"
+            }
+          ],
+          "home": "https://www.biosimilarsip.com/",
+          "homeStatus": 200,
+          "name": "Biosimilars Law Bulletin",
+          "robots": [
+            {
+              "origin": "https://www.biosimilarsip.com",
+              "status": 200,
+              "valid": true
+            }
+          ],
+          "sampleArticle": {
+            "dateMeta": "2026-06-11T18:06:00+00:00",
+            "status": 200,
+            "titleMeta": true,
+            "url": "https://www.biosimilarsip.com/2026/06/11/supreme-courts-unanimous-ruling-in-hikma-v-amarin-a-game-changer-for-skinny-label-strategies/"
+          }
+        }
+      ]
+    },
+    {
+      "jobId": 104814790442,
+      "results": [
+        {
+          "checkedAt": "2026-09-16T13:31:02.641199+00:00",
+          "discoveredFeeds": [
+            "/rss/Fierce Biotech Homepage/xml"
+          ],
+          "feeds": [
+            {
+              "complete": 0,
+              "count": 25,
+              "requested": "https://www.fiercebiotech.com/rss/biotech/xml",
+              "sample": [
+                {
+                  "url": "https://www.fiercebiotech.com/biotech/novartis-pays-sironax-125m-acquire-platform-crossing-blood-brain-barrier",
+                  "date": "Sep 16, 2026 8:32am",
+                  "hasTitle": false,
+                  "hasSummary": true
+                },
+                {
+                  "url": "https://www.fiercebiotech.com/biotech/its-cancer-and-inflammation-expansion-critical-mass-gileads-oday-eyes-companys-next-chapter",
+                  "date": "Sep 9, 2026 5:09pm",
+                  "hasTitle": false,
+                  "hasSummary": true
+                }
+              ],
+              "status": 200,
+              "url": "https://www.fiercebiotech.com/rss/biotech/xml"
+            },
+            {
+              "error": "URL can't contain control characters. '/rss/Fierce Biotech Homepage/xml' (found at least ' ')",
+              "requested": "https://www.fiercebiotech.com/rss/Fierce Biotech Homepage/xml",
+              "sample": []
+            }
+          ],
+          "home": "https://www.fiercebiotech.com/",
+          "homeStatus": 200,
+          "name": "Fierce Biotech",
+          "robots": [
+            {
+              "origin": "https://www.fiercebiotech.com",
+              "status": 200,
+              "valid": true
+            }
+          ]
+        },
+        {
+          "checkedAt": "2026-09-16T13:31:02.641307+00:00",
+          "discoveredFeeds": [
+            "/rss/Fierce Healthcare Homepage/xml"
+          ],
+          "feeds": [
+            {
+              "complete": 0,
+              "count": 0,
+              "requested": "https://www.fiercehealthcare.com/rss/healthcare/xml",
+              "sample": [],
+              "status": 200,
+              "url": "https://www.fiercehealthcare.com/rss/healthcare/xml"
+            },
+            {
+              "error": "URL can't contain control characters. '/rss/Fierce Healthcare Homepage/xml' (found at least ' ')",
+              "requested": "https://www.fiercehealthcare.com/rss/Fierce Healthcare Homepage/xml",
+              "sample": []
+            }
+          ],
+          "home": "https://www.fiercehealthcare.com/",
+          "homeStatus": 200,
+          "name": "Fierce Healthcare",
+          "robots": [
+            {
+              "origin": "https://www.fiercehealthcare.com",
+              "status": 200,
+              "valid": true
+            }
+          ]
+        },
+        {
+          "checkedAt": "2026-09-16T13:31:02.640818+00:00",
+          "discoveredFeeds": [
+            "https://www.statnews.com/feed/"
+          ],
+          "feeds": [
+            {
+              "complete": 20,
+              "count": 20,
+              "requested": "https://www.statnews.com/category/pharma/feed/",
+              "sample": [
+                {
+                  "url": "https://www.statnews.com/pharmalot/2026/09/16/fda-plans-to-speed-approvals-experimental-drugs-in-montana/?utm_campaign=rss",
+                  "date": "Wed, 16 Sep 2026 13:29:12 +0000",
+                  "hasTitle": true,
+                  "hasSummary": true
+                },
+                {
+                  "url": "https://www.statnews.com/2026/09/15/fda-launches-program-to-shorten-drug-approval-times/?utm_campaign=rss",
+                  "date": "Tue, 15 Sep 2026 14:00:00 +0000",
+                  "hasTitle": true,
+                  "hasSummary": true
+                }
+              ],
+              "status": 200,
+              "url": "https://www.statnews.com/category/pharma/feed/"
+            },
+            {
+              "complete": 20,
+              "count": 20,
+              "requested": "https://www.statnews.com/category/biotech/feed/",
+              "sample": [
+                {
+                  "url": "https://www.statnews.com/2026/09/15/biotech-news-obesity-drugmakers-are-testing-in-kids-as-young-as-si/?utm_campaign=rss",
+                  "date": "Tue, 15 Sep 2026 13:50:15 +0000",
+                  "hasTitle": true,
+                  "hasSummary": true
+                },
+                {
+                  "url": "https://www.statnews.com/2026/09/15/vera-kidney-drug-trutakna-shows-strong-phase-3-results-igan/?utm_campaign=rss",
+                  "date": "Tue, 15 Sep 2026 10:30:00 +0000",
+                  "hasTitle": true,
+                  "hasSummary": true
+                }
+              ],
+              "status": 200,
+              "url": "https://www.statnews.com/category/biotech/feed/"
+            },
+            {
+              "complete": 20,
+              "count": 20,
+              "requested": "https://www.statnews.com/feed/",
+              "sample": [
+                {
+                  "url": "https://www.statnews.com/pharmalot/2026/09/16/fda-plans-to-speed-approvals-experimental-drugs-in-montana/?utm_campaign=rss",
+                  "date": "Wed, 16 Sep 2026 13:29:12 +0000",
+                  "hasTitle": true,
+                  "hasSummary": true
+                },
+                {
+                  "url": "https://www.statnews.com/2026/09/16/health-news-us-reaches-measles-death-high-in-decades/?utm_campaign=rss",
+                  "date": "Wed, 16 Sep 2026 11:56:12 +0000",
+                  "hasTitle": true,
+                  "hasSummary": true
+                }
+              ],
+              "status": 200,
+              "url": "https://www.statnews.com/feed/"
+            }
+          ],
+          "home": "https://www.statnews.com/",
+          "homeStatus": 200,
+          "name": "STAT",
+          "robots": [
+            {
+              "origin": "https://www.statnews.com",
+              "status": 200,
+              "valid": true
+            }
+          ],
+          "sampleArticle": {
+            "dateMeta": "2026-09-16T13:29:12+00:00",
+            "status": 200,
+            "titleMeta": true,
+            "url": "https://www.statnews.com/pharmalot/2026/09/16/fda-plans-to-speed-approvals-experimental-drugs-in-montana/?utm_campaign=rss"
+          }
+        },
+        {
+          "checkedAt": "2026-09-16T13:31:08.157285+00:00",
+          "discoveredFeeds": [],
+          "feeds": [],
+          "home": "https://www.biosimilardevelopment.com/",
+          "homeStatus": 200,
+          "name": "Biosimilar Development",
+          "robots": [
+            {
+              "origin": "https://www.biosimilardevelopment.com",
+              "status": 200,
+              "valid": true
+            }
+          ]
+        },
+        {
+          "checkedAt": "2026-09-16T13:31:06.331964+00:00",
+          "discoveredFeeds": [
+            "https://www.drugdiscoverytrends.com/feed/",
+            "https://www.drugdiscoverytrends.com/comments/feed/"
+          ],
+          "feeds": [
+            {
+              "complete": 25,
+              "count": 25,
+              "requested": "https://www.drugdiscoverytrends.com/feed/",
+              "sample": [
+                {
+                  "url": "https://www.drugdiscoverytrends.com/pharma-vendor-selection-rx-almanac/",
+                  "date": "Thu, 10 Sep 2026 16:38:45 +0000",
+                  "hasTitle": true,
+                  "hasSummary": true
+                },
+                {
+                  "url": "https://www.drugdiscoverytrends.com/after-decades-of-trial-failures-in-chemotherapy-linked-neuropathy-psilocybin-shows-promise-in-preventing-it-in-mice/",
+                  "date": "Tue, 08 Sep 2026 16:17:26 +0000",
+                  "hasTitle": true,
+                  "hasSummary": true
+                }
+              ],
+              "status": 200,
+              "url": "https://www.drugdiscoverytrends.com/feed/"
+            }
+          ],
+          "home": "https://www.drugdiscoverytrends.com/",
+          "homeStatus": 200,
+          "name": "Drug Discovery & Development",
+          "robots": [
+            {
+              "origin": "https://www.drugdiscoverytrends.com",
+              "status": 200,
+              "valid": true
+            }
+          ],
+          "sampleArticle": {
+            "dateMeta": "2026-09-10T16:38:45+00:00",
+            "status": 200,
+            "titleMeta": true,
+            "url": "https://www.drugdiscoverytrends.com/pharma-vendor-selection-rx-almanac/"
+          }
+        },
+        {
+          "checkedAt": "2026-09-16T13:31:06.556513+00:00",
+          "discoveredFeeds": [
+            "https://bio.news/feed/",
+            "https://bio.news/comments/feed/"
+          ],
+          "feeds": [
+            {
+              "complete": 10,
+              "count": 10,
+              "requested": "https://bio.news/feed/",
+              "sample": [
+                {
+                  "url": "https://bio.news/federal-policy/with-pharmaceutical-tariffs-looming-guidance-on-compliance-is-still-lacking/",
+                  "date": "Mon, 14 Sep 2026 10:50:21 +0000",
+                  "hasTitle": true,
+                  "hasSummary": true
+                },
+                {
+                  "url": "https://bio.news/international/strong-ip-ecosystems-drive-biotech-rd-and-investment-report-shows/",
+                  "date": "Fri, 04 Sep 2026 05:36:55 +0000",
+                  "hasTitle": true,
+                  "hasSummary": true
+                }
+              ],
+              "status": 200,
+              "url": "https://bio.news/feed/"
+            }
+          ],
+          "home": "https://bio.news/",
+          "homeStatus": 200,
+          "name": "Bio.News",
+          "robots": [
+            {
+              "origin": "https://bio.news",
+              "status": 200,
+              "valid": true
+            }
+          ],
+          "sampleArticle": {
+            "dateMeta": "2026-09-14T10:50:21+00:00",
+            "status": 200,
+            "titleMeta": true,
+            "url": "https://bio.news/federal-policy/with-pharmaceutical-tariffs-looming-guidance-on-compliance-is-still-lacking/"
+          }
+        },
+        {
+          "checkedAt": "2026-09-16T13:31:10.424830+00:00",
+          "discoveredFeeds": [],
+          "feeds": [],
+          "home": "https://www.lifescienceleader.com/",
+          "homeStatus": 200,
+          "name": "Life Science Leader",
+          "robots": [
+            {
+              "origin": "https://www.lifescienceleader.com",
+              "status": 200,
+              "valid": true
+            }
+          ]
+        },
+        {
+          "checkedAt": "2026-09-16T13:31:11.658658+00:00",
+          "error": "robots unavailable 403",
+          "feeds": [],
+          "home": "https://www.biopharminternational.com/",
+          "name": "BioPharm International",
+          "robots": [
+            {
+              "origin": "https://www.biopharminternational.com",
+              "status": 403,
+              "valid": false
+            }
+          ]
+        },
+        {
+          "checkedAt": "2026-09-16T13:31:11.891648+00:00",
+          "error": "robots unavailable 403",
+          "feeds": [],
+          "home": "https://www.pharmtech.com/",
+          "name": "Pharmaceutical Technology",
+          "robots": [
+            {
+              "origin": "https://www.pharmtech.com",
+              "status": 403,
+              "valid": false
+            }
+          ]
+        },
+        {
+          "checkedAt": "2026-09-16T13:31:12.529986+00:00",
+          "error": "robots unavailable 403",
+          "feeds": [],
+          "home": "https://endpts.com/",
+          "name": "Endpoints News",
+          "robots": [
+            {
+              "origin": "https://endpts.com",
+              "status": 403,
+              "valid": false
+            }
+          ]
+        },
+        {
+          "checkedAt": "2026-09-16T13:31:12.532357+00:00",
+          "discoveredFeeds": [
+            "https://www.thefdalawblog.com/feed/",
+            "https://www.thefdalawblog.com/comments/feed/"
+          ],
+          "feeds": [
+            {
+              "complete": 10,
+              "count": 10,
+              "requested": "https://www.thefdalawblog.com/feed/",
+              "sample": [
+                {
+                  "url": "https://www.thefdalawblog.com/2026/09/dompe-u-s-pays-32-million-to-resolve-co-pay-foundation-kickback-allegations-following-voluntary-self-disclosure/?utm_source=rss&utm_medium=rss&utm_campaign=dompe-u-s-pays-32-million-to-resolve-co-pay-foundation-kickback-allegations-following-voluntary-self-disclosure",
+                  "date": "Tue, 15 Sep 2026 11:00:36 +0000",
+                  "hasTitle": true,
+                  "hasSummary": true
+                },
+                {
+                  "url": "https://www.thefdalawblog.com/2026/09/confirmatory-evidence-for-all-fdas-approval-of-lytenava-for-wet-amd-shows-how-non-rare-diseases-can-use-confirmatory-evidence-and-that-failed-studies-can-provide-confirmato/?utm_source=rss&utm_medium=rss&utm_campaign=confirmatory-evidence-for-all-fdas-approval-of-lytenava-for-wet-amd-shows-how-non-rare-diseases-can-use-confirmatory-evidence-and-that-failed-studies-can-provide-confirmato",
+                  "date": "Mon, 14 Sep 2026 09:03:39 +0000",
+                  "hasTitle": true,
+                  "hasSummary": true
+                }
+              ],
+              "status": 200,
+              "url": "https://www.thefdalawblog.com/feed/"
+            }
+          ],
+          "home": "https://www.thefdalawblog.com/",
+          "homeStatus": 200,
+          "name": "FDA Law Blog",
+          "robots": [
+            {
+              "origin": "https://www.thefdalawblog.com",
+              "status": 200,
+              "valid": true
+            }
+          ],
+          "sampleArticle": {
+            "dateMeta": "2026-09-15T11:00:36+00:00",
+            "status": 200,
+            "titleMeta": true,
+            "url": "https://www.thefdalawblog.com/2026/09/dompe-u-s-pays-32-million-to-resolve-co-pay-foundation-kickback-allegations-following-voluntary-self-disclosure/?utm_source=rss&utm_medium=rss&utm_campaign=dompe-u-s-pays-32-million-to-resolve-co-pay-foundation-kickback-allegations-following-voluntary-self-disclosure"
+          }
+        },
+        {
+          "checkedAt": "2026-09-16T13:31:14.338943+00:00",
+          "discoveredFeeds": [
+            "https://kffhealthnews.org/feed/",
+            "https://kffhealthnews.org/comments/feed/"
+          ],
+          "feeds": [
+            {
+              "complete": 10,
+              "count": 10,
+              "requested": "https://kffhealthnews.org/feed/",
+              "sample": [
+                {
+                  "url": "https://kffhealthnews.org/rural-health/rural-health-tech-startups-funding-louisiana/",
+                  "date": "Wed, 16 Sep 2026 09:00:00 +0000",
+                  "hasTitle": true,
+                  "hasSummary": true
+                },
+                {
+                  "url": "https://kffhealthnews.org/courts/department-labor-employer-health-plans-aca-limited-partnership-settlement/",
+                  "date": "Wed, 16 Sep 2026 09:00:00 +0000",
+                  "hasTitle": true,
+                  "hasSummary": true
+                }
+              ],
+              "status": 200,
+              "url": "https://kffhealthnews.org/feed/"
+            }
+          ],
+          "home": "https://kffhealthnews.org/",
+          "homeStatus": 200,
+          "name": "KFF Health News",
+          "robots": [
+            {
+              "origin": "https://kffhealthnews.org",
+              "status": 200,
+              "valid": true
+            }
+          ],
+          "sampleArticle": {
+            "dateMeta": "2026-09-16T09:00:00+00:00",
+            "status": 200,
+            "titleMeta": true,
+            "url": "https://kffhealthnews.org/rural-health/rural-health-tech-startups-funding-louisiana/"
+          }
+        },
+        {
+          "checkedAt": "2026-09-16T13:31:23.535309+00:00",
+          "error": "robots unavailable 403",
+          "feeds": [],
+          "home": "https://www.centerforbiosimilars.com/",
+          "name": "Center for Biosimilars",
+          "robots": [
+            {
+              "origin": "https://www.centerforbiosimilars.com",
+              "status": 403,
+              "valid": false
+            }
+          ]
+        },
+        {
+          "checkedAt": "2026-09-16T13:31:24.457769+00:00",
+          "discoveredFeeds": [],
+          "feeds": [
+            {
+              "requested": "https://www.managedhealthcareexecutive.com/sitemap-news.xml",
+              "status": 403,
+              "url": "https://www.managedhealthcareexecutive.com/sitemap-news.xml",
+              "sample": []
+            }
+          ],
+          "home": "https://www.managedhealthcareexecutive.com/",
+          "homeStatus": 403,
+          "name": "Managed Healthcare Executive",
+          "robots": [
+            {
+              "origin": "https://www.managedhealthcareexecutive.com",
+              "status": 200,
+              "valid": true
+            }
+          ]
+        },
+        {
+          "checkedAt": "2026-09-16T13:31:27.117643+00:00",
+          "error": "robots unavailable 403",
+          "feeds": [],
+          "home": "https://www.drugtopics.com/",
+          "name": "Drug Topics",
+          "robots": [
+            {
+              "origin": "https://www.drugtopics.com",
+              "status": 403,
+              "valid": false
+            }
+          ]
+        },
+        {
+          "checkedAt": "2026-09-16T13:31:28.032831+00:00",
+          "error": "robots unavailable 403",
+          "feeds": [],
+          "home": "https://www.pharmacytimes.com/",
+          "name": "Pharmacy Times",
+          "robots": [
+            {
+              "origin": "https://www.pharmacytimes.com",
+              "status": 403,
+              "valid": false
+            }
+          ]
+        },
+        {
+          "checkedAt": "2026-09-16T13:31:28.960143+00:00",
+          "error": "robots unavailable 403",
+          "feeds": [],
+          "home": "https://www.ajmc.com/",
+          "name": "AJMC",
+          "robots": [
+            {
+              "origin": "https://www.ajmc.com",
+              "status": 403,
+              "valid": false
+            }
+          ]
+        },
+        {
+          "checkedAt": "2026-09-16T13:31:18.631982+00:00",
+          "discoveredFeeds": [],
+          "feeds": [
+            {
+              "complete": 10,
+              "count": 10,
+              "requested": "https://www.biopharmadive.com/feeds/news/",
+              "sample": [
+                {
+                  "url": "https://www.biopharmadive.com/news/radioligand-generic-sionna-layoffs-novo-contineum-arrowhead-corbus/830246/",
+                  "date": "Tue, 15 Sep 2026 17:13:00 -0400",
+                  "hasTitle": true,
+                  "hasSummary": true
+                },
+                {
+                  "url": "https://www.biopharmadive.com/news/wclc-2026-adc-b7h3-china-study-results-astrazeneca/830247/",
+                  "date": "Tue, 15 Sep 2026 12:02:00 -0400",
+                  "hasTitle": true,
+                  "hasSummary": true
+                }
+              ],
+              "status": 200,
+              "url": "https://www.biopharmadive.com/feeds/news/"
+            }
+          ],
+          "home": "https://www.biopharmadive.com/",
+          "homeStatus": 403,
+          "name": "BioPharma Dive",
+          "robots": [
+            {
+              "origin": "https://www.biopharmadive.com",
+              "status": 200,
+              "valid": true
+            }
+          ],
+          "sampleArticle": {
+            "dateMeta": null,
+            "status": 403,
+            "titleMeta": false,
+            "url": "https://www.biopharmadive.com/news/radioligand-generic-sionna-layoffs-novo-contineum-arrowhead-corbus/830246/"
+          }
+        },
+        {
+          "checkedAt": "2026-09-16T13:31:02.641019+00:00",
+          "discoveredFeeds": [
+            "https://www.genengnews.com/feed/",
+            "https://www.genengnews.com/comments/feed/",
+            "http://feeds.feedburner.com/GenGeneticEngineeringAndBiotechnologyNews",
+            "http://feeds.feedburner.com/GenGeneticEngineeringAndBiotechnologyNews"
+          ],
+          "feeds": [
+            {
+              "complete": 10,
+              "count": 10,
+              "requested": "https://www.genengnews.com/feed/",
+              "sample": [
+                {
+                  "url": "https://www.genengnews.com/topics/omics/microprotein-atlas-links-brain-immune-cell-dysfunction-to-alzheimers/",
+                  "date": "Wed, 16 Sep 2026 01:36:14 +0000",
+                  "hasTitle": true,
+                  "hasSummary": true
+                },
+                {
+                  "url": "https://www.genengnews.com/topics/translational-medicine/exosomes-linked-to-nerve-irritation-dysfunction-and-lingering-pain-after-shingles/",
+                  "date": "Tue, 15 Sep 2026 19:28:54 +0000",
+                  "hasTitle": true,
+                  "hasSummary": true
+                }
+              ],
+              "status": 200,
+              "url": "https://www.genengnews.com/feed/"
+            },
+            {
+              "error": "robots unavailable 200",
+              "requested": "http://feeds.feedburner.com/GenGeneticEngineeringAndBiotechnologyNews",
+              "sample": []
+            }
+          ],
+          "home": "https://www.genengnews.com/",
+          "homeStatus": 200,
+          "name": "GEN",
+          "robots": [
+            {
+              "origin": "https://www.genengnews.com",
+              "status": 200,
+              "valid": true
+            },
+            {
+              "origin": "http://feeds.feedburner.com",
+              "status": 200,
+              "valid": false
+            }
+          ],
+          "sampleArticle": {
+            "dateMeta": null,
+            "status": 200,
+            "titleMeta": true,
+            "url": "https://www.genengnews.com/topics/omics/microprotein-atlas-links-brain-immune-cell-dysfunction-to-alzheimers/"
+          }
+        },
+        {
+          "checkedAt": "2026-09-16T13:31:12.818062+00:00",
+          "discoveredFeeds": [
+            "https://www.biosimilarsip.com/feed/",
+            "https://www.biosimilarsip.com/comments/feed/",
+            "/feed/",
+            "/feed/"
+          ],
+          "feeds": [
+            {
+              "complete": 10,
+              "count": 10,
+              "requested": "https://www.biosimilarsip.com/feed/",
+              "sample": [
+                {
+                  "url": "https://www.biosimilarsip.com/2026/06/11/supreme-courts-unanimous-ruling-in-hikma-v-amarin-a-game-changer-for-skinny-label-strategies/",
+                  "date": "Thu, 11 Jun 2026 18:06:00 +0000",
+                  "hasTitle": true,
+                  "hasSummary": true
+                },
+                {
+                  "url": "https://www.biosimilarsip.com/2026/05/20/supreme-court-hears-skinny-label-arguments-in-hikma-v-amarin-signaling-impact-on-hatch-waxman-carve-out-strategy/",
+                  "date": "Wed, 20 May 2026 18:30:59 +0000",
+                  "hasTitle": true,
+                  "hasSummary": true
+                }
+              ],
+              "status": 200,
+              "url": "https://www.biosimilarsip.com/feed/"
+            }
+          ],
+          "home": "https://www.biosimilarsip.com/",
+          "homeStatus": 200,
+          "name": "Biosimilars Law Bulletin",
+          "robots": [
+            {
+              "origin": "https://www.biosimilarsip.com",
+              "status": 200,
+              "valid": true
+            }
+          ],
+          "sampleArticle": {
+            "dateMeta": "2026-06-11T18:06:00+00:00",
+            "status": 200,
+            "titleMeta": true,
+            "url": "https://www.biosimilarsip.com/2026/06/11/supreme-courts-unanimous-ruling-in-hikma-v-amarin-a-game-changer-for-skinny-label-strategies/"
+          }
+        }
+      ]
+    }
+  ],
+  "followup": [
+    {
+      "jobId": 104815911886,
+      "results": [
+        {
+          "checkedAt": "2026-09-16T13:34:04.386013+00:00",
+          "discoveredFeeds": [
+            "/rss/Fierce Biotech Homepage/xml"
+          ],
+          "feeds": [
+            {
+              "complete": 25,
+              "count": 25,
+              "requested": "https://www.fiercebiotech.com/rss/biotech/xml",
+              "sample": [
+                {
+                  "url": "https://www.fiercebiotech.com/biotech/novartis-pays-sironax-125m-acquire-platform-crossing-blood-brain-barrier",
+                  "date": "Sep 16, 2026 8:32am",
+                  "hasTitle": true,
+                  "hasSummary": true
+                },
+                {
+                  "url": "https://www.fiercebiotech.com/biotech/its-cancer-and-inflammation-expansion-critical-mass-gileads-oday-eyes-companys-next-chapter",
+                  "date": "Sep 9, 2026 5:09pm",
+                  "hasTitle": true,
+                  "hasSummary": true
+                }
+              ],
+              "status": 200,
+              "url": "https://www.fiercebiotech.com/rss/biotech/xml"
+            },
+            {
+              "complete": 4,
+              "count": 4,
+              "requested": "https://www.fiercebiotech.com/rss/Fierce Biotech Homepage/xml",
+              "sample": [
+                {
+                  "url": "https://www.fiercebiotech.com/sponsored/growing-requirements-for-medicines-for-children",
+                  "date": "May 14, 2018 3:08pm",
+                  "hasTitle": true,
+                  "hasSummary": true
+                },
+                {
+                  "url": "https://www.fiercebiotech.com/sponsored/australia-not-so-secret-destination-for-pharma-and-biotech-clinical-trials",
+                  "date": "Apr 25, 2018 11:59am",
+                  "hasTitle": true,
+                  "hasSummary": true
+                }
+              ],
+              "status": 200,
+              "url": "https://www.fiercebiotech.com/rss/Fierce%20Biotech%20Homepage/xml"
+            }
+          ],
+          "home": "https://www.fiercebiotech.com/",
+          "homeStatus": 200,
+          "name": "Fierce Biotech",
+          "robots": [
+            {
+              "origin": "https://www.fiercebiotech.com",
+              "status": 200,
+              "valid": true
+            }
+          ],
+          "sampleArticle": {
+            "dateMeta": "2026-09-16T08:32:15-0400",
+            "status": 200,
+            "titleMeta": true,
+            "url": "https://www.fiercebiotech.com/biotech/novartis-pays-sironax-125m-acquire-platform-crossing-blood-brain-barrier"
+          }
+        },
+        {
+          "checkedAt": "2026-09-16T13:34:04.386246+00:00",
+          "discoveredFeeds": [
+            "/rss/Fierce Healthcare Homepage/xml"
+          ],
+          "feeds": [
+            {
+              "complete": 0,
+              "count": 0,
+              "requested": "https://www.fiercehealthcare.com/rss/healthcare/xml",
+              "sample": [],
+              "status": 200,
+              "url": "https://www.fiercehealthcare.com/rss/healthcare/xml"
+            },
+            {
+              "complete": 12,
+              "count": 12,
+              "requested": "https://www.fiercehealthcare.com/rss/Fierce Healthcare Homepage/xml",
+              "sample": [
+                {
+                  "url": "https://www.fiercehealthcare.com/sponsored/5-value-drivers-health-plans-realize-when-identifying-and-managing-their-most-complex",
+                  "date": "Jun 6, 2018 8:28pm",
+                  "hasTitle": true,
+                  "hasSummary": true
+                },
+                {
+                  "url": "https://www.fiercehealthcare.com/sponsored/how-right-vision-for-virtual-care-successfully-addressing-healthcare-s-biggest-challenges",
+                  "date": "May 1, 2018 12:37pm",
+                  "hasTitle": true,
+                  "hasSummary": true
+                }
+              ],
+              "status": 200,
+              "url": "https://www.fiercehealthcare.com/rss/Fierce%20Healthcare%20Homepage/xml"
+            }
+          ],
+          "home": "https://www.fiercehealthcare.com/",
+          "homeStatus": 200,
+          "name": "Fierce Healthcare",
+          "robots": [
+            {
+              "origin": "https://www.fiercehealthcare.com",
+              "status": 200,
+              "valid": true
+            }
+          ],
+          "sampleArticle": {
+            "dateMeta": "2018-06-11T20:23:40-0400",
+            "status": 200,
+            "titleMeta": true,
+            "url": "https://www.fiercehealthcare.com/sponsored/5-value-drivers-health-plans-realize-when-identifying-and-managing-their-most-complex"
+          }
+        },
+        {
+          "checkedAt": "2026-09-16T13:34:04.386568+00:00",
+          "discoveredFeeds": [],
+          "feeds": [],
+          "home": "https://www.lifescienceleader.com/",
+          "homeStatus": 200,
+          "htmlArticles": [
+            {
+              "date": null,
+              "status": 200,
+              "titleMeta": true,
+              "url": "https://www.lifescienceleader.com/doc/life-science-leader-issue-archive-0001"
+            },
+            {
+              "date": null,
+              "status": 200,
+              "titleMeta": true,
+              "url": "https://www.lifescienceleader.com/doc/life-science-leader-digital-edition-archive-0003"
+            },
+            {
+              "date": null,
+              "status": 200,
+              "titleMeta": true,
+              "url": "https://www.lifescienceleader.com/doc/what-strong-biotech-ip-strategies-get-right-and-where-weak-ones-break-down-0001"
+            }
+          ],
+          "name": "Life Science Leader",
+          "robots": [
+            {
+              "origin": "https://www.lifescienceleader.com",
+              "status": 200,
+              "valid": true
+            }
+          ]
+        },
+        {
+          "checkedAt": "2026-09-16T13:34:04.386414+00:00",
+          "discoveredFeeds": [],
+          "feeds": [],
+          "home": "https://www.biosimilardevelopment.com/",
+          "homeStatus": 200,
+          "htmlArticles": [
+            {
+              "date": null,
+              "status": 200,
+              "titleMeta": true,
+              "url": "https://www.biosimilardevelopment.com/doc/biosimilar-development-editorial-board-0001"
+            },
+            {
+              "date": null,
+              "status": 200,
+              "titleMeta": true,
+              "url": "https://www.biosimilardevelopment.com/doc/you-can-t-capa-what-you-can-t-classify-0001"
+            },
+            {
+              "date": null,
+              "status": 200,
+              "titleMeta": true,
+              "url": "https://www.biosimilardevelopment.com/doc/modeling-approaches-that-make-complex-bioprocess-data-useful-0001"
+            }
+          ],
+          "name": "Biosimilar Development",
+          "robots": [
+            {
+              "origin": "https://www.biosimilardevelopment.com",
+              "status": 200,
+              "valid": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "jobId": 104815912421,
+      "results": [
+        {
+          "checkedAt": "2026-09-16T13:34:05.856195+00:00",
+          "discoveredFeeds": [
+            "/rss/Fierce Biotech Homepage/xml"
+          ],
+          "feeds": [
+            {
+              "complete": 25,
+              "count": 25,
+              "requested": "https://www.fiercebiotech.com/rss/biotech/xml",
+              "sample": [
+                {
+                  "url": "https://www.fiercebiotech.com/biotech/novartis-pays-sironax-125m-acquire-platform-crossing-blood-brain-barrier",
+                  "date": "Sep 16, 2026 8:32am",
+                  "hasTitle": true,
+                  "hasSummary": true
+                },
+                {
+                  "url": "https://www.fiercebiotech.com/biotech/its-cancer-and-inflammation-expansion-critical-mass-gileads-oday-eyes-companys-next-chapter",
+                  "date": "Sep 9, 2026 5:09pm",
+                  "hasTitle": true,
+                  "hasSummary": true
+                }
+              ],
+              "status": 200,
+              "url": "https://www.fiercebiotech.com/rss/biotech/xml"
+            },
+            {
+              "complete": 4,
+              "count": 4,
+              "requested": "https://www.fiercebiotech.com/rss/Fierce Biotech Homepage/xml",
+              "sample": [
+                {
+                  "url": "https://www.fiercebiotech.com/sponsored/growing-requirements-for-medicines-for-children",
+                  "date": "May 14, 2018 3:08pm",
+                  "hasTitle": true,
+                  "hasSummary": true
+                },
+                {
+                  "url": "https://www.fiercebiotech.com/sponsored/australia-not-so-secret-destination-for-pharma-and-biotech-clinical-trials",
+                  "date": "Apr 25, 2018 11:59am",
+                  "hasTitle": true,
+                  "hasSummary": true
+                }
+              ],
+              "status": 200,
+              "url": "https://www.fiercebiotech.com/rss/Fierce%20Biotech%20Homepage/xml"
+            }
+          ],
+          "home": "https://www.fiercebiotech.com/",
+          "homeStatus": 200,
+          "name": "Fierce Biotech",
+          "robots": [
+            {
+              "origin": "https://www.fiercebiotech.com",
+              "status": 200,
+              "valid": true
+            }
+          ],
+          "sampleArticle": {
+            "dateMeta": "2026-09-16T08:32:15-0400",
+            "status": 200,
+            "titleMeta": true,
+            "url": "https://www.fiercebiotech.com/biotech/novartis-pays-sironax-125m-acquire-platform-crossing-blood-brain-barrier"
+          }
+        },
+        {
+          "checkedAt": "2026-09-16T13:34:05.856386+00:00",
+          "discoveredFeeds": [
+            "/rss/Fierce Healthcare Homepage/xml"
+          ],
+          "feeds": [
+            {
+              "complete": 0,
+              "count": 0,
+              "requested": "https://www.fiercehealthcare.com/rss/healthcare/xml",
+              "sample": [],
+              "status": 200,
+              "url": "https://www.fiercehealthcare.com/rss/healthcare/xml"
+            },
+            {
+              "complete": 12,
+              "count": 12,
+              "requested": "https://www.fiercehealthcare.com/rss/Fierce Healthcare Homepage/xml",
+              "sample": [
+                {
+                  "url": "https://www.fiercehealthcare.com/sponsored/5-value-drivers-health-plans-realize-when-identifying-and-managing-their-most-complex",
+                  "date": "Jun 6, 2018 8:28pm",
+                  "hasTitle": true,
+                  "hasSummary": true
+                },
+                {
+                  "url": "https://www.fiercehealthcare.com/sponsored/how-right-vision-for-virtual-care-successfully-addressing-healthcare-s-biggest-challenges",
+                  "date": "May 1, 2018 12:37pm",
+                  "hasTitle": true,
+                  "hasSummary": true
+                }
+              ],
+              "status": 200,
+              "url": "https://www.fiercehealthcare.com/rss/Fierce%20Healthcare%20Homepage/xml"
+            }
+          ],
+          "home": "https://www.fiercehealthcare.com/",
+          "homeStatus": 200,
+          "name": "Fierce Healthcare",
+          "robots": [
+            {
+              "origin": "https://www.fiercehealthcare.com",
+              "status": 200,
+              "valid": true
+            }
+          ],
+          "sampleArticle": {
+            "dateMeta": "2018-06-11T20:23:40-0400",
+            "status": 200,
+            "titleMeta": true,
+            "url": "https://www.fiercehealthcare.com/sponsored/5-value-drivers-health-plans-realize-when-identifying-and-managing-their-most-complex"
+          }
+        },
+        {
+          "checkedAt": "2026-09-16T13:34:05.856550+00:00",
+          "discoveredFeeds": [],
+          "feeds": [],
+          "home": "https://www.biosimilardevelopment.com/",
+          "homeStatus": 200,
+          "htmlArticles": [
+            {
+              "date": null,
+              "status": 200,
+              "titleMeta": true,
+              "url": "https://www.biosimilardevelopment.com/doc/biosimilar-development-editorial-board-0001"
+            },
+            {
+              "date": null,
+              "status": 200,
+              "titleMeta": true,
+              "url": "https://www.biosimilardevelopment.com/doc/you-can-t-capa-what-you-can-t-classify-0001"
+            },
+            {
+              "date": null,
+              "status": 200,
+              "titleMeta": true,
+              "url": "https://www.biosimilardevelopment.com/doc/modeling-approaches-that-make-complex-bioprocess-data-useful-0001"
+            }
+          ],
+          "name": "Biosimilar Development",
+          "robots": [
+            {
+              "origin": "https://www.biosimilardevelopment.com",
+              "status": 200,
+              "valid": true
+            }
+          ]
+        },
+        {
+          "checkedAt": "2026-09-16T13:34:05.856711+00:00",
+          "discoveredFeeds": [],
+          "feeds": [],
+          "home": "https://www.lifescienceleader.com/",
+          "homeStatus": 200,
+          "htmlArticles": [
+            {
+              "date": null,
+              "status": 200,
+              "titleMeta": true,
+              "url": "https://www.lifescienceleader.com/doc/life-science-leader-issue-archive-0001"
+            },
+            {
+              "date": null,
+              "status": 200,
+              "titleMeta": true,
+              "url": "https://www.lifescienceleader.com/doc/life-science-leader-digital-edition-archive-0003"
+            },
+            {
+              "date": null,
+              "status": 200,
+              "titleMeta": true,
+              "url": "https://www.lifescienceleader.com/doc/what-strong-biotech-ip-strategies-get-right-and-where-weak-ones-break-down-0001"
+            }
+          ],
+          "name": "Life Science Leader",
+          "robots": [
+            {
+              "origin": "https://www.lifescienceleader.com",
+              "status": 200,
+              "valid": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
