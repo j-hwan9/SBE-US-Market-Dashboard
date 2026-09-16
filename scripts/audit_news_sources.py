@@ -29,11 +29,12 @@ class NoRedirect(urllib.request.HTTPRedirectHandler):
  def redirect_request(self,*a,**k):return None
 opener=urllib.request.build_opener(NoRedirect)
 class Links(HTMLParser):
- def __init__(self):super().__init__();self.feeds=[];self.meta={}
+ def __init__(self):super().__init__();self.feeds=[];self.meta={};self.articles=[]
  def handle_starttag(self,t,attrs):
   a=dict(attrs)
   if t=='link' and ('rss' in a.get('type','') or 'atom' in a.get('type','')):self.feeds.append(a.get('href',''))
   if t=='a' and re.search(r'(?:/rss(?:/|$)|/feed/?$|feedburner)',a.get('href',''),re.I):self.feeds.append(a.get('href',''))
+  if t=='a' and '/doc/' in a.get('href',''):self.articles.append(a['href'])
   if t=='meta':self.meta[a.get('property',a.get('name',''))]=a.get('content','')
 def raw(url):
  time.sleep(.8)
@@ -62,6 +63,7 @@ class Client:
   if delay:time.sleep(delay)
   return True
  def get(self,url):
+  url=urllib.parse.quote(url,safe=':/?=&%+#')
   for _ in range(5):
    if urllib.parse.urlsplit(url).scheme not in ('http','https'):raise RuntimeError('unsupported URL')
    self.policy(url);code,h,s=raw(url)
@@ -76,7 +78,7 @@ def entries(s):
   if kind not in ('item','entry','url'):continue
   row={}
   for n in e.iter():
-   k=local(n);v=(n.text or '').strip()
+   k=local(n);v=''.join(n.itertext()).strip()
    if k=='title' and v:row['title']=v
    if k in ('pubDate','published','publication_date') and v:row['date']=v
    if k in ('link','loc'):
@@ -93,6 +95,17 @@ def audit(src):
   if code==200:p.feed(s)
   urls=list(dict.fromkeys([urllib.parse.urljoin(home,x) for x in seeds+p.feeds if x]))[:5]
   out['discoveredFeeds']=p.feeds
+  if not urls:
+   out['htmlArticles']=[]
+   for link in list(dict.fromkeys(p.articles))[:3]:
+    item={'url':urllib.parse.urljoin(home,link)}
+    try:
+     ac,au,ab=c.get(item['url']);ap=Links()
+     if ac==200:ap.feed(ab)
+     dates=re.findall(r'"datePublished"\s*:\s*"([^"]+)"',ab)
+     item.update(status=ac,titleMeta=bool(ap.meta.get('og:title') or ap.meta.get('twitter:title')),date=ap.meta.get('article:published_time') or ap.meta.get('date') or (dates[0] if dates else None))
+    except Exception as e:item['error']=str(e)
+    out['htmlArticles'].append(item)
   for u in urls:
    f={'requested':u}
    try:
@@ -112,5 +125,6 @@ def audit(src):
  out['robots']=c.robotlog
  print('AUDIT_RESULT '+json.dumps(out,ensure_ascii=False),flush=True);return out
 if __name__=='__main__':
+ SOURCES=[s for s in SOURCES if s[0] in ('Fierce Biotech','Fierce Healthcare','Biosimilar Development','Life Science Leader')]
  with concurrent.futures.ThreadPoolExecutor(max_workers=4) as p:results=list(p.map(audit,SOURCES))
  with open('news-source-audit.json','w') as f:json.dump({'attempt':os.getenv('AUDIT_ATTEMPT'),'results':results},f,ensure_ascii=False,indent=2)
