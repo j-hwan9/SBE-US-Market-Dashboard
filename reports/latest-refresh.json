@@ -1,24 +1,12 @@
 {
-  "checkedAt": "2026-09-16T23:31:52+00:00",
+  "checkedAt": "2026-09-17T23:24:17+00:00",
   "snapshot": "2026-08",
   "products": 130,
   "piObtained": 130,
-  "historyRecorded": true,
+  "historyRecorded": false,
   "changes": {
     "added": [],
     "removed": [],
-    "changed": [
-      {
-        "id": "yusimry-761216",
-        "brand": "Yusimry",
-        "bla": "761216",
-        "fields": [
-          "Manufacturer",
-          "Dosage",
-          "Indications",
-          "PI version"
-        ]
-      }
-    ]
+    "changed": []
   }
 }

@@ -1,10 +1,1775 @@
 {
-  "checkedAt": "2026-09-16T23:32:11.924569+00:00",
-  "historyRecorded": false,
+  "checkedAt": "2026-09-17T23:24:45.564930+00:00",
+  "historyRecorded": true,
   "changes": {
     "added": [],
     "removed": [],
-    "changed": [],
+    "changed": [
+      {
+        "productId": "actemra-125276",
+        "brand": "Actemra",
+        "quarter": "2026 Q4",
+        "hcpcs": "J3262",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "actemra-125276",
+        "brand": "Actemra",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q0249",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "alymsys-761231",
+        "brand": "Alymsys",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5126",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "armlupeg-761212",
+        "brand": "Armlupeg",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5169",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "aukelso-761436",
+        "brand": "Aukelso",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5161",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "avastin-125085",
+        "brand": "Avastin",
+        "quarter": "2026 Q4",
+        "hcpcs": "J9035",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "avsola-761086",
+        "brand": "Avsola",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5121",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "avtozma-761498",
+        "brand": "Avtozma",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q0237",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "avtozma-761498",
+        "brand": "Avtozma",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5156",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "bildyos-761444",
+        "brand": "Bildyos",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5162",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "bilprevda-761444",
+        "brand": "Bilprevda",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5162",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "bkemv-761333",
+        "brand": "Bkemv",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5152",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "bomyntra-761398",
+        "brand": "Bomyntra",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5158",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "bosaya-761436",
+        "brand": "Bosaya",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5161",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "byooviz-761202",
+        "brand": "Byooviz",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5124",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "cimerli-761165",
+        "brand": "Cimerli",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5128",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "conexxence-761398",
+        "brand": "Conexxence",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5158",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "enoby-761439",
+        "brand": "Enoby",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5167",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "epysqli-761340",
+        "brand": "Epysqli",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5151",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "eylea-125387",
+        "brand": "Eylea",
+        "quarter": "2026 Q4",
+        "hcpcs": "J0178",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "fulphila-761075",
+        "brand": "Fulphila",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5108",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "fylnetra-761084",
+        "brand": "Fylnetra",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5130",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "herceptin-103792",
+        "brand": "Herceptin",
+        "quarter": "2026 Q4",
+        "hcpcs": "J9355",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "hercessi-761346",
+        "brand": "Hercessi",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5146",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "herzuma-761091",
+        "brand": "Herzuma",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5113",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "imuldosa-761364",
+        "brand": "Imuldosa",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5098",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "inflectra-125544",
+        "brand": "Inflectra",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5103",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "jobevne-761175",
+        "brand": "Jobevne",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5160",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "jubbonti-761362",
+        "brand": "Jubbonti",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5136",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "kanjinti-761073",
+        "brand": "Kanjinti",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5117",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "lucentis-125156",
+        "brand": "Lucentis",
+        "quarter": "2026 Q4",
+        "hcpcs": "J2778",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "mvasi-761028",
+        "brand": "Mvasi",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5107",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "neulasta-125031",
+        "brand": "Neulasta",
+        "quarter": "2026 Q4",
+        "hcpcs": "J2506",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "neupogen-103353",
+        "brand": "Neupogen",
+        "quarter": "2026 Q4",
+        "hcpcs": "J1442",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "nivestym-761080",
+        "brand": "Nivestym",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5110",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "novolog-020986",
+        "brand": "Novolog",
+        "quarter": "2026 Q4",
+        "hcpcs": "J1817",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "nufymco-761473",
+        "brand": "Nufymco",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5168",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "nypozi-761126",
+        "brand": "Nypozi",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5148",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "nyvepria-761111",
+        "brand": "Nyvepria",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5122",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "ogivri-761074",
+        "brand": "Ogivri",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5114",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "ontruzant-761100",
+        "brand": "Ontruzant",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5112",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "osenvelt-761404",
+        "brand": "Osenvelt",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5157",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "otulfi-761379",
+        "brand": "Otulfi",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q9999",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "pavblu-761298",
+        "brand": "Pavblu",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5147",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "perjeta-125409",
+        "brand": "Perjeta",
+        "quarter": "2026 Q4",
+        "hcpcs": "J9306",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "procrit-103234",
+        "brand": "Procrit",
+        "quarter": "2026 Q4",
+        "hcpcs": "J0885",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "procrit-103234",
+        "brand": "Procrit",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q4081",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "prolia-125320",
+        "brand": "Prolia",
+        "quarter": "2026 Q4",
+        "hcpcs": "J0897",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "pyzchiva-761373",
+        "brand": "Pyzchiva",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q9997",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "releuko-761082",
+        "brand": "Releuko",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5125",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "remicade-103772",
+        "brand": "Remicade",
+        "quarter": "2026 Q4",
+        "hcpcs": "J1745",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "renflexis-761054",
+        "brand": "Renflexis",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5104",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "retacrit-125545",
+        "brand": "Retacrit",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5105",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "retacrit-125545",
+        "brand": "Retacrit",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5106",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "riabni-761140",
+        "brand": "Riabni",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5123",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "rituxan-103705",
+        "brand": "Rituxan",
+        "quarter": "2026 Q4",
+        "hcpcs": "J9312",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "ruxience-761103",
+        "brand": "Ruxience",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5119",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "selarsdi-761343",
+        "brand": "Selarsdi",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q9998",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "simponi-aria-125433",
+        "brand": "Simponi Aria",
+        "quarter": "2026 Q4",
+        "hcpcs": "J1602",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "soliris-125166",
+        "brand": "Soliris",
+        "quarter": "2026 Q4",
+        "hcpcs": "J1299",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "stelara-125261",
+        "brand": "Stelara",
+        "quarter": "2026 Q4",
+        "hcpcs": "J3358",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "steqeyma-761338",
+        "brand": "Steqeyma",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5099",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "stimufend-761173",
+        "brand": "Stimufend",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5127",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "stoboclo-761404",
+        "brand": "Stoboclo",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5157",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "tofidence-761354",
+        "brand": "Tofidence",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q0234",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "tofidence-761354",
+        "brand": "Tofidence",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5133",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "trazimera-761081",
+        "brand": "Trazimera",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5116",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "truxima-761088",
+        "brand": "Truxima",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5115",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "tyenne-761275",
+        "brand": "Tyenne",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q0238",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "tyenne-761275",
+        "brand": "Tyenne",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5135",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "tyruko-761322",
+        "brand": "Tyruko",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5134",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "tysabri-125104",
+        "brand": "Tysabri",
+        "quarter": "2026 Q4",
+        "hcpcs": "J2323",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "udenyca-761039",
+        "brand": "Udenyca",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5111",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "udenyca-onbody-761039",
+        "brand": "Udenyca Onbody",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5111",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "vegzelma-761268",
+        "brand": "Vegzelma",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5129",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "wezlana-761285",
+        "brand": "Wezlana",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5138",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "wyost-761362",
+        "brand": "Wyost",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5136",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "xgeva-125320",
+        "brand": "Xgeva",
+        "quarter": "2026 Q4",
+        "hcpcs": "J0897",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "xolair-103976",
+        "brand": "Xolair",
+        "quarter": "2026 Q4",
+        "hcpcs": "J2357",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "xtrenbo-761439",
+        "brand": "Xtrenbo",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5167",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "yesintek-761406",
+        "brand": "Yesintek",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5100",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "zarxio-125553",
+        "brand": "Zarxio",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5101",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "ziextenzo-761045",
+        "brand": "Ziextenzo",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5120",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      },
+      {
+        "productId": "zirabev-761099",
+        "brand": "Zirabev",
+        "quarter": "2026 Q4",
+        "hcpcs": "Q5118",
+        "fields": [
+          "publicationStatus",
+          "sourceFile",
+          "sourceUrl"
+        ],
+        "before": {
+          "publicationStatus": "Preliminary",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 090826.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-preliminary.zip"
+        },
+        "after": {
+          "publicationStatus": "CMS published",
+          "sourceFile": "October 2026 Medicare Part B Payment Limit File 091626.xls",
+          "sourceUrl": "https://www.cms.gov/files/zip/october-2026-medicare-part-b-payment-limit-files-final.zip"
+        }
+      }
+    ],
     "catalogChanged": false
   },
   "collectionErrors": []
