@@ -1,5 +1,10 @@
 name: Refresh market news
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/news.py'
+      - '.github/workflows/news.yml'
   workflow_dispatch:
     inputs:
       approval_letters:

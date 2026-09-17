@@ -9,6 +9,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
 from html.parser import HTMLParser
+from zoneinfo import ZoneInfo
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 UA = 'SBE-Market-News/1.1 (+https://github.com/j-hwan9/SBE-US-Market-Dashboard)'
@@ -18,16 +19,23 @@ SOURCES = [
  {'id':'fierce','name':'Fierce Pharma','host':'www.fiercepharma.com','discovery':'https://www.fiercepharma.com/keyword/biosimilar','kind':'html'},
  {'id':'biospace','name':'BioSpace','host':'www.biospace.com','discovery':'https://www.biospace.com/news-sitemap.xml','kind':'sitemap'},
  {'id':'pharmexec','name':'Pharmaceutical Executive','host':'www.pharmexec.com','discovery':'https://www.pharmexec.com/sitemap-news.xml','kind':'sitemap'},
+ {'id':'stat','name':'STAT','host':'www.statnews.com','discovery':'https://www.statnews.com/category/pharma/feed/','feeds':['https://www.statnews.com/category/pharma/feed/','https://www.statnews.com/category/biotech/feed/'],'kind':'rss','feedOnly':True},
+ {'id':'biopharmadive','name':'BioPharma Dive','host':'www.biopharmadive.com','discovery':'https://www.biopharmadive.com/feeds/news/','kind':'rss','feedOnly':True},
+ {'id':'fiercebiotech','name':'Fierce Biotech','host':'www.fiercebiotech.com','discovery':'https://www.fiercebiotech.com/rss/biotech/xml','kind':'rss','dateTimezone':'America/New_York'},
+ {'id':'gen','name':'GEN','host':'www.genengnews.com','discovery':'https://www.genengnews.com/feed/','kind':'rss'},
+ {'id':'ddd','name':'Drug Discovery & Development','host':'www.drugdiscoverytrends.com','discovery':'https://www.drugdiscoverytrends.com/feed/','kind':'rss'},
 ]
 
-def iso_date(s):
+def iso_date(s,default_timezone='UTC'):
  if not s:return None
  try:
   d=datetime.fromisoformat(str(s).replace('Z','+00:00'))
  except ValueError:
   try:d=parsedate_to_datetime(str(s))
-  except (ValueError,TypeError):return None
- if d.tzinfo is None:d=d.replace(tzinfo=timezone.utc)
+  except (ValueError,TypeError):
+   try:d=datetime.strptime(str(s).strip(),'%b %d, %Y %I:%M%p')
+   except ValueError:return None
+ if d.tzinfo is None:d=d.replace(tzinfo=ZoneInfo(default_timezone))
  return d.astimezone(timezone.utc).isoformat(timespec='seconds')
 
 def norm(s):
@@ -155,7 +163,14 @@ class Client:
 def canonical(url,host):
  p=urllib.parse.urlsplit(url)
  if p.hostname!=host or p.scheme not in ('http','https'):return None
- return urllib.parse.urlunsplit(('https',p.netloc,p.path,'',''))
+ query=urllib.parse.urlencode([(k,v) for k,v in urllib.parse.parse_qsl(p.query,keep_blank_values=True) if not k.lower().startswith('utm_') and k.lower() not in {'fbclid','gclid'}])
+ return urllib.parse.urlunsplit(('https',p.netloc,p.path,query,''))
+
+def feed_text(item,tag):
+ node=item.find(tag)
+ if node is None:return ''
+ page=Page();page.feed(''.join(node.itertext()))
+ return re.sub(r'\s+',' ',editorial_text(page.root)).strip()
 
 def discovery(raw,source,client,depth=0):
  if source.get('kind')=='html':
@@ -169,11 +184,11 @@ def discovery(raw,source,client,depth=0):
  root=ET.fromstring(raw);kind=root.tag.split('}')[-1];out=[]
  if kind in ('rss','feed'):
   for item in root.findall('.//item'):
-   url=item.findtext('link','');title=item.findtext('title','');date=iso_date(item.findtext('pubDate'))
+   title=feed_text(item,'title');date=iso_date(item.findtext('pubDate'),source.get('dateTimezone','UTC'))
    # Blogger RSS uses tracking URLs; original article is carried by FeedBurner/FeedBlitz origLink.
    links=[e.text or '' for e in item if e.tag.split('}')[-1] in ('origLink','link','guid')]
    url=next((canonical(u,source['host']) for u in links if canonical(u,source['host'])),None)
-   if url:out.append({'url':url,'title':title,'publishedAt':date})
+   if url:out.append({'url':url,'title':title,'publishedAt':date,'description':feed_text(item,'description')})
  elif kind=='sitemapindex' and depth<2:
   maps=[{e.tag.split('}')[-1]:e.text for e in item} for item in root]
   maps.sort(key=lambda m:('news' in m.get('loc',''),m.get('lastmod',''),int(re.findall(r'\d+',m.get('loc',''))[-1]) if re.findall(r'\d+',m.get('loc','')) else 0),reverse=True)
@@ -194,11 +209,17 @@ def collect_source(source,old,aliases,now,limit,scanned=None,signature=None):
  previous={x['url']:x for x in old if x.get('sourceId')==source['id']}
  collected=[];seen={x['url'] for x in old if x.get('classificationSignature')==signature};client=Client(source['host'],source.get('feedHosts'));scanned=scanned or {};status['scanned']=[]
  try:
-  entries=discovery(client.get(source['discovery']),source,client);status['discovered']=len(entries)
+  entries=[]
+  for feed in source.get('feeds',[source['discovery']]):
+   try:entries.extend(discovery(client.get(feed),source,client))
+   except Exception as e:
+    status['errors']+=1;status['lastError']=str(e)[:240]
+  status['discovered']=len({x['url'] for x in entries})
   if not entries:raise ValueError('No article links discovered')
   entries=list({x['url']:x for x in entries}.values());entries.sort(key=lambda x:x.get('publishedAt') or x.get('discoveryDate') or '',reverse=True)
   # Revisit the archive after alias/rule changes, including URLs no longer in the feed.
-  archived=[dict(url=x['url'],title=x['title'],publishedAt=x['publishedAt']) for x in previous.values() if x['url'] not in seen]
+  feed_entries={x['url']:x for x in entries}
+  archived=[dict(url=x['url'],title=x['title'],publishedAt=x['publishedAt'],description=feed_entries.get(x['url'],{}).get('description','')) for x in previous.values() if x['url'] not in seen]
   archived_urls={x['url'] for x in archived}
   fresh=[x for x in entries if x['url'] not in seen and x['url'] not in archived_urls and (x['url'] not in scanned or scanned[x['url']]<(now-timedelta(days=30)).isoformat())]
   # Reserve capacity for both backfill and discovery, so neither starves the other.
@@ -208,7 +229,9 @@ def collect_source(source,old,aliases,now,limit,scanned=None,signature=None):
   status['deferred']=max(0,sum(x['url'] not in seen for x in entries)-len(todo))
   for entry in todo:
    try:
-    facts=article(client.get(entry['url']),entry['url'])
+    if source.get('feedOnly'):
+     facts={'title':entry['title'],'publishedAt':entry.get('publishedAt'),'body':'','bodyAvailable':False,'description':entry.get('description','')}
+    else:facts=article(client.get(entry['url']),entry['url'])
     date=entry.get('publishedAt') or facts['publishedAt'];title=entry.get('title') or facts['title']
     if not date or not title:raise ValueError('Missing article publication date/title')
     if datetime.fromisoformat(date)>now+timedelta(minutes=10):raise ValueError('Future article publication date')
@@ -222,12 +245,14 @@ def collect_source(source,old,aliases,now,limit,scanned=None,signature=None):
     if not molecules and not topics:continue
     collected.append({'id':hashlib.sha256(entry['url'].encode()).hexdigest()[:20],'title':title,'url':entry['url'],'source':source['name'],'sourceId':source['id'],'publishedAt':date,'molecules':molecules,'topics':topics,'classificationSignature':signature,'matchBasis':'article' if facts['bodyAvailable'] else 'title-description','firstSeenAt':prior.get('firstSeenAt',now.isoformat()) if prior else now.isoformat(),'type':'press-release' if '/press-releases/' in entry['url'] else 'sponsored' if '/sponsored/' in entry['url'] or '/spons/' in entry['url'] else 'article'})
     status['bodyMatched']+=facts['bodyAvailable']
+    if source.get('feedOnly'):collected[-1]['matchBasis']='feed-title-description'
     if prior:status['reclassified']=status.get('reclassified',0)+1
     else:status['new']+=1
    except Exception as e:
     status['errors']+=1;status['lastError']=str(e)[:240]
   if status['errors']:status['status']='partial'
  except Exception as e:status.update(status='unavailable',lastError=str(e)[:240])
+ if source.get('feedOnly'):status['collectionMode']='rss-only'
  return collected,status
 
 def refresh_news(output=None,limit=40):
@@ -249,7 +274,7 @@ def refresh_news(output=None,limit=40):
   # Retain archive and last successful timestamp, while exposing this failed attempt.
   updated=old.get('updatedAt')
  else:updated=now.isoformat()
- payload={'schemaVersion':2,'topics':list(TOPIC_RULES),'classificationVersion':CLASSIFICATION_VERSION,'classificationPending':sum(x.get('classificationSignature')!=signature for x in articles.values()),'updatedAt':updated,'checkedAt':now.isoformat(),'articles':sorted(articles.values(),key=lambda x:(x['publishedAt'],x['id']),reverse=True),'sources':sources,'molecules':sorted(set(p['molecule'] for p in products)),'coverageNote':'수집 시작 이후 누적 기사입니다. 피드 제공 범위와 매체 접근 상태에 따라 과거 기사·일부 기사가 누락될 수 있습니다.'}
+ payload={'schemaVersion':2,'topics':list(TOPIC_RULES),'classificationVersion':CLASSIFICATION_VERSION,'classificationPending':sum(x.get('classificationSignature')!=signature for x in articles.values()),'updatedAt':updated,'checkedAt':now.isoformat(),'articles':sorted(articles.values(),key=lambda x:(x['publishedAt'],x['id']),reverse=True),'sources':sources,'molecules':sorted(set(p['molecule'] for p in products)),'coverageNote':'수집 시작 이후 누적 기사입니다. 피드 제공 범위와 매체 접근 상태에 따라 과거 기사·일부 기사가 누락될 수 있습니다. STAT·BioPharma Dive는 RSS 제목·설명 기준으로 분류하며, 원문은 유료이거나 접근이 제한될 수 있습니다.'}
  scanpath.parent.mkdir(parents=True,exist_ok=True);scanpath.write_text(json.dumps({'aliasHash':signature,'urls':scanned},ensure_ascii=False,indent=2))
  output.mkdir(parents=True,exist_ok=True);tmp=path.with_suffix('.tmp');tmp.write_text(json.dumps(payload,ensure_ascii=False,indent=2));tmp.replace(path)
  return payload
