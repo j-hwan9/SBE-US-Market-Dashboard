@@ -6,8 +6,8 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-09-16T23:33:50.855087+00:00",
-  "checkedAt": "2026-09-16T23:33:50.855087+00:00",
+  "updatedAt": "2026-09-17T01:08:28.305951+00:00",
+  "checkedAt": "2026-09-17T01:08:28.305951+00:00",
   "articles": [
     {
       "id": "35325fb73f4d995cccb9",
@@ -55,6 +55,22 @@
       "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-16T23:33:50.855087+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "84e7cdde5d7d412d3ad3",
+      "title": "Blood Cancer United Announces $7.5 Million Gift From Royalty Pharma to Expand Therapy Acceleration Program",
+      "url": "https://www.biospace.com/press-releases/blood-cancer-united-announces-7-5-million-gift-from-royalty-pharma-to-expand-therapy-acceleration-program",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-09-16T02:34:45+00:00",
+      "molecules": [
+        "natalizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-17T01:08:28.305951+00:00",
       "type": "press-release"
     },
     {
@@ -426,6 +442,22 @@
       "type": "article"
     },
     {
+      "id": "7b333f163016b4b1ae87",
+      "title": "Gilead and Nucleai probe why target-positive tumors can still resist ADCs",
+      "url": "https://www.drugdiscoverytrends.com/gilead-and-nucleai-probe-why-target-positive-tumors-can-still-resist-adcs/",
+      "source": "Drug Discovery & Development",
+      "sourceId": "ddd",
+      "publishedAt": "2026-08-18T00:33:39+00:00",
+      "molecules": [
+        "trastuzumab"
+      ],
+      "topics": [],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-17T01:08:28.305951+00:00",
+      "type": "article"
+    },
+    {
       "id": "a9c392e2d8f915b1b7b9",
       "title": "US Humira Sales Overwhelmed by Biosimilar Competition",
       "url": "https://biosimilarsrr.com/2026/08/17/us-humira-sales-overwhelmed-by-biosimilar-competition/",
@@ -738,18 +770,18 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-09-16T23:33:50.855087+00:00",
+      "checkedAt": "2026-09-17T01:08:28.305951+00:00",
       "status": "ok",
       "discovered": 10,
-      "new": 1,
+      "new": 0,
       "errors": 0,
-      "bodyMatched": 1,
+      "bodyMatched": 0,
       "deferred": 0
     },
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-09-16T23:33:50.855087+00:00",
+      "checkedAt": "2026-09-17T01:08:28.305951+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
@@ -760,7 +792,7 @@
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-09-16T23:33:50.855087+00:00",
+      "checkedAt": "2026-09-17T01:08:28.305951+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -771,24 +803,81 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-09-16T23:33:50.855087+00:00",
+      "checkedAt": "2026-09-17T01:08:28.305951+00:00",
       "status": "ok",
       "discovered": 260,
-      "new": 2,
+      "new": 1,
       "errors": 0,
-      "bodyMatched": 2,
-      "deferred": 219
+      "bodyMatched": 1,
+      "deferred": 217
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-09-16T23:33:50.855087+00:00",
+      "checkedAt": "2026-09-17T01:08:28.305951+00:00",
       "status": "ok",
       "discovered": 100,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 90
+      "deferred": 97
+    },
+    {
+      "id": "stat",
+      "name": "STAT",
+      "checkedAt": "2026-09-17T01:08:28.305951+00:00",
+      "status": "ok",
+      "discovered": 35,
+      "new": 0,
+      "errors": 0,
+      "bodyMatched": 0,
+      "deferred": 0,
+      "collectionMode": "rss-only"
+    },
+    {
+      "id": "biopharmadive",
+      "name": "BioPharma Dive",
+      "checkedAt": "2026-09-17T01:08:28.305951+00:00",
+      "status": "ok",
+      "discovered": 10,
+      "new": 0,
+      "errors": 0,
+      "bodyMatched": 0,
+      "deferred": 0,
+      "collectionMode": "rss-only"
+    },
+    {
+      "id": "fiercebiotech",
+      "name": "Fierce Biotech",
+      "checkedAt": "2026-09-17T01:08:28.305951+00:00",
+      "status": "ok",
+      "discovered": 25,
+      "new": 0,
+      "errors": 0,
+      "bodyMatched": 0,
+      "deferred": 0
+    },
+    {
+      "id": "gen",
+      "name": "GEN",
+      "checkedAt": "2026-09-17T01:08:28.305951+00:00",
+      "status": "ok",
+      "discovered": 10,
+      "new": 0,
+      "errors": 0,
+      "bodyMatched": 0,
+      "deferred": 0
+    },
+    {
+      "id": "ddd",
+      "name": "Drug Discovery & Development",
+      "checkedAt": "2026-09-17T01:08:28.305951+00:00",
+      "status": "ok",
+      "discovered": 25,
+      "new": 1,
+      "errors": 0,
+      "bodyMatched": 1,
+      "deferred": 0
     }
   ],
   "molecules": [
@@ -814,5 +903,5 @@
     "trastuzumab",
     "ustekinumab"
   ],
-  "coverageNote": "수집 시작 이후 누적 기사입니다. 피드 제공 범위와 매체 접근 상태에 따라 과거 기사·일부 기사가 누락될 수 있습니다."
+  "coverageNote": "수집 시작 이후 누적 기사입니다. 피드 제공 범위와 매체 접근 상태에 따라 과거 기사·일부 기사가 누락될 수 있습니다. STAT·BioPharma Dive는 RSS 제목·설명 기준으로 분류하며, 원문은 유료이거나 접근이 제한될 수 있습니다."
 }
