@@ -6,9 +6,74 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-09-17T23:21:34.941687+00:00",
-  "checkedAt": "2026-09-17T23:21:34.941687+00:00",
+  "updatedAt": "2026-09-18T23:02:11.498000+00:00",
+  "checkedAt": "2026-09-18T23:02:11.498000+00:00",
   "articles": [
+    {
+      "id": "102f9d0be7fbcd42841f",
+      "title": "M&A Roundup: Lisata Therapeutics Acquires Marea Therapeutics, mAbxience Enters Collaboration with Sandoz ",
+      "url": "https://www.pharmexec.com/view/-lisata-therapeutics-acquires-marea-therapeutics-mabxience-collaboration-sandoz",
+      "source": "Pharmaceutical Executive",
+      "sourceId": "pharmexec",
+      "publishedAt": "2026-09-18T13:37:46+00:00",
+      "molecules": [],
+      "topics": [
+        "Market overall"
+      ],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-18T23:02:11.498000+00:00",
+      "type": "article"
+    },
+    {
+      "id": "42183b198321a441773d",
+      "title": "Enhertu® Recommended for Approval in the EU by CHMP as Adjuvant Treatment for Patients with Residual Disease After Neoadjuvant Treatment for HER2 Positive Early Breast Cancer",
+      "url": "https://www.biospace.com/press-releases/enhertu-recommended-for-approval-in-the-eu-by-chmp-as-adjuvant-treatment-for-patients-with-residual-disease-after-neoadjuvant-treatment-for-her2-positive-early-breast-cancer",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-09-18T12:49:19+00:00",
+      "molecules": [
+        "pertuzumab",
+        "trastuzumab"
+      ],
+      "topics": [],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-18T23:02:11.498000+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "f5eb851f131f0ab95495",
+      "title": "Sandoz Canada receives Health Canada regulatory approval for (Pr)Sandoz® Semaglutide, a generic version of (Pr)Ozempic®",
+      "url": "https://www.biospace.com/press-releases/sandoz-canada-receives-health-canada-regulatory-approval-for-prsandoz-semaglutide-a-generic-version-of-prozempic",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-09-18T12:47:15+00:00",
+      "molecules": [],
+      "topics": [
+        "Market overall"
+      ],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-18T23:02:11.498000+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "91c24052c3adf1266ef2",
+      "title": "mAbxience and Sandoz Sign a Collaboration Agreement to Advance Biosimilar Access Worldwide",
+      "url": "https://www.biospace.com/press-releases/mabxience-and-sandoz-sign-a-collaboration-agreement-to-advance-biosimilar-access-worldwide",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-09-18T11:37:32+00:00",
+      "molecules": [],
+      "topics": [
+        "Market overall"
+      ],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-18T23:02:11.498000+00:00",
+      "type": "press-release"
+    },
     {
       "id": "35325fb73f4d995cccb9",
       "title": "First Opdivo Biosimilar FDA Application Submitted by Amgen",
@@ -770,7 +835,7 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-09-17T23:21:34.941687+00:00",
+      "checkedAt": "2026-09-18T23:02:11.498000+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -781,18 +846,18 @@
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-09-17T23:21:34.941687+00:00",
+      "checkedAt": "2026-09-18T23:02:11.498000+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 21
+      "deferred": 20
     },
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-09-17T23:21:34.941687+00:00",
+      "checkedAt": "2026-09-18T23:02:11.498000+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -803,75 +868,75 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-09-17T23:21:34.941687+00:00",
+      "checkedAt": "2026-09-18T23:02:11.498000+00:00",
       "status": "ok",
-      "discovered": 226,
-      "new": 0,
+      "discovered": 198,
+      "new": 3,
       "errors": 0,
-      "bodyMatched": 0,
-      "deferred": 182
+      "bodyMatched": 3,
+      "deferred": 158
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-09-17T23:21:34.941687+00:00",
+      "checkedAt": "2026-09-18T23:02:11.498000+00:00",
       "status": "ok",
       "discovered": 100,
-      "new": 0,
+      "new": 1,
       "errors": 0,
-      "bodyMatched": 0,
-      "deferred": 90
+      "bodyMatched": 1,
+      "deferred": 85
     },
     {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-09-17T23:21:34.941687+00:00",
+      "checkedAt": "2026-09-18T23:02:11.498000+00:00",
       "status": "ok",
-      "discovered": 36,
+      "discovered": 35,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 27,
+      "deferred": 32,
       "collectionMode": "rss-only"
     },
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-09-17T23:21:34.941687+00:00",
+      "checkedAt": "2026-09-18T23:02:11.498000+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 7,
+      "deferred": 5,
       "collectionMode": "rss-only"
     },
     {
       "id": "fiercebiotech",
       "name": "Fierce Biotech",
-      "checkedAt": "2026-09-17T23:21:34.941687+00:00",
+      "checkedAt": "2026-09-18T23:02:11.498000+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 18
+      "deferred": 19
     },
     {
       "id": "gen",
       "name": "GEN",
-      "checkedAt": "2026-09-17T23:21:34.941687+00:00",
+      "checkedAt": "2026-09-18T23:02:11.498000+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 5
+      "deferred": 2
     },
     {
       "id": "ddd",
       "name": "Drug Discovery & Development",
-      "checkedAt": "2026-09-17T23:21:34.941687+00:00",
+      "checkedAt": "2026-09-18T23:02:11.498000+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
