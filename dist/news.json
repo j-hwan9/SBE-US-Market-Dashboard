@@ -6,8 +6,8 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-09-18T23:02:11.498000+00:00",
-  "checkedAt": "2026-09-18T23:02:11.498000+00:00",
+  "updatedAt": "2026-09-19T22:41:00.574082+00:00",
+  "checkedAt": "2026-09-19T22:41:00.574082+00:00",
   "articles": [
     {
       "id": "102f9d0be7fbcd42841f",
@@ -72,6 +72,39 @@
       "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-18T23:02:11.498000+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "d458fb5bb0df72de57ae",
+      "title": "Puma Biotechnology Initiates ALISCA®-Lung2, a Phase II Trial of Alisertib in Combination with Paclitaxel for the Treatment of Patients with Advanced Small Cell Lung Cancer",
+      "url": "https://www.biospace.com/press-releases/puma-biotechnology-initiates-alisca-lung2-a-phase-ii-trial-of-alisertib-in-combination-with-paclitaxel-for-the-treatment-of-patients-with-advanced-small-cell-lung-cancer",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-09-18T01:06:11+00:00",
+      "molecules": [
+        "trastuzumab"
+      ],
+      "topics": [],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-19T22:41:00.574082+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "3242a83250024b74e3bd",
+      "title": "Phase 3 Pediatric EMPAVELI Data Published in Clinical Journal of the American Society of Nephrology Show Reduction in Proteinuria and Stabilized Kidney Function in Adolescents with C3G or Primary IC-MPGN",
+      "url": "https://www.biospace.com/press-releases/phase-3-pediatric-empaveli-data-published-in-clinical-journal-of-the-american-society-of-nephrology-show-reduction-in-proteinuria-and-stabilized-kidney-function-in-adolescents-with-c3g-or-primary-ic-mpgn",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-09-18T00:56:23+00:00",
+      "molecules": [],
+      "topics": [
+        "Market overall",
+        "Policy"
+      ],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-19T22:41:00.574082+00:00",
       "type": "press-release"
     },
     {
@@ -835,7 +868,7 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-09-18T23:02:11.498000+00:00",
+      "checkedAt": "2026-09-19T22:41:00.574082+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -846,18 +879,18 @@
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-09-18T23:02:11.498000+00:00",
+      "checkedAt": "2026-09-19T22:41:00.574082+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 20
+      "deferred": 21
     },
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-09-18T23:02:11.498000+00:00",
+      "checkedAt": "2026-09-19T22:41:00.574082+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -868,75 +901,75 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-09-18T23:02:11.498000+00:00",
+      "checkedAt": "2026-09-19T22:41:00.574082+00:00",
       "status": "ok",
-      "discovered": 198,
-      "new": 3,
+      "discovered": 69,
+      "new": 2,
       "errors": 0,
-      "bodyMatched": 3,
-      "deferred": 158
+      "bodyMatched": 2,
+      "deferred": 38
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-09-18T23:02:11.498000+00:00",
+      "checkedAt": "2026-09-19T22:41:00.574082+00:00",
       "status": "ok",
       "discovered": 100,
-      "new": 1,
+      "new": 0,
       "errors": 0,
-      "bodyMatched": 1,
-      "deferred": 85
+      "bodyMatched": 0,
+      "deferred": 97
     },
     {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-09-18T23:02:11.498000+00:00",
+      "checkedAt": "2026-09-19T22:41:00.574082+00:00",
       "status": "ok",
       "discovered": 35,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 32,
+      "deferred": 35,
       "collectionMode": "rss-only"
     },
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-09-18T23:02:11.498000+00:00",
+      "checkedAt": "2026-09-19T22:41:00.574082+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 5,
+      "deferred": 10,
       "collectionMode": "rss-only"
     },
     {
       "id": "fiercebiotech",
       "name": "Fierce Biotech",
-      "checkedAt": "2026-09-18T23:02:11.498000+00:00",
+      "checkedAt": "2026-09-19T22:41:00.574082+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 19
+      "deferred": 25
     },
     {
       "id": "gen",
       "name": "GEN",
-      "checkedAt": "2026-09-18T23:02:11.498000+00:00",
+      "checkedAt": "2026-09-19T22:41:00.574082+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 2
+      "deferred": 9
     },
     {
       "id": "ddd",
       "name": "Drug Discovery & Development",
-      "checkedAt": "2026-09-18T23:02:11.498000+00:00",
+      "checkedAt": "2026-09-19T22:41:00.574082+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
