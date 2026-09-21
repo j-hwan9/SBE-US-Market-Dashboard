@@ -6,9 +6,42 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-09-20T22:59:10.153740+00:00",
-  "checkedAt": "2026-09-20T22:59:10.153740+00:00",
+  "updatedAt": "2026-09-21T23:50:58.785764+00:00",
+  "checkedAt": "2026-09-21T23:50:58.785764+00:00",
   "articles": [
+    {
+      "id": "c5cec20045a70dcfec96",
+      "title": "Merck’s KEYTRUDA QLEX™ (pembrolizumab and berahyaluronidase alfa-pmph) Approved in Japan for Subcutaneous Administration for All KEYTRUDA® (pembrolizumab) Indications Approved in Japan",
+      "url": "https://www.biospace.com/press-releases/mercks-keytruda-qlex-pembrolizumab-and-berahyaluronidase-alfa-pmph-approved-in-japan-for-subcutaneous-administration-for-all-keytruda-pembrolizumab-indications-approved-in-japan",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-09-21T12:01:11+00:00",
+      "molecules": [
+        "bevacizumab",
+        "trastuzumab"
+      ],
+      "topics": [],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-21T23:50:58.785764+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "7aeea1e90ef9d4eb836b",
+      "title": "Cue chalks up phase 2 hives win for Xolair challenger",
+      "url": "https://www.fiercebiotech.com/biotech/cue-chalks-phase-2-hives-win-xolair-challenger",
+      "source": "Fierce Biotech",
+      "sourceId": "fiercebiotech",
+      "publishedAt": "2026-09-21T07:52:00+00:00",
+      "molecules": [
+        "omalizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-21T23:50:58.785764+00:00",
+      "type": "article"
+    },
     {
       "id": "102f9d0be7fbcd42841f",
       "title": "M&A Roundup: Lisata Therapeutics Acquires Marea Therapeutics, mAbxience Enters Collaboration with Sandoz ",
@@ -868,7 +901,7 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-09-20T22:59:10.153740+00:00",
+      "checkedAt": "2026-09-21T23:50:58.785764+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -879,18 +912,18 @@
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-09-20T22:59:10.153740+00:00",
+      "checkedAt": "2026-09-21T23:50:58.785764+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 21
+      "deferred": 20
     },
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-09-20T22:59:10.153740+00:00",
+      "checkedAt": "2026-09-21T23:50:58.785764+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -901,75 +934,75 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-09-20T22:59:10.153740+00:00",
+      "checkedAt": "2026-09-21T23:50:58.785764+00:00",
       "status": "ok",
-      "discovered": 2,
-      "new": 0,
+      "discovered": 87,
+      "new": 1,
       "errors": 0,
-      "bodyMatched": 0,
-      "deferred": 2
+      "bodyMatched": 1,
+      "deferred": 46
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-09-20T22:59:10.153740+00:00",
+      "checkedAt": "2026-09-21T23:50:58.785764+00:00",
       "status": "ok",
       "discovered": 100,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 97
+      "deferred": 92
     },
     {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-09-20T22:59:10.153740+00:00",
+      "checkedAt": "2026-09-21T23:50:58.785764+00:00",
       "status": "ok",
-      "discovered": 35,
+      "discovered": 34,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 35,
+      "deferred": 28,
       "collectionMode": "rss-only"
     },
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-09-20T22:59:10.153740+00:00",
+      "checkedAt": "2026-09-21T23:50:58.785764+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 10,
+      "deferred": 4,
       "collectionMode": "rss-only"
     },
     {
       "id": "fiercebiotech",
       "name": "Fierce Biotech",
-      "checkedAt": "2026-09-20T22:59:10.153740+00:00",
+      "checkedAt": "2026-09-21T23:50:58.785764+00:00",
       "status": "ok",
       "discovered": 25,
-      "new": 0,
+      "new": 1,
       "errors": 0,
-      "bodyMatched": 0,
-      "deferred": 25
+      "bodyMatched": 1,
+      "deferred": 18
     },
     {
       "id": "gen",
       "name": "GEN",
-      "checkedAt": "2026-09-20T22:59:10.153740+00:00",
+      "checkedAt": "2026-09-21T23:50:58.785764+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 10
+      "deferred": 3
     },
     {
       "id": "ddd",
       "name": "Drug Discovery & Development",
-      "checkedAt": "2026-09-20T22:59:10.153740+00:00",
+      "checkedAt": "2026-09-21T23:50:58.785764+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
