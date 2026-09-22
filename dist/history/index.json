@@ -2,6 +2,36 @@
   {
     "purpleBookDate": "2026-08",
     "productCount": 130,
+    "id": "20260922T232816000000Z",
+    "path": "history/20260922T232816000000Z.json",
+    "checkedAt": "2026-09-22T23:28:16+00:00",
+    "changes": {
+      "added": [],
+      "removed": [],
+      "changed": [
+        {
+          "id": "garzulys-761497",
+          "brand": "Garzulys",
+          "bla": "761497",
+          "fields": [
+            "Product / source data"
+          ]
+        },
+        {
+          "id": "langlara-761412",
+          "brand": "Langlara",
+          "bla": "761412",
+          "fields": [
+            "Manufacturer",
+            "PI version"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "purpleBookDate": "2026-08",
+    "productCount": 130,
     "id": "20260916T233152000000Z",
     "path": "history/20260916T233152000000Z.json",
     "checkedAt": "2026-09-16T23:31:52+00:00",

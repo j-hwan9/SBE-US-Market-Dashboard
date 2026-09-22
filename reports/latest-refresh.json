@@ -1,12 +1,30 @@
 {
-  "checkedAt": "2026-09-21T23:48:52+00:00",
+  "checkedAt": "2026-09-22T23:28:16+00:00",
   "snapshot": "2026-08",
   "products": 130,
   "piObtained": 130,
-  "historyRecorded": false,
+  "historyRecorded": true,
   "changes": {
     "added": [],
     "removed": [],
-    "changed": []
+    "changed": [
+      {
+        "id": "garzulys-761497",
+        "brand": "Garzulys",
+        "bla": "761497",
+        "fields": [
+          "Product / source data"
+        ]
+      },
+      {
+        "id": "langlara-761412",
+        "brand": "Langlara",
+        "bla": "761412",
+        "fields": [
+          "Manufacturer",
+          "PI version"
+        ]
+      }
+    ]
   }
 }
