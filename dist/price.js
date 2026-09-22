@@ -18,7 +18,7 @@ const PriceTracker=(()=>{
   const rows=payload.rows.filter(r=>r.molecule===el('aspMolecule').value),quarters=[...new Set((rows.length?rows:payload.rows).map(r=>r.quarter))].sort();
   el('aspFrom').innerHTML=options(quarters,quarters[Math.max(0,quarters.length-12)]);el('aspTo').innerHTML=options(quarters,quarters.at(-1));
   const products=roster();selected=new Set(products.map(r=>r.brand));
-  el('aspProducts').innerHTML=products.map((r,i)=>'<label><input type="checkbox" value="'+esc(r.brand)+'" checked><span style="color:'+brandColor(r.brand)+'">'+esc(r.brand)+(r.kind==='reference'?' · Originator':'')+(!rows.some(x=>x.brand===r.brand)?' · N/A':'')+'</span></label>').join('');render();
+  el('aspProducts').innerHTML=products.map((r,i)=>'<label><input type="checkbox" value="'+esc(r.brand)+'" checked><span style="color:'+brandColor(r.brand)+'">'+esc(r.brand)+(r.kind==='reference'?' · Originator':r.kind==='standalone'?' · 351(a), non-biosimilar':'')+(!rows.some(x=>x.brand===r.brand)?' · N/A':'')+'</span></label>').join('');render();
  }
  function current(){return filtered(payload?.rows||[],el('aspMolecule').value,el('aspFrom').value,el('aspTo').value,selected);}
  function render(){

@@ -54,7 +54,7 @@ def derive(rows):
   if r.get('pooledIdentities'):r['method']='HCPCS pools different drug identities; brand ASP unavailable'
   if r['method']!='ASP methodology estimate':continue
   if r['brand']=='Zymfentra':r['method']='SC product: reference basis requires review';continue
-  if r['kind']=='reference':r['estimatedAsp']=round(r['paymentLimit']/1.06,6);r['addonPct']=6;continue
+  if r['kind'] in ('reference','standalone'):r['estimatedAsp']=round(r['paymentLimit']/1.06,6);r['addonPct']=6;continue
   reference=r.get('reference') or CONFIG[r['molecule']]['originator']['brand'];refs=lookup.get((r['quarter'],r['molecule'],reference),[])
   ref=refs[0] if len(refs)==1 else None
   if not ref or basis(ref['notes'])!='ASP methodology estimate':r['method']='Reference ASP unavailable';continue
@@ -182,7 +182,7 @@ def save_snapshot(obj,stamp):
  return recorded
 def publish(rows,checked=None,files=None,errors=None,catalog=None,purple=None):
  validate(rows)
- obj={'schemaVersion':1,'sourceRepository':SOURCE_REPO,'sourceCommit':SOURCE_COMMIT,'sourceRepositoryUpdatedAt':'2026-06-08T03:35:15Z','cmsCheckedAt':checked,'builtAt':datetime.now(timezone.utc).isoformat(),'catalog':[dict(p,molecule=display_molecule(p['molecule'])) for p in (catalog or [])],'purpleBookAsOf':(purple or {}).get('purpleBookAsOf',(purple or {}).get('purpleBookDate')),'coverage':'All approved brands in the Regulatory Purple Book snapshot plus explicitly configured Price tracker products (Ultomiris / ravulizumab). CMS-matched HCPCS prices only; brands without matched ASP remain N/A. Shared-HCPCS prices are not independently reported brand prices.','files':files or [],'collectionErrors':errors or [],'rows':derive(rows)}
+ obj={'schemaVersion':1,'sourceRepository':SOURCE_REPO,'sourceCommit':SOURCE_COMMIT,'sourceRepositoryUpdatedAt':'2026-06-08T03:35:15Z','cmsCheckedAt':checked,'builtAt':datetime.now(timezone.utc).isoformat(),'catalog':[dict(p,molecule=display_molecule(p['molecule'])) for p in (catalog or [])],'purpleBookAsOf':(purple or {}).get('purpleBookAsOf',(purple or {}).get('purpleBookDate')),'coverage':'All approved brands in the Regulatory Purple Book snapshot plus explicitly configured Price tracker products (Ultomiris / ravulizumab; Granix / tbo-filgrastim grouped under Filgrastim). CMS-matched HCPCS prices only; brands without matched ASP remain N/A. Shared-HCPCS prices are not independently reported brand prices.','files':files or [],'collectionErrors':errors or [],'rows':derive(rows)}
  save_snapshot(obj,checked or obj['builtAt'])
  print(f'ASP snapshot: {len(rows)} rows / {len(set(r["molecule"] for r in rows))} molecules / {len(set(r["quarter"] for r in rows))} quarters')
 def refresh():

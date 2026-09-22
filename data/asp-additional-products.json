@@ -22,5 +22,31 @@
     ],
     "sourceUrl": "https://purplebooksearch.fda.gov/index.cfm?blaNo=761108&event=productdetails",
     "scope": "Additional Price tracker product requested by user"
+  },
+  {
+    "id": "asp-supplement-125294",
+    "molecule": "filgrastim",
+    "brand": "Granix",
+    "proper": "tbo-filgrastim",
+    "reference": "",
+    "kind": "standalone",
+    "company": "Teva",
+    "own": false,
+    "blas": [
+      "125294"
+    ],
+    "ndcs": [],
+    "productNdcs": [],
+    "routes": [
+      "Subcutaneous"
+    ],
+    "approvalDates": [
+      "2012-08-29"
+    ],
+    "hcpcs": [
+      "J1447"
+    ],
+    "sourceUrl": "https://purplebooksearch.fda.gov/index.cfm?blaNo=125294&event=productdetails",
+    "scope": "Filgrastim price comparator; independently licensed 351(a), not a biosimilar"
   }
 ]

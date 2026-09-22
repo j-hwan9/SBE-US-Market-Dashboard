@@ -44,7 +44,8 @@ def match_catalog(raw,catalog,crosswalk=None):
  for p in catalog:
   out={};s=suffix(p)
   for code,v in raw.items():
-   if s and token(v['description'],s):out[code]='FDA suffix'
+   if code in p.get('hcpcs',[]) and token(v['description'],p['proper']):out[code]='Verified HCPCS and proper name'
+   elif s and token(v['description'],s):out[code]='FDA suffix'
    elif norm(p['brand'])!=norm(p['molecule']) and token(v['description'],p['brand']) and not re.search(r'hyaluron|hylecta|high.?dose|\bhd\b|implant',v['description'],re.I):out[code]='Brand name'
    if any(n in p['ndcs'] or n[:9] in p['productNdcs'] for n in crosswalk.get(code,[])):out[code]='DailyMed NDC → CMS crosswalk'
   matches[p['id']]=out
@@ -58,5 +59,5 @@ def match_catalog(raw,catalog,crosswalk=None):
   if matches[p['id']] or not shared_ref:continue
   for code,v in raw.items():
    text=v['description']
-   if token(text,p['molecule']) and not any(token(text,w) for w in known) and not re.search(r'biosim|hyaluron|high dose|\bhd\b|implant|ophthalmic|non.?esrd',text,re.I):matches[p['id']][code]='Unqualified reference molecule'
+   if token(text,p['molecule']) and not any(token(text,w) for w in known) and not re.search(r'biosim|tbo[ -]?filgrastim|hyaluron|high dose|\bhd\b|implant|ophthalmic|non.?esrd',text,re.I):matches[p['id']][code]='Unqualified reference molecule'
  return matches
