@@ -6,9 +6,60 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-09-21T23:50:58.785764+00:00",
-  "checkedAt": "2026-09-21T23:50:58.785764+00:00",
+  "updatedAt": "2026-09-22T23:30:48.575080+00:00",
+  "checkedAt": "2026-09-22T23:30:48.575080+00:00",
   "articles": [
+    {
+      "id": "380b45ee841670103e17",
+      "title": "Celldex monoclonal antibody rebounds with pair of phase 3 wins for chronic skin condition",
+      "url": "https://www.fiercebiotech.com/biotech/celldex-redeems-monoclonal-antibody-pair-phase-3-wins-chronic-skin-condition",
+      "source": "Fierce Biotech",
+      "sourceId": "fiercebiotech",
+      "publishedAt": "2026-09-22T14:31:00+00:00",
+      "molecules": [
+        "omalizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-22T23:30:48.575080+00:00",
+      "type": "article"
+    },
+    {
+      "id": "bdabe4dc2829d4a2bc52",
+      "title": "Lantern Pharma Secures USPTO Notice of Allowance for LP‑284 Treatment Patent in Aggressive B‑Cell Lymphomas",
+      "url": "https://www.biospace.com/press-releases/lantern-pharma-secures-uspto-notice-of-allowance-for-lp-284-treatment-patent-in-aggressive-b-cell-lymphomas",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-09-22T13:51:40+00:00",
+      "molecules": [
+        "rituximab"
+      ],
+      "topics": [],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-22T23:30:48.575080+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "e24836ca917fcb9330d7",
+      "title": "The Spinoff: How Biosimilars Are Becoming Wholesalers' Next Hit Show",
+      "url": "https://www.drugchannels.net/2026/09/the-spinoff-how-biosimilars-are.html",
+      "source": "Drug Channels",
+      "sourceId": "drugchannels",
+      "publishedAt": "2026-09-22T10:00:00+00:00",
+      "molecules": [
+        "adalimumab",
+        "ustekinumab"
+      ],
+      "topics": [
+        "Market overall"
+      ],
+      "classificationSignature": "6f187ce7ba43c1590cccba2030fa94076dc5dcc6b67bafbdef5a76525977a60f",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-22T23:30:48.575080+00:00",
+      "type": "article"
+    },
     {
       "id": "c5cec20045a70dcfec96",
       "title": "Merck’s KEYTRUDA QLEX™ (pembrolizumab and berahyaluronidase alfa-pmph) Approved in Japan for Subcutaneous Administration for All KEYTRUDA® (pembrolizumab) Indications Approved in Japan",
@@ -901,7 +952,7 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-09-21T23:50:58.785764+00:00",
+      "checkedAt": "2026-09-22T23:30:48.575080+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -912,18 +963,18 @@
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-09-21T23:50:58.785764+00:00",
+      "checkedAt": "2026-09-22T23:30:48.575080+00:00",
       "status": "ok",
       "discovered": 25,
-      "new": 0,
+      "new": 1,
       "errors": 0,
-      "bodyMatched": 0,
+      "bodyMatched": 1,
       "deferred": 20
     },
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-09-21T23:50:58.785764+00:00",
+      "checkedAt": "2026-09-22T23:30:48.575080+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -934,75 +985,75 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-09-21T23:50:58.785764+00:00",
+      "checkedAt": "2026-09-22T23:30:48.575080+00:00",
       "status": "ok",
-      "discovered": 87,
+      "discovered": 214,
       "new": 1,
       "errors": 0,
       "bodyMatched": 1,
-      "deferred": 46
+      "deferred": 172
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-09-21T23:50:58.785764+00:00",
+      "checkedAt": "2026-09-22T23:30:48.575080+00:00",
       "status": "ok",
       "discovered": 100,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 92
+      "deferred": 90
     },
     {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-09-21T23:50:58.785764+00:00",
+      "checkedAt": "2026-09-22T23:30:48.575080+00:00",
       "status": "ok",
       "discovered": 34,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 28,
+      "deferred": 30,
       "collectionMode": "rss-only"
     },
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-09-21T23:50:58.785764+00:00",
+      "checkedAt": "2026-09-22T23:30:48.575080+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 4,
+      "deferred": 5,
       "collectionMode": "rss-only"
     },
     {
       "id": "fiercebiotech",
       "name": "Fierce Biotech",
-      "checkedAt": "2026-09-21T23:50:58.785764+00:00",
+      "checkedAt": "2026-09-22T23:30:48.575080+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 1,
       "errors": 0,
       "bodyMatched": 1,
-      "deferred": 18
+      "deferred": 14
     },
     {
       "id": "gen",
       "name": "GEN",
-      "checkedAt": "2026-09-21T23:50:58.785764+00:00",
+      "checkedAt": "2026-09-22T23:30:48.575080+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 3
+      "deferred": 5
     },
     {
       "id": "ddd",
       "name": "Drug Discovery & Development",
-      "checkedAt": "2026-09-21T23:50:58.785764+00:00",
+      "checkedAt": "2026-09-22T23:30:48.575080+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
