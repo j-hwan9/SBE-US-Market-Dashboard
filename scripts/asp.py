@@ -4,7 +4,7 @@ Estimated ASP is withheld for non-ASP bases and ambiguous references/units.
 """
 import argparse,csv,hashlib,io,json,math,re,sys,zipfile
 sys.path.insert(0,str(__import__('pathlib').Path(__file__).resolve().parent))
-from asp_catalog import build_catalog,match_catalog,norm
+from asp_catalog import build_catalog as purple_catalog,match_catalog,norm
 from snapshot_history import archive,asp_content,asp_changes,atomic_json
 from datetime import datetime,timezone
 from html.parser import HTMLParser
@@ -16,6 +16,17 @@ CONFIG=json.loads((ROOT/'data/asp-molecules.json').read_text())
 SOURCE_COMMIT='39ac46d96502ce2e05a291b1d6915205efbb8c8f'
 SOURCE_REPO='https://github.com/j-hwan9/biosimilar-monitor'
 MONTHS={'january':1,'april':2,'july':3,'october':4}
+def build_catalog(products,portfolio=()):
+ catalog=purple_catalog(products,portfolio)
+ extras=json.loads((ROOT/'data/asp-additional-products.json').read_text())
+ for p in extras:
+  if not any(norm(x['molecule'])==norm(p['molecule']) and norm(x['brand'])==norm(p['brand']) for x in catalog):catalog.append(p)
+ return catalog
+def apply_standard_doses(rows):
+ for r in rows:
+  cfg=next((v for k,v in CONFIG.items() if k.lower()==r['molecule'].lower()),{})
+  if cfg.get('display_dose'):r['standardDose']=cfg['display_dose']
+ return rows
 def quarter(s):
  m=re.search(r'(20\d{2}).*?Q([1-4])',s);return f'{m[1]} Q{m[2]}' if m else None
 def quantity(s):
@@ -35,6 +46,7 @@ def basis(notes):
  if not text or re.fullmatch(r'(updated|added)\s+\w+\s+20\d\d',text) or '8% of reference' in text or text=='inflation-adjusted coinsurance':return 'ASP methodology estimate'
  return 'Basis requires review'
 def derive(rows):
+ apply_standard_doses(rows)
  lookup={}
  for r in rows:lookup.setdefault((r['quarter'],r['molecule'],r['brand']),[]).append(r)
  for r in rows:
@@ -170,7 +182,7 @@ def save_snapshot(obj,stamp):
  return recorded
 def publish(rows,checked=None,files=None,errors=None,catalog=None,purple=None):
  validate(rows)
- obj={'schemaVersion':1,'sourceRepository':SOURCE_REPO,'sourceCommit':SOURCE_COMMIT,'sourceRepositoryUpdatedAt':'2026-06-08T03:35:15Z','cmsCheckedAt':checked,'builtAt':datetime.now(timezone.utc).isoformat(),'catalog':[dict(p,molecule=display_molecule(p['molecule'])) for p in (catalog or [])],'purpleBookAsOf':(purple or {}).get('purpleBookAsOf',(purple or {}).get('purpleBookDate')),'coverage':'All approved brands in the Regulatory Purple Book snapshot. CMS-matched HCPCS prices only; brands without matched ASP remain N/A. Shared-HCPCS prices are not independently reported brand prices.','files':files or [],'collectionErrors':errors or [],'rows':derive(rows)}
+ obj={'schemaVersion':1,'sourceRepository':SOURCE_REPO,'sourceCommit':SOURCE_COMMIT,'sourceRepositoryUpdatedAt':'2026-06-08T03:35:15Z','cmsCheckedAt':checked,'builtAt':datetime.now(timezone.utc).isoformat(),'catalog':[dict(p,molecule=display_molecule(p['molecule'])) for p in (catalog or [])],'purpleBookAsOf':(purple or {}).get('purpleBookAsOf',(purple or {}).get('purpleBookDate')),'coverage':'All approved brands in the Regulatory Purple Book snapshot plus explicitly configured Price tracker products (Ultomiris / ravulizumab). CMS-matched HCPCS prices only; brands without matched ASP remain N/A. Shared-HCPCS prices are not independently reported brand prices.','files':files or [],'collectionErrors':errors or [],'rows':derive(rows)}
  save_snapshot(obj,checked or obj['builtAt'])
  print(f'ASP snapshot: {len(rows)} rows / {len(set(r["molecule"] for r in rows))} molecules / {len(set(r["quarter"] for r in rows))} quarters')
 def refresh():
@@ -209,6 +221,7 @@ def refresh_catalog():
  catalog=build_catalog(purple['products'],json.loads((ROOT/'dist/portfolio.json').read_text())['products'])
  previous['catalog']=[dict(p,molecule=display_molecule(p['molecule'])) for p in catalog]
  previous['purpleBookAsOf']=purple.get('purpleBookAsOf',purple.get('purpleBookDate'))
+ previous['rows']=derive(previous['rows'])
  previous['catalogUpdatedAt']=datetime.now(timezone.utc).isoformat()
  save_snapshot(previous,previous['catalogUpdatedAt'])
  print('Purple Book ASP catalog:',len(catalog),'approved brands; existing CMS price observations retained')

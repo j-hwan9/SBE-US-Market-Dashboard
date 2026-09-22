@@ -1,5 +1,11 @@
 name: Refresh CMS ASP
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/asp-molecules.json'
+      - 'data/asp-additional-products.json'
+      - 'scripts/asp.py'
   workflow_dispatch:
   # Daily 06:00 KST collection is coordinated by refresh.yml. Manual ASP-only runs remain available.
 permissions:

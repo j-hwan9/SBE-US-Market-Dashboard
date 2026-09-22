@@ -1,0 +1,26 @@
+[
+  {
+    "id": "asp-supplement-761108",
+    "molecule": "ravulizumab",
+    "brand": "Ultomiris",
+    "proper": "ravulizumab-cwvz",
+    "reference": "Ultomiris",
+    "kind": "reference",
+    "company": "Alexion Pharmaceuticals, Inc.",
+    "own": false,
+    "blas": [
+      "761108"
+    ],
+    "ndcs": [],
+    "productNdcs": [],
+    "routes": [
+      "Intravenous",
+      "Subcutaneous"
+    ],
+    "approvalDates": [
+      "2018-12-21"
+    ],
+    "sourceUrl": "https://purplebooksearch.fda.gov/index.cfm?blaNo=761108&event=productdetails",
+    "scope": "Additional Price tracker product requested by user"
+  }
+]

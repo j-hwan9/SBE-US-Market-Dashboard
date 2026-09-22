@@ -719,5 +719,17 @@
         "fda_name": "AVTOZMA"
       }
     ]
+  },
+  "Eculizumab": {
+    "display_dose": "300 mg",
+    "originator": {
+      "brand": "Soliris"
+    }
+  },
+  "Ravulizumab": {
+    "display_dose": "300 mg",
+    "originator": {
+      "brand": "Ultomiris"
+    }
   }
 }
