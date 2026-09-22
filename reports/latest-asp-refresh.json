@@ -1,732 +1,155 @@
 {
-  "checkedAt": "2026-09-22T10:54:00.393952+00:00",
+  "checkedAt": "2026-09-22T21:49:21.561297+00:00",
   "historyRecorded": true,
   "changes": {
     "added": [
       {
-        "productId": "asp-supplement-761108",
-        "brand": "Ultomiris",
+        "productId": "asp-supplement-125294",
+        "brand": "Granix",
         "quarter": "2021 Q1",
-        "hcpcs": "J1303"
+        "hcpcs": "J1447"
       },
       {
-        "productId": "asp-supplement-761108",
-        "brand": "Ultomiris",
+        "productId": "asp-supplement-125294",
+        "brand": "Granix",
         "quarter": "2021 Q2",
-        "hcpcs": "J1303"
+        "hcpcs": "J1447"
       },
       {
-        "productId": "asp-supplement-761108",
-        "brand": "Ultomiris",
+        "productId": "asp-supplement-125294",
+        "brand": "Granix",
         "quarter": "2021 Q3",
-        "hcpcs": "J1303"
+        "hcpcs": "J1447"
       },
       {
-        "productId": "asp-supplement-761108",
-        "brand": "Ultomiris",
+        "productId": "asp-supplement-125294",
+        "brand": "Granix",
         "quarter": "2021 Q4",
-        "hcpcs": "J1303"
+        "hcpcs": "J1447"
       },
       {
-        "productId": "asp-supplement-761108",
-        "brand": "Ultomiris",
+        "productId": "asp-supplement-125294",
+        "brand": "Granix",
         "quarter": "2022 Q1",
-        "hcpcs": "J1303"
+        "hcpcs": "J1447"
       },
       {
-        "productId": "asp-supplement-761108",
-        "brand": "Ultomiris",
+        "productId": "asp-supplement-125294",
+        "brand": "Granix",
         "quarter": "2022 Q2",
-        "hcpcs": "J1303"
+        "hcpcs": "J1447"
       },
       {
-        "productId": "asp-supplement-761108",
-        "brand": "Ultomiris",
+        "productId": "asp-supplement-125294",
+        "brand": "Granix",
         "quarter": "2022 Q3",
-        "hcpcs": "J1303"
+        "hcpcs": "J1447"
       },
       {
-        "productId": "asp-supplement-761108",
-        "brand": "Ultomiris",
+        "productId": "asp-supplement-125294",
+        "brand": "Granix",
         "quarter": "2022 Q4",
-        "hcpcs": "J1303"
+        "hcpcs": "J1447"
       },
       {
-        "productId": "asp-supplement-761108",
-        "brand": "Ultomiris",
+        "productId": "asp-supplement-125294",
+        "brand": "Granix",
         "quarter": "2023 Q1",
-        "hcpcs": "J1303"
+        "hcpcs": "J1447"
       },
       {
-        "productId": "asp-supplement-761108",
-        "brand": "Ultomiris",
+        "productId": "asp-supplement-125294",
+        "brand": "Granix",
         "quarter": "2023 Q2",
-        "hcpcs": "J1303"
+        "hcpcs": "J1447"
       },
       {
-        "productId": "asp-supplement-761108",
-        "brand": "Ultomiris",
+        "productId": "asp-supplement-125294",
+        "brand": "Granix",
         "quarter": "2023 Q3",
-        "hcpcs": "J1303"
+        "hcpcs": "J1447"
       },
       {
-        "productId": "asp-supplement-761108",
-        "brand": "Ultomiris",
+        "productId": "asp-supplement-125294",
+        "brand": "Granix",
         "quarter": "2023 Q4",
-        "hcpcs": "J1303"
+        "hcpcs": "J1447"
       },
       {
-        "productId": "asp-supplement-761108",
-        "brand": "Ultomiris",
+        "productId": "asp-supplement-125294",
+        "brand": "Granix",
         "quarter": "2024 Q1",
-        "hcpcs": "J1303"
+        "hcpcs": "J1447"
       },
       {
-        "productId": "asp-supplement-761108",
-        "brand": "Ultomiris",
+        "productId": "asp-supplement-125294",
+        "brand": "Granix",
         "quarter": "2024 Q2",
-        "hcpcs": "J1303"
+        "hcpcs": "J1447"
       },
       {
-        "productId": "asp-supplement-761108",
-        "brand": "Ultomiris",
+        "productId": "asp-supplement-125294",
+        "brand": "Granix",
         "quarter": "2024 Q3",
-        "hcpcs": "J1303"
+        "hcpcs": "J1447"
       },
       {
-        "productId": "asp-supplement-761108",
-        "brand": "Ultomiris",
+        "productId": "asp-supplement-125294",
+        "brand": "Granix",
         "quarter": "2024 Q4",
-        "hcpcs": "J1303"
+        "hcpcs": "J1447"
       },
       {
-        "productId": "asp-supplement-761108",
-        "brand": "Ultomiris",
+        "productId": "asp-supplement-125294",
+        "brand": "Granix",
         "quarter": "2025 Q1",
-        "hcpcs": "J1303"
+        "hcpcs": "J1447"
       },
       {
-        "productId": "asp-supplement-761108",
-        "brand": "Ultomiris",
+        "productId": "asp-supplement-125294",
+        "brand": "Granix",
         "quarter": "2025 Q2",
-        "hcpcs": "J1303"
+        "hcpcs": "J1447"
       },
       {
-        "productId": "asp-supplement-761108",
-        "brand": "Ultomiris",
+        "productId": "asp-supplement-125294",
+        "brand": "Granix",
         "quarter": "2025 Q3",
-        "hcpcs": "J1303"
+        "hcpcs": "J1447"
       },
       {
-        "productId": "asp-supplement-761108",
-        "brand": "Ultomiris",
+        "productId": "asp-supplement-125294",
+        "brand": "Granix",
         "quarter": "2025 Q4",
-        "hcpcs": "J1303"
+        "hcpcs": "J1447"
       },
       {
-        "productId": "asp-supplement-761108",
-        "brand": "Ultomiris",
+        "productId": "asp-supplement-125294",
+        "brand": "Granix",
         "quarter": "2026 Q1",
-        "hcpcs": "J1303"
+        "hcpcs": "J1447"
       },
       {
-        "productId": "asp-supplement-761108",
-        "brand": "Ultomiris",
+        "productId": "asp-supplement-125294",
+        "brand": "Granix",
         "quarter": "2026 Q2",
-        "hcpcs": "J1303"
+        "hcpcs": "J1447"
       },
       {
-        "productId": "asp-supplement-761108",
-        "brand": "Ultomiris",
+        "productId": "asp-supplement-125294",
+        "brand": "Granix",
         "quarter": "2026 Q3",
-        "hcpcs": "J1303"
+        "hcpcs": "J1447"
       },
       {
-        "productId": "asp-supplement-761108",
-        "brand": "Ultomiris",
+        "productId": "asp-supplement-125294",
+        "brand": "Granix",
         "quarter": "2026 Q4",
-        "hcpcs": "J1303"
+        "hcpcs": "J1447"
       }
     ],
     "removed": [],
-    "changed": [
-      {
-        "productId": "bkemv-761333",
-        "brand": "Bkemv",
-        "quarter": "2026 Q1",
-        "hcpcs": "Q5152",
-        "fields": [
-          "standardDose",
-          "standardFactor"
-        ],
-        "before": {
-          "standardDose": "2 MG",
-          "standardFactor": 1.0
-        },
-        "after": {
-          "standardDose": "300 mg",
-          "standardFactor": 150.0
-        }
-      },
-      {
-        "productId": "bkemv-761333",
-        "brand": "Bkemv",
-        "quarter": "2026 Q2",
-        "hcpcs": "Q5152",
-        "fields": [
-          "standardDose",
-          "standardFactor"
-        ],
-        "before": {
-          "standardDose": "2 MG",
-          "standardFactor": 1.0
-        },
-        "after": {
-          "standardDose": "300 mg",
-          "standardFactor": 150.0
-        }
-      },
-      {
-        "productId": "bkemv-761333",
-        "brand": "Bkemv",
-        "quarter": "2026 Q3",
-        "hcpcs": "Q5152",
-        "fields": [
-          "standardDose",
-          "standardFactor"
-        ],
-        "before": {
-          "standardDose": "2 MG",
-          "standardFactor": 1.0
-        },
-        "after": {
-          "standardDose": "300 mg",
-          "standardFactor": 150.0
-        }
-      },
-      {
-        "productId": "bkemv-761333",
-        "brand": "Bkemv",
-        "quarter": "2026 Q4",
-        "hcpcs": "Q5152",
-        "fields": [
-          "standardDose",
-          "standardFactor"
-        ],
-        "before": {
-          "standardDose": "2 MG",
-          "standardFactor": 1.0
-        },
-        "after": {
-          "standardDose": "300 mg",
-          "standardFactor": 150.0
-        }
-      },
-      {
-        "productId": "epysqli-761340",
-        "brand": "Epysqli",
-        "quarter": "2026 Q1",
-        "hcpcs": "Q5151",
-        "fields": [
-          "standardDose",
-          "standardFactor"
-        ],
-        "before": {
-          "standardDose": "2 MG",
-          "standardFactor": 1.0
-        },
-        "after": {
-          "standardDose": "300 mg",
-          "standardFactor": 150.0
-        }
-      },
-      {
-        "productId": "epysqli-761340",
-        "brand": "Epysqli",
-        "quarter": "2026 Q2",
-        "hcpcs": "Q5151",
-        "fields": [
-          "standardDose",
-          "standardFactor"
-        ],
-        "before": {
-          "standardDose": "2 MG",
-          "standardFactor": 1.0
-        },
-        "after": {
-          "standardDose": "300 mg",
-          "standardFactor": 150.0
-        }
-      },
-      {
-        "productId": "epysqli-761340",
-        "brand": "Epysqli",
-        "quarter": "2026 Q3",
-        "hcpcs": "Q5151",
-        "fields": [
-          "standardDose",
-          "standardFactor"
-        ],
-        "before": {
-          "standardDose": "2 MG",
-          "standardFactor": 1.0
-        },
-        "after": {
-          "standardDose": "300 mg",
-          "standardFactor": 150.0
-        }
-      },
-      {
-        "productId": "epysqli-761340",
-        "brand": "Epysqli",
-        "quarter": "2026 Q4",
-        "hcpcs": "Q5151",
-        "fields": [
-          "standardDose",
-          "standardFactor"
-        ],
-        "before": {
-          "standardDose": "2 MG",
-          "standardFactor": 1.0
-        },
-        "after": {
-          "standardDose": "300 mg",
-          "standardFactor": 150.0
-        }
-      },
-      {
-        "productId": "soliris-125166",
-        "brand": "Soliris",
-        "quarter": "2021 Q1",
-        "hcpcs": "J1300",
-        "fields": [
-          "standardDose",
-          "standardFactor"
-        ],
-        "before": {
-          "standardDose": "10 MG",
-          "standardFactor": 1.0
-        },
-        "after": {
-          "standardDose": "300 mg",
-          "standardFactor": 30.0
-        }
-      },
-      {
-        "productId": "soliris-125166",
-        "brand": "Soliris",
-        "quarter": "2021 Q2",
-        "hcpcs": "J1300",
-        "fields": [
-          "standardDose",
-          "standardFactor"
-        ],
-        "before": {
-          "standardDose": "10 MG",
-          "standardFactor": 1.0
-        },
-        "after": {
-          "standardDose": "300 mg",
-          "standardFactor": 30.0
-        }
-      },
-      {
-        "productId": "soliris-125166",
-        "brand": "Soliris",
-        "quarter": "2021 Q3",
-        "hcpcs": "J1300",
-        "fields": [
-          "standardDose",
-          "standardFactor"
-        ],
-        "before": {
-          "standardDose": "10 MG",
-          "standardFactor": 1.0
-        },
-        "after": {
-          "standardDose": "300 mg",
-          "standardFactor": 30.0
-        }
-      },
-      {
-        "productId": "soliris-125166",
-        "brand": "Soliris",
-        "quarter": "2021 Q4",
-        "hcpcs": "J1300",
-        "fields": [
-          "standardDose",
-          "standardFactor"
-        ],
-        "before": {
-          "standardDose": "10 MG",
-          "standardFactor": 1.0
-        },
-        "after": {
-          "standardDose": "300 mg",
-          "standardFactor": 30.0
-        }
-      },
-      {
-        "productId": "soliris-125166",
-        "brand": "Soliris",
-        "quarter": "2022 Q1",
-        "hcpcs": "J1300",
-        "fields": [
-          "standardDose",
-          "standardFactor"
-        ],
-        "before": {
-          "standardDose": "10 MG",
-          "standardFactor": 1.0
-        },
-        "after": {
-          "standardDose": "300 mg",
-          "standardFactor": 30.0
-        }
-      },
-      {
-        "productId": "soliris-125166",
-        "brand": "Soliris",
-        "quarter": "2022 Q2",
-        "hcpcs": "J1300",
-        "fields": [
-          "standardDose",
-          "standardFactor"
-        ],
-        "before": {
-          "standardDose": "10 MG",
-          "standardFactor": 1.0
-        },
-        "after": {
-          "standardDose": "300 mg",
-          "standardFactor": 30.0
-        }
-      },
-      {
-        "productId": "soliris-125166",
-        "brand": "Soliris",
-        "quarter": "2022 Q3",
-        "hcpcs": "J1300",
-        "fields": [
-          "standardDose",
-          "standardFactor"
-        ],
-        "before": {
-          "standardDose": "10 MG",
-          "standardFactor": 1.0
-        },
-        "after": {
-          "standardDose": "300 mg",
-          "standardFactor": 30.0
-        }
-      },
-      {
-        "productId": "soliris-125166",
-        "brand": "Soliris",
-        "quarter": "2022 Q4",
-        "hcpcs": "J1300",
-        "fields": [
-          "standardDose",
-          "standardFactor"
-        ],
-        "before": {
-          "standardDose": "10 MG",
-          "standardFactor": 1.0
-        },
-        "after": {
-          "standardDose": "300 mg",
-          "standardFactor": 30.0
-        }
-      },
-      {
-        "productId": "soliris-125166",
-        "brand": "Soliris",
-        "quarter": "2023 Q1",
-        "hcpcs": "J1300",
-        "fields": [
-          "standardDose",
-          "standardFactor"
-        ],
-        "before": {
-          "standardDose": "10 MG",
-          "standardFactor": 1.0
-        },
-        "after": {
-          "standardDose": "300 mg",
-          "standardFactor": 30.0
-        }
-      },
-      {
-        "productId": "soliris-125166",
-        "brand": "Soliris",
-        "quarter": "2023 Q2",
-        "hcpcs": "J1300",
-        "fields": [
-          "standardDose",
-          "standardFactor"
-        ],
-        "before": {
-          "standardDose": "10 MG",
-          "standardFactor": 1.0
-        },
-        "after": {
-          "standardDose": "300 mg",
-          "standardFactor": 30.0
-        }
-      },
-      {
-        "productId": "soliris-125166",
-        "brand": "Soliris",
-        "quarter": "2023 Q3",
-        "hcpcs": "J1300",
-        "fields": [
-          "standardDose",
-          "standardFactor"
-        ],
-        "before": {
-          "standardDose": "10 MG",
-          "standardFactor": 1.0
-        },
-        "after": {
-          "standardDose": "300 mg",
-          "standardFactor": 30.0
-        }
-      },
-      {
-        "productId": "soliris-125166",
-        "brand": "Soliris",
-        "quarter": "2023 Q4",
-        "hcpcs": "J1300",
-        "fields": [
-          "standardDose",
-          "standardFactor"
-        ],
-        "before": {
-          "standardDose": "10 MG",
-          "standardFactor": 1.0
-        },
-        "after": {
-          "standardDose": "300 mg",
-          "standardFactor": 30.0
-        }
-      },
-      {
-        "productId": "soliris-125166",
-        "brand": "Soliris",
-        "quarter": "2024 Q1",
-        "hcpcs": "J1300",
-        "fields": [
-          "standardDose",
-          "standardFactor"
-        ],
-        "before": {
-          "standardDose": "10 MG",
-          "standardFactor": 1.0
-        },
-        "after": {
-          "standardDose": "300 mg",
-          "standardFactor": 30.0
-        }
-      },
-      {
-        "productId": "soliris-125166",
-        "brand": "Soliris",
-        "quarter": "2024 Q2",
-        "hcpcs": "J1300",
-        "fields": [
-          "standardDose",
-          "standardFactor"
-        ],
-        "before": {
-          "standardDose": "10 MG",
-          "standardFactor": 1.0
-        },
-        "after": {
-          "standardDose": "300 mg",
-          "standardFactor": 30.0
-        }
-      },
-      {
-        "productId": "soliris-125166",
-        "brand": "Soliris",
-        "quarter": "2024 Q3",
-        "hcpcs": "J1300",
-        "fields": [
-          "standardDose",
-          "standardFactor"
-        ],
-        "before": {
-          "standardDose": "10 MG",
-          "standardFactor": 1.0
-        },
-        "after": {
-          "standardDose": "300 mg",
-          "standardFactor": 30.0
-        }
-      },
-      {
-        "productId": "soliris-125166",
-        "brand": "Soliris",
-        "quarter": "2024 Q4",
-        "hcpcs": "J1300",
-        "fields": [
-          "standardDose",
-          "standardFactor"
-        ],
-        "before": {
-          "standardDose": "10 MG",
-          "standardFactor": 1.0
-        },
-        "after": {
-          "standardDose": "300 mg",
-          "standardFactor": 30.0
-        }
-      },
-      {
-        "productId": "soliris-125166",
-        "brand": "Soliris",
-        "quarter": "2025 Q1",
-        "hcpcs": "J1300",
-        "fields": [
-          "standardDose",
-          "standardFactor"
-        ],
-        "before": {
-          "standardDose": "10 MG",
-          "standardFactor": 1.0
-        },
-        "after": {
-          "standardDose": "300 mg",
-          "standardFactor": 30.0
-        }
-      },
-      {
-        "productId": "soliris-125166",
-        "brand": "Soliris",
-        "quarter": "2025 Q2",
-        "hcpcs": "J1299",
-        "fields": [
-          "standardDose",
-          "standardFactor"
-        ],
-        "before": {
-          "standardDose": "2 MG",
-          "standardFactor": 1.0
-        },
-        "after": {
-          "standardDose": "300 mg",
-          "standardFactor": 150.0
-        }
-      },
-      {
-        "productId": "soliris-125166",
-        "brand": "Soliris",
-        "quarter": "2025 Q3",
-        "hcpcs": "J1299",
-        "fields": [
-          "standardDose",
-          "standardFactor"
-        ],
-        "before": {
-          "standardDose": "2 MG",
-          "standardFactor": 1.0
-        },
-        "after": {
-          "standardDose": "300 mg",
-          "standardFactor": 150.0
-        }
-      },
-      {
-        "productId": "soliris-125166",
-        "brand": "Soliris",
-        "quarter": "2025 Q4",
-        "hcpcs": "J1299",
-        "fields": [
-          "standardDose",
-          "standardFactor"
-        ],
-        "before": {
-          "standardDose": "2 MG",
-          "standardFactor": 1.0
-        },
-        "after": {
-          "standardDose": "300 mg",
-          "standardFactor": 150.0
-        }
-      },
-      {
-        "productId": "soliris-125166",
-        "brand": "Soliris",
-        "quarter": "2026 Q1",
-        "hcpcs": "J1299",
-        "fields": [
-          "standardDose",
-          "standardFactor"
-        ],
-        "before": {
-          "standardDose": "2 MG",
-          "standardFactor": 1.0
-        },
-        "after": {
-          "standardDose": "300 mg",
-          "standardFactor": 150.0
-        }
-      },
-      {
-        "productId": "soliris-125166",
-        "brand": "Soliris",
-        "quarter": "2026 Q2",
-        "hcpcs": "J1299",
-        "fields": [
-          "standardDose",
-          "standardFactor"
-        ],
-        "before": {
-          "standardDose": "2 MG",
-          "standardFactor": 1.0
-        },
-        "after": {
-          "standardDose": "300 mg",
-          "standardFactor": 150.0
-        }
-      },
-      {
-        "productId": "soliris-125166",
-        "brand": "Soliris",
-        "quarter": "2026 Q3",
-        "hcpcs": "J1299",
-        "fields": [
-          "standardDose",
-          "standardFactor"
-        ],
-        "before": {
-          "standardDose": "2 MG",
-          "standardFactor": 1.0
-        },
-        "after": {
-          "standardDose": "300 mg",
-          "standardFactor": 150.0
-        }
-      },
-      {
-        "productId": "soliris-125166",
-        "brand": "Soliris",
-        "quarter": "2026 Q4",
-        "hcpcs": "J1299",
-        "fields": [
-          "standardDose",
-          "standardFactor"
-        ],
-        "before": {
-          "standardDose": "2 MG",
-          "standardFactor": 1.0
-        },
-        "after": {
-          "standardDose": "300 mg",
-          "standardFactor": 150.0
-        }
-      }
-    ],
+    "changed": [],
     "catalogChanged": true
   },
   "collectionErrors": []
