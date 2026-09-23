@@ -10,7 +10,7 @@ class RefreshTests(unittest.TestCase):
   html=''.join(f'<a href="https://www.accessdata.fda.gov/drugsatfda_docs/PurpleBook/2026/purplebook-search-{m}-data-download.csv">CSV</a>' for m in ['July','August','December'])
   month,url=discover_latest(html,datetime(2026,9,8,tzinfo=timezone.utc));self.assertEqual(month,'2026-08');self.assertIn('August',url)
  def test_full_section_not_changes_section(self):
-  ps,rows=read_purple((ROOT/'data/purplebook.csv').read_bytes());self.assertEqual(len(ps),130);self.assertEqual(len(rows),315);self.assertNotIn('103737',{p['bla'] for p in ps})
+  ps,rows=read_purple((ROOT/'data/purplebook.csv').read_bytes());self.assertEqual(len(ps),131);self.assertEqual(len(rows),317);self.assertTrue(any(p['brand']=='Keytruda' and p['molecule']=='pembrolizumab' for p in ps));self.assertNotIn('103737',{p['bla'] for p in ps})
  def test_material_change_not_check_timestamp(self):
   new=copy.deepcopy(self.data);new['retrievedAt']='2030-01-01';self.assertFalse(changes(self.data,new)['changed'])
   new['products'][0]['presentations'][0]['Inter. Approval Date']='01-Jan-30'

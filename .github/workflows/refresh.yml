@@ -1,5 +1,9 @@
 name: Daily regulatory and ASP refresh
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/regulatory-additional-molecules.json'
   workflow_dispatch:
     inputs:
       force_download:

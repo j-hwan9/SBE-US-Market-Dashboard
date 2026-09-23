@@ -64,7 +64,8 @@ def read_purple(raw):
  bios=[r for r in rows if r['License Type'].startswith('351(k)')]
  if not bios:raise CollectionError('No biosimilars parsed')
  refs={r['Ref. Product Proprietary Name'].casefold() for r in bios}
- selected=[r for r in rows if r in bios or r['Proprietary Name'].casefold() in refs]
+ additional={m.casefold() for m in json.loads((ROOT/'data/regulatory-additional-molecules.json').read_text())}
+ selected=[r for r in rows if r in bios or r['Proprietary Name'].casefold() in refs or r['Proper Name'].casefold() in additional]
  groups={}
  for r in selected:groups.setdefault((r['BLA Number'],r['Proprietary Name']),[]).append(r)
  products=[]

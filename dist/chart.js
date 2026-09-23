@@ -3,7 +3,7 @@
 // Grain: distinct proprietary brand per molecule among current 351(k) records.
 let marketChartInstance;
 function marketCounts(products){
- const groups=new Map();
+ const groups=new Map(products.map(p=>[p.molecule,new Set()]));
  products.filter(p=>p.kind==='biosimilar').forEach(p=>{if(!groups.has(p.molecule))groups.set(p.molecule,new Set());groups.get(p.molecule).add(p.brand.toLowerCase());});
  return [...groups].map(([molecule,brands])=>({molecule,count:brands.size})).sort((a,b)=>b.count-a.count||a.molecule.localeCompare(b.molecule));
 }
