@@ -1,6 +1,25 @@
 [
   {
     "purpleBookDate": "2026-08",
+    "productCount": 131,
+    "id": "20260923T024747000000Z",
+    "path": "history/20260923T024747000000Z.json",
+    "checkedAt": "2026-09-23T02:47:47+00:00",
+    "changes": {
+      "added": [
+        {
+          "id": "keytruda-125514",
+          "brand": "Keytruda",
+          "bla": "125514",
+          "molecule": "pembrolizumab"
+        }
+      ],
+      "removed": [],
+      "changed": []
+    }
+  },
+  {
+    "purpleBookDate": "2026-08",
     "productCount": 130,
     "id": "20260922T232816000000Z",
     "path": "history/20260922T232816000000Z.json",

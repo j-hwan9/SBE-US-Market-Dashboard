@@ -1,5 +1,174 @@
 [
   {
+    "rowCount": 1304,
+    "id": "20260923T024837318866Z",
+    "path": "asp-history/20260923T024837318866Z.json",
+    "checkedAt": "2026-09-23T02:48:37.318866+00:00",
+    "changes": {
+      "added": [
+        {
+          "productId": "keytruda-125514",
+          "brand": "Keytruda",
+          "quarter": "2021 Q1",
+          "hcpcs": "J9271"
+        },
+        {
+          "productId": "keytruda-125514",
+          "brand": "Keytruda",
+          "quarter": "2021 Q2",
+          "hcpcs": "J9271"
+        },
+        {
+          "productId": "keytruda-125514",
+          "brand": "Keytruda",
+          "quarter": "2021 Q3",
+          "hcpcs": "J9271"
+        },
+        {
+          "productId": "keytruda-125514",
+          "brand": "Keytruda",
+          "quarter": "2021 Q4",
+          "hcpcs": "J9271"
+        },
+        {
+          "productId": "keytruda-125514",
+          "brand": "Keytruda",
+          "quarter": "2022 Q1",
+          "hcpcs": "J9271"
+        },
+        {
+          "productId": "keytruda-125514",
+          "brand": "Keytruda",
+          "quarter": "2022 Q2",
+          "hcpcs": "J9271"
+        },
+        {
+          "productId": "keytruda-125514",
+          "brand": "Keytruda",
+          "quarter": "2022 Q3",
+          "hcpcs": "J9271"
+        },
+        {
+          "productId": "keytruda-125514",
+          "brand": "Keytruda",
+          "quarter": "2022 Q4",
+          "hcpcs": "J9271"
+        },
+        {
+          "productId": "keytruda-125514",
+          "brand": "Keytruda",
+          "quarter": "2023 Q1",
+          "hcpcs": "J9271"
+        },
+        {
+          "productId": "keytruda-125514",
+          "brand": "Keytruda",
+          "quarter": "2023 Q2",
+          "hcpcs": "J9271"
+        },
+        {
+          "productId": "keytruda-125514",
+          "brand": "Keytruda",
+          "quarter": "2023 Q3",
+          "hcpcs": "J9271"
+        },
+        {
+          "productId": "keytruda-125514",
+          "brand": "Keytruda",
+          "quarter": "2023 Q4",
+          "hcpcs": "J9271"
+        },
+        {
+          "productId": "keytruda-125514",
+          "brand": "Keytruda",
+          "quarter": "2024 Q1",
+          "hcpcs": "J9271"
+        },
+        {
+          "productId": "keytruda-125514",
+          "brand": "Keytruda",
+          "quarter": "2024 Q2",
+          "hcpcs": "J9271"
+        },
+        {
+          "productId": "keytruda-125514",
+          "brand": "Keytruda",
+          "quarter": "2024 Q3",
+          "hcpcs": "J9271"
+        },
+        {
+          "productId": "keytruda-125514",
+          "brand": "Keytruda",
+          "quarter": "2024 Q4",
+          "hcpcs": "J9271"
+        },
+        {
+          "productId": "keytruda-125514",
+          "brand": "Keytruda",
+          "quarter": "2025 Q1",
+          "hcpcs": "J9271"
+        },
+        {
+          "productId": "keytruda-125514",
+          "brand": "Keytruda",
+          "quarter": "2025 Q2",
+          "hcpcs": "J9271"
+        },
+        {
+          "productId": "keytruda-125514",
+          "brand": "Keytruda",
+          "quarter": "2025 Q3",
+          "hcpcs": "J9271"
+        },
+        {
+          "productId": "keytruda-125514",
+          "brand": "Keytruda",
+          "quarter": "2025 Q4",
+          "hcpcs": "J9271"
+        },
+        {
+          "productId": "keytruda-125514",
+          "brand": "Keytruda",
+          "quarter": "2026 Q1",
+          "hcpcs": "J9271"
+        },
+        {
+          "productId": "keytruda-125514",
+          "brand": "Keytruda",
+          "quarter": "2026 Q2",
+          "hcpcs": "J9271"
+        },
+        {
+          "productId": "keytruda-125514",
+          "brand": "Keytruda",
+          "quarter": "2026 Q3",
+          "hcpcs": "J9271"
+        },
+        {
+          "productId": "keytruda-125514",
+          "brand": "Keytruda",
+          "quarter": "2026 Q4",
+          "hcpcs": "J9271"
+        }
+      ],
+      "removed": [],
+      "changed": [],
+      "catalogChanged": false
+    }
+  },
+  {
+    "rowCount": 1280,
+    "id": "20260923T024837043214Z",
+    "path": "asp-history/20260923T024837043214Z.json",
+    "checkedAt": "2026-09-23T02:48:37.043214+00:00",
+    "changes": {
+      "added": [],
+      "removed": [],
+      "changed": [],
+      "catalogChanged": true
+    }
+  },
+  {
     "rowCount": 1280,
     "id": "20260922T214921561297Z",
     "path": "asp-history/20260922T214921561297Z.json",
