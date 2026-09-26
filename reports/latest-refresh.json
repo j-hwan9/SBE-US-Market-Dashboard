@@ -1,19 +1,21 @@
 {
-  "checkedAt": "2026-09-23T02:47:47+00:00",
+  "checkedAt": "2026-09-26T23:22:25+00:00",
   "snapshot": "2026-08",
   "products": 131,
   "piObtained": 131,
   "historyRecorded": true,
   "changes": {
-    "added": [
-      {
-        "id": "keytruda-125514",
-        "brand": "Keytruda",
-        "bla": "125514",
-        "molecule": "pembrolizumab"
-      }
-    ],
+    "added": [],
     "removed": [],
-    "changed": []
+    "changed": [
+      {
+        "id": "simponi-125289",
+        "brand": "Simponi",
+        "bla": "125289",
+        "fields": [
+          "PI version"
+        ]
+      }
+    ]
   }
 }

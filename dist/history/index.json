@@ -2,6 +2,27 @@
   {
     "purpleBookDate": "2026-08",
     "productCount": 131,
+    "id": "20260926T232225000000Z",
+    "path": "history/20260926T232225000000Z.json",
+    "checkedAt": "2026-09-26T23:22:25+00:00",
+    "changes": {
+      "added": [],
+      "removed": [],
+      "changed": [
+        {
+          "id": "simponi-125289",
+          "brand": "Simponi",
+          "bla": "125289",
+          "fields": [
+            "PI version"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "purpleBookDate": "2026-08",
+    "productCount": 131,
     "id": "20260923T024747000000Z",
     "path": "history/20260923T024747000000Z.json",
     "checkedAt": "2026-09-23T02:47:47+00:00",
