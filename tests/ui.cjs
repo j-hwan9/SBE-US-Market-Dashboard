@@ -13,7 +13,7 @@ assert.ok(run('selected.length')>5);assert.equal((els.get('matrix').innerHTML.ma
 run('selected=[];renderMatrix()');assert.ok(els.get('matrix').innerHTML.includes('<b>Humira</b>'));assert.ok(!els.get('matrix').innerHTML.includes('data-remove="humira'));
 run('molecule="denosumab";referenceName="Xgeva"');assert.ok(run('eligible().every(p=>p.reference==="Xgeva")'));run('referenceName="Prolia"');assert.ok(run('eligible().every(p=>p.reference==="Prolia")'));
 run('molecule="ustekinumab";referenceName="Stelara"');assert.ok(run('originator().presentations.length')>0);assert.equal(run('originator().brand'),'Stelara');
-const counts=run('marketCounts(DATA.products)');assert.equal(counts.length,new Set(context.data.products.filter(p=>p.kind==='biosimilar').map(p=>p.molecule)).size);const ada=counts.find(x=>x.molecule==='adalimumab');assert.equal(ada.count,new Set(context.data.products.filter(x=>x.kind==='biosimilar'&&x.molecule==='adalimumab').map(x=>x.brand.toLowerCase())).size);
+const counts=run('marketCounts(DATA.products)');assert.equal(counts.length,new Set(context.data.products.map(p=>p.molecule)).size);const ada=counts.find(x=>x.molecule==='adalimumab');assert.equal(ada.count,new Set(context.data.products.filter(x=>x.kind==='biosimilar'&&x.molecule==='adalimumab').map(x=>x.brand.toLowerCase())).size);
 assert.notEqual(run('norm("0.4 mg",DATA.products[0])'),run('norm("0.8 mg",DATA.products[0])'));
 console.log('UI logic passed: dates, >5 products, permanent originator, reference scopes, counts, numeric differences.');
 
@@ -61,3 +61,5 @@ assert.equal(run("MarketNews.filtered(articles,'','',new Set(['Policy','adalimum
 assert.equal(run("MarketNews.filtered(articles,'2026-09-02','2026-09-03',new Set(['Policy'])).length"),0);
 assert.equal(run("MarketNews.filtered(articles,'','',new Set(['Policy','Market overall'])).length"),1);
 console.log('Topic-only articles, overlapping topics, date filters and OR with molecules verified.');
+
+context.zeroProducts=[{molecule:'reference-only',brand:'Reference',kind:'reference'}];assert.equal(run('marketCounts(zeroProducts)[0].count'),0);
