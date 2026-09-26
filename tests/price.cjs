@@ -9,3 +9,19 @@ assert.equal(run("PriceTracker.value({paymentLimit:5,estimatedAsp:null,standardF
 assert.equal(run("PriceTracker.value({estimatedAsp:1,standardFactor:null},'asp','standard')"),null);
 assert(run("PriceTracker.csvCell('=HYPERLINK(1)').includes(\"'=HYPERLINK\")"));
 console.log('CMS ASP filtering, unit conversion, unavailable values, CSV safety and KST month passed.');
+
+const neulasta=ctx.rows.filter(r=>r.brand==='Neulasta');
+ctx.transitionRows=neulasta.filter(r=>r.quarter==='2021 Q4'||r.quarter==='2022 Q1');
+assert.equal(ctx.transitionRows.length,2);
+ctx.qs=['2021 Q4','2022 Q1'];
+const joined=run("PriceTracker.trendSeries(transitionRows,qs,'asp','standard')");
+assert.equal(joined.length,1);
+assert.equal(joined[0].label,'Neulasta · J2505 → J2506');
+assert.equal(joined[0].data[0],ctx.transitionRows[0].estimatedAsp);
+assert.equal(joined[0].data[1],ctx.transitionRows[1].estimatedAsp*12);
+assert.equal(run("PriceTracker.trendSeries(transitionRows,qs,'asp','billing').length"),2);
+assert.equal(run("PriceTracker.trendSeries(transitionRows,['2021 Q4','2022 Q1','2022 Q2'],'asp','standard')[0].data[2]"),null);
+assert.equal(joined[0].records[0].hcpcs,'J2505');
+assert.equal(joined[0].records[1].hcpcs,'J2506');
+assert.equal(neulasta.filter(r=>r.quarter.startsWith('2021')&&r.hcpcs==='J2505'&&Number.isFinite(r.estimatedAsp)).length,4);
+console.log('Neulasta historical HCPCS transition and 2021 coverage passed.');

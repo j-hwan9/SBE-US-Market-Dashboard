@@ -12,11 +12,26 @@ const PriceTracker=(()=>{
  const colors=['#1428a0','#16816a','#b06420','#8055a1','#3689bc','#b44569','#737947','#684637','#346c88','#777777'];
  function filtered(rows,molecule,from,to,brands){return rows.filter(r=>r.molecule===molecule&&(!from||r.quarter>=from)&&(!to||r.quarter<=to)&&brands.has(r.brand));}
  function value(row,metric,unit){const n=metric==='paymentLimit'?row.paymentLimit:row.estimatedAsp;return Number.isFinite(n)&&(unit==='billing'||Number.isFinite(row.standardFactor))?n*(unit==='standard'?row.standardFactor:1):null;}
+ // CMS retired J2505 (6 mg) on Dec 31, 2021; J2506 (0.5 mg) began Jan 1, 2022.
+ // Join this verified transition only after conversion to the same standard dose.
+ function trendKey(r,unit){
+  const neulasta=unit==='standard'&&r.brand==='Neulasta'&&String(r.molecule).toLowerCase()==='pegfilgrastim'&&
+   ((r.hcpcs==='J2505'&&r.quarter<'2022 Q1')||(r.hcpcs==='J2506'&&r.quarter>='2022 Q1'));
+  return r.brand+'|'+(neulasta?'J2505 → J2506|'+unitLabel(r.standardDose):r.hcpcs);
+ }
+ function trendSeries(rows,quarters,metric,unit){
+  return [...new Set(rows.map(r=>trendKey(r,unit)))].map(key=>{
+   const members=rows.filter(r=>trendKey(r,unit)===key),p=members[0];
+   const codes=[...new Set(members.slice().sort((a,b)=>a.quarter.localeCompare(b.quarter)).map(r=>r.hcpcs))];
+   const records=quarters.map(q=>{const matches=members.filter(r=>r.quarter===q);return matches.length===1?matches[0]:null;});
+   return {brand:p.brand,own:p.own,label:p.brand+' · '+codes.join(' → '),records,data:records.map(r=>r?value(r,metric,unit):null)};
+  });
+ }
  function options(values,current){return values.map(v=>'<option'+(v===current?' selected':'')+' value="'+esc(v)+'">'+esc(v)+'</option>').join('');}
  function selectMolecule(){
   if(!payload)return;
   const rows=payload.rows.filter(r=>r.molecule===el('aspMolecule').value),quarters=[...new Set((rows.length?rows:payload.rows).map(r=>r.quarter))].sort();
-  el('aspFrom').innerHTML=options(quarters,quarters[Math.max(0,quarters.length-12)]);el('aspTo').innerHTML=options(quarters,quarters.at(-1));
+  el('aspFrom').innerHTML=options(quarters,quarters[0]);el('aspTo').innerHTML=options(quarters,quarters.at(-1));
   const products=roster();selected=new Set(products.map(r=>r.brand));
   el('aspProducts').innerHTML=products.map((r,i)=>'<label><input type="checkbox" value="'+esc(r.brand)+'" checked><span style="color:'+brandColor(r.brand)+'">'+esc(r.brand)+(r.kind==='reference'?' · Originator':r.kind==='standalone'?' · 351(a), non-biosimilar':'')+(!rows.some(x=>x.brand===r.brand)?' · N/A':'')+'</span></label>').join('');render();
  }
@@ -26,14 +41,14 @@ const PriceTracker=(()=>{
   const from=el('aspFrom').value,to=el('aspTo').value,metric=el('aspMetric').value,unit=el('aspUnit').value;
   const rows=from>to?[]:current(),quarters=[...new Set(payload.rows.filter(r=>r.molecule===el('aspMolecule').value&&r.quarter>=from&&r.quarter<=to).map(r=>r.quarter))].sort();
   const absent=from>to?[]:roster().filter(p=>selected.has(p.brand)&&!rows.some(r=>r.brand===p.brand));
-  const series=[...new Map(rows.map(r=>[r.brand+'|'+r.hcpcs,r])).values()];
+  const series=trendSeries(rows,quarters,metric,unit);
   const unavailable=rows.filter(r=>value(r,metric,unit)===null).length;
   const units=[...new Set(rows.map(r=>unitLabel(unit==='billing'?r.billingUnit:r.standardDose)))];
   const preliminary=rows.some(r=>r.publicationStatus==='Preliminary');
-  el('aspStatus').textContent=from>to?'시작 분기가 종료 분기보다 늦습니다.':rows.length?rows.length+' records · '+absent.length+'개 브랜드 CMS 가격 미매칭 · '+units.join(' / ')+' · USD'+(preliminary?' · Preliminary 분기 포함':'')+(unavailable?' · '+unavailable+'건 계산 불가/미확인':'')+(units.length>1?' · 서로 다른 단위 포함: 단위를 맞춘 뒤 비교하세요.':''):'선택 제품의 CMS 가격 데이터가 없습니다. 허가 제품 목록은 아래에 N/A로 표시합니다.';
+  el('aspStatus').textContent=from>to?'시작 분기가 종료 분기보다 늦습니다.':rows.length?rows.length+' records · '+absent.length+'개 브랜드 CMS 가격 미매칭 · '+units.join(' / ')+' · USD'+(preliminary?' · Preliminary 분기 포함':'')+(unavailable?' · '+unavailable+'건 계산 불가/미확인':'')+(series.some(p=>p.label.includes('J2505 → J2506'))?' · Neulasta: 2021 J2505 → 2022 J2506, 6 mg 기준 연결':'')+(units.length>1?' · 서로 다른 단위 포함: 단위를 맞춘 뒤 비교하세요.':''):'선택 제품의 CMS 가격 데이터가 없습니다. 허가 제품 목록은 아래에 N/A로 표시합니다.';
   el('aspExport').disabled=!rows.length;
   if(chart){chart.destroy();chart=null;}
-  if(typeof Chart!=='undefined')chart=new Chart(el('aspChart'),{type:'line',data:{labels:quarters,datasets:series.map((p,i)=>({label:p.brand+' · '+p.hcpcs,data:quarters.map(q=>{const r=rows.find(r=>r.brand===p.brand&&r.hcpcs===p.hcpcs&&r.quarter===q);return r?value(r,metric,unit):null}),borderColor:brandColor(p.brand),backgroundColor:brandColor(p.brand),borderWidth:p.own?3:2,pointRadius:2,spanGaps:false,tension:0}))},options:{responsive:true,maintainAspectRatio:false,animation:false,interaction:{mode:'index',intersect:false},plugins:{legend:{position:'bottom',labels:{boxWidth:12,font:{size:10}}},tooltip:{callbacks:{label:c=>c.dataset.label+': '+money(c.raw)}}},scales:{y:{beginAtZero:true,title:{display:true,text:(metric==='asp'?'Estimated ASP':'CMS Payment limit')+' · USD'},ticks:{callback:n=>'$'+n}},x:{grid:{display:false},ticks:{font:{size:10}}}}}});
+  if(typeof Chart!=='undefined')chart=new Chart(el('aspChart'),{type:'line',data:{labels:quarters,datasets:series.map((p,i)=>({label:p.label,data:p.data,records:p.records,borderColor:brandColor(p.brand),backgroundColor:brandColor(p.brand),borderWidth:p.own?3:2,pointRadius:2,spanGaps:false,tension:0}))},options:{responsive:true,maintainAspectRatio:false,animation:false,interaction:{mode:'index',intersect:false},plugins:{legend:{position:'bottom',labels:{boxWidth:12,font:{size:10}}},tooltip:{callbacks:{label:c=>c.dataset.label+': '+money(c.raw),afterLabel:c=>{const r=c.dataset.records[c.dataIndex];return r?'HCPCS: '+r.hcpcs+' · CMS billing unit: '+r.billingUnit:''}}}},scales:{y:{beginAtZero:true,title:{display:true,text:(metric==='asp'?'Estimated ASP':'CMS Payment limit')+' · USD'},ticks:{callback:n=>'$'+n}},x:{grid:{display:false},ticks:{font:{size:10}}}}}});
   el('aspTable').innerHTML='<table class="data-table"><thead><tr>'+['Payment quarter','Product / HCPCS','Billing unit','CMS Payment limit','Estimated ASP','Add-on','Basis / Notes','Source'].map(h=>'<th scope="col">'+h+'</th>').join('')+'</tr></thead><tbody>'+rows.slice().sort((a,b)=>b.quarter.localeCompare(a.quarter)||a.brand.localeCompare(b.brand)||a.hcpcs.localeCompare(b.hcpcs)).map(r=>'<tr><td>'+esc(r.quarter)+(r.publicationStatus==='Preliminary'?'<small>Preliminary</small>':'')+'</td><td><strong>'+esc(r.brand)+'</strong><small>'+esc(r.hcpcs)+' · '+esc(r.proper)+'</small><small>Reference: '+esc(r.reference||'—')+'</small></td><td>'+esc(unit==='standard'?r.standardDose:r.billingUnit)+'<small>'+esc(unit==='standard'?'환산 용량 기준':r.unitSource)+'</small></td><td>'+money(value(r,'paymentLimit',unit))+'</td><td>'+money(value(r,'asp',unit))+'</td><td>'+(r.addonPct===null?'—':r.addonPct+'%')+'</td><td>'+esc(r.method)+'<small>'+esc(r.notes)+'</small><small>'+esc(r.matchBasis||'')+'</small>'+(r.sharedBrands?.length>1?'<small>Shared HCPCS: '+esc(r.sharedBrands.join(' / '))+'</small>':'')+'</td><td>'+(safe(r.sourceUrl)?'<a href="'+esc(r.sourceUrl)+'" target="_blank" rel="noopener">'+(r.sourceCheckedAt?'CMS file':'기존 저장본')+' ↗</a>':'—')+'<small>'+date(r.sourceCheckedAt)+(r.publicationStatus==='Preliminary'?' · Preliminary':'')+'</small></td></tr>').join('')+absent.map(p=>'<tr class="asp-unmatched"><td>'+esc(from)+' – '+esc(to)+'</td><td><strong>'+esc(p.brand)+'</strong><small>'+esc(p.proper)+' · BLA '+esc((p.blas||[]).join(', '))+'</small></td><td>—</td><td>N/A</td><td>N/A</td><td>—</td><td>허가 제품 · 선택 기간 CMS 가격 미매칭</td><td>Purple Book</td></tr>').join('')+(!rows.length&&!absent.length?'<tr><td colspan="8" class="empty-cell">표시할 데이터가 없습니다.</td></tr>':'')+'</tbody></table>';
  }
  function csvCell(v){let s=String(v??'');if(/^[=+\-@\t\r]/.test(s))s="'"+s;return '"'+s.replace(/"/g,'""')+'"';}
@@ -47,5 +62,5 @@ const PriceTracker=(()=>{
   }catch(e){el('aspStatus').textContent=e.message+(payload?' 이전에 불러온 게시본을 유지합니다.':'');}finally{loading=false;el('aspRefresh').disabled=false;el('aspExportAll').disabled=!payload?.rows?.length;}
  }
  function open(){el('priceMonth').textContent='('+month()+')';if(!initialized){initialized=true;el('aspMolecule').addEventListener('change',selectMolecule);for(const id of ['aspFrom','aspTo','aspMetric','aspUnit'])el(id).addEventListener('change',render);el('aspProducts').addEventListener('change',e=>{if(e.target.type!=='checkbox')return;e.target.checked?selected.add(e.target.value):selected.delete(e.target.value);render()});el('aspRefresh').addEventListener('click',load);el('aspExport').addEventListener('click',()=>exportCsv());el('aspExportAll').addEventListener('click',()=>exportCsv(true));load();}else if(chart)chart.resize();}
- return{open,filtered,value,month,csvCell};
+ return{open,filtered,value,month,csvCell,trendSeries};
 })();
