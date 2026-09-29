@@ -6,9 +6,140 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-09-27T23:39:15.501700+00:00",
-  "checkedAt": "2026-09-27T23:39:15.501700+00:00",
+  "updatedAt": "2026-09-29T00:52:12.339748+00:00",
+  "checkedAt": "2026-09-29T00:52:12.339748+00:00",
   "articles": [
+    {
+      "id": "6afddabcdf63e654f737",
+      "title": "Lupin Receives Tentative Approval from U.S. FDA for Novel Apixaban Oral Suspension",
+      "url": "https://www.biospace.com/press-releases/lupin-receives-tentative-approval-from-u-s-fda-for-novel-apixaban-oral-suspension",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-09-29T00:41:45+00:00",
+      "molecules": [],
+      "topics": [
+        "Market overall",
+        "Policy"
+      ],
+      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-29T00:52:12.339748+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "39ae0eb6b23621ff0013",
+      "title": "Oncolytics Biotech® Reports Accelerating Enrollment in Randomized REO 033 RAS-Mutant, MSS Colorectal Cancer Study",
+      "url": "https://www.biospace.com/press-releases/oncolytics-biotech-reports-accelerating-enrollment-in-randomized-reo-033-ras-mutant-mss-colorectal-cancer-study",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-09-29T00:33:23+00:00",
+      "molecules": [
+        "bevacizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-29T00:52:12.339748+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "6576ad23bafaed889c00",
+      "title": "Kodiak skyrockets on positive study data for 2 eye drugs",
+      "url": "https://www.biopharmadive.com/news/kodiak-tabirafusp-wet-amd-daybreak-study-results/831467/",
+      "source": "BioPharma Dive",
+      "sourceId": "biopharmadive",
+      "publishedAt": "2026-09-28T16:11:00+00:00",
+      "molecules": [
+        "aflibercept"
+      ],
+      "topics": [],
+      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "matchBasis": "feed-title-description",
+      "firstSeenAt": "2026-09-29T00:52:12.339748+00:00",
+      "type": "article"
+    },
+    {
+      "id": "794595a0865234ceab13",
+      "title": "Kodiak Sciences’ stock soars 166% after 2 assets match Eylea in Phase 3 trial",
+      "url": "https://www.biospace.com/drug-development/kodiak-sciences-stock-soars-166-after-2-assets-match-eylea-in-phase-3-trial",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-09-28T15:11:01+00:00",
+      "molecules": [
+        "aflibercept"
+      ],
+      "topics": [],
+      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-29T00:52:12.339748+00:00",
+      "type": "article"
+    },
+    {
+      "id": "7f0278112fb06750f0e8",
+      "title": "Merck inks up to $2.13B deal to dine with SciBrunch, gain rights to preclinical KRAS inhibitor",
+      "url": "https://www.biospace.com/deals/merck-inks-up-to-2-13b-deal-to-dine-with-scibrunch-gain-rights-to-preclinical-kras-inhibitor",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-09-28T13:50:27+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-29T00:52:12.339748+00:00",
+      "type": "article"
+    },
+    {
+      "id": "7afaf4da9b7084a291de",
+      "title": "Organon Canada announces the Approval and Availability of NDUVRA® (tapinarof cream), 1%, a New Steroid-Free Topical Treatment for Moderate to Severe Atopic Dermatitis in Adult and Pediatric Patients 2 Years of Age and Older",
+      "url": "https://www.biospace.com/press-releases/organon-canada-announces-the-approval-and-availability-of-nduvra-tapinarof-cream-1-a-new-steroid-free-topical-treatment-for-moderate-to-severe-atopic-dermatitis-in-adult-and-pediatric-patients-2-years-of-age-and-older",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-09-28T13:28:45+00:00",
+      "molecules": [],
+      "topics": [
+        "Market overall"
+      ],
+      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-29T00:52:12.339748+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "f79df5b093e31b380a66",
+      "title": "Kodiak's stock doubles as resurrected eye disease drug matches Eylea in phase 3",
+      "url": "https://www.fiercebiotech.com/biotech/kodiak-roars-back-pivotal-victory-resurrected-eye-disease-drug",
+      "source": "Fierce Biotech",
+      "sourceId": "fiercebiotech",
+      "publishedAt": "2026-09-28T12:37:00+00:00",
+      "molecules": [
+        "aflibercept"
+      ],
+      "topics": [
+        "Market overall"
+      ],
+      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-29T00:52:12.339748+00:00",
+      "type": "article"
+    },
+    {
+      "id": "6bdb6ccc02725a04f9d7",
+      "title": "Your Questions Answered: Two FDA Approvals, Six Platform Deals, and a European Warning",
+      "url": "https://www.pharmexec.com/view/your-questions-answered-two-fda-approvals-six-platform-deals-and-aeuropean-warning",
+      "source": "Pharmaceutical Executive",
+      "sourceId": "pharmexec",
+      "publishedAt": "2026-09-28T10:00:00+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-29T00:52:12.339748+00:00",
+      "type": "article"
+    },
     {
       "id": "30472933d433ded7b3e9",
       "title": "Is the 505(b)2 Pathway Viable for Biosimilars?",
@@ -1079,7 +1210,7 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-09-27T23:39:15.501700+00:00",
+      "checkedAt": "2026-09-29T00:52:12.339748+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -1090,7 +1221,7 @@
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-09-27T23:39:15.501700+00:00",
+      "checkedAt": "2026-09-29T00:52:12.339748+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
@@ -1101,7 +1232,7 @@
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-09-27T23:39:15.501700+00:00",
+      "checkedAt": "2026-09-29T00:52:12.339748+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -1112,75 +1243,75 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-09-27T23:39:15.501700+00:00",
-      "status": "unavailable",
-      "discovered": 0,
-      "new": 0,
+      "checkedAt": "2026-09-29T00:52:12.339748+00:00",
+      "status": "ok",
+      "discovered": 130,
+      "new": 5,
       "errors": 0,
-      "bodyMatched": 0,
-      "lastError": "No article links discovered"
+      "bodyMatched": 5,
+      "deferred": 90
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-09-27T23:39:15.501700+00:00",
+      "checkedAt": "2026-09-29T00:52:12.339748+00:00",
       "status": "ok",
       "discovered": 100,
-      "new": 0,
+      "new": 1,
       "errors": 0,
-      "bodyMatched": 0,
-      "deferred": 56
+      "bodyMatched": 1,
+      "deferred": 73
     },
     {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-09-27T23:39:15.501700+00:00",
+      "checkedAt": "2026-09-29T00:52:12.339748+00:00",
       "status": "ok",
-      "discovered": 31,
+      "discovered": 30,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 31,
+      "deferred": 26,
       "collectionMode": "rss-only"
     },
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-09-27T23:39:15.501700+00:00",
+      "checkedAt": "2026-09-29T00:52:12.339748+00:00",
       "status": "ok",
       "discovered": 10,
-      "new": 0,
+      "new": 1,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 10,
+      "deferred": 5,
       "collectionMode": "rss-only"
     },
     {
       "id": "fiercebiotech",
       "name": "Fierce Biotech",
-      "checkedAt": "2026-09-27T23:39:15.501700+00:00",
+      "checkedAt": "2026-09-29T00:52:12.339748+00:00",
       "status": "ok",
       "discovered": 25,
-      "new": 0,
+      "new": 1,
       "errors": 0,
-      "bodyMatched": 0,
-      "deferred": 21
+      "bodyMatched": 1,
+      "deferred": 14
     },
     {
       "id": "gen",
       "name": "GEN",
-      "checkedAt": "2026-09-27T23:39:15.501700+00:00",
+      "checkedAt": "2026-09-29T00:52:12.339748+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 9
+      "deferred": 6
     },
     {
       "id": "ddd",
       "name": "Drug Discovery & Development",
-      "checkedAt": "2026-09-27T23:39:15.501700+00:00",
+      "checkedAt": "2026-09-29T00:52:12.339748+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
