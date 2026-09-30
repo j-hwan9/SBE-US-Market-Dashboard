@@ -6,9 +6,42 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-09-29T00:52:12.339748+00:00",
-  "checkedAt": "2026-09-29T00:52:12.339748+00:00",
+  "updatedAt": "2026-09-30T00:05:30.622098+00:00",
+  "checkedAt": "2026-09-30T00:05:30.622098+00:00",
   "articles": [
+    {
+      "id": "f5019af384cab8bc7eeb",
+      "title": "Pharma tariffs reach smaller drugmakers as industry warns of R&D pressure",
+      "url": "https://www.drugdiscoverytrends.com/pharma-tariffs-reach-smaller-drugmakers-as-industry-warns-of-rd-pressure/",
+      "source": "Drug Discovery & Development",
+      "sourceId": "ddd",
+      "publishedAt": "2026-09-29T16:42:23+00:00",
+      "molecules": [],
+      "topics": [
+        "Policy"
+      ],
+      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-30T00:05:30.622098+00:00",
+      "type": "article"
+    },
+    {
+      "id": "5a488ca86e2b6451e9f0",
+      "title": "UCB data presented at 2026 AANEM Annual Meeting and MGFA Scientific Session underscore leadership in advancing targeted treatments for gMG",
+      "url": "https://www.biospace.com/press-releases/ucb-data-presented-at-2026-aanem-annual-meeting-and-mgfa-scientific-session-underscore-leadership-in-advancing-targeted-treatments-for-gmg",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-09-29T13:33:28+00:00",
+      "molecules": [],
+      "topics": [
+        "Market overall",
+        "Policy"
+      ],
+      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-09-30T00:05:30.622098+00:00",
+      "type": "press-release"
+    },
     {
       "id": "6afddabcdf63e654f737",
       "title": "Lupin Receives Tentative Approval from U.S. FDA for Novel Apixaban Oral Suspension",
@@ -1210,7 +1243,7 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-09-29T00:52:12.339748+00:00",
+      "checkedAt": "2026-09-30T00:05:30.622098+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -1221,18 +1254,18 @@
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-09-29T00:52:12.339748+00:00",
+      "checkedAt": "2026-09-30T00:05:30.622098+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 20
+      "deferred": 19
     },
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-09-29T00:52:12.339748+00:00",
+      "checkedAt": "2026-09-30T00:05:30.622098+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -1243,64 +1276,64 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-09-29T00:52:12.339748+00:00",
+      "checkedAt": "2026-09-30T00:05:30.622098+00:00",
       "status": "ok",
-      "discovered": 130,
-      "new": 5,
+      "discovered": 280,
+      "new": 1,
       "errors": 0,
-      "bodyMatched": 5,
-      "deferred": 90
+      "bodyMatched": 1,
+      "deferred": 235
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-09-29T00:52:12.339748+00:00",
+      "checkedAt": "2026-09-30T00:05:30.622098+00:00",
       "status": "ok",
       "discovered": 100,
-      "new": 1,
+      "new": 0,
       "errors": 0,
-      "bodyMatched": 1,
-      "deferred": 73
+      "bodyMatched": 0,
+      "deferred": 89
     },
     {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-09-29T00:52:12.339748+00:00",
+      "checkedAt": "2026-09-30T00:05:30.622098+00:00",
       "status": "ok",
-      "discovered": 30,
+      "discovered": 32,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 26,
+      "deferred": 24,
       "collectionMode": "rss-only"
     },
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-09-29T00:52:12.339748+00:00",
+      "checkedAt": "2026-09-30T00:05:30.622098+00:00",
       "status": "ok",
       "discovered": 10,
-      "new": 1,
+      "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 5,
+      "deferred": 4,
       "collectionMode": "rss-only"
     },
     {
       "id": "fiercebiotech",
       "name": "Fierce Biotech",
-      "checkedAt": "2026-09-29T00:52:12.339748+00:00",
+      "checkedAt": "2026-09-30T00:05:30.622098+00:00",
       "status": "ok",
       "discovered": 25,
-      "new": 1,
+      "new": 0,
       "errors": 0,
-      "bodyMatched": 1,
-      "deferred": 14
+      "bodyMatched": 0,
+      "deferred": 15
     },
     {
       "id": "gen",
       "name": "GEN",
-      "checkedAt": "2026-09-29T00:52:12.339748+00:00",
+      "checkedAt": "2026-09-30T00:05:30.622098+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -1311,13 +1344,13 @@
     {
       "id": "ddd",
       "name": "Drug Discovery & Development",
-      "checkedAt": "2026-09-29T00:52:12.339748+00:00",
+      "checkedAt": "2026-09-30T00:05:30.622098+00:00",
       "status": "ok",
       "discovered": 25,
-      "new": 0,
+      "new": 1,
       "errors": 0,
-      "bodyMatched": 0,
-      "deferred": 23
+      "bodyMatched": 1,
+      "deferred": 22
     }
   ],
   "molecules": [
