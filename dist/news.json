@@ -6,9 +6,63 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-10-01T00:22:24.783823+00:00",
-  "checkedAt": "2026-10-01T00:22:24.783823+00:00",
+  "updatedAt": "2026-10-02T00:32:38.483924+00:00",
+  "checkedAt": "2026-10-02T00:32:38.483924+00:00",
   "articles": [
+    {
+      "id": "266e58c199bf2c657a0c",
+      "title": "Biosimilar Aspects of the GLOBE Final Rule",
+      "url": "https://biosimilarsrr.com/2026/10/01/biosimilar-aspects-of-the-globe-final-rule/",
+      "source": "BR&R",
+      "sourceId": "brr",
+      "publishedAt": "2026-10-01T16:48:57+00:00",
+      "molecules": [
+        "aflibercept",
+        "denosumab",
+        "golimumab",
+        "natalizumab",
+        "tocilizumab"
+      ],
+      "topics": [
+        "Market overall"
+      ],
+      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-02T00:32:38.483924+00:00",
+      "type": "article"
+    },
+    {
+      "id": "5cf44a7a3974e77b2395",
+      "title": "Merck’s antibody impresses with ‘highly competitive’ data in chronic skin disease",
+      "url": "https://www.biospace.com/drug-development/mercks-antibody-impresses-with-highly-competitive-data-in-chronic-skin-disease",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-01T15:24:10+00:00",
+      "molecules": [
+        "adalimumab"
+      ],
+      "topics": [],
+      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-02T00:32:38.483924+00:00",
+      "type": "article"
+    },
+    {
+      "id": "75475e436dbe60b679fe",
+      "title": "Outlook Therapeutics Submits HCPCS Level II Application to CMS for Permanent J-Code for LYTENAVA™ (bevacizumab-vikg)",
+      "url": "https://www.biospace.com/press-releases/outlook-therapeutics-submits-hcpcs-level-ii-application-to-cms-for-permanent-j-code-for-lytenava-bevacizumab-vikg",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-01T13:43:53+00:00",
+      "molecules": [
+        "bevacizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-02T00:32:38.483924+00:00",
+      "type": "press-release"
+    },
     {
       "id": "577604d1261788bed137",
       "title": "Does the Direct-to-Employer Route for Biosimilars Make Sense?",
@@ -128,6 +182,24 @@
       "matchBasis": "article",
       "firstSeenAt": "2026-09-29T00:52:12.339748+00:00",
       "type": "press-release"
+    },
+    {
+      "id": "57b7775e1f27cf0f0a0d",
+      "title": "‘We’re so close to the tech companies’: Genentech CEO talks Fierce through vision for the future",
+      "url": "https://www.fiercebiotech.com/biotech/none-changing-genentechs-magargee-next-50-years-original-biotech-company",
+      "source": "Fierce Biotech",
+      "sourceId": "fiercebiotech",
+      "publishedAt": "2026-09-28T21:24:00+00:00",
+      "molecules": [
+        "bevacizumab",
+        "rituximab",
+        "trastuzumab"
+      ],
+      "topics": [],
+      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-02T00:32:38.483924+00:00",
+      "type": "article"
     },
     {
       "id": "6576ad23bafaed889c00",
@@ -1313,7 +1385,7 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-10-01T00:22:24.783823+00:00",
+      "checkedAt": "2026-10-02T00:32:38.483924+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 1,
@@ -1324,7 +1396,7 @@
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-10-01T00:22:24.783823+00:00",
+      "checkedAt": "2026-10-02T00:32:38.483924+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
@@ -1335,7 +1407,7 @@
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-10-01T00:22:24.783823+00:00",
+      "checkedAt": "2026-10-02T00:32:38.483924+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -1346,18 +1418,18 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-10-01T00:22:24.783823+00:00",
+      "checkedAt": "2026-10-02T00:32:38.483924+00:00",
       "status": "ok",
-      "discovered": 320,
-      "new": 0,
+      "discovered": 333,
+      "new": 2,
       "errors": 0,
-      "bodyMatched": 0,
-      "deferred": 276
+      "bodyMatched": 2,
+      "deferred": 292
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-10-01T00:22:24.783823+00:00",
+      "checkedAt": "2026-10-02T00:32:38.483924+00:00",
       "status": "ok",
       "discovered": 100,
       "new": 0,
@@ -1368,19 +1440,19 @@
     {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-10-01T00:22:24.783823+00:00",
+      "checkedAt": "2026-10-02T00:32:38.483924+00:00",
       "status": "ok",
-      "discovered": 31,
+      "discovered": 30,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 26,
+      "deferred": 21,
       "collectionMode": "rss-only"
     },
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-10-01T00:22:24.783823+00:00",
+      "checkedAt": "2026-10-02T00:32:38.483924+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -1392,35 +1464,35 @@
     {
       "id": "fiercebiotech",
       "name": "Fierce Biotech",
-      "checkedAt": "2026-10-01T00:22:24.783823+00:00",
+      "checkedAt": "2026-10-02T00:32:38.483924+00:00",
       "status": "ok",
       "discovered": 25,
-      "new": 3,
+      "new": 1,
       "errors": 0,
-      "bodyMatched": 3,
-      "deferred": 14
+      "bodyMatched": 1,
+      "deferred": 16
     },
     {
       "id": "gen",
       "name": "GEN",
-      "checkedAt": "2026-10-01T00:22:24.783823+00:00",
+      "checkedAt": "2026-10-02T00:32:38.483924+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 3
+      "deferred": 8
     },
     {
       "id": "ddd",
       "name": "Drug Discovery & Development",
-      "checkedAt": "2026-10-01T00:22:24.783823+00:00",
+      "checkedAt": "2026-10-02T00:32:38.483924+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 22
+      "deferred": 21
     }
   ],
   "molecules": [
