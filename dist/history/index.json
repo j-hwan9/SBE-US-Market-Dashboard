@@ -2,6 +2,59 @@
   {
     "purpleBookDate": "2026-08",
     "productCount": 131,
+    "id": "20261003T000825000000Z",
+    "path": "history/20261003T000825000000Z.json",
+    "checkedAt": "2026-10-03T00:08:25+00:00",
+    "changes": {
+      "added": [],
+      "removed": [],
+      "changed": [
+        {
+          "id": "avtozma-761420",
+          "brand": "Avtozma",
+          "bla": "761420",
+          "fields": [
+            "Product / source data"
+          ]
+        },
+        {
+          "id": "eydenzelt-761377",
+          "brand": "Eydenzelt",
+          "bla": "761377",
+          "fields": [
+            "Product / source data"
+          ]
+        },
+        {
+          "id": "riabni-761140",
+          "brand": "Riabni",
+          "bla": "761140",
+          "fields": [
+            "Product / source data"
+          ]
+        },
+        {
+          "id": "ruxience-761103",
+          "brand": "Ruxience",
+          "bla": "761103",
+          "fields": [
+            "Product / source data"
+          ]
+        },
+        {
+          "id": "yusimry-761216",
+          "brand": "Yusimry",
+          "bla": "761216",
+          "fields": [
+            "Product / source data"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "purpleBookDate": "2026-08",
+    "productCount": 131,
     "id": "20260926T232225000000Z",
     "path": "history/20260926T232225000000Z.json",
     "checkedAt": "2026-09-26T23:22:25+00:00",
