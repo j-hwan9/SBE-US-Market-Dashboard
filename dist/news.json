@@ -6,9 +6,75 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-10-02T00:32:38.483924+00:00",
-  "checkedAt": "2026-10-02T00:32:38.483924+00:00",
+  "updatedAt": "2026-10-03T00:10:34.704905+00:00",
+  "checkedAt": "2026-10-03T00:10:34.704905+00:00",
   "articles": [
+    {
+      "id": "5b73443d761b50c470bc",
+      "title": "BMO most bullish on Merck's, bearish on BMS’ plans to contend with patent cliffs",
+      "url": "https://www.biospace.com/business/bmo-most-bullish-on-mercks-bearish-on-bms-plans-to-contend-with-patent-cliffs",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-02T14:58:57+00:00",
+      "molecules": [
+        "adalimumab",
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-03T00:10:34.704905+00:00",
+      "type": "article"
+    },
+    {
+      "id": "415d333aebeae7650e22",
+      "title": "Varda raises $251M to leverage gravity in space for drug production",
+      "url": "https://www.biospace.com/drug-delivery/varda-raises-251m-to-leverage-gravity-in-space-for-drug-production",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-02T13:39:26+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-03T00:10:34.704905+00:00",
+      "type": "article"
+    },
+    {
+      "id": "a6e69fd4a9723c1c82b4",
+      "title": "Summit Therapeutics Announces Clinical Trial Collaboration with AstraZeneca and Daiichi Sankyo to Evaluate Ivonescimab in Combination with TROP2-Directed ADC Datroway",
+      "url": "https://www.biospace.com/press-releases/summit-therapeutics-announces-clinical-trial-collaboration-with-astrazeneca-and-daiichi-sankyo-to-evaluate-ivonescimab-in-combination-with-trop2-directed-adc-datroway",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-02T09:40:11+00:00",
+      "molecules": [
+        "bevacizumab",
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-03T00:10:34.704905+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "98028f1f5518fa27dcd9",
+      "title": "Orimed Pharma launches PrBALANSYA®, Canada's only escitalopram oral solution",
+      "url": "https://www.biospace.com/press-releases/orimed-pharma-launches-prbalansya-canadas-only-escitalopram-oral-solution",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-02T01:14:07+00:00",
+      "molecules": [],
+      "topics": [
+        "Market overall"
+      ],
+      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-03T00:10:34.704905+00:00",
+      "type": "press-release"
+    },
     {
       "id": "266e58c199bf2c657a0c",
       "title": "Biosimilar Aspects of the GLOBE Final Rule",
@@ -1385,29 +1451,30 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-10-02T00:32:38.483924+00:00",
+      "checkedAt": "2026-10-03T00:10:34.704905+00:00",
       "status": "ok",
       "discovered": 10,
-      "new": 1,
+      "new": 0,
       "errors": 0,
-      "bodyMatched": 1,
+      "bodyMatched": 0,
       "deferred": 0
     },
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-10-02T00:32:38.483924+00:00",
-      "status": "ok",
+      "checkedAt": "2026-10-03T00:10:34.704905+00:00",
+      "status": "partial",
       "discovered": 25,
       "new": 0,
-      "errors": 0,
+      "errors": 1,
       "bodyMatched": 0,
-      "deferred": 20
+      "deferred": 19,
+      "lastError": "Unexpected publisher redirect/host: www.google.com"
     },
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-10-02T00:32:38.483924+00:00",
+      "checkedAt": "2026-10-03T00:10:34.704905+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -1418,81 +1485,81 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-10-02T00:32:38.483924+00:00",
+      "checkedAt": "2026-10-03T00:10:34.704905+00:00",
       "status": "ok",
-      "discovered": 333,
-      "new": 2,
+      "discovered": 215,
+      "new": 4,
       "errors": 0,
-      "bodyMatched": 2,
-      "deferred": 292
+      "bodyMatched": 4,
+      "deferred": 172
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-10-02T00:32:38.483924+00:00",
+      "checkedAt": "2026-10-03T00:10:34.704905+00:00",
       "status": "ok",
       "discovered": 100,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 90
+      "deferred": 92
     },
     {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-10-02T00:32:38.483924+00:00",
+      "checkedAt": "2026-10-03T00:10:34.704905+00:00",
       "status": "ok",
-      "discovered": 30,
+      "discovered": 31,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 21,
+      "deferred": 27,
       "collectionMode": "rss-only"
     },
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-10-02T00:32:38.483924+00:00",
+      "checkedAt": "2026-10-03T00:10:34.704905+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 6,
+      "deferred": 7,
       "collectionMode": "rss-only"
     },
     {
       "id": "fiercebiotech",
       "name": "Fierce Biotech",
-      "checkedAt": "2026-10-02T00:32:38.483924+00:00",
+      "checkedAt": "2026-10-03T00:10:34.704905+00:00",
       "status": "ok",
       "discovered": 25,
-      "new": 1,
+      "new": 0,
       "errors": 0,
-      "bodyMatched": 1,
-      "deferred": 16
+      "bodyMatched": 0,
+      "deferred": 17
     },
     {
       "id": "gen",
       "name": "GEN",
-      "checkedAt": "2026-10-02T00:32:38.483924+00:00",
+      "checkedAt": "2026-10-03T00:10:34.704905+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 8
+      "deferred": 6
     },
     {
       "id": "ddd",
       "name": "Drug Discovery & Development",
-      "checkedAt": "2026-10-02T00:32:38.483924+00:00",
+      "checkedAt": "2026-10-03T00:10:34.704905+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 21
+      "deferred": 22
     }
   ],
   "molecules": [
