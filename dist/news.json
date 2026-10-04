@@ -6,8 +6,8 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-10-03T23:32:15.019800+00:00",
-  "checkedAt": "2026-10-03T23:32:15.019800+00:00",
+  "updatedAt": "2026-10-04T23:50:54.022314+00:00",
+  "checkedAt": "2026-10-04T23:50:54.022314+00:00",
   "articles": [
     {
       "id": "f2e8d961859cff68a741",
@@ -1506,7 +1506,7 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-10-03T23:32:15.019800+00:00",
+      "checkedAt": "2026-10-04T23:50:54.022314+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -1517,7 +1517,7 @@
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-10-03T23:32:15.019800+00:00",
+      "checkedAt": "2026-10-04T23:50:54.022314+00:00",
       "status": "partial",
       "discovered": 25,
       "new": 0,
@@ -1529,7 +1529,7 @@
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-10-03T23:32:15.019800+00:00",
+      "checkedAt": "2026-10-04T23:50:54.022314+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -1540,18 +1540,18 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-10-03T23:32:15.019800+00:00",
+      "checkedAt": "2026-10-04T23:50:54.022314+00:00",
       "status": "ok",
-      "discovered": 60,
-      "new": 3,
+      "discovered": 10,
+      "new": 0,
       "errors": 0,
-      "bodyMatched": 3,
-      "deferred": 41
+      "bodyMatched": 0,
+      "deferred": 9
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-10-03T23:32:15.019800+00:00",
+      "checkedAt": "2026-10-04T23:50:54.022314+00:00",
       "status": "ok",
       "discovered": 100,
       "new": 0,
@@ -1562,7 +1562,7 @@
     {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-10-03T23:32:15.019800+00:00",
+      "checkedAt": "2026-10-04T23:50:54.022314+00:00",
       "status": "ok",
       "discovered": 31,
       "new": 0,
@@ -1574,19 +1574,19 @@
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-10-03T23:32:15.019800+00:00",
+      "checkedAt": "2026-10-04T23:50:54.022314+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 10,
+      "deferred": 9,
       "collectionMode": "rss-only"
     },
     {
       "id": "fiercebiotech",
       "name": "Fierce Biotech",
-      "checkedAt": "2026-10-03T23:32:15.019800+00:00",
+      "checkedAt": "2026-10-04T23:50:54.022314+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
@@ -1597,7 +1597,7 @@
     {
       "id": "gen",
       "name": "GEN",
-      "checkedAt": "2026-10-03T23:32:15.019800+00:00",
+      "checkedAt": "2026-10-04T23:50:54.022314+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -1608,7 +1608,7 @@
     {
       "id": "ddd",
       "name": "Drug Discovery & Development",
-      "checkedAt": "2026-10-03T23:32:15.019800+00:00",
+      "checkedAt": "2026-10-04T23:50:54.022314+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
