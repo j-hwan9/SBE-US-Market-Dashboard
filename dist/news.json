@@ -5,10 +5,86 @@
     "Policy"
   ],
   "classificationVersion": 2,
-  "classificationPending": 0,
-  "updatedAt": "2026-10-04T23:50:54.022314+00:00",
-  "checkedAt": "2026-10-04T23:50:54.022314+00:00",
+  "classificationPending": 21,
+  "updatedAt": "2026-10-06T01:41:40.623286+00:00",
+  "checkedAt": "2026-10-06T01:41:40.623286+00:00",
   "articles": [
+    {
+      "id": "2812ec2629b655695e48",
+      "title": "OMLYCLO® (omalizumab-igec), the first and only FDA-approved interchangeable biosimilar to XOLAIR®, now commercially available in the U.S.",
+      "url": "https://www.biospace.com/press-releases/omlyclo-omalizumab-igec-the-first-and-only-fda-approved-interchangeable-biosimilar-to-xolair-now-commercially-available-in-the-u-s",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-05T13:59:02+00:00",
+      "molecules": [
+        "adalimumab",
+        "aflibercept",
+        "bevacizumab",
+        "denosumab",
+        "infliximab",
+        "omalizumab",
+        "rituximab",
+        "tocilizumab",
+        "trastuzumab",
+        "ustekinumab"
+      ],
+      "topics": [
+        "Market overall",
+        "Policy"
+      ],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-06T01:41:40.623286+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "80d6a9efc7d189ed3fa9",
+      "title": "Medicenna Announces Oral Presentation of Topline Data from the Phase 1/2 ABILITY-1 Study of MDNA11 at SITC 2026",
+      "url": "https://www.biospace.com/press-releases/medicenna-announces-oral-presentation-of-topline-data-from-the-phase-1-2-ability-1-study-of-mdna11-at-sitc-2026",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-05T13:58:03+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-06T01:41:40.623286+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "8f14942b346909494846",
+      "title": "CSL pays $355M to co-develop Alentis’ phase 2-stage fibrosis drug",
+      "url": "https://www.fiercebiotech.com/biotech/csl-pays-355m-co-develop-alentis-phase-2-stage-fibrosis-drug",
+      "source": "Fierce Biotech",
+      "sourceId": "fiercebiotech",
+      "publishedAt": "2026-10-05T08:16:00+00:00",
+      "molecules": [
+        "epoetin alfa"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-06T01:41:40.623286+00:00",
+      "type": "article"
+    },
+    {
+      "id": "0365c19cc3244e34cae3",
+      "title": "Genmab’s latest phase 2 data spur claim ADC is ‘clearly superior’ to AbbVie’s Elahere",
+      "url": "https://www.fiercebiotech.com/biotech/genmab-data-spur-claim-adc-clearly-superior-abbvies-elahere",
+      "source": "Fierce Biotech",
+      "sourceId": "fiercebiotech",
+      "publishedAt": "2026-10-05T08:15:00+00:00",
+      "molecules": [
+        "bevacizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-06T01:41:40.623286+00:00",
+      "type": "article"
+    },
     {
       "id": "f2e8d961859cff68a741",
       "title": "Biogen’s Litifilimab Demonstrates Rapid and Durable Efficacy in New 52-Week Phase 2 Data from Ongoing Phase 2/3 AMETHYST Study, Reinforcing Its Potential as a First-in-Class Therapy for Cutaneous Lupus Erythematosus",
@@ -21,10 +97,26 @@
         "Market overall",
         "Policy"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-10-03T23:32:15.019800+00:00",
       "type": "press-release"
+    },
+    {
+      "id": "423c06ef53e2e3ab10b3",
+      "title": "How to Choose a Biologics CDMO: 4 Criteria That Matter the Most",
+      "url": "https://www.fiercebiotech.com/sponsored/how-choose-biologics-cdmo-4-criteria-matter-most",
+      "source": "Fierce Biotech",
+      "sourceId": "fiercebiotech",
+      "publishedAt": "2026-10-02T17:28:00+00:00",
+      "molecules": [],
+      "topics": [
+        "Market overall"
+      ],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-06T01:41:40.623286+00:00",
+      "type": "sponsored"
     },
     {
       "id": "5b73443d761b50c470bc",
@@ -38,7 +130,7 @@
         "pembrolizumab"
       ],
       "topics": [],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-10-03T00:10:34.704905+00:00",
       "type": "article"
@@ -54,7 +146,7 @@
         "pembrolizumab"
       ],
       "topics": [],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-10-03T00:10:34.704905+00:00",
       "type": "article"
@@ -71,7 +163,7 @@
         "pembrolizumab"
       ],
       "topics": [],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-10-03T00:10:34.704905+00:00",
       "type": "press-release"
@@ -87,7 +179,7 @@
       "topics": [
         "Market overall"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-10-03T00:10:34.704905+00:00",
       "type": "press-release"
@@ -106,7 +198,7 @@
         "Market overall",
         "Policy"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-10-03T23:32:15.019800+00:00",
       "type": "press-release"
@@ -125,7 +217,7 @@
         "Market overall",
         "Policy"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-10-03T23:32:15.019800+00:00",
       "type": "press-release"
@@ -147,7 +239,7 @@
       "topics": [
         "Market overall"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-10-02T00:32:38.483924+00:00",
       "type": "article"
@@ -163,7 +255,7 @@
         "adalimumab"
       ],
       "topics": [],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-10-02T00:32:38.483924+00:00",
       "type": "article"
@@ -179,7 +271,7 @@
         "bevacizumab"
       ],
       "topics": [],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-10-02T00:32:38.483924+00:00",
       "type": "press-release"
@@ -201,7 +293,7 @@
       "topics": [
         "Market overall"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-10-01T00:22:24.783823+00:00",
       "type": "article"
@@ -217,7 +309,7 @@
         "adalimumab"
       ],
       "topics": [],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-10-01T00:22:24.783823+00:00",
       "type": "article"
@@ -233,7 +325,7 @@
       "topics": [
         "Policy"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-30T00:05:30.622098+00:00",
       "type": "article"
@@ -249,7 +341,7 @@
         "pembrolizumab"
       ],
       "topics": [],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-10-01T00:22:24.783823+00:00",
       "type": "article"
@@ -266,7 +358,7 @@
         "Market overall",
         "Policy"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-30T00:05:30.622098+00:00",
       "type": "press-release"
@@ -283,7 +375,7 @@
         "Market overall",
         "Policy"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-29T00:52:12.339748+00:00",
       "type": "press-release"
@@ -299,7 +391,7 @@
         "bevacizumab"
       ],
       "topics": [],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-29T00:52:12.339748+00:00",
       "type": "press-release"
@@ -317,7 +409,7 @@
         "trastuzumab"
       ],
       "topics": [],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-10-02T00:32:38.483924+00:00",
       "type": "article"
@@ -333,7 +425,7 @@
         "aflibercept"
       ],
       "topics": [],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "feed-title-description",
       "firstSeenAt": "2026-09-29T00:52:12.339748+00:00",
       "type": "article"
@@ -349,7 +441,7 @@
         "aflibercept"
       ],
       "topics": [],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-29T00:52:12.339748+00:00",
       "type": "article"
@@ -365,7 +457,7 @@
         "pembrolizumab"
       ],
       "topics": [],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-29T00:52:12.339748+00:00",
       "type": "article"
@@ -381,7 +473,7 @@
       "topics": [
         "Market overall"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-29T00:52:12.339748+00:00",
       "type": "press-release"
@@ -399,7 +491,7 @@
       "topics": [
         "Market overall"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-29T00:52:12.339748+00:00",
       "type": "article"
@@ -415,7 +507,7 @@
         "pembrolizumab"
       ],
       "topics": [],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-29T00:52:12.339748+00:00",
       "type": "article"
@@ -435,7 +527,7 @@
       "topics": [
         "Market overall"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-26T23:24:15.291303+00:00",
       "type": "article"
@@ -451,7 +543,7 @@
         "pembrolizumab"
       ],
       "topics": [],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-26T23:24:15.291303+00:00",
       "type": "article"
@@ -467,7 +559,7 @@
         "rituximab"
       ],
       "topics": [],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-26T23:24:15.291303+00:00",
       "type": "article"
@@ -483,7 +575,7 @@
         "insulin glargine"
       ],
       "topics": [],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-26T23:24:15.291303+00:00",
       "type": "article"
@@ -501,7 +593,7 @@
         "ranibizumab"
       ],
       "topics": [],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-26T23:24:15.291303+00:00",
       "type": "article"
@@ -518,7 +610,7 @@
         "trastuzumab"
       ],
       "topics": [],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-26T23:24:15.291303+00:00",
       "type": "article"
@@ -534,7 +626,7 @@
         "omalizumab"
       ],
       "topics": [],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-22T23:30:48.575080+00:00",
       "type": "article"
@@ -550,7 +642,7 @@
         "rituximab"
       ],
       "topics": [],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-22T23:30:48.575080+00:00",
       "type": "press-release"
@@ -587,7 +679,7 @@
         "trastuzumab"
       ],
       "topics": [],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-21T23:50:58.785764+00:00",
       "type": "press-release"
@@ -603,7 +695,7 @@
         "omalizumab"
       ],
       "topics": [],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-21T23:50:58.785764+00:00",
       "type": "article"
@@ -619,7 +711,7 @@
       "topics": [
         "Market overall"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-18T23:02:11.498000+00:00",
       "type": "article"
@@ -636,7 +728,7 @@
         "trastuzumab"
       ],
       "topics": [],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-18T23:02:11.498000+00:00",
       "type": "press-release"
@@ -652,7 +744,7 @@
       "topics": [
         "Market overall"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-18T23:02:11.498000+00:00",
       "type": "press-release"
@@ -668,7 +760,7 @@
       "topics": [
         "Market overall"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-18T23:02:11.498000+00:00",
       "type": "press-release"
@@ -718,7 +810,7 @@
         "pembrolizumab"
       ],
       "topics": [],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-16T23:33:50.855087+00:00",
       "type": "article"
@@ -941,7 +1033,7 @@
       "topics": [
         "Market overall"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-09T22:53:58.636340+00:00",
       "type": "article"
@@ -958,7 +1050,7 @@
         "infliximab"
       ],
       "topics": [],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-09T22:53:58.636340+00:00",
       "type": "article"
@@ -1012,7 +1104,7 @@
       "topics": [
         "Market overall"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-08T23:52:57.907395+00:00",
       "type": "article"
@@ -1029,7 +1121,7 @@
         "infliximab"
       ],
       "topics": [],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-08T23:52:57.907395+00:00",
       "type": "article"
@@ -1063,7 +1155,7 @@
         "pembrolizumab"
       ],
       "topics": [],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-26T23:24:15.291303+00:00",
       "type": "article"
@@ -1080,7 +1172,7 @@
         "Market overall",
         "Policy"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-09T09:19:16.698009+00:00",
       "type": "article"
@@ -1118,7 +1210,7 @@
       "topics": [
         "Market overall"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-09T09:19:16.698009+00:00",
       "type": "article"
@@ -1138,7 +1230,7 @@
       "topics": [
         "Market overall"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-08T23:52:57.907395+00:00",
       "type": "article"
@@ -1155,7 +1247,7 @@
         "Market overall",
         "Policy"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-09T22:53:58.636340+00:00",
       "type": "article"
@@ -1171,7 +1263,7 @@
         "trastuzumab"
       ],
       "topics": [],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-17T01:08:28.305951+00:00",
       "type": "article"
@@ -1191,7 +1283,7 @@
         "Market overall",
         "Policy"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-08T23:52:57.907395+00:00",
       "type": "article"
@@ -1208,7 +1300,7 @@
         "Market overall",
         "Policy"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-09T09:19:16.698009+00:00",
       "type": "article"
@@ -1224,7 +1316,7 @@
         "tocilizumab"
       ],
       "topics": [],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-09T03:53:47.818942+00:00",
       "type": "article"
@@ -1245,7 +1337,7 @@
         "Market overall",
         "Policy"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-08T23:52:57.907395+00:00",
       "type": "article"
@@ -1266,7 +1358,7 @@
         "Market overall",
         "Policy"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-08T23:52:57.907395+00:00",
       "type": "article"
@@ -1285,7 +1377,7 @@
       "topics": [
         "Market overall"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-08T23:52:57.907395+00:00",
       "type": "article"
@@ -1332,7 +1424,7 @@
       "topics": [
         "Market overall"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-08T23:52:57.907395+00:00",
       "type": "article"
@@ -1351,7 +1443,7 @@
         "Market overall",
         "Policy"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-08T23:52:57.907395+00:00",
       "type": "article"
@@ -1367,7 +1459,7 @@
       "topics": [
         "Market overall"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-09T09:19:16.698009+00:00",
       "type": "article"
@@ -1402,7 +1494,7 @@
         "Market overall",
         "Policy"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-09T03:53:47.818942+00:00",
       "type": "article"
@@ -1419,7 +1511,7 @@
         "trastuzumab"
       ],
       "topics": [],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-09T03:53:47.818942+00:00",
       "type": "article"
@@ -1441,7 +1533,7 @@
         "Market overall",
         "Policy"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-09T03:53:47.818942+00:00",
       "type": "article"
@@ -1457,7 +1549,7 @@
         "pembrolizumab"
       ],
       "topics": [],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-10-01T00:22:24.783823+00:00",
       "type": "article"
@@ -1477,7 +1569,7 @@
       "topics": [
         "Market overall"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-09T03:53:47.818942+00:00",
       "type": "article"
@@ -1496,7 +1588,7 @@
         "Market overall",
         "Policy"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-08T23:52:57.907395+00:00",
       "type": "sponsored"
@@ -1506,115 +1598,122 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-10-04T23:50:54.022314+00:00",
+      "checkedAt": "2026-10-06T01:41:40.623286+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
-      "bodyMatched": 0,
-      "deferred": 0
+      "bodyMatched": 15,
+      "deferred": 0,
+      "reclassified": 15
     },
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-10-04T23:50:54.022314+00:00",
+      "checkedAt": "2026-10-06T01:41:40.623286+00:00",
       "status": "partial",
       "discovered": 25,
       "new": 0,
-      "errors": 1,
+      "errors": 25,
       "bodyMatched": 0,
-      "deferred": 19,
+      "deferred": 0,
       "lastError": "Unexpected publisher redirect/host: www.google.com"
     },
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-10-04T23:50:54.022314+00:00",
+      "checkedAt": "2026-10-06T01:41:40.623286+00:00",
       "status": "ok",
       "discovered": 6,
+      "new": 0,
+      "errors": 0,
+      "bodyMatched": 7,
+      "deferred": 0,
+      "reclassified": 7
+    },
+    {
+      "id": "biospace",
+      "name": "BioSpace",
+      "checkedAt": "2026-10-06T01:41:40.623286+00:00",
+      "status": "ok",
+      "discovered": 196,
+      "new": 2,
+      "errors": 0,
+      "bodyMatched": 22,
+      "deferred": 156,
+      "reclassified": 20
+    },
+    {
+      "id": "pharmexec",
+      "name": "Pharmaceutical Executive",
+      "checkedAt": "2026-10-06T01:41:40.623286+00:00",
+      "status": "ok",
+      "discovered": 100,
+      "new": 0,
+      "errors": 0,
+      "bodyMatched": 8,
+      "deferred": 60,
+      "reclassified": 8
+    },
+    {
+      "id": "stat",
+      "name": "STAT",
+      "checkedAt": "2026-10-06T01:41:40.623286+00:00",
+      "status": "ok",
+      "discovered": 31,
+      "new": 0,
+      "errors": 0,
+      "bodyMatched": 0,
+      "deferred": 0,
+      "collectionMode": "rss-only"
+    },
+    {
+      "id": "biopharmadive",
+      "name": "BioPharma Dive",
+      "checkedAt": "2026-10-06T01:41:40.623286+00:00",
+      "status": "ok",
+      "discovered": 10,
+      "new": 0,
+      "errors": 0,
+      "bodyMatched": 0,
+      "deferred": 0,
+      "reclassified": 1,
+      "collectionMode": "rss-only"
+    },
+    {
+      "id": "fiercebiotech",
+      "name": "Fierce Biotech",
+      "checkedAt": "2026-10-06T01:41:40.623286+00:00",
+      "status": "ok",
+      "discovered": 25,
+      "new": 3,
+      "errors": 0,
+      "bodyMatched": 13,
+      "deferred": 0,
+      "reclassified": 10
+    },
+    {
+      "id": "gen",
+      "name": "GEN",
+      "checkedAt": "2026-10-06T01:41:40.623286+00:00",
+      "status": "ok",
+      "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
       "deferred": 0
     },
     {
-      "id": "biospace",
-      "name": "BioSpace",
-      "checkedAt": "2026-10-04T23:50:54.022314+00:00",
-      "status": "ok",
-      "discovered": 10,
-      "new": 0,
-      "errors": 0,
-      "bodyMatched": 0,
-      "deferred": 9
-    },
-    {
-      "id": "pharmexec",
-      "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-10-04T23:50:54.022314+00:00",
-      "status": "ok",
-      "discovered": 100,
-      "new": 0,
-      "errors": 0,
-      "bodyMatched": 0,
-      "deferred": 96
-    },
-    {
-      "id": "stat",
-      "name": "STAT",
-      "checkedAt": "2026-10-04T23:50:54.022314+00:00",
-      "status": "ok",
-      "discovered": 31,
-      "new": 0,
-      "errors": 0,
-      "bodyMatched": 0,
-      "deferred": 31,
-      "collectionMode": "rss-only"
-    },
-    {
-      "id": "biopharmadive",
-      "name": "BioPharma Dive",
-      "checkedAt": "2026-10-04T23:50:54.022314+00:00",
-      "status": "ok",
-      "discovered": 10,
-      "new": 0,
-      "errors": 0,
-      "bodyMatched": 0,
-      "deferred": 9,
-      "collectionMode": "rss-only"
-    },
-    {
-      "id": "fiercebiotech",
-      "name": "Fierce Biotech",
-      "checkedAt": "2026-10-04T23:50:54.022314+00:00",
-      "status": "ok",
-      "discovered": 25,
-      "new": 0,
-      "errors": 0,
-      "bodyMatched": 0,
-      "deferred": 21
-    },
-    {
-      "id": "gen",
-      "name": "GEN",
-      "checkedAt": "2026-10-04T23:50:54.022314+00:00",
-      "status": "ok",
-      "discovered": 10,
-      "new": 0,
-      "errors": 0,
-      "bodyMatched": 0,
-      "deferred": 10
-    },
-    {
       "id": "ddd",
       "name": "Drug Discovery & Development",
-      "checkedAt": "2026-10-04T23:50:54.022314+00:00",
+      "checkedAt": "2026-10-06T01:41:40.623286+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
-      "bodyMatched": 0,
-      "deferred": 22
+      "bodyMatched": 3,
+      "deferred": 0,
+      "reclassified": 3
     }
   ],
   "molecules": [
