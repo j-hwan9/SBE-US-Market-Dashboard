@@ -5,10 +5,26 @@
     "Policy"
   ],
   "classificationVersion": 2,
-  "classificationPending": 21,
-  "updatedAt": "2026-10-06T01:41:40.623286+00:00",
-  "checkedAt": "2026-10-06T01:41:40.623286+00:00",
+  "classificationPending": 5,
+  "updatedAt": "2026-10-07T00:22:57.516303+00:00",
+  "checkedAt": "2026-10-07T00:22:57.516303+00:00",
   "articles": [
+    {
+      "id": "7b2779506e16d24e6c91",
+      "title": "AbbVie, Genmab's Epkinly sets ‘new standard of care’ in first-line lymphoma in Phase 3",
+      "url": "https://www.biospace.com/drug-development/abbvie-genmabs-epkinly-sets-new-standard-of-care-in-first-line-lymphoma-in-phase-3",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-06T14:10:59+00:00",
+      "molecules": [
+        "rituximab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-07T00:22:57.516303+00:00",
+      "type": "article"
+    },
     {
       "id": "2812ec2629b655695e48",
       "title": "OMLYCLO® (omalizumab-igec), the first and only FDA-approved interchangeable biosimilar to XOLAIR®, now commercially available in the U.S.",
@@ -776,7 +792,7 @@
         "trastuzumab"
       ],
       "topics": [],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-19T22:41:00.574082+00:00",
       "type": "press-release"
@@ -793,7 +809,7 @@
         "Market overall",
         "Policy"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-19T22:41:00.574082+00:00",
       "type": "press-release"
@@ -826,7 +842,7 @@
         "trastuzumab"
       ],
       "topics": [],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-16T23:33:50.855087+00:00",
       "type": "press-release"
@@ -842,7 +858,7 @@
         "bevacizumab"
       ],
       "topics": [],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-16T23:33:50.855087+00:00",
       "type": "press-release"
@@ -858,7 +874,7 @@
         "natalizumab"
       ],
       "topics": [],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-17T01:08:28.305951+00:00",
       "type": "press-release"
@@ -875,7 +891,7 @@
         "ustekinumab"
       ],
       "topics": [],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-15T23:23:31.776424+00:00",
       "type": "article"
@@ -908,7 +924,7 @@
         "Market overall",
         "Policy"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-14T23:40:47.951577+00:00",
       "type": "article"
@@ -924,7 +940,7 @@
         "bevacizumab"
       ],
       "topics": [],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-14T23:40:47.951577+00:00",
       "type": "press-release"
@@ -940,7 +956,7 @@
         "bevacizumab"
       ],
       "topics": [],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-11T22:57:00.186987+00:00",
       "type": "press-release"
@@ -956,7 +972,7 @@
         "infliximab"
       ],
       "topics": [],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-12T22:49:04.999230+00:00",
       "type": "press-release"
@@ -973,7 +989,7 @@
         "pembrolizumab"
       ],
       "topics": [],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-10T22:55:25.857534+00:00",
       "type": "article"
@@ -989,7 +1005,7 @@
         "tocilizumab"
       ],
       "topics": [],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-10T22:55:25.857534+00:00",
       "type": "press-release"
@@ -1005,7 +1021,7 @@
         "adalimumab"
       ],
       "topics": [],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-10T22:55:25.857534+00:00",
       "type": "press-release"
@@ -1067,7 +1083,7 @@
         "Market overall",
         "Policy"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-09T09:19:16.698009+00:00",
       "type": "article"
@@ -1086,7 +1102,7 @@
         "Market overall",
         "Policy"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-08T23:52:57.907395+00:00",
       "type": "press-release"
@@ -1395,7 +1411,7 @@
       "topics": [
         "Market overall"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-09T03:53:47.818942+00:00",
       "type": "article"
@@ -1598,104 +1614,7 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-10-06T01:41:40.623286+00:00",
-      "status": "ok",
-      "discovered": 10,
-      "new": 0,
-      "errors": 0,
-      "bodyMatched": 15,
-      "deferred": 0,
-      "reclassified": 15
-    },
-    {
-      "id": "drugchannels",
-      "name": "Drug Channels",
-      "checkedAt": "2026-10-06T01:41:40.623286+00:00",
-      "status": "partial",
-      "discovered": 25,
-      "new": 0,
-      "errors": 25,
-      "bodyMatched": 0,
-      "deferred": 0,
-      "lastError": "Unexpected publisher redirect/host: www.google.com"
-    },
-    {
-      "id": "fierce",
-      "name": "Fierce Pharma",
-      "checkedAt": "2026-10-06T01:41:40.623286+00:00",
-      "status": "ok",
-      "discovered": 6,
-      "new": 0,
-      "errors": 0,
-      "bodyMatched": 7,
-      "deferred": 0,
-      "reclassified": 7
-    },
-    {
-      "id": "biospace",
-      "name": "BioSpace",
-      "checkedAt": "2026-10-06T01:41:40.623286+00:00",
-      "status": "ok",
-      "discovered": 196,
-      "new": 2,
-      "errors": 0,
-      "bodyMatched": 22,
-      "deferred": 156,
-      "reclassified": 20
-    },
-    {
-      "id": "pharmexec",
-      "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-10-06T01:41:40.623286+00:00",
-      "status": "ok",
-      "discovered": 100,
-      "new": 0,
-      "errors": 0,
-      "bodyMatched": 8,
-      "deferred": 60,
-      "reclassified": 8
-    },
-    {
-      "id": "stat",
-      "name": "STAT",
-      "checkedAt": "2026-10-06T01:41:40.623286+00:00",
-      "status": "ok",
-      "discovered": 31,
-      "new": 0,
-      "errors": 0,
-      "bodyMatched": 0,
-      "deferred": 0,
-      "collectionMode": "rss-only"
-    },
-    {
-      "id": "biopharmadive",
-      "name": "BioPharma Dive",
-      "checkedAt": "2026-10-06T01:41:40.623286+00:00",
-      "status": "ok",
-      "discovered": 10,
-      "new": 0,
-      "errors": 0,
-      "bodyMatched": 0,
-      "deferred": 0,
-      "reclassified": 1,
-      "collectionMode": "rss-only"
-    },
-    {
-      "id": "fiercebiotech",
-      "name": "Fierce Biotech",
-      "checkedAt": "2026-10-06T01:41:40.623286+00:00",
-      "status": "ok",
-      "discovered": 25,
-      "new": 3,
-      "errors": 0,
-      "bodyMatched": 13,
-      "deferred": 0,
-      "reclassified": 10
-    },
-    {
-      "id": "gen",
-      "name": "GEN",
-      "checkedAt": "2026-10-06T01:41:40.623286+00:00",
+      "checkedAt": "2026-10-07T00:22:57.516303+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -1704,16 +1623,108 @@
       "deferred": 0
     },
     {
-      "id": "ddd",
-      "name": "Drug Discovery & Development",
-      "checkedAt": "2026-10-06T01:41:40.623286+00:00",
+      "id": "drugchannels",
+      "name": "Drug Channels",
+      "checkedAt": "2026-10-07T00:22:57.516303+00:00",
+      "status": "partial",
+      "discovered": 25,
+      "new": 0,
+      "errors": 23,
+      "bodyMatched": 1,
+      "deferred": 0,
+      "lastError": "Unexpected publisher redirect/host: www.google.com",
+      "reclassified": 1
+    },
+    {
+      "id": "fierce",
+      "name": "Fierce Pharma",
+      "checkedAt": "2026-10-07T00:22:57.516303+00:00",
+      "status": "ok",
+      "discovered": 6,
+      "new": 0,
+      "errors": 0,
+      "bodyMatched": 0,
+      "deferred": 0
+    },
+    {
+      "id": "biospace",
+      "name": "BioSpace",
+      "checkedAt": "2026-10-07T00:22:57.516303+00:00",
+      "status": "ok",
+      "discovered": 312,
+      "new": 1,
+      "errors": 0,
+      "bodyMatched": 16,
+      "deferred": 270,
+      "reclassified": 15
+    },
+    {
+      "id": "pharmexec",
+      "name": "Pharmaceutical Executive",
+      "checkedAt": "2026-10-07T00:22:57.516303+00:00",
+      "status": "ok",
+      "discovered": 100,
+      "new": 0,
+      "errors": 0,
+      "bodyMatched": 0,
+      "deferred": 56
+    },
+    {
+      "id": "stat",
+      "name": "STAT",
+      "checkedAt": "2026-10-07T00:22:57.516303+00:00",
+      "status": "ok",
+      "discovered": 31,
+      "new": 0,
+      "errors": 0,
+      "bodyMatched": 0,
+      "deferred": 27,
+      "collectionMode": "rss-only"
+    },
+    {
+      "id": "biopharmadive",
+      "name": "BioPharma Dive",
+      "checkedAt": "2026-10-07T00:22:57.516303+00:00",
+      "status": "ok",
+      "discovered": 10,
+      "new": 0,
+      "errors": 0,
+      "bodyMatched": 0,
+      "deferred": 4,
+      "collectionMode": "rss-only"
+    },
+    {
+      "id": "fiercebiotech",
+      "name": "Fierce Biotech",
+      "checkedAt": "2026-10-07T00:22:57.516303+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
-      "bodyMatched": 3,
-      "deferred": 0,
-      "reclassified": 3
+      "bodyMatched": 0,
+      "deferred": 14
+    },
+    {
+      "id": "gen",
+      "name": "GEN",
+      "checkedAt": "2026-10-07T00:22:57.516303+00:00",
+      "status": "ok",
+      "discovered": 10,
+      "new": 0,
+      "errors": 0,
+      "bodyMatched": 0,
+      "deferred": 1
+    },
+    {
+      "id": "ddd",
+      "name": "Drug Discovery & Development",
+      "checkedAt": "2026-10-07T00:22:57.516303+00:00",
+      "status": "ok",
+      "discovered": 25,
+      "new": 0,
+      "errors": 0,
+      "bodyMatched": 0,
+      "deferred": 22
     }
   ],
   "molecules": [
