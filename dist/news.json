@@ -5,10 +5,159 @@
     "Policy"
   ],
   "classificationVersion": 2,
-  "classificationPending": 5,
-  "updatedAt": "2026-10-07T00:22:57.516303+00:00",
-  "checkedAt": "2026-10-07T00:22:57.516303+00:00",
+  "classificationPending": 4,
+  "updatedAt": "2026-10-08T00:44:02.966724+00:00",
+  "checkedAt": "2026-10-08T00:44:02.966724+00:00",
   "articles": [
+    {
+      "id": "25278f1e332b608baf0d",
+      "title": "Pharmaceutical Executive Daily: FDA Approves Tukysa Plus Trastuzumab and Pertuzumab",
+      "url": "https://www.pharmexec.com/view/daily-fda-approves-tukysa-plus-trastuzumab-pertuzumab",
+      "source": "Pharmaceutical Executive",
+      "sourceId": "pharmexec",
+      "publishedAt": "2026-10-07T19:40:45+00:00",
+      "molecules": [
+        "pertuzumab",
+        "trastuzumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "title-description",
+      "firstSeenAt": "2026-10-08T00:44:02.966724+00:00",
+      "type": "article"
+    },
+    {
+      "id": "a4e03a61615eb3af4b37",
+      "title": "FDA Approves Tukysa Plus Trastuzumab and Pertuzumab as First-Line Maintenance Treatment for HER2-Positive Metastatic Breast Cancer",
+      "url": "https://www.pharmexec.com/view/fda-approves-tukysa-trastuzumab-pertuzumab-her2-positive-metastatic-breast-cancer",
+      "source": "Pharmaceutical Executive",
+      "sourceId": "pharmexec",
+      "publishedAt": "2026-10-07T17:43:52+00:00",
+      "molecules": [
+        "pertuzumab",
+        "trastuzumab"
+      ],
+      "topics": [
+        "Market overall",
+        "Policy"
+      ],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-08T00:44:02.966724+00:00",
+      "type": "article"
+    },
+    {
+      "id": "95aba149e474197ad690",
+      "title": "Palindrome Pharma Launches in Canada to Unlock Access to High-Quality Biosimilar Medicines",
+      "url": "https://www.biospace.com/press-releases/palindrome-pharma-launches-in-canada-to-unlock-access-to-high-quality-biosimilar-medicines",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-07T16:24:13+00:00",
+      "molecules": [],
+      "topics": [
+        "Market overall"
+      ],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-08T00:44:02.966724+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "ae1226bd9094f32438cd",
+      "title": "Halozyme prevails in patent fight with Merck; Enliven readies anticipated leukemia trial",
+      "url": "https://www.biopharmadive.com/news/halozyme-merck-europe-enliven-insmed-rougetx-kymathera/832282/",
+      "source": "BioPharma Dive",
+      "sourceId": "biopharmadive",
+      "publishedAt": "2026-10-07T15:21:00+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "feed-title-description",
+      "firstSeenAt": "2026-10-08T00:44:02.966724+00:00",
+      "type": "article"
+    },
+    {
+      "id": "4fa2e884f30ca9856d56",
+      "title": "STAT+: Merck suffers a setback in Europe over its new Keytruda formulation",
+      "url": "https://www.statnews.com/pharmalot/2026/10/07/merck-suffers-setback-in-europe-over-new-keytruda-formulation/",
+      "source": "STAT",
+      "sourceId": "stat",
+      "publishedAt": "2026-10-07T14:06:29+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "feed-title-description",
+      "firstSeenAt": "2026-10-08T00:44:02.966724+00:00",
+      "type": "article"
+    },
+    {
+      "id": "b4dd1cab48f1add0d609",
+      "title": "Tempus Announces Multi-Year Collaboration with Moderna and Merck",
+      "url": "https://www.biospace.com/press-releases/tempus-announces-multi-year-collaboration-with-moderna-and-merck",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-07T13:23:48+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-08T00:44:02.966724+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "506118bfbdc48513c1d2",
+      "title": "AbbVie's Telisotuzumab Adizutecan (Temab-A) Receives Two Breakthrough Therapy Designations From the U.S. FDA for CRC and NSCLC",
+      "url": "https://www.biospace.com/press-releases/abbvies-telisotuzumab-adizutecan-temab-a-receives-two-breakthrough-therapy-designations-from-the-u-s-fda-for-crc-and-nsclc",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-07T13:16:24+00:00",
+      "molecules": [
+        "bevacizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-08T00:44:02.966724+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "91dba557041c0fc68b82",
+      "title": "SEMA4D Blockade Reshapes the Tumor Immune Environment in Neoadjuvant Melanoma Study",
+      "url": "https://www.biospace.com/press-releases/sema4d-blockade-reshapes-the-tumor-immune-environment-in-neoadjuvant-melanoma-study",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-07T13:10:02+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-08T00:44:02.966724+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "e1dfc60c0d6c6346eae6",
+      "title": "Kyverna Therapeutics to Present Positive Data in Stiff Person Syndrome and Progressive Multiple Sclerosis at MSToronto2026",
+      "url": "https://www.biospace.com/press-releases/kyverna-therapeutics-to-present-positive-data-in-stiff-person-syndrome-and-progressive-multiple-sclerosis-at-mstoronto2026",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-07T13:04:49+00:00",
+      "molecules": [
+        "rituximab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-08T00:44:02.966724+00:00",
+      "type": "press-release"
+    },
     {
       "id": "7b2779506e16d24e6c91",
       "title": "AbbVie, Genmab's Epkinly sets ‘new standard of care’ in first-line lymphoma in Phase 3",
@@ -677,7 +826,7 @@
       "topics": [
         "Market overall"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-22T23:30:48.575080+00:00",
       "type": "article"
@@ -1614,7 +1763,7 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-10-07T00:22:57.516303+00:00",
+      "checkedAt": "2026-10-08T00:44:02.966724+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -1625,20 +1774,20 @@
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-10-07T00:22:57.516303+00:00",
+      "checkedAt": "2026-10-08T00:44:02.966724+00:00",
       "status": "partial",
       "discovered": 25,
       "new": 0,
-      "errors": 23,
+      "errors": 21,
       "bodyMatched": 1,
-      "deferred": 0,
-      "lastError": "Unexpected publisher redirect/host: www.google.com",
-      "reclassified": 1
+      "deferred": 1,
+      "reclassified": 1,
+      "lastError": "Unexpected publisher redirect/host: www.google.com"
     },
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-10-07T00:22:57.516303+00:00",
+      "checkedAt": "2026-10-08T00:44:02.966724+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -1649,54 +1798,53 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-10-07T00:22:57.516303+00:00",
+      "checkedAt": "2026-10-08T00:44:02.966724+00:00",
       "status": "ok",
-      "discovered": 312,
-      "new": 1,
+      "discovered": 295,
+      "new": 5,
       "errors": 0,
-      "bodyMatched": 16,
-      "deferred": 270,
-      "reclassified": 15
+      "bodyMatched": 5,
+      "deferred": 253
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-10-07T00:22:57.516303+00:00",
+      "checkedAt": "2026-10-08T00:44:02.966724+00:00",
       "status": "ok",
       "discovered": 100,
-      "new": 0,
+      "new": 2,
       "errors": 0,
-      "bodyMatched": 0,
-      "deferred": 56
+      "bodyMatched": 1,
+      "deferred": 72
     },
     {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-10-07T00:22:57.516303+00:00",
+      "checkedAt": "2026-10-08T00:44:02.966724+00:00",
       "status": "ok",
       "discovered": 31,
-      "new": 0,
+      "new": 1,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 27,
+      "deferred": 24,
       "collectionMode": "rss-only"
     },
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-10-07T00:22:57.516303+00:00",
+      "checkedAt": "2026-10-08T00:44:02.966724+00:00",
       "status": "ok",
       "discovered": 10,
-      "new": 0,
+      "new": 1,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 4,
+      "deferred": 7,
       "collectionMode": "rss-only"
     },
     {
       "id": "fiercebiotech",
       "name": "Fierce Biotech",
-      "checkedAt": "2026-10-07T00:22:57.516303+00:00",
+      "checkedAt": "2026-10-08T00:44:02.966724+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
@@ -1707,18 +1855,18 @@
     {
       "id": "gen",
       "name": "GEN",
-      "checkedAt": "2026-10-07T00:22:57.516303+00:00",
+      "checkedAt": "2026-10-08T00:44:02.966724+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 1
+      "deferred": 3
     },
     {
       "id": "ddd",
       "name": "Drug Discovery & Development",
-      "checkedAt": "2026-10-07T00:22:57.516303+00:00",
+      "checkedAt": "2026-10-08T00:44:02.966724+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
