@@ -6,9 +6,80 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 4,
-  "updatedAt": "2026-10-08T00:44:02.966724+00:00",
-  "checkedAt": "2026-10-08T00:44:02.966724+00:00",
+  "updatedAt": "2026-10-09T01:00:19.105450+00:00",
+  "checkedAt": "2026-10-09T01:00:19.105450+00:00",
   "articles": [
+    {
+      "id": "e374d5898ee6e9b2b375",
+      "title": "Eli Lilly and the LA Dodgers: A tale of 2 dynasties",
+      "url": "https://www.biospace.com/business/eli-lilly-and-the-la-dodgers-a-tale-of-2-dynasties",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-08T19:06:10+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-09T01:00:19.105450+00:00",
+      "type": "article"
+    },
+    {
+      "id": "c3d222261ed5709c6f8e",
+      "title": "Merck barred from making subcutaneous Keytruda in 8 European countries",
+      "url": "https://www.biospace.com/drug-delivery/merck-barred-from-making-subcutaneous-keytruda-in-8-european-countries",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-08T18:36:10+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-09T01:00:19.105450+00:00",
+      "type": "article"
+    },
+    {
+      "id": "af11eeea384de42a7cd6",
+      "title": "Pharmaceutical Market Top Drugs: Keytruda and Zepbound Latest Trends by Towards Healthcare",
+      "url": "https://www.biospace.com/press-releases/pharmaceutical-market-top-drugs-keytruda-and-zepbound-latest-trends-by-towards-healthcare",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-08T14:28:47+00:00",
+      "molecules": [
+        "bevacizumab",
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-09T01:00:19.105450+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "f1759fef392b35994098",
+      "title": "New Expansion of Biosimilar Partnership: Samsung Bioepis and Teva Will Team up on Fasenra and Ilaris biosimilars, Plus 4 More",
+      "url": "https://biosimilarsrr.com/2026/10/08/new-expansion-of-biosimilar-partnership-samsung-bioepis-and-teva-will-team-up-on-fasenra-and-ilaris-biosimilars-plus-4-more/",
+      "source": "BR&R",
+      "sourceId": "brr",
+      "publishedAt": "2026-10-08T12:57:22+00:00",
+      "molecules": [
+        "aflibercept",
+        "eculizumab",
+        "infliximab",
+        "ranibizumab",
+        "ustekinumab"
+      ],
+      "topics": [
+        "Market overall"
+      ],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-09T01:00:19.105450+00:00",
+      "type": "article"
+    },
     {
       "id": "25278f1e332b608baf0d",
       "title": "Pharmaceutical Executive Daily: FDA Approves Tukysa Plus Trastuzumab and Pertuzumab",
@@ -1763,31 +1834,30 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-10-08T00:44:02.966724+00:00",
+      "checkedAt": "2026-10-09T01:00:19.105450+00:00",
       "status": "ok",
       "discovered": 10,
-      "new": 0,
+      "new": 1,
       "errors": 0,
-      "bodyMatched": 0,
+      "bodyMatched": 1,
       "deferred": 0
     },
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-10-08T00:44:02.966724+00:00",
+      "checkedAt": "2026-10-09T01:00:19.105450+00:00",
       "status": "partial",
       "discovered": 25,
       "new": 0,
-      "errors": 21,
-      "bodyMatched": 1,
-      "deferred": 1,
-      "reclassified": 1,
+      "errors": 22,
+      "bodyMatched": 0,
+      "deferred": 2,
       "lastError": "Unexpected publisher redirect/host: www.google.com"
     },
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-10-08T00:44:02.966724+00:00",
+      "checkedAt": "2026-10-09T01:00:19.105450+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -1798,75 +1868,75 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-10-08T00:44:02.966724+00:00",
+      "checkedAt": "2026-10-09T01:00:19.105450+00:00",
       "status": "ok",
-      "discovered": 295,
-      "new": 5,
+      "discovered": 335,
+      "new": 3,
       "errors": 0,
-      "bodyMatched": 5,
-      "deferred": 253
+      "bodyMatched": 3,
+      "deferred": 289
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-10-08T00:44:02.966724+00:00",
+      "checkedAt": "2026-10-09T01:00:19.105450+00:00",
       "status": "ok",
       "discovered": 100,
-      "new": 2,
+      "new": 0,
       "errors": 0,
-      "bodyMatched": 1,
-      "deferred": 72
+      "bodyMatched": 0,
+      "deferred": 86
     },
     {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-10-08T00:44:02.966724+00:00",
+      "checkedAt": "2026-10-09T01:00:19.105450+00:00",
       "status": "ok",
-      "discovered": 31,
-      "new": 1,
+      "discovered": 30,
+      "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 24,
+      "deferred": 22,
       "collectionMode": "rss-only"
     },
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-10-08T00:44:02.966724+00:00",
+      "checkedAt": "2026-10-09T01:00:19.105450+00:00",
       "status": "ok",
       "discovered": 10,
-      "new": 1,
+      "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 7,
+      "deferred": 6,
       "collectionMode": "rss-only"
     },
     {
       "id": "fiercebiotech",
       "name": "Fierce Biotech",
-      "checkedAt": "2026-10-08T00:44:02.966724+00:00",
+      "checkedAt": "2026-10-09T01:00:19.105450+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 14
+      "deferred": 17
     },
     {
       "id": "gen",
       "name": "GEN",
-      "checkedAt": "2026-10-08T00:44:02.966724+00:00",
+      "checkedAt": "2026-10-09T01:00:19.105450+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 3
+      "deferred": 4
     },
     {
       "id": "ddd",
       "name": "Drug Discovery & Development",
-      "checkedAt": "2026-10-08T00:44:02.966724+00:00",
+      "checkedAt": "2026-10-09T01:00:19.105450+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
