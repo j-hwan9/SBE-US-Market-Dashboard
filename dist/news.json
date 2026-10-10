@@ -5,10 +5,76 @@
     "Policy"
   ],
   "classificationVersion": 2,
-  "classificationPending": 4,
-  "updatedAt": "2026-10-09T01:00:19.105450+00:00",
-  "checkedAt": "2026-10-09T01:00:19.105450+00:00",
+  "classificationPending": 3,
+  "updatedAt": "2026-10-10T00:28:32.391869+00:00",
+  "checkedAt": "2026-10-10T00:28:32.391869+00:00",
   "articles": [
+    {
+      "id": "62b96c53e875f27408bd",
+      "title": "Outlook Therapeutics Names Greg DiPasquale Chief Commercial Officer",
+      "url": "https://www.biospace.com/press-releases/outlook-therapeutics-names-greg-dipasquale-chief-commercial-officer",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-09T13:17:16+00:00",
+      "molecules": [
+        "aflibercept",
+        "bevacizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-10T00:28:32.391869+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "6acb9e8a9d57c678e22c",
+      "title": "New Johnson & Johnson ICOTYDE® (icotrokinra) long-term data demonstrate robust 2-year results in the treatment of adults and adolescents with plaque psoriasis",
+      "url": "https://www.biospace.com/press-releases/new-johnson-johnson-icotyde-icotrokinra-long-term-data-demonstrate-robust-2-year-results-in-the-treatment-of-adults-and-adolescents-with-plaque-psoriasis",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-09T12:08:50+00:00",
+      "molecules": [
+        "ustekinumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-10T00:28:32.391869+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "bb65112e630e0d0e0184",
+      "title": "Teva Announces U.S. Food and Drug Administration (FDA) Approval of WELTRUZA™ (Olanzapine) For Extended-Release Injectable Suspension, as the First and Only Once-Monthly Subcutaneous Injectable Olanzapine for Adults with Schizophrenia",
+      "url": "https://www.biospace.com/press-releases/teva-announces-u-s-food-and-drug-administration-fda-approval-of-weltruza-olanzapine-for-extended-release-injectable-suspension-as-the-first-and-only-once-monthly-subcutaneous-injectable-olanzapine-for-adults-with-schizophrenia",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-09T12:07:33+00:00",
+      "molecules": [],
+      "topics": [
+        "Market overall",
+        "Policy"
+      ],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-10T00:28:32.391869+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "1a2b58abb46def0ed535",
+      "title": "FDA Approves Genentech’s Tecentriq in Combination With a Fluoropyrimidine and Oxaliplatin for the Adjuvant Treatment of a Certain Type of Stage III Colon Cancer",
+      "url": "https://www.biospace.com/press-releases/fda-approves-genentechs-tecentriq-in-combination-with-a-fluoropyrimidine-and-oxaliplatin-for-the-adjuvant-treatment-of-a-certain-type-of-stage-iii-colon-cancer",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-09T09:39:13+00:00",
+      "molecules": [
+        "bevacizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-10T00:28:32.391869+00:00",
+      "type": "press-release"
+    },
     {
       "id": "e374d5898ee6e9b2b375",
       "title": "Eli Lilly and the LA Dodgers: A tale of 2 dynasties",
@@ -1375,7 +1441,7 @@
       "topics": [
         "Market overall"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-09T03:53:47.818942+00:00",
       "type": "article"
@@ -1834,30 +1900,31 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-10-09T01:00:19.105450+00:00",
+      "checkedAt": "2026-10-10T00:28:32.391869+00:00",
       "status": "ok",
       "discovered": 10,
-      "new": 1,
+      "new": 0,
       "errors": 0,
-      "bodyMatched": 1,
+      "bodyMatched": 0,
       "deferred": 0
     },
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-10-09T01:00:19.105450+00:00",
+      "checkedAt": "2026-10-10T00:28:32.391869+00:00",
       "status": "partial",
       "discovered": 25,
       "new": 0,
-      "errors": 22,
-      "bodyMatched": 0,
+      "errors": 11,
+      "bodyMatched": 1,
       "deferred": 2,
-      "lastError": "Unexpected publisher redirect/host: www.google.com"
+      "lastError": "Unexpected publisher redirect/host: www.google.com",
+      "reclassified": 1
     },
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-10-09T01:00:19.105450+00:00",
+      "checkedAt": "2026-10-10T00:28:32.391869+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -1868,75 +1935,75 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-10-09T01:00:19.105450+00:00",
+      "checkedAt": "2026-10-10T00:28:32.391869+00:00",
       "status": "ok",
-      "discovered": 335,
-      "new": 3,
+      "discovered": 242,
+      "new": 4,
       "errors": 0,
-      "bodyMatched": 3,
-      "deferred": 289
+      "bodyMatched": 4,
+      "deferred": 198
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-10-09T01:00:19.105450+00:00",
+      "checkedAt": "2026-10-10T00:28:32.391869+00:00",
       "status": "ok",
       "discovered": 100,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 86
+      "deferred": 89
     },
     {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-10-09T01:00:19.105450+00:00",
+      "checkedAt": "2026-10-10T00:28:32.391869+00:00",
       "status": "ok",
-      "discovered": 30,
+      "discovered": 31,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 22,
+      "deferred": 26,
       "collectionMode": "rss-only"
     },
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-10-09T01:00:19.105450+00:00",
+      "checkedAt": "2026-10-10T00:28:32.391869+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 6,
+      "deferred": 5,
       "collectionMode": "rss-only"
     },
     {
       "id": "fiercebiotech",
       "name": "Fierce Biotech",
-      "checkedAt": "2026-10-09T01:00:19.105450+00:00",
+      "checkedAt": "2026-10-10T00:28:32.391869+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 17
+      "deferred": 19
     },
     {
       "id": "gen",
       "name": "GEN",
-      "checkedAt": "2026-10-09T01:00:19.105450+00:00",
+      "checkedAt": "2026-10-10T00:28:32.391869+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 4
+      "deferred": 6
     },
     {
       "id": "ddd",
       "name": "Drug Discovery & Development",
-      "checkedAt": "2026-10-09T01:00:19.105450+00:00",
+      "checkedAt": "2026-10-10T00:28:32.391869+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
