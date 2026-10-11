@@ -6,8 +6,8 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 3,
-  "updatedAt": "2026-10-10T00:28:32.391869+00:00",
-  "checkedAt": "2026-10-10T00:28:32.391869+00:00",
+  "updatedAt": "2026-10-11T00:06:55.527484+00:00",
+  "checkedAt": "2026-10-11T00:06:55.527484+00:00",
   "articles": [
     {
       "id": "62b96c53e875f27408bd",
@@ -73,6 +73,39 @@
       "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-10-10T00:28:32.391869+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "045d6c181252294653a4",
+      "title": "Everest Medicines Appoints Two Veteran mRNA Cancer Vaccine Scientists to Advance Global Clinical Development",
+      "url": "https://www.biospace.com/press-releases/everest-medicines-appoints-two-veteran-mrna-cancer-vaccine-scientists-to-advance-global-clinical-development",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-09T03:53:33+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-11T00:06:55.527484+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "005cdfd1330b57ae1166",
+      "title": "Lupin Receives U.S. FDA Approval for Phytonadione Injectable Emulsion, USP",
+      "url": "https://www.biospace.com/press-releases/lupin-receives-u-s-fda-approval-for-phytonadione-injectable-emulsion-usp",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-09T02:02:17+00:00",
+      "molecules": [],
+      "topics": [
+        "Market overall",
+        "Policy"
+      ],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-11T00:06:55.527484+00:00",
       "type": "press-release"
     },
     {
@@ -1900,7 +1933,7 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-10-10T00:28:32.391869+00:00",
+      "checkedAt": "2026-10-11T00:06:55.527484+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -1911,20 +1944,19 @@
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-10-10T00:28:32.391869+00:00",
+      "checkedAt": "2026-10-11T00:06:55.527484+00:00",
       "status": "partial",
       "discovered": 25,
       "new": 0,
       "errors": 11,
-      "bodyMatched": 1,
-      "deferred": 2,
-      "lastError": "Unexpected publisher redirect/host: www.google.com",
-      "reclassified": 1
+      "bodyMatched": 0,
+      "deferred": 12,
+      "lastError": "Unexpected publisher redirect/host: www.google.com"
     },
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-10-10T00:28:32.391869+00:00",
+      "checkedAt": "2026-10-11T00:06:55.527484+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -1935,75 +1967,75 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-10-10T00:28:32.391869+00:00",
+      "checkedAt": "2026-10-11T00:06:55.527484+00:00",
       "status": "ok",
-      "discovered": 242,
-      "new": 4,
+      "discovered": 98,
+      "new": 2,
       "errors": 0,
-      "bodyMatched": 4,
-      "deferred": 198
+      "bodyMatched": 2,
+      "deferred": 52
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-10-10T00:28:32.391869+00:00",
+      "checkedAt": "2026-10-11T00:06:55.527484+00:00",
       "status": "ok",
       "discovered": 100,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 89
+      "deferred": 95
     },
     {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-10-10T00:28:32.391869+00:00",
+      "checkedAt": "2026-10-11T00:06:55.527484+00:00",
       "status": "ok",
       "discovered": 31,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 26,
+      "deferred": 30,
       "collectionMode": "rss-only"
     },
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-10-10T00:28:32.391869+00:00",
+      "checkedAt": "2026-10-11T00:06:55.527484+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 5,
+      "deferred": 9,
       "collectionMode": "rss-only"
     },
     {
       "id": "fiercebiotech",
       "name": "Fierce Biotech",
-      "checkedAt": "2026-10-10T00:28:32.391869+00:00",
+      "checkedAt": "2026-10-11T00:06:55.527484+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 19
+      "deferred": 23
     },
     {
       "id": "gen",
       "name": "GEN",
-      "checkedAt": "2026-10-10T00:28:32.391869+00:00",
+      "checkedAt": "2026-10-11T00:06:55.527484+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 6
+      "deferred": 10
     },
     {
       "id": "ddd",
       "name": "Drug Discovery & Development",
-      "checkedAt": "2026-10-10T00:28:32.391869+00:00",
+      "checkedAt": "2026-10-11T00:06:55.527484+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
