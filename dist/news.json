@@ -5,10 +5,109 @@
     "Policy"
   ],
   "classificationVersion": 2,
-  "classificationPending": 3,
-  "updatedAt": "2026-10-12T00:13:31.117268+00:00",
-  "checkedAt": "2026-10-12T00:13:31.117268+00:00",
+  "classificationPending": 0,
+  "updatedAt": "2026-10-13T02:26:20.062092+00:00",
+  "checkedAt": "2026-10-13T02:26:20.062092+00:00",
   "articles": [
+    {
+      "id": "83e1c492623839cc54dc",
+      "title": "Teva to Host R&D Day on Wednesday, November 11 in New York City",
+      "url": "https://www.biospace.com/press-releases/teva-to-host-r-d-day-on-wednesday-november-11-in-new-york-city",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-13T02:22:49+00:00",
+      "molecules": [],
+      "topics": [
+        "Market overall"
+      ],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-13T02:26:20.062092+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "55782d94c3996d0ecd4b",
+      "title": "TREMFYA® (guselkumab) demonstrated sustained clinical and endoscopic remission through 3 years in moderately to severely active Crohn's disease",
+      "url": "https://www.biospace.com/press-releases/tremfya-guselkumab-demonstrated-sustained-clinical-and-endoscopic-remission-through-3-years-in-moderately-to-severely-active-crohns-disease",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-13T02:12:20+00:00",
+      "molecules": [
+        "ustekinumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-13T02:26:20.062092+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "fa66223fff3c3d57be76",
+      "title": "Nurix Therapeutics Reports Third Quarter 2026 Financial Results and Provides Corporate Update",
+      "url": "https://www.biospace.com/press-releases/nurix-therapeutics-reports-third-quarter-2026-financial-results-and-provides-corporate-update",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-13T02:03:52+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-13T02:26:20.062092+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "432bf8e909b248f69e53",
+      "title": "Pasatru™ (garetosmab-grts) Demonstrates Zero New Heterotopic Ossification (HO) Lesions in Adult Fibrodysplasia Ossificans Progressiva (FOP) Patients During OPTIMA Trial Extension",
+      "url": "https://www.biospace.com/press-releases/pasatru-garetosmab-grts-demonstrates-zero-new-heterotopic-ossification-ho-lesions-in-adult-fibrodysplasia-ossificans-progressiva-fop-patients-during-optima-trial-extension",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-13T01:32:19+00:00",
+      "molecules": [
+        "aflibercept"
+      ],
+      "topics": [
+        "Market overall",
+        "Policy"
+      ],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-13T02:26:20.062092+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "a53e6fddceef64b64485",
+      "title": "Roche sets sights on FDA approval decision of July 2027 with updated eye drug data",
+      "url": "https://www.fiercebiotech.com/biotech/roche-sets-sights-july-fda-ruling-updated-eye-drug-data",
+      "source": "Fierce Biotech",
+      "sourceId": "fiercebiotech",
+      "publishedAt": "2026-10-12T13:42:00+00:00",
+      "molecules": [
+        "tocilizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-13T02:26:20.062092+00:00",
+      "type": "article"
+    },
+    {
+      "id": "c6e7be8f3efbc9f11fac",
+      "title": "Merck’s deeper dive into efficacy, safety of $1.3B eye disease drug raises fears of ‘limited’ potential",
+      "url": "https://www.fiercebiotech.com/biotech/merck-co-data-raise-fears-eye-disease-drug-has-limited-potential",
+      "source": "Fierce Biotech",
+      "sourceId": "fiercebiotech",
+      "publishedAt": "2026-10-12T06:55:00+00:00",
+      "molecules": [
+        "ranibizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-13T02:26:20.062092+00:00",
+      "type": "article"
+    },
     {
       "id": "62b96c53e875f27408bd",
       "title": "Outlook Therapeutics Names Greg DiPasquale Chief Commercial Officer",
@@ -1243,7 +1342,7 @@
       "topics": [
         "Market overall"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-15T23:23:31.776424+00:00",
       "type": "article"
@@ -1544,7 +1643,7 @@
         "Market overall",
         "Policy"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-09T03:53:47.818942+00:00",
       "type": "article"
@@ -1827,7 +1926,7 @@
       "topics": [
         "Market overall"
       ],
-      "classificationSignature": "e60060bcc32f8aed58a762ae38b2fce0c8526f1f91630f3038655870c054120d",
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-09-09T09:19:16.698009+00:00",
       "type": "article"
@@ -1950,7 +2049,7 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-10-12T00:13:31.117268+00:00",
+      "checkedAt": "2026-10-13T02:26:20.062092+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -1961,19 +2060,20 @@
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-10-12T00:13:31.117268+00:00",
+      "checkedAt": "2026-10-13T02:26:20.062092+00:00",
       "status": "partial",
       "discovered": 25,
-      "new": 1,
-      "errors": 10,
-      "bodyMatched": 1,
+      "new": 0,
+      "errors": 5,
+      "bodyMatched": 3,
       "deferred": 12,
+      "reclassified": 3,
       "lastError": "Unexpected publisher redirect/host: www.google.com"
     },
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-10-12T00:13:31.117268+00:00",
+      "checkedAt": "2026-10-13T02:26:20.062092+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -1984,29 +2084,29 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-10-12T00:13:31.117268+00:00",
-      "status": "unavailable",
-      "discovered": 0,
-      "new": 0,
+      "checkedAt": "2026-10-13T02:26:20.062092+00:00",
+      "status": "ok",
+      "discovered": 152,
+      "new": 4,
       "errors": 0,
-      "bodyMatched": 0,
-      "lastError": "No article links discovered"
+      "bodyMatched": 4,
+      "deferred": 112
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-10-12T00:13:31.117268+00:00",
+      "checkedAt": "2026-10-13T02:26:20.062092+00:00",
       "status": "ok",
       "discovered": 100,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 95
+      "deferred": 91
     },
     {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-10-12T00:13:31.117268+00:00",
+      "checkedAt": "2026-10-13T02:26:20.062092+00:00",
       "status": "ok",
       "discovered": 31,
       "new": 0,
@@ -2018,41 +2118,41 @@
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-10-12T00:13:31.117268+00:00",
+      "checkedAt": "2026-10-13T02:26:20.062092+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 9,
+      "deferred": 5,
       "collectionMode": "rss-only"
     },
     {
       "id": "fiercebiotech",
       "name": "Fierce Biotech",
-      "checkedAt": "2026-10-12T00:13:31.117268+00:00",
+      "checkedAt": "2026-10-13T02:26:20.062092+00:00",
       "status": "ok",
       "discovered": 25,
-      "new": 0,
+      "new": 2,
       "errors": 0,
-      "bodyMatched": 0,
-      "deferred": 24
+      "bodyMatched": 2,
+      "deferred": 19
     },
     {
       "id": "gen",
       "name": "GEN",
-      "checkedAt": "2026-10-12T00:13:31.117268+00:00",
+      "checkedAt": "2026-10-13T02:26:20.062092+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 10
+      "deferred": 9
     },
     {
       "id": "ddd",
       "name": "Drug Discovery & Development",
-      "checkedAt": "2026-10-12T00:13:31.117268+00:00",
+      "checkedAt": "2026-10-13T02:26:20.062092+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
