@@ -6,9 +6,58 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-10-13T02:26:20.062092+00:00",
-  "checkedAt": "2026-10-13T02:26:20.062092+00:00",
+  "updatedAt": "2026-10-14T00:09:01.325177+00:00",
+  "checkedAt": "2026-10-14T00:09:01.325177+00:00",
   "articles": [
+    {
+      "id": "47c4a90fd107d48d364d",
+      "title": "J&J’s innovative medicines carried Q3 as medtech disappoints, but newer medicines absent",
+      "url": "https://www.biospace.com/j-js-innovative-medicines-carried-q3-as-medtech-disappoints-but-newer-medicines-absent",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-13T15:20:01+00:00",
+      "molecules": [
+        "golimumab",
+        "ustekinumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-14T00:09:01.325177+00:00",
+      "type": "article"
+    },
+    {
+      "id": "c679dfde18d7cc719da8",
+      "title": "BioNTech faces 3rd mRNA setback as head and neck cancer therapy fails to improve survival",
+      "url": "https://www.biospace.com/drug-development/biontech-faces-3rd-mrna-setback-as-head-and-neck-cancer-therapy-fails-to-improve-survival",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-13T15:00:29+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-14T00:09:01.325177+00:00",
+      "type": "article"
+    },
+    {
+      "id": "6e7bd009faa4aa3b0afe",
+      "title": "BioNTech’s mRNA cancer vaccine fails phase 3 test, significantly denting analysts’ confidence",
+      "url": "https://www.fiercebiotech.com/biotech/biontechs-mrna-cancer-vaccine-fails-phase-3-test-significantly-denting-analysts-confidence",
+      "source": "Fierce Biotech",
+      "sourceId": "fiercebiotech",
+      "publishedAt": "2026-10-13T12:49:00+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-14T00:09:01.325177+00:00",
+      "type": "article"
+    },
     {
       "id": "83e1c492623839cc54dc",
       "title": "Teva to Host R&D Day on Wednesday, November 11 in New York City",
@@ -2049,7 +2098,7 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-10-13T02:26:20.062092+00:00",
+      "checkedAt": "2026-10-14T00:09:01.325177+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -2060,20 +2109,19 @@
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-10-13T02:26:20.062092+00:00",
+      "checkedAt": "2026-10-14T00:09:01.325177+00:00",
       "status": "partial",
       "discovered": 25,
       "new": 0,
       "errors": 5,
-      "bodyMatched": 3,
-      "deferred": 12,
-      "reclassified": 3,
+      "bodyMatched": 0,
+      "deferred": 14,
       "lastError": "Unexpected publisher redirect/host: www.google.com"
     },
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-10-13T02:26:20.062092+00:00",
+      "checkedAt": "2026-10-14T00:09:01.325177+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -2084,81 +2132,81 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-10-13T02:26:20.062092+00:00",
+      "checkedAt": "2026-10-14T00:09:01.325177+00:00",
       "status": "ok",
-      "discovered": 152,
-      "new": 4,
+      "discovered": 264,
+      "new": 2,
       "errors": 0,
-      "bodyMatched": 4,
-      "deferred": 112
+      "bodyMatched": 2,
+      "deferred": 220
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-10-13T02:26:20.062092+00:00",
+      "checkedAt": "2026-10-14T00:09:01.325177+00:00",
       "status": "ok",
       "discovered": 100,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 91
+      "deferred": 85
     },
     {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-10-13T02:26:20.062092+00:00",
+      "checkedAt": "2026-10-14T00:09:01.325177+00:00",
       "status": "ok",
       "discovered": 31,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 30,
+      "deferred": 26,
       "collectionMode": "rss-only"
     },
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-10-13T02:26:20.062092+00:00",
+      "checkedAt": "2026-10-14T00:09:01.325177+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 5,
+      "deferred": 6,
       "collectionMode": "rss-only"
     },
     {
       "id": "fiercebiotech",
       "name": "Fierce Biotech",
-      "checkedAt": "2026-10-13T02:26:20.062092+00:00",
+      "checkedAt": "2026-10-14T00:09:01.325177+00:00",
       "status": "ok",
       "discovered": 25,
-      "new": 2,
+      "new": 1,
       "errors": 0,
-      "bodyMatched": 2,
-      "deferred": 19
+      "bodyMatched": 1,
+      "deferred": 17
     },
     {
       "id": "gen",
       "name": "GEN",
-      "checkedAt": "2026-10-13T02:26:20.062092+00:00",
+      "checkedAt": "2026-10-14T00:09:01.325177+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 9
+      "deferred": 5
     },
     {
       "id": "ddd",
       "name": "Drug Discovery & Development",
-      "checkedAt": "2026-10-13T02:26:20.062092+00:00",
+      "checkedAt": "2026-10-14T00:09:01.325177+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 22
+      "deferred": 21
     }
   ],
   "molecules": [
