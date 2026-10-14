@@ -6,9 +6,57 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-10-14T00:09:01.325177+00:00",
-  "checkedAt": "2026-10-14T00:09:01.325177+00:00",
+  "updatedAt": "2026-10-14T23:41:03.279399+00:00",
+  "checkedAt": "2026-10-14T23:41:03.279399+00:00",
   "articles": [
+    {
+      "id": "507c80f067c303ad014a",
+      "title": "Atara Biotherapeutics Reports that the Resubmitted Tabelecleucel (Tab-cel®) Biologics License Application Has Been Accepted by the U.S. Food and Drug Administration",
+      "url": "https://www.biospace.com/press-releases/atara-biotherapeutics-reports-that-the-resubmitted-tabelecleucel-tab-cel-biologics-license-application-has-been-accepted-by-the-u-s-food-and-drug-administration",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-14T13:39:34+00:00",
+      "molecules": [
+        "rituximab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-14T23:41:03.279399+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "67c222babb98d5e37fdf",
+      "title": "Akamis Bio Completes Enrollment of the Phase 1b FORTRESS Study of NG-350A in Mismatch Repair-Proficient Locally Advanced Rectal Cancer",
+      "url": "https://www.biospace.com/press-releases/akamis-bio-completes-enrollment-of-the-phase-1b-fortress-study-of-ng-350a-in-mismatch-repair-proficient-locally-advanced-rectal-cancer",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-14T13:37:46+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-14T23:41:03.279399+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "f2e20c911504e290ee48",
+      "title": "Hepion Pharmaceuticals Completes Acquisition of Gravitas Life Sciences and Provides Corporate Update",
+      "url": "https://www.biospace.com/press-releases/hepion-pharmaceuticals-completes-acquisition-of-gravitas-life-sciences-and-provides-corporate-update",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-14T13:20:24+00:00",
+      "molecules": [
+        "infliximab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-14T23:41:03.279399+00:00",
+      "type": "press-release"
+    },
     {
       "id": "47c4a90fd107d48d364d",
       "title": "J&J’s innovative medicines carried Q3 as medtech disappoints, but newer medicines absent",
@@ -2098,7 +2146,7 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-10-14T00:09:01.325177+00:00",
+      "checkedAt": "2026-10-14T23:41:03.279399+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -2109,7 +2157,7 @@
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-10-14T00:09:01.325177+00:00",
+      "checkedAt": "2026-10-14T23:41:03.279399+00:00",
       "status": "partial",
       "discovered": 25,
       "new": 0,
@@ -2121,7 +2169,7 @@
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-10-14T00:09:01.325177+00:00",
+      "checkedAt": "2026-10-14T23:41:03.279399+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -2132,81 +2180,81 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-10-14T00:09:01.325177+00:00",
+      "checkedAt": "2026-10-14T23:41:03.279399+00:00",
       "status": "ok",
-      "discovered": 264,
-      "new": 2,
+      "discovered": 407,
+      "new": 3,
       "errors": 0,
-      "bodyMatched": 2,
-      "deferred": 220
+      "bodyMatched": 3,
+      "deferred": 361
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-10-14T00:09:01.325177+00:00",
+      "checkedAt": "2026-10-14T23:41:03.279399+00:00",
       "status": "ok",
       "discovered": 100,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 85
+      "deferred": 91
     },
     {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-10-14T00:09:01.325177+00:00",
+      "checkedAt": "2026-10-14T23:41:03.279399+00:00",
       "status": "ok",
-      "discovered": 31,
+      "discovered": 33,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 26,
+      "deferred": 28,
       "collectionMode": "rss-only"
     },
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-10-14T00:09:01.325177+00:00",
+      "checkedAt": "2026-10-14T23:41:03.279399+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 6,
+      "deferred": 7,
       "collectionMode": "rss-only"
     },
     {
       "id": "fiercebiotech",
       "name": "Fierce Biotech",
-      "checkedAt": "2026-10-14T00:09:01.325177+00:00",
+      "checkedAt": "2026-10-14T23:41:03.279399+00:00",
       "status": "ok",
       "discovered": 25,
-      "new": 1,
+      "new": 0,
       "errors": 0,
-      "bodyMatched": 1,
-      "deferred": 17
+      "bodyMatched": 0,
+      "deferred": 15
     },
     {
       "id": "gen",
       "name": "GEN",
-      "checkedAt": "2026-10-14T00:09:01.325177+00:00",
+      "checkedAt": "2026-10-14T23:41:03.279399+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 5
+      "deferred": 4
     },
     {
       "id": "ddd",
       "name": "Drug Discovery & Development",
-      "checkedAt": "2026-10-14T00:09:01.325177+00:00",
+      "checkedAt": "2026-10-14T23:41:03.279399+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 21
+      "deferred": 22
     }
   ],
   "molecules": [
