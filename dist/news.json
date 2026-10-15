@@ -6,9 +6,58 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-10-14T23:41:03.279399+00:00",
-  "checkedAt": "2026-10-14T23:41:03.279399+00:00",
+  "updatedAt": "2026-10-15T23:34:07.802041+00:00",
+  "checkedAt": "2026-10-15T23:34:07.802041+00:00",
   "articles": [
+    {
+      "id": "19dad490b8219ba9e163",
+      "title": "Merck and Moderna have ‘lot of exploring to do’ after initial cancer vaccine success",
+      "url": "https://www.statnews.com/2026/10/15/moderna-merck-keytruda-mrna-cancer-vaccine-strategy/",
+      "source": "STAT",
+      "sourceId": "stat",
+      "publishedAt": "2026-10-15T19:58:35+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "feed-title-description",
+      "firstSeenAt": "2026-10-15T23:34:07.802041+00:00",
+      "type": "article"
+    },
+    {
+      "id": "c24d8d8d8fab9fdb1c1d",
+      "title": "TempraMed Enters into Exclusive Kuwait Distribution Agreement, Expanding Gulf Region Commercial Footprint",
+      "url": "https://www.biospace.com/press-releases/tempramed-enters-into-exclusive-kuwait-distribution-agreement-expanding-gulf-region-commercial-footprint",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-15T15:35:06+00:00",
+      "molecules": [
+        "insulin glargine"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-15T23:34:07.802041+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "698391d1a9fec97551a7",
+      "title": "Eisai Deepens Its Oncology Evidence Base at ESMO Congress 2026",
+      "url": "https://www.biospace.com/press-releases/eisai-deepens-its-oncology-evidence-base-at-esmo-congress-2026",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-15T13:50:50+00:00",
+      "molecules": [
+        "denosumab",
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-15T23:34:07.802041+00:00",
+      "type": "press-release"
+    },
     {
       "id": "507c80f067c303ad014a",
       "title": "Atara Biotherapeutics Reports that the Resubmitted Tabelecleucel (Tab-cel®) Biologics License Application Has Been Accepted by the U.S. Food and Drug Administration",
@@ -58,6 +107,26 @@
       "type": "press-release"
     },
     {
+      "id": "a0d9b1781cdae38042b9",
+      "title": "10 Crucial Trends Facing U.S. Drug Wholesalers in 2026 and Beyond",
+      "url": "https://www.drugchannels.net/2026/10/10-crucial-trends-facing-us-drug.html",
+      "source": "Drug Channels",
+      "sourceId": "drugchannels",
+      "publishedAt": "2026-10-14T10:30:00+00:00",
+      "molecules": [
+        "adalimumab",
+        "ustekinumab"
+      ],
+      "topics": [
+        "Market overall",
+        "Policy"
+      ],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-15T23:34:07.802041+00:00",
+      "type": "article"
+    },
+    {
       "id": "47c4a90fd107d48d364d",
       "title": "J&J’s innovative medicines carried Q3 as medtech disappoints, but newer medicines absent",
       "url": "https://www.biospace.com/j-js-innovative-medicines-carried-q3-as-medtech-disappoints-but-newer-medicines-absent",
@@ -104,6 +173,22 @@
       "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-10-14T00:09:01.325177+00:00",
+      "type": "article"
+    },
+    {
+      "id": "3239bd4531d17eab93cd",
+      "title": "NOW AVAILABLE: DCI’s New 2026-27 Economic Report on Pharmaceutical Wholesalers and Specialty Distributors",
+      "url": "https://www.drugchannels.net/2026/10/now-available-dcis-new-2026-27-economic.html",
+      "source": "Drug Channels",
+      "sourceId": "drugchannels",
+      "publishedAt": "2026-10-13T10:30:00+00:00",
+      "molecules": [],
+      "topics": [
+        "Market overall"
+      ],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-15T23:34:07.802041+00:00",
       "type": "article"
     },
     {
@@ -2146,7 +2231,7 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-10-14T23:41:03.279399+00:00",
+      "checkedAt": "2026-10-15T23:34:07.802041+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -2157,19 +2242,18 @@
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-10-14T23:41:03.279399+00:00",
-      "status": "partial",
+      "checkedAt": "2026-10-15T23:34:07.802041+00:00",
+      "status": "ok",
       "discovered": 25,
-      "new": 0,
-      "errors": 5,
-      "bodyMatched": 0,
-      "deferred": 14,
-      "lastError": "Unexpected publisher redirect/host: www.google.com"
+      "new": 2,
+      "errors": 0,
+      "bodyMatched": 2,
+      "deferred": 15
     },
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-10-14T23:41:03.279399+00:00",
+      "checkedAt": "2026-10-15T23:34:07.802041+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -2180,75 +2264,75 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-10-14T23:41:03.279399+00:00",
+      "checkedAt": "2026-10-15T23:34:07.802041+00:00",
       "status": "ok",
-      "discovered": 407,
-      "new": 3,
+      "discovered": 532,
+      "new": 2,
       "errors": 0,
-      "bodyMatched": 3,
-      "deferred": 361
+      "bodyMatched": 2,
+      "deferred": 484
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-10-14T23:41:03.279399+00:00",
+      "checkedAt": "2026-10-15T23:34:07.802041+00:00",
       "status": "ok",
       "discovered": 100,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 91
+      "deferred": 90
     },
     {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-10-14T23:41:03.279399+00:00",
+      "checkedAt": "2026-10-15T23:34:07.802041+00:00",
       "status": "ok",
-      "discovered": 33,
-      "new": 0,
+      "discovered": 32,
+      "new": 1,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 28,
+      "deferred": 26,
       "collectionMode": "rss-only"
     },
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-10-14T23:41:03.279399+00:00",
+      "checkedAt": "2026-10-15T23:34:07.802041+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 7,
+      "deferred": 6,
       "collectionMode": "rss-only"
     },
     {
       "id": "fiercebiotech",
       "name": "Fierce Biotech",
-      "checkedAt": "2026-10-14T23:41:03.279399+00:00",
+      "checkedAt": "2026-10-15T23:34:07.802041+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 15
+      "deferred": 14
     },
     {
       "id": "gen",
       "name": "GEN",
-      "checkedAt": "2026-10-14T23:41:03.279399+00:00",
+      "checkedAt": "2026-10-15T23:34:07.802041+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 4
+      "deferred": 5
     },
     {
       "id": "ddd",
       "name": "Drug Discovery & Development",
-      "checkedAt": "2026-10-14T23:41:03.279399+00:00",
+      "checkedAt": "2026-10-15T23:34:07.802041+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
