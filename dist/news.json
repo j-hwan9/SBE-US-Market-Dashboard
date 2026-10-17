@@ -6,8 +6,8 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-10-16T23:14:13.893253+00:00",
-  "checkedAt": "2026-10-16T23:14:13.893253+00:00",
+  "updatedAt": "2026-10-17T22:51:52.830338+00:00",
+  "checkedAt": "2026-10-17T22:51:52.830338+00:00",
   "articles": [
     {
       "id": "9e130c0549505cae637f",
@@ -78,6 +78,22 @@
       "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-10-16T23:14:13.893253+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "fdcaad948f7021651484",
+      "title": "Three Orelabrutinib Studies Presented in Oral Sessions at the 88th Annual Meeting of the Japanese Society of Hematology",
+      "url": "https://www.biospace.com/press-releases/three-orelabrutinib-studies-presented-in-oral-sessions-at-the-88th-annual-meeting-of-the-japanese-society-of-hematology",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-16T10:40:08+00:00",
+      "molecules": [
+        "rituximab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-17T22:51:52.830338+00:00",
       "type": "press-release"
     },
     {
@@ -2321,7 +2337,7 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-10-16T23:14:13.893253+00:00",
+      "checkedAt": "2026-10-17T22:51:52.830338+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -2332,7 +2348,7 @@
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-10-16T23:14:13.893253+00:00",
+      "checkedAt": "2026-10-17T22:51:52.830338+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
@@ -2343,7 +2359,7 @@
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-10-16T23:14:13.893253+00:00",
+      "checkedAt": "2026-10-17T22:51:52.830338+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -2354,81 +2370,81 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-10-16T23:14:13.893253+00:00",
+      "checkedAt": "2026-10-17T22:51:52.830338+00:00",
       "status": "ok",
-      "discovered": 485,
-      "new": 4,
+      "discovered": 326,
+      "new": 1,
       "errors": 0,
-      "bodyMatched": 4,
-      "deferred": 438
+      "bodyMatched": 1,
+      "deferred": 278
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-10-16T23:14:13.893253+00:00",
+      "checkedAt": "2026-10-17T22:51:52.830338+00:00",
       "status": "ok",
       "discovered": 100,
-      "new": 1,
+      "new": 0,
       "errors": 0,
-      "bodyMatched": 1,
-      "deferred": 91
+      "bodyMatched": 0,
+      "deferred": 96
     },
     {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-10-16T23:14:13.893253+00:00",
+      "checkedAt": "2026-10-17T22:51:52.830338+00:00",
       "status": "ok",
       "discovered": 33,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 29,
+      "deferred": 32,
       "collectionMode": "rss-only"
     },
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-10-16T23:14:13.893253+00:00",
+      "checkedAt": "2026-10-17T22:51:52.830338+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 6,
+      "deferred": 10,
       "collectionMode": "rss-only"
     },
     {
       "id": "fiercebiotech",
       "name": "Fierce Biotech",
-      "checkedAt": "2026-10-16T23:14:13.893253+00:00",
-      "status": "ok",
-      "discovered": 25,
-      "new": 0,
-      "errors": 0,
-      "bodyMatched": 0,
-      "deferred": 17
-    },
-    {
-      "id": "gen",
-      "name": "GEN",
-      "checkedAt": "2026-10-16T23:14:13.893253+00:00",
-      "status": "ok",
-      "discovered": 10,
-      "new": 0,
-      "errors": 0,
-      "bodyMatched": 0,
-      "deferred": 5
-    },
-    {
-      "id": "ddd",
-      "name": "Drug Discovery & Development",
-      "checkedAt": "2026-10-16T23:14:13.893253+00:00",
+      "checkedAt": "2026-10-17T22:51:52.830338+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
       "deferred": 22
+    },
+    {
+      "id": "gen",
+      "name": "GEN",
+      "checkedAt": "2026-10-17T22:51:52.830338+00:00",
+      "status": "ok",
+      "discovered": 10,
+      "new": 0,
+      "errors": 0,
+      "bodyMatched": 0,
+      "deferred": 10
+    },
+    {
+      "id": "ddd",
+      "name": "Drug Discovery & Development",
+      "checkedAt": "2026-10-17T22:51:52.830338+00:00",
+      "status": "ok",
+      "discovered": 25,
+      "new": 0,
+      "errors": 0,
+      "bodyMatched": 0,
+      "deferred": 21
     }
   ],
   "molecules": [
