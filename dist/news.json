@@ -6,9 +6,89 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-10-20T00:08:00.686668+00:00",
-  "checkedAt": "2026-10-20T00:08:00.686668+00:00",
+  "updatedAt": "2026-10-20T23:38:48.568727+00:00",
+  "checkedAt": "2026-10-20T23:38:48.568727+00:00",
   "articles": [
+    {
+      "id": "04f627eccc5915fd498c",
+      "title": "Guardant Health Highlights Broad Liquid Biopsy Research Portfolio at ESMO Congress 2026",
+      "url": "https://www.biospace.com/press-releases/guardant-health-highlights-broad-liquid-biopsy-research-portfolio-at-esmo-congress-2026",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-20T14:15:53+00:00",
+      "molecules": [
+        "trastuzumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-20T23:38:48.568727+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "adcd852b8d9ca6549b95",
+      "title": "Flatiron Health Announces Research at ESMO Congress 2026 Examining Cancer Treatment and Outcomes Across Global Markets",
+      "url": "https://www.biospace.com/press-releases/flatiron-health-announces-research-at-esmo-congress-2026-examining-cancer-treatment-and-outcomes-across-global-markets",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-20T14:15:00+00:00",
+      "molecules": [
+        "bevacizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-20T23:38:48.568727+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "c09e95b65749e5cfa93e",
+      "title": "Sarah Cannon Research Institute Showcases 85+ Oncology Research Presentations at ESMO 2026, Highlighting Advances Across Multiple Tumor Types",
+      "url": "https://www.biospace.com/press-releases/sarah-cannon-research-institute-showcases-85-oncology-research-presentations-at-esmo-2026-highlighting-advances-across-multiple-tumor-types",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-20T14:03:30+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-20T23:38:48.568727+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "227045cadd3f0ef5dadd",
+      "title": "Arcus Presents New Data from ARC-20 that Demonstrate the Opportunity for Casdatifan to Become a Foundational Treatment Across All Lines of Therapy in Kidney Cancer",
+      "url": "https://www.biospace.com/press-releases/arcus-presents-new-data-from-arc-20-that-demonstrate-the-opportunity-for-casdatifan-to-become-a-foundational-treatment-across-all-lines-of-therapy-in-kidney-cancer",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-20T14:00:40+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-20T23:38:48.568727+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "c7631352b47ecf2ec4e7",
+      "title": "Lycia aims for $228M IPO to generate data on food allergy rival to Xolair",
+      "url": "https://www.fiercebiotech.com/biotech/lycia-aims-228m-generate-data-food-allergy-rival-xolair",
+      "source": "Fierce Biotech",
+      "sourceId": "fiercebiotech",
+      "publishedAt": "2026-10-20T11:50:00+00:00",
+      "molecules": [
+        "omalizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-20T23:38:48.568727+00:00",
+      "type": "article"
+    },
     {
       "id": "80d2971eda9304daf5c5",
       "title": "EyePoint will halve workforce, end pivotal wet AMD trials early following second fail",
@@ -561,6 +641,22 @@
       "matchBasis": "article",
       "firstSeenAt": "2026-10-10T00:28:32.391869+00:00",
       "type": "press-release"
+    },
+    {
+      "id": "4859f739c5e0b28ef8c4",
+      "title": "Hengrui has become the go-to source of China biopharma innovation. What’s its secret?",
+      "url": "https://www.fiercebiotech.com/biotech/hengrui-has-become-go-source-china-biopharma-innovation-whats-its-secret",
+      "source": "Fierce Biotech",
+      "sourceId": "fiercebiotech",
+      "publishedAt": "2026-10-09T10:22:00+00:00",
+      "molecules": [
+        "trastuzumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-20T23:38:48.568727+00:00",
+      "type": "article"
     },
     {
       "id": "1a2b58abb46def0ed535",
@@ -2453,7 +2549,7 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-10-20T00:08:00.686668+00:00",
+      "checkedAt": "2026-10-20T23:38:48.568727+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -2464,18 +2560,19 @@
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-10-20T00:08:00.686668+00:00",
-      "status": "ok",
+      "checkedAt": "2026-10-20T23:38:48.568727+00:00",
+      "status": "partial",
       "discovered": 25,
       "new": 0,
-      "errors": 0,
+      "errors": 1,
       "bodyMatched": 0,
-      "deferred": 17
+      "deferred": 17,
+      "lastError": "Unexpected publisher redirect/host: www.google.com"
     },
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-10-20T00:08:00.686668+00:00",
+      "checkedAt": "2026-10-20T23:38:48.568727+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -2486,32 +2583,31 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-10-20T00:08:00.686668+00:00",
-      "status": "partial",
-      "discovered": 409,
-      "new": 5,
-      "errors": 1,
-      "bodyMatched": 5,
-      "deferred": 363,
-      "lastError": "Future article publication date"
+      "checkedAt": "2026-10-20T23:38:48.568727+00:00",
+      "status": "ok",
+      "discovered": 547,
+      "new": 4,
+      "errors": 0,
+      "bodyMatched": 4,
+      "deferred": 495
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-10-20T00:08:00.686668+00:00",
+      "checkedAt": "2026-10-20T23:38:48.568727+00:00",
       "status": "ok",
       "discovered": 100,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 91
+      "deferred": 94
     },
     {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-10-20T00:08:00.686668+00:00",
+      "checkedAt": "2026-10-20T23:38:48.568727+00:00",
       "status": "ok",
-      "discovered": 34,
+      "discovered": 33,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
@@ -2521,47 +2617,47 @@
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-10-20T00:08:00.686668+00:00",
+      "checkedAt": "2026-10-20T23:38:48.568727+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 4,
+      "deferred": 7,
       "collectionMode": "rss-only"
     },
     {
       "id": "fiercebiotech",
       "name": "Fierce Biotech",
-      "checkedAt": "2026-10-20T00:08:00.686668+00:00",
+      "checkedAt": "2026-10-20T23:38:48.568727+00:00",
       "status": "ok",
       "discovered": 25,
-      "new": 0,
+      "new": 2,
       "errors": 0,
-      "bodyMatched": 0,
-      "deferred": 11
+      "bodyMatched": 2,
+      "deferred": 17
     },
     {
       "id": "gen",
       "name": "GEN",
-      "checkedAt": "2026-10-20T00:08:00.686668+00:00",
+      "checkedAt": "2026-10-20T23:38:48.568727+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 7
+      "deferred": 5
     },
     {
       "id": "ddd",
       "name": "Drug Discovery & Development",
-      "checkedAt": "2026-10-20T00:08:00.686668+00:00",
+      "checkedAt": "2026-10-20T23:38:48.568727+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 22
+      "deferred": 23
     }
   ],
   "molecules": [
