@@ -6,9 +6,146 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-10-21T23:55:20.633506+00:00",
-  "checkedAt": "2026-10-21T23:55:20.633506+00:00",
+  "updatedAt": "2026-10-22T23:54:46.282917+00:00",
+  "checkedAt": "2026-10-22T23:54:46.282917+00:00",
   "articles": [
+    {
+      "id": "9370eff1a3bbacf2dcf0",
+      "title": "ESMO 2026: Merck, Moderna shares fall as cancer vaccine disappoints after data leak",
+      "url": "https://www.biospace.com/drug-development/esmo-2026-merck-moderna-shares-fall-as-cancer-vaccine-disappoints-after-data-leak",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-22T21:04:40+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-22T23:54:46.282917+00:00",
+      "type": "article"
+    },
+    {
+      "id": "f4dc7eda199a290b7223",
+      "title": "Moderna, Merck shares fall on eagerly anticipated cancer vaccine results",
+      "url": "https://www.biopharmadive.com/news/moderna-merck-esmo-intismeran-melanoma-vaccine-results/833765/",
+      "source": "BioPharma Dive",
+      "sourceId": "biopharmadive",
+      "publishedAt": "2026-10-22T19:27:00+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "feed-title-description",
+      "firstSeenAt": "2026-10-22T23:54:46.282917+00:00",
+      "type": "article"
+    },
+    {
+      "id": "96f4d60a0499138aae5d",
+      "title": "Roche affirms sales outlook amid doubts about its future",
+      "url": "https://www.biopharmadive.com/news/roche-3q-2026-earnings-sales-outlook/833684/",
+      "source": "BioPharma Dive",
+      "sourceId": "biopharmadive",
+      "publishedAt": "2026-10-22T15:20:26+00:00",
+      "molecules": [
+        "omalizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "feed-title-description",
+      "firstSeenAt": "2026-10-22T23:54:46.282917+00:00",
+      "type": "article"
+    },
+    {
+      "id": "c7dcecc5006bdcc94f9e",
+      "title": "AbbVie Announces Topline Results from the Phase 3 INTREPID Trial Showing Lutikizumab Significantly Improved Signs and Symptoms of Disease in Patients with Hidradenitis Suppurativa",
+      "url": "https://www.biospace.com/press-releases/abbvie-announces-topline-results-from-the-phase-3-intrepid-trial-showing-lutikizumab-significantly-improved-signs-and-symptoms-of-disease-in-patients-with-hidradenitis-suppurativa",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-22T15:10:23+00:00",
+      "molecules": [
+        "adalimumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-22T23:54:46.282917+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "b38cbe6959711528bb2e",
+      "title": "Daiichi Sankyo Highlights Ongoing Progress Across Industry-Leading ADC Portfolio with New Research Updates at ESMO",
+      "url": "https://www.biospace.com/press-releases/daiichi-sankyo-highlights-ongoing-progress-across-industry-leading-adc-portfolio-with-new-research-updates-at-esmo",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-22T15:07:34+00:00",
+      "molecules": [
+        "bevacizumab",
+        "pembrolizumab",
+        "pertuzumab",
+        "trastuzumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-22T23:54:46.282917+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "ee71c835795c59344d55",
+      "title": "Ivonescimab Data Sets across Multiple Tumor Types to Be Featured at ESMO 2026",
+      "url": "https://www.biospace.com/press-releases/ivonescimab-data-sets-across-multiple-tumor-types-to-be-featured-at-esmo-2026",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-22T14:40:59+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-22T23:54:46.282917+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "88bf8e8dc94de9ac6fd9",
+      "title": "Celltrion picks up another Kaigene autoimmune antibody for up to $580.5M",
+      "url": "https://www.fiercebiotech.com/biotech/celltrion-picks-another-kaigene-autoimmune-antibody-5805m",
+      "source": "Fierce Biotech",
+      "sourceId": "fiercebiotech",
+      "publishedAt": "2026-10-22T14:29:00+00:00",
+      "molecules": [
+        "adalimumab",
+        "infliximab",
+        "rituximab"
+      ],
+      "topics": [
+        "Market overall"
+      ],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-22T23:54:46.282917+00:00",
+      "type": "article"
+    },
+    {
+      "id": "9d81071c20006355e6cb",
+      "title": "Lower Costs for Biosimilar Development Will Yield Myriad Benefits: Part 2",
+      "url": "https://biosimilarsrr.com/2026/10/22/lower-costs-for-biosimilar-development-will-yield-myriad-benefits-part-2/",
+      "source": "BR&R",
+      "sourceId": "brr",
+      "publishedAt": "2026-10-22T14:12:22+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [
+        "Market overall"
+      ],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-22T23:54:46.282917+00:00",
+      "type": "article"
+    },
     {
       "id": "8ae6864889809f796fb7",
       "title": "Foundation Medicine and Joint Collaborators to Present 12 Abstracts at the ESMO Congress 2026",
@@ -91,6 +228,22 @@
       "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-10-21T23:55:20.633506+00:00",
+      "type": "article"
+    },
+    {
+      "id": "cf3ae81f8523e8884175",
+      "title": "After leak, Merck and Moderna post phase 3 cancer vaccine data early",
+      "url": "https://www.fiercebiotech.com/biotech/merck-co-and-moderna-post-phase-3-cancer-vaccine-data",
+      "source": "Fierce Biotech",
+      "sourceId": "fiercebiotech",
+      "publishedAt": "2026-10-21T10:41:00+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-22T23:54:46.282917+00:00",
       "type": "article"
     },
     {
@@ -2633,7 +2786,7 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-10-21T23:55:20.633506+00:00",
+      "checkedAt": "2026-10-22T23:54:46.282917+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 1,
@@ -2644,18 +2797,18 @@
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-10-21T23:55:20.633506+00:00",
+      "checkedAt": "2026-10-22T23:54:46.282917+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 17
+      "deferred": 18
     },
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-10-21T23:55:20.633506+00:00",
+      "checkedAt": "2026-10-22T23:54:46.282917+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -2666,75 +2819,75 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-10-21T23:55:20.633506+00:00",
+      "checkedAt": "2026-10-22T23:54:46.282917+00:00",
       "status": "ok",
-      "discovered": 524,
+      "discovered": 526,
       "new": 4,
       "errors": 0,
       "bodyMatched": 4,
-      "deferred": 473
+      "deferred": 475
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-10-21T23:55:20.633506+00:00",
+      "checkedAt": "2026-10-22T23:54:46.282917+00:00",
       "status": "ok",
       "discovered": 100,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 91
+      "deferred": 94
     },
     {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-10-21T23:55:20.633506+00:00",
+      "checkedAt": "2026-10-22T23:54:46.282917+00:00",
       "status": "ok",
-      "discovered": 31,
+      "discovered": 30,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 24,
+      "deferred": 21,
       "collectionMode": "rss-only"
     },
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-10-21T23:55:20.633506+00:00",
+      "checkedAt": "2026-10-22T23:54:46.282917+00:00",
       "status": "ok",
       "discovered": 10,
-      "new": 0,
+      "new": 2,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 7,
+      "deferred": 6,
       "collectionMode": "rss-only"
     },
     {
       "id": "fiercebiotech",
       "name": "Fierce Biotech",
-      "checkedAt": "2026-10-21T23:55:20.633506+00:00",
+      "checkedAt": "2026-10-22T23:54:46.282917+00:00",
       "status": "ok",
       "discovered": 25,
-      "new": 0,
+      "new": 2,
       "errors": 0,
-      "bodyMatched": 0,
-      "deferred": 18
+      "bodyMatched": 2,
+      "deferred": 17
     },
     {
       "id": "gen",
       "name": "GEN",
-      "checkedAt": "2026-10-21T23:55:20.633506+00:00",
+      "checkedAt": "2026-10-22T23:54:46.282917+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 1
+      "deferred": 5
     },
     {
       "id": "ddd",
       "name": "Drug Discovery & Development",
-      "checkedAt": "2026-10-21T23:55:20.633506+00:00",
+      "checkedAt": "2026-10-22T23:54:46.282917+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
