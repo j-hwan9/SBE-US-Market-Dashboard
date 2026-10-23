@@ -6,9 +6,73 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-10-22T23:54:46.282917+00:00",
-  "checkedAt": "2026-10-22T23:54:46.282917+00:00",
+  "updatedAt": "2026-10-23T23:44:35.934350+00:00",
+  "checkedAt": "2026-10-23T23:44:35.934350+00:00",
   "articles": [
+    {
+      "id": "029bc99c313dbddea472",
+      "title": "ESMO 2026: Marengo's bispecific antibody shrinks 8 tumor types in Phase 2",
+      "url": "https://www.biospace.com/drug-development/esmo-2026-marengos-bispecific-antibody-shrinks-8-tumor-types-in-phase-2",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-23T13:54:57+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-23T23:44:35.934350+00:00",
+      "type": "article"
+    },
+    {
+      "id": "757d95b982775e6bf68b",
+      "title": "Immutep Announces Presentation of Quality of Life Data from EFTISARC-NEO Phase II Trial at ESMO 2026",
+      "url": "https://www.biospace.com/press-releases/immutep-announces-presentation-of-quality-of-life-data-from-eftisarc-neo-phase-ii-trial-at-esmo-2026",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-23T13:13:06+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-23T23:44:35.934350+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "e8ff74424a22a1b5dd6f",
+      "title": "Avacta Highlights pre|CISION® Platform Data and Ongoing FOCUS-01 Trial Design with FAP-Exd (AVA6103)",
+      "url": "https://www.biospace.com/press-releases/avacta-highlights-pre-cision-platform-data-and-ongoing-focus-01-trial-design-with-fap-exd-ava6103",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-23T13:11:21+00:00",
+      "molecules": [
+        "trastuzumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-23T23:44:35.934350+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "63ad195a06b80f189ebf",
+      "title": "BriaCell Announces ESMO 2026 Poster Highlighting Circulating Immune Biomarker Associated with Clinical Outcomes in Metastatic Breast Cancer",
+      "url": "https://www.biospace.com/press-releases/briacell-announces-esmo-2026-poster-highlighting-circulating-immune-biomarker-associated-with-clinical-outcomes-in-metastatic-breast-cancer",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-23T13:09:09+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-23T23:44:35.934350+00:00",
+      "type": "press-release"
+    },
     {
       "id": "9370eff1a3bbacf2dcf0",
       "title": "ESMO 2026: Merck, Moderna shares fall as cancer vaccine disappoints after data leak",
@@ -39,6 +103,22 @@
       "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "feed-title-description",
       "firstSeenAt": "2026-10-22T23:54:46.282917+00:00",
+      "type": "article"
+    },
+    {
+      "id": "b9581233ce3ded184448",
+      "title": "ESMO: Zentalis already dreaming of launch for WEE1 inhibitor after ‘great result’ in early-stage test",
+      "url": "https://www.fiercebiotech.com/biotech/esmo-zentalis-already-dreaming-launching-wee1-drug-after-great-result",
+      "source": "Fierce Biotech",
+      "sourceId": "fiercebiotech",
+      "publishedAt": "2026-10-22T15:34:00+00:00",
+      "molecules": [
+        "bevacizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-23T23:44:35.934350+00:00",
       "type": "article"
     },
     {
@@ -2786,29 +2866,29 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-10-22T23:54:46.282917+00:00",
+      "checkedAt": "2026-10-23T23:44:35.934350+00:00",
       "status": "ok",
       "discovered": 10,
-      "new": 1,
+      "new": 0,
       "errors": 0,
-      "bodyMatched": 1,
+      "bodyMatched": 0,
       "deferred": 0
     },
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-10-22T23:54:46.282917+00:00",
+      "checkedAt": "2026-10-23T23:44:35.934350+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 18
+      "deferred": 17
     },
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-10-22T23:54:46.282917+00:00",
+      "checkedAt": "2026-10-23T23:44:35.934350+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -2819,75 +2899,75 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-10-22T23:54:46.282917+00:00",
+      "checkedAt": "2026-10-23T23:44:35.934350+00:00",
       "status": "ok",
-      "discovered": 526,
+      "discovered": 503,
       "new": 4,
       "errors": 0,
       "bodyMatched": 4,
-      "deferred": 475
+      "deferred": 452
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-10-22T23:54:46.282917+00:00",
+      "checkedAt": "2026-10-23T23:44:35.934350+00:00",
       "status": "ok",
       "discovered": 100,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 94
+      "deferred": 89
     },
     {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-10-22T23:54:46.282917+00:00",
+      "checkedAt": "2026-10-23T23:44:35.934350+00:00",
       "status": "ok",
       "discovered": 30,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 21,
+      "deferred": 19,
       "collectionMode": "rss-only"
     },
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-10-22T23:54:46.282917+00:00",
-      "status": "ok",
-      "discovered": 10,
-      "new": 2,
-      "errors": 0,
-      "bodyMatched": 0,
-      "deferred": 6,
-      "collectionMode": "rss-only"
-    },
-    {
-      "id": "fiercebiotech",
-      "name": "Fierce Biotech",
-      "checkedAt": "2026-10-22T23:54:46.282917+00:00",
-      "status": "ok",
-      "discovered": 25,
-      "new": 2,
-      "errors": 0,
-      "bodyMatched": 2,
-      "deferred": 17
-    },
-    {
-      "id": "gen",
-      "name": "GEN",
-      "checkedAt": "2026-10-22T23:54:46.282917+00:00",
+      "checkedAt": "2026-10-23T23:44:35.934350+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 5
+      "deferred": 5,
+      "collectionMode": "rss-only"
+    },
+    {
+      "id": "fiercebiotech",
+      "name": "Fierce Biotech",
+      "checkedAt": "2026-10-23T23:44:35.934350+00:00",
+      "status": "ok",
+      "discovered": 25,
+      "new": 1,
+      "errors": 0,
+      "bodyMatched": 1,
+      "deferred": 10
+    },
+    {
+      "id": "gen",
+      "name": "GEN",
+      "checkedAt": "2026-10-23T23:44:35.934350+00:00",
+      "status": "ok",
+      "discovered": 10,
+      "new": 0,
+      "errors": 0,
+      "bodyMatched": 0,
+      "deferred": 7
     },
     {
       "id": "ddd",
       "name": "Drug Discovery & Development",
-      "checkedAt": "2026-10-22T23:54:46.282917+00:00",
+      "checkedAt": "2026-10-23T23:44:35.934350+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
