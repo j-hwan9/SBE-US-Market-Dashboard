@@ -6,9 +6,25 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-10-23T23:44:35.934350+00:00",
-  "checkedAt": "2026-10-23T23:44:35.934350+00:00",
+  "updatedAt": "2026-10-24T22:54:12.795167+00:00",
+  "checkedAt": "2026-10-24T22:54:12.795167+00:00",
   "articles": [
+    {
+      "id": "40774e02fc4528f0ae61",
+      "title": "‘It is what it is’: Merck exec unruffled by ‘unfortunate’ leak of ESMO cancer vaccine data",
+      "url": "https://www.fiercebiotech.com/biotech/it-what-it-merck-exec-sanguine-esmo-leak-significant-cancer-vaccine-data",
+      "source": "Fierce Biotech",
+      "sourceId": "fiercebiotech",
+      "publishedAt": "2026-10-24T10:25:00+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-24T22:54:12.795167+00:00",
+      "type": "article"
+    },
     {
       "id": "029bc99c313dbddea472",
       "title": "ESMO 2026: Marengo's bispecific antibody shrinks 8 tumor types in Phase 2",
@@ -71,6 +87,102 @@
       "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-10-23T23:44:35.934350+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "541fae2cc09bfc6fa558",
+      "title": "Moderna Named a Top Employer by Science for Twelfth Consecutive Year",
+      "url": "https://www.biospace.com/press-releases/moderna-named-a-top-employer-by-science-for-twelfth-consecutive-year",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-23T12:21:08+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-24T22:54:12.795167+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "b51b1eb743ede49d3e7d",
+      "title": "Enterome Phase 1/2 data show OncoMimics™ EO4010-induced CD8 T-cell expansion was associated with longer survival in patients with colorectal cancer",
+      "url": "https://www.biospace.com/press-releases/enterome-phase-1-2-data-show-oncomimics-eo4010-induced-cd8-t-cell-expansion-was-associated-with-longer-survival-in-patients-with-colorectal-cancer",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-23T11:52:49+00:00",
+      "molecules": [
+        "bevacizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-24T22:54:12.795167+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "fdbe8429b6f1461d0f01",
+      "title": "Rakuten Medical Presents Long-Term Follow-up Results of ASP-1929 Photoimmunotherapy in Combination with Pembrolizumab for R/M HNSCC at ESMO 2026",
+      "url": "https://www.biospace.com/press-releases/rakuten-medical-presents-long-term-follow-up-results-of-asp-1929-photoimmunotherapy-in-combination-with-pembrolizumab-for-r-m-hnscc-at-esmo-2026",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-23T11:52:00+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-24T22:54:12.795167+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "7ece5bbbedcbd4b28fe1",
+      "title": "Evaxion announces 89% vaccine target precision and sustained T-cell and clinical responses at three-year follow-up in phase 2 trial with personalized cancer vaccine EVX-01",
+      "url": "https://www.biospace.com/press-releases/evaxion-announces-89-vaccine-target-precision-and-sustained-t-cell-and-clinical-responses-at-three-year-follow-up-in-phase-2-trial-with-personalized-cancer-vaccine-evx-01",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-23T11:50:41+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-24T22:54:12.795167+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "1ae64a1ca5d33b95fd80",
+      "title": "Puma Biotechnology to Host Conference Call to Discuss Third Quarter 2026 Financial Results",
+      "url": "https://www.biospace.com/press-releases/puma-biotechnology-to-host-conference-call-to-discuss-third-quarter-2026-financial-results",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-23T06:22:55+00:00",
+      "molecules": [
+        "trastuzumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-24T22:54:12.795167+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "c8be490fb54be3537270",
+      "title": "Merck and Moderna Will Present Results From Landmark Phase 3 INTerpath-001 Trial for Intismeran Autogene Plus KEYTRUDA® (pembrolizumab) at ESMO 2026 Presidential Symposium",
+      "url": "https://www.biospace.com/press-releases/merck-and-moderna-will-present-results-from-landmark-phase-3-interpath-001-trial-for-intismeran-autogene-plus-keytruda-pembrolizumab-at-esmo-2026-presidential-symposium",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-23T06:03:55+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-24T22:54:12.795167+00:00",
       "type": "press-release"
     },
     {
@@ -487,6 +599,22 @@
       "matchBasis": "article",
       "firstSeenAt": "2026-10-20T00:08:00.686668+00:00",
       "type": "press-release"
+    },
+    {
+      "id": "9f98ac1568794b24cb33",
+      "title": "ESMO: Lilly touts 79% ADC response rate in competitive ovarian cancer space",
+      "url": "https://www.fiercebiotech.com/biotech/esmo-eli-lilly-touts-79-adc-response-rate-competitive-ovarian-cancer-space",
+      "source": "Fierce Biotech",
+      "sourceId": "fiercebiotech",
+      "publishedAt": "2026-10-19T08:05:00+00:00",
+      "molecules": [
+        "bevacizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-24T22:54:12.795167+00:00",
+      "type": "article"
     },
     {
       "id": "9e130c0549505cae637f",
@@ -2866,7 +2994,7 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-10-23T23:44:35.934350+00:00",
+      "checkedAt": "2026-10-24T22:54:12.795167+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -2877,18 +3005,18 @@
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-10-23T23:44:35.934350+00:00",
+      "checkedAt": "2026-10-24T22:54:12.795167+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 17
+      "deferred": 18
     },
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-10-23T23:44:35.934350+00:00",
+      "checkedAt": "2026-10-24T22:54:12.795167+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -2899,75 +3027,75 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-10-23T23:44:35.934350+00:00",
+      "checkedAt": "2026-10-24T22:54:12.795167+00:00",
       "status": "ok",
-      "discovered": 503,
-      "new": 4,
+      "discovered": 363,
+      "new": 6,
       "errors": 0,
-      "bodyMatched": 4,
-      "deferred": 452
+      "bodyMatched": 6,
+      "deferred": 312
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-10-23T23:44:35.934350+00:00",
+      "checkedAt": "2026-10-24T22:54:12.795167+00:00",
       "status": "ok",
       "discovered": 100,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 89
+      "deferred": 97
     },
     {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-10-23T23:44:35.934350+00:00",
+      "checkedAt": "2026-10-24T22:54:12.795167+00:00",
       "status": "ok",
       "discovered": 30,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 19,
+      "deferred": 29,
       "collectionMode": "rss-only"
     },
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-10-23T23:44:35.934350+00:00",
+      "checkedAt": "2026-10-24T22:54:12.795167+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 5,
+      "deferred": 8,
       "collectionMode": "rss-only"
     },
     {
       "id": "fiercebiotech",
       "name": "Fierce Biotech",
-      "checkedAt": "2026-10-23T23:44:35.934350+00:00",
+      "checkedAt": "2026-10-24T22:54:12.795167+00:00",
       "status": "ok",
       "discovered": 25,
-      "new": 1,
+      "new": 2,
       "errors": 0,
-      "bodyMatched": 1,
-      "deferred": 10
+      "bodyMatched": 2,
+      "deferred": 19
     },
     {
       "id": "gen",
       "name": "GEN",
-      "checkedAt": "2026-10-23T23:44:35.934350+00:00",
+      "checkedAt": "2026-10-24T22:54:12.795167+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 7
+      "deferred": 10
     },
     {
       "id": "ddd",
       "name": "Drug Discovery & Development",
-      "checkedAt": "2026-10-23T23:44:35.934350+00:00",
+      "checkedAt": "2026-10-24T22:54:12.795167+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
