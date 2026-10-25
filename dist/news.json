@@ -6,9 +6,25 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-10-24T22:54:12.795167+00:00",
-  "checkedAt": "2026-10-24T22:54:12.795167+00:00",
+  "updatedAt": "2026-10-25T23:00:29.507881+00:00",
+  "checkedAt": "2026-10-25T23:00:29.507881+00:00",
   "articles": [
+    {
+      "id": "e2ada6ae24e29b4660bf",
+      "title": "ESMO: Roche touts ‘convincing’ phase 3 KRAS data after win over rivals",
+      "url": "https://www.fiercebiotech.com/biotech/esmo-roche-sees-phase-3-kras-lung-cancer-win-over-krazati-convincing-health-authorities",
+      "source": "Fierce Biotech",
+      "sourceId": "fiercebiotech",
+      "publishedAt": "2026-10-24T13:45:00+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-25T23:00:29.507881+00:00",
+      "type": "article"
+    },
     {
       "id": "40774e02fc4528f0ae61",
       "title": "‘It is what it is’: Merck exec unruffled by ‘unfortunate’ leak of ESMO cancer vaccine data",
@@ -920,6 +936,72 @@
       "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-10-14T00:09:01.325177+00:00",
+      "type": "article"
+    },
+    {
+      "id": "b39b8752aa73a8d195a4",
+      "title": "Kelun-Biotech to Present Multiple Study Results at ESMO 2026",
+      "url": "https://www.biospace.com/press-releases/kelun-biotech-to-present-multiple-study-results-at-esmo-2026",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-13T12:20:31+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-25T23:00:29.507881+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "4c6c7dec7cf9e101145f",
+      "title": "BioNTech Provides Update on Phase 2/3 Clinical Trial for mRNA Cancer Immunotherapy Candidate BNT113 in Metastatic HPV16-positive Head and Neck Cancer",
+      "url": "https://www.biospace.com/press-releases/biontech-provides-update-on-phase-2-3-clinical-trial-for-mrna-cancer-immunotherapy-candidate-bnt113-in-metastatic-hpv16-positive-head-and-neck-cancer",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-13T12:04:50+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-25T23:00:29.507881+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "77d5be1ccd56b4e9d98a",
+      "title": "Johnson & Johnson reports Q3 2026 results, raises 2026 guidance",
+      "url": "https://www.biospace.com/press-releases/johnson-johnson-reports-q3-2026-results-raises-2026-guidance",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-13T11:01:34+00:00",
+      "molecules": [
+        "golimumab",
+        "infliximab",
+        "ustekinumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-25T23:00:29.507881+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "40839a469a703796faef",
+      "title": "Analysts eye RevMed’s pancreatic cancer launch, Merck’s data blitz for Q3 earnings",
+      "url": "https://www.biospace.com/business/analysts-eye-revmeds-pancreatic-cancer-launch-mercks-data-blitz-for-q3-earnings",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-13T10:34:16+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-25T23:00:29.507881+00:00",
       "type": "article"
     },
     {
@@ -2994,7 +3076,7 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-10-24T22:54:12.795167+00:00",
+      "checkedAt": "2026-10-25T23:00:29.507881+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -3005,7 +3087,7 @@
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-10-24T22:54:12.795167+00:00",
+      "checkedAt": "2026-10-25T23:00:29.507881+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
@@ -3016,7 +3098,7 @@
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-10-24T22:54:12.795167+00:00",
+      "checkedAt": "2026-10-25T23:00:29.507881+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -3027,18 +3109,18 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-10-24T22:54:12.795167+00:00",
+      "checkedAt": "2026-10-25T23:00:29.507881+00:00",
       "status": "ok",
-      "discovered": 363,
-      "new": 6,
+      "discovered": 230,
+      "new": 4,
       "errors": 0,
-      "bodyMatched": 6,
-      "deferred": 312
+      "bodyMatched": 4,
+      "deferred": 184
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-10-24T22:54:12.795167+00:00",
+      "checkedAt": "2026-10-25T23:00:29.507881+00:00",
       "status": "ok",
       "discovered": 100,
       "new": 0,
@@ -3049,7 +3131,7 @@
     {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-10-24T22:54:12.795167+00:00",
+      "checkedAt": "2026-10-25T23:00:29.507881+00:00",
       "status": "ok",
       "discovered": 30,
       "new": 0,
@@ -3061,7 +3143,7 @@
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-10-24T22:54:12.795167+00:00",
+      "checkedAt": "2026-10-25T23:00:29.507881+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -3073,18 +3155,18 @@
     {
       "id": "fiercebiotech",
       "name": "Fierce Biotech",
-      "checkedAt": "2026-10-24T22:54:12.795167+00:00",
+      "checkedAt": "2026-10-25T23:00:29.507881+00:00",
       "status": "ok",
       "discovered": 25,
-      "new": 2,
+      "new": 1,
       "errors": 0,
-      "bodyMatched": 2,
-      "deferred": 19
+      "bodyMatched": 1,
+      "deferred": 17
     },
     {
       "id": "gen",
       "name": "GEN",
-      "checkedAt": "2026-10-24T22:54:12.795167+00:00",
+      "checkedAt": "2026-10-25T23:00:29.507881+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -3095,7 +3177,7 @@
     {
       "id": "ddd",
       "name": "Drug Discovery & Development",
-      "checkedAt": "2026-10-24T22:54:12.795167+00:00",
+      "checkedAt": "2026-10-25T23:00:29.507881+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
