@@ -6,9 +6,153 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-10-25T23:00:29.507881+00:00",
-  "checkedAt": "2026-10-25T23:00:29.507881+00:00",
+  "updatedAt": "2026-10-27T00:13:21.103720+00:00",
+  "checkedAt": "2026-10-27T00:13:21.103720+00:00",
   "articles": [
+    {
+      "id": "0a3155c4fbf1218a3aa2",
+      "title": "ESMO 2026: Merck’s Kelun-partnered ADC cuts death risk by over 30% in endometrial cancer",
+      "url": "https://www.biospace.com/drug-development/esmo-2026-mercks-kelun-partnered-adc-cuts-death-risk-by-over-30-in-endometrial-cancer",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-26T15:31:00+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-27T00:13:21.103720+00:00",
+      "type": "article"
+    },
+    {
+      "id": "dab0d73721d6553a3db0",
+      "title": "Incyte Highlights New Data Advancing its Gastrointestinal Cancer Portfolio at ESMO 2026",
+      "url": "https://www.biospace.com/press-releases/incyte-highlights-new-data-advancing-its-gastrointestinal-cancer-portfolio-at-esmo-2026",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-26T14:56:29+00:00",
+      "molecules": [
+        "bevacizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-27T00:13:21.103720+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "01cfd08bb14d249776ee",
+      "title": "Iambic Presents Updated IAM1363 Clinical Data at ESMO 2026, Showing Durable Responses with a Favorable Tolerability Profile in Heavily Pretreated Participants with HER2-Driven Cancers",
+      "url": "https://www.biospace.com/press-releases/iambic-presents-updated-iam1363-clinical-data-at-esmo-2026-showing-durable-responses-with-a-favorable-tolerability-profile-in-heavily-pretreated-participants-with-her2-driven-cancers",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-26T14:48:06+00:00",
+      "molecules": [
+        "trastuzumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-27T00:13:21.103720+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "31c7c3fc7eab7d58bb92",
+      "title": "Corcept Reports Positive Results from Phase 2 BELLA Trial of Lifyorli® Combined with Nab-Paclitaxel and Bevacizumab in Patients with Platinum-Resistant Ovarian Cancer",
+      "url": "https://www.biospace.com/press-releases/corcept-reports-positive-results-from-phase-2-bella-trial-of-lifyorli-combined-with-nab-paclitaxel-and-bevacizumab-in-patients-with-platinum-resistant-ovarian-cancer",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-26T14:41:48+00:00",
+      "molecules": [
+        "bevacizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-27T00:13:21.103720+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "137447a64b7b28dc2c8d",
+      "title": "Light Chain Bioscience – Novimmune SA: Long-term Follow-up of NI-1801 in Platinum Resistant Ovarian Cancer Shows Durable Survival Benefit at 24 Months",
+      "url": "https://www.biospace.com/press-releases/light-chain-bioscience-novimmune-sa-long-term-follow-up-of-ni-1801-in-platinum-resistant-ovarian-cancer-shows-durable-survival-benefit-at-24-months",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-26T14:41:33+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-27T00:13:21.103720+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "05e931dbee9ccf91a093",
+      "title": "ESMO 2026: Analysts warm to Merck, Moderna’s cancer vaccine after frustrating data leak",
+      "url": "https://www.biospace.com/drug-development/esmo-2026-analysts-warm-to-merck-modernas-cancer-vaccine-after-frustrating-data-leak",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-26T14:33:05+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-27T00:13:21.103720+00:00",
+      "type": "article"
+    },
+    {
+      "id": "957f3ba6a92a8fa3a521",
+      "title": "BioNTech sees ‘limited’ benefit to ADC after phase 3 reveals modest efficacy, ILD cases",
+      "url": "https://www.fiercebiotech.com/biotech/biontech-sees-limited-benefit-adc-after-phase-3-reveals-modest-efficacy-ild-cases",
+      "source": "Fierce Biotech",
+      "sourceId": "fiercebiotech",
+      "publishedAt": "2026-10-26T12:40:00+00:00",
+      "molecules": [
+        "trastuzumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-27T00:13:21.103720+00:00",
+      "type": "article"
+    },
+    {
+      "id": "a2408a1bbc28c4ee3d62",
+      "title": "Lycia leaps onto Nasdaq with upsized $318M IPO as Windward breezes toward listing",
+      "url": "https://www.fiercebiotech.com/biotech/lycia-leaps-nasdaq-upsized-318m-ipo-while-windward-also-plans-listing",
+      "source": "Fierce Biotech",
+      "sourceId": "fiercebiotech",
+      "publishedAt": "2026-10-26T09:05:00+00:00",
+      "molecules": [
+        "omalizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-27T00:13:21.103720+00:00",
+      "type": "article"
+    },
+    {
+      "id": "88f3b42dc4cef0c53392",
+      "title": "ESMO: Why Incyte sees itself ‘neck and neck’ with RevMed in KRAS G12D pancreatic cancer race",
+      "url": "https://www.fiercebiotech.com/biotech/esmo-why-incyte-sees-itself-neck-and-neck-revmed-kras-g12d-race",
+      "source": "Fierce Biotech",
+      "sourceId": "fiercebiotech",
+      "publishedAt": "2026-10-25T15:14:00+00:00",
+      "molecules": [
+        "bevacizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-27T00:13:21.103720+00:00",
+      "type": "article"
+    },
     {
       "id": "e2ada6ae24e29b4660bf",
       "title": "ESMO: Roche touts ‘convincing’ phase 3 KRAS data after win over rivals",
@@ -39,6 +183,22 @@
       "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-10-24T22:54:12.795167+00:00",
+      "type": "article"
+    },
+    {
+      "id": "88ea8774bd084bbca85f",
+      "title": "ESMO: Genmab posts phase 3 win for Elahere rival, ahead of ‘very interesting’ data from Merus buyout",
+      "url": "https://www.fiercebiotech.com/biotech/esmo-genmabs-phase-3-win-elahere-rival-ahead-very-interesting-data-merus-buyout",
+      "source": "Fierce Biotech",
+      "sourceId": "fiercebiotech",
+      "publishedAt": "2026-10-24T07:09:00+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-27T00:13:21.103720+00:00",
       "type": "article"
     },
     {
@@ -3076,7 +3236,7 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-10-25T23:00:29.507881+00:00",
+      "checkedAt": "2026-10-27T00:13:21.103720+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -3087,7 +3247,7 @@
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-10-25T23:00:29.507881+00:00",
+      "checkedAt": "2026-10-27T00:13:21.103720+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
@@ -3098,7 +3258,7 @@
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-10-25T23:00:29.507881+00:00",
+      "checkedAt": "2026-10-27T00:13:21.103720+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -3109,75 +3269,75 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-10-25T23:00:29.507881+00:00",
+      "checkedAt": "2026-10-27T00:13:21.103720+00:00",
       "status": "ok",
-      "discovered": 230,
-      "new": 4,
+      "discovered": 465,
+      "new": 6,
       "errors": 0,
-      "bodyMatched": 4,
-      "deferred": 184
+      "bodyMatched": 6,
+      "deferred": 414
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-10-25T23:00:29.507881+00:00",
+      "checkedAt": "2026-10-27T00:13:21.103720+00:00",
       "status": "ok",
       "discovered": 100,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 97
+      "deferred": 90
     },
     {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-10-25T23:00:29.507881+00:00",
+      "checkedAt": "2026-10-27T00:13:21.103720+00:00",
       "status": "ok",
-      "discovered": 30,
+      "discovered": 32,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 29,
+      "deferred": 24,
       "collectionMode": "rss-only"
     },
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-10-25T23:00:29.507881+00:00",
+      "checkedAt": "2026-10-27T00:13:21.103720+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 8,
+      "deferred": 3,
       "collectionMode": "rss-only"
     },
     {
       "id": "fiercebiotech",
       "name": "Fierce Biotech",
-      "checkedAt": "2026-10-25T23:00:29.507881+00:00",
+      "checkedAt": "2026-10-27T00:13:21.103720+00:00",
       "status": "ok",
       "discovered": 25,
-      "new": 1,
+      "new": 4,
       "errors": 0,
-      "bodyMatched": 1,
-      "deferred": 17
+      "bodyMatched": 4,
+      "deferred": 12
     },
     {
       "id": "gen",
       "name": "GEN",
-      "checkedAt": "2026-10-25T23:00:29.507881+00:00",
+      "checkedAt": "2026-10-27T00:13:21.103720+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 10
+      "deferred": 3
     },
     {
       "id": "ddd",
       "name": "Drug Discovery & Development",
-      "checkedAt": "2026-10-25T23:00:29.507881+00:00",
+      "checkedAt": "2026-10-27T00:13:21.103720+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
