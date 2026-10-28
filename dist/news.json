@@ -6,9 +6,73 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-10-27T00:13:21.103720+00:00",
-  "checkedAt": "2026-10-27T00:13:21.103720+00:00",
+  "updatedAt": "2026-10-28T00:16:47.506688+00:00",
+  "checkedAt": "2026-10-28T00:16:47.506688+00:00",
   "articles": [
+    {
+      "id": "9d7d5af0e26b9fb6b226",
+      "title": "After 2 patient deaths and cell therapy durability concerns, Artiva cuts 94% of workforce",
+      "url": "https://www.biospace.com/job-trends/after-2-patient-deaths-and-cell-therapy-durability-concerns-artiva-cuts-94-of-workforce",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-27T15:21:43+00:00",
+      "molecules": [
+        "rituximab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-28T00:16:47.506688+00:00",
+      "type": "article"
+    },
+    {
+      "id": "67830a545a7e30b435f3",
+      "title": "Pyxis Oncology to Present Micvotabart Pelidotin (MICVO) Phase 1 Monotherapy Data in Late-Breaking Oral Presentation and Two Poster Presentations at EORTC-NCI-AACR Symposium on Molecular Targets and Cancer Therapeutics",
+      "url": "https://www.biospace.com/press-releases/pyxis-oncology-to-present-micvotabart-pelidotin-micvo-phase-1-monotherapy-data-in-late-breaking-oral-presentation-and-two-poster-presentations-at-eortc-nci-aacr-symposium-on-molecular-targets-and-cancer-therapeutics",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-27T14:36:13+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-28T00:16:47.506688+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "bbb132e95aa6c6462efa",
+      "title": "Teva Acquires Worldwide Rights to BXCL501, Further Expanding Innovative Neuroscience Pipeline",
+      "url": "https://www.biospace.com/press-releases/teva-acquires-worldwide-rights-to-bxcl501-further-expanding-innovative-neuroscience-pipeline",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-27T14:28:18+00:00",
+      "molecules": [],
+      "topics": [
+        "Market overall"
+      ],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-28T00:16:47.506688+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "8759e596cc799eab459a",
+      "title": "From RAS rivalries to leaked cancer vaccine readouts, ESMO brought the data drama",
+      "url": "https://www.fiercebiotech.com/biotech/ras-rivalries-leaked-vaccine-readouts-esmo-brought-data-drama",
+      "source": "Fierce Biotech",
+      "sourceId": "fiercebiotech",
+      "publishedAt": "2026-10-27T10:35:00+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-28T00:16:47.506688+00:00",
+      "type": "article"
+    },
     {
       "id": "0a3155c4fbf1218a3aa2",
       "title": "ESMO 2026: Merck’s Kelun-partnered ADC cuts death risk by over 30% in endometrial cancer",
@@ -3236,7 +3300,7 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-10-27T00:13:21.103720+00:00",
+      "checkedAt": "2026-10-28T00:16:47.506688+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -3247,18 +3311,18 @@
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-10-27T00:13:21.103720+00:00",
+      "checkedAt": "2026-10-28T00:16:47.506688+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 18
+      "deferred": 17
     },
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-10-27T00:13:21.103720+00:00",
+      "checkedAt": "2026-10-28T00:16:47.506688+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -3269,75 +3333,75 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-10-27T00:13:21.103720+00:00",
+      "checkedAt": "2026-10-28T00:16:47.506688+00:00",
       "status": "ok",
-      "discovered": 465,
-      "new": 6,
+      "discovered": 598,
+      "new": 3,
       "errors": 0,
-      "bodyMatched": 6,
-      "deferred": 414
+      "bodyMatched": 3,
+      "deferred": 541
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-10-27T00:13:21.103720+00:00",
+      "checkedAt": "2026-10-28T00:16:47.506688+00:00",
       "status": "ok",
       "discovered": 100,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 90
+      "deferred": 92
     },
     {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-10-27T00:13:21.103720+00:00",
+      "checkedAt": "2026-10-28T00:16:47.506688+00:00",
       "status": "ok",
-      "discovered": 32,
+      "discovered": 31,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 24,
+      "deferred": 23,
       "collectionMode": "rss-only"
     },
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-10-27T00:13:21.103720+00:00",
+      "checkedAt": "2026-10-28T00:16:47.506688+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 3,
+      "deferred": 7,
       "collectionMode": "rss-only"
     },
     {
       "id": "fiercebiotech",
       "name": "Fierce Biotech",
-      "checkedAt": "2026-10-27T00:13:21.103720+00:00",
+      "checkedAt": "2026-10-28T00:16:47.506688+00:00",
       "status": "ok",
       "discovered": 25,
-      "new": 4,
+      "new": 1,
       "errors": 0,
-      "bodyMatched": 4,
-      "deferred": 12
+      "bodyMatched": 1,
+      "deferred": 11
     },
     {
       "id": "gen",
       "name": "GEN",
-      "checkedAt": "2026-10-27T00:13:21.103720+00:00",
+      "checkedAt": "2026-10-28T00:16:47.506688+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 3
+      "deferred": 5
     },
     {
       "id": "ddd",
       "name": "Drug Discovery & Development",
-      "checkedAt": "2026-10-27T00:13:21.103720+00:00",
+      "checkedAt": "2026-10-28T00:16:47.506688+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
