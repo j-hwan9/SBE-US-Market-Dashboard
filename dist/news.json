@@ -6,9 +6,77 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-10-28T00:16:47.506688+00:00",
-  "checkedAt": "2026-10-28T00:16:47.506688+00:00",
+  "updatedAt": "2026-10-29T00:37:09.877495+00:00",
+  "checkedAt": "2026-10-29T00:37:09.877495+00:00",
   "articles": [
+    {
+      "id": "18078fa39f290dc17073",
+      "title": "Pfizer Oncology Biosimilars’ Falling ASPs",
+      "url": "https://biosimilarsrr.com/2026/10/28/pfizer-oncology-biosimilars-falling-asps/",
+      "source": "BR&R",
+      "sourceId": "brr",
+      "publishedAt": "2026-10-28T19:10:31+00:00",
+      "molecules": [
+        "ranibizumab",
+        "rituximab",
+        "trastuzumab"
+      ],
+      "topics": [
+        "Market overall"
+      ],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-29T00:37:09.877495+00:00",
+      "type": "article"
+    },
+    {
+      "id": "611dea8ecadb5fb623d4",
+      "title": "Genmab’s cancer bispecific delivers early survival win in ‘exceedingly positive’ Phase 3 readout",
+      "url": "https://www.biospace.com/drug-development/genmabs-cancer-bispecific-delivers-early-survival-win-in-exceedingly-positive-phase-3-readout",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-28T17:07:47+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-29T00:37:09.877495+00:00",
+      "type": "article"
+    },
+    {
+      "id": "7e218a31c9e8416a363b",
+      "title": "Genmab's $8B Merus bet delivers as bispecific combo halves risk of death in phase 3",
+      "url": "https://www.fiercebiotech.com/biotech/genmabs-head-and-neck-cancer-bispecific-cuts-risk-death-half-ph3",
+      "source": "Fierce Biotech",
+      "sourceId": "fiercebiotech",
+      "publishedAt": "2026-10-28T15:58:00+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-29T00:37:09.877495+00:00",
+      "type": "article"
+    },
+    {
+      "id": "dca6fc94e9fccbfc7f33",
+      "title": "Pyxis Oncology to Participate in Upcoming November 2026 Investor Conferences",
+      "url": "https://www.biospace.com/press-releases/pyxis-oncology-to-participate-in-upcoming-november-2026-investor-conferences",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-28T13:35:28+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-29T00:37:09.877495+00:00",
+      "type": "press-release"
+    },
     {
       "id": "9d7d5af0e26b9fb6b226",
       "title": "After 2 patient deaths and cell therapy durability concerns, Artiva cuts 94% of workforce",
@@ -1341,6 +1409,22 @@
       "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-10-13T02:26:20.062092+00:00",
+      "type": "article"
+    },
+    {
+      "id": "e9dad7ae88a47b73c144",
+      "title": "The 2026 Biotech Graveyard",
+      "url": "https://www.fiercebiotech.com/biotech/2026-biotech-graveyard",
+      "source": "Fierce Biotech",
+      "sourceId": "fiercebiotech",
+      "publishedAt": "2026-10-11T11:49:00+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-29T00:37:09.877495+00:00",
       "type": "article"
     },
     {
@@ -3300,29 +3384,29 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-10-28T00:16:47.506688+00:00",
+      "checkedAt": "2026-10-29T00:37:09.877495+00:00",
       "status": "ok",
       "discovered": 10,
-      "new": 0,
+      "new": 1,
       "errors": 0,
-      "bodyMatched": 0,
+      "bodyMatched": 1,
       "deferred": 0
     },
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-10-28T00:16:47.506688+00:00",
+      "checkedAt": "2026-10-29T00:37:09.877495+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 17
+      "deferred": 18
     },
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-10-28T00:16:47.506688+00:00",
+      "checkedAt": "2026-10-29T00:37:09.877495+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -3333,18 +3417,18 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-10-28T00:16:47.506688+00:00",
+      "checkedAt": "2026-10-29T00:37:09.877495+00:00",
       "status": "ok",
-      "discovered": 598,
-      "new": 3,
+      "discovered": 520,
+      "new": 2,
       "errors": 0,
-      "bodyMatched": 3,
-      "deferred": 541
+      "bodyMatched": 2,
+      "deferred": 466
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-10-28T00:16:47.506688+00:00",
+      "checkedAt": "2026-10-29T00:37:09.877495+00:00",
       "status": "ok",
       "discovered": 100,
       "new": 0,
@@ -3355,19 +3439,19 @@
     {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-10-28T00:16:47.506688+00:00",
+      "checkedAt": "2026-10-29T00:37:09.877495+00:00",
       "status": "ok",
-      "discovered": 31,
+      "discovered": 30,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 23,
+      "deferred": 25,
       "collectionMode": "rss-only"
     },
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-10-28T00:16:47.506688+00:00",
+      "checkedAt": "2026-10-29T00:37:09.877495+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -3379,35 +3463,35 @@
     {
       "id": "fiercebiotech",
       "name": "Fierce Biotech",
-      "checkedAt": "2026-10-28T00:16:47.506688+00:00",
+      "checkedAt": "2026-10-29T00:37:09.877495+00:00",
       "status": "ok",
       "discovered": 25,
-      "new": 1,
+      "new": 2,
       "errors": 0,
-      "bodyMatched": 1,
+      "bodyMatched": 2,
       "deferred": 11
     },
     {
       "id": "gen",
       "name": "GEN",
-      "checkedAt": "2026-10-28T00:16:47.506688+00:00",
+      "checkedAt": "2026-10-29T00:37:09.877495+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 5
+      "deferred": 3
     },
     {
       "id": "ddd",
       "name": "Drug Discovery & Development",
-      "checkedAt": "2026-10-28T00:16:47.506688+00:00",
+      "checkedAt": "2026-10-29T00:37:09.877495+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 23
+      "deferred": 22
     }
   ],
   "molecules": [
