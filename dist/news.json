@@ -6,9 +6,41 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-10-29T00:37:09.877495+00:00",
-  "checkedAt": "2026-10-29T00:37:09.877495+00:00",
+  "updatedAt": "2026-10-30T00:36:19.317356+00:00",
+  "checkedAt": "2026-10-30T00:36:19.317356+00:00",
   "articles": [
+    {
+      "id": "54d90168cf6432d033d6",
+      "title": "Merck looks ahead to ‘another year of investment’ as Keytruda cliff looms",
+      "url": "https://www.biospace.com/business/merck-looks-ahead-to-another-year-of-investment-as-keytruda-cliff-looms",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-29T16:05:48+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-30T00:36:19.317356+00:00",
+      "type": "article"
+    },
+    {
+      "id": "4ec03f7c2404a367ed12",
+      "title": "Arima Genomics Study Shows Hi-C Reveals Clinically Important Rearrangements Beyond Routine FISH",
+      "url": "https://www.biospace.com/press-releases/arima-genomics-study-shows-hi-c-reveals-clinically-important-rearrangements-beyond-routine-fish",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-29T13:22:40+00:00",
+      "molecules": [
+        "rituximab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-30T00:36:19.317356+00:00",
+      "type": "press-release"
+    },
     {
       "id": "18078fa39f290dc17073",
       "title": "Pfizer Oncology Biosimilars’ Falling ASPs",
@@ -3384,18 +3416,18 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-10-29T00:37:09.877495+00:00",
+      "checkedAt": "2026-10-30T00:36:19.317356+00:00",
       "status": "ok",
       "discovered": 10,
-      "new": 1,
+      "new": 0,
       "errors": 0,
-      "bodyMatched": 1,
+      "bodyMatched": 0,
       "deferred": 0
     },
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-10-29T00:37:09.877495+00:00",
+      "checkedAt": "2026-10-30T00:36:19.317356+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
@@ -3406,7 +3438,7 @@
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-10-29T00:37:09.877495+00:00",
+      "checkedAt": "2026-10-30T00:36:19.317356+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -3417,81 +3449,81 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-10-29T00:37:09.877495+00:00",
+      "checkedAt": "2026-10-30T00:36:19.317356+00:00",
       "status": "ok",
-      "discovered": 520,
+      "discovered": 577,
       "new": 2,
       "errors": 0,
       "bodyMatched": 2,
-      "deferred": 466
+      "deferred": 524
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-10-29T00:37:09.877495+00:00",
+      "checkedAt": "2026-10-30T00:36:19.317356+00:00",
       "status": "ok",
       "discovered": 100,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 92
+      "deferred": 93
     },
     {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-10-29T00:37:09.877495+00:00",
+      "checkedAt": "2026-10-30T00:36:19.317356+00:00",
       "status": "ok",
-      "discovered": 30,
+      "discovered": 29,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 25,
+      "deferred": 24,
       "collectionMode": "rss-only"
     },
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-10-29T00:37:09.877495+00:00",
+      "checkedAt": "2026-10-30T00:36:19.317356+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 7,
+      "deferred": 6,
       "collectionMode": "rss-only"
     },
     {
       "id": "fiercebiotech",
       "name": "Fierce Biotech",
-      "checkedAt": "2026-10-29T00:37:09.877495+00:00",
+      "checkedAt": "2026-10-30T00:36:19.317356+00:00",
       "status": "ok",
       "discovered": 25,
-      "new": 2,
+      "new": 0,
       "errors": 0,
-      "bodyMatched": 2,
-      "deferred": 11
+      "bodyMatched": 0,
+      "deferred": 13
     },
     {
       "id": "gen",
       "name": "GEN",
-      "checkedAt": "2026-10-29T00:37:09.877495+00:00",
+      "checkedAt": "2026-10-30T00:36:19.317356+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 3
+      "deferred": 6
     },
     {
       "id": "ddd",
       "name": "Drug Discovery & Development",
-      "checkedAt": "2026-10-29T00:37:09.877495+00:00",
+      "checkedAt": "2026-10-30T00:36:19.317356+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 22
+      "deferred": 23
     }
   ],
   "molecules": [
