@@ -6,8 +6,8 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-10-31T00:22:00.996322+00:00",
-  "checkedAt": "2026-10-31T00:22:00.996322+00:00",
+  "updatedAt": "2026-10-31T23:55:59.811377+00:00",
+  "checkedAt": "2026-10-31T23:55:59.811377+00:00",
   "articles": [
     {
       "id": "2bf650d8878a7469b586",
@@ -141,6 +141,54 @@
       "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-10-31T00:22:00.996322+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "6c3bddf70c42a391a693",
+      "title": "Phrontline Biopharma Highlights Encouraging Preliminary Safety and Antitumor Activity of TJ101 Presented at ESMO 2026 and Announces Phase Ib Initiation",
+      "url": "https://www.biospace.com/press-releases/phrontline-biopharma-highlights-encouraging-preliminary-safety-and-antitumor-activity-of-tj101-presented-at-esmo-2026-and-announces-phase-ib-initiation",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-30T05:06:12+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-31T23:55:59.811377+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "1736f6001f32a88a71e0",
+      "title": "Exelixis Announces Third Quarter 2026 Financial Results and Provides Corporate Update",
+      "url": "https://www.biospace.com/press-releases/exelixis-announces-third-quarter-2026-financial-results-and-provides-corporate-update",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-30T05:03:40+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-31T23:55:59.811377+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "e6acef2e1c5f4a5e35d6",
+      "title": "Gilead Sciences Announces Third Quarter 2026 Financial Results",
+      "url": "https://www.biospace.com/press-releases/gilead-sciences-announces-third-quarter-2026-financial-results",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-30T04:58:44+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-31T23:55:59.811377+00:00",
       "type": "press-release"
     },
     {
@@ -3550,7 +3598,7 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-10-31T00:22:00.996322+00:00",
+      "checkedAt": "2026-10-31T23:55:59.811377+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -3561,18 +3609,18 @@
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-10-31T00:22:00.996322+00:00",
+      "checkedAt": "2026-10-31T23:55:59.811377+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 17
+      "deferred": 18
     },
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-10-31T00:22:00.996322+00:00",
+      "checkedAt": "2026-10-31T23:55:59.811377+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -3583,75 +3631,75 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-10-31T00:22:00.996322+00:00",
+      "checkedAt": "2026-10-31T23:55:59.811377+00:00",
       "status": "ok",
-      "discovered": 555,
-      "new": 7,
+      "discovered": 354,
+      "new": 3,
       "errors": 0,
-      "bodyMatched": 7,
-      "deferred": 502
+      "bodyMatched": 3,
+      "deferred": 296
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-10-31T00:22:00.996322+00:00",
+      "checkedAt": "2026-10-31T23:55:59.811377+00:00",
       "status": "ok",
       "discovered": 100,
-      "new": 1,
+      "new": 0,
       "errors": 0,
-      "bodyMatched": 1,
-      "deferred": 92
+      "bodyMatched": 0,
+      "deferred": 97
     },
     {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-10-31T00:22:00.996322+00:00",
+      "checkedAt": "2026-10-31T23:55:59.811377+00:00",
       "status": "ok",
       "discovered": 29,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 27,
+      "deferred": 29,
       "collectionMode": "rss-only"
     },
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-10-31T00:22:00.996322+00:00",
+      "checkedAt": "2026-10-31T23:55:59.811377+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 6,
+      "deferred": 10,
       "collectionMode": "rss-only"
     },
     {
       "id": "fiercebiotech",
       "name": "Fierce Biotech",
-      "checkedAt": "2026-10-31T00:22:00.996322+00:00",
+      "checkedAt": "2026-10-31T23:55:59.811377+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 14
+      "deferred": 22
     },
     {
       "id": "gen",
       "name": "GEN",
-      "checkedAt": "2026-10-31T00:22:00.996322+00:00",
+      "checkedAt": "2026-10-31T23:55:59.811377+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 6
+      "deferred": 10
     },
     {
       "id": "ddd",
       "name": "Drug Discovery & Development",
-      "checkedAt": "2026-10-31T00:22:00.996322+00:00",
+      "checkedAt": "2026-10-31T23:55:59.811377+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
