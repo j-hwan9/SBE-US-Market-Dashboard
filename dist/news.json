@@ -6,9 +6,143 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-10-30T00:36:19.317356+00:00",
-  "checkedAt": "2026-10-30T00:36:19.317356+00:00",
+  "updatedAt": "2026-10-31T00:22:00.996322+00:00",
+  "checkedAt": "2026-10-31T00:22:00.996322+00:00",
   "articles": [
+    {
+      "id": "2bf650d8878a7469b586",
+      "title": "AbbVie’s Q3 beat should keep ‘train rolling’ as company eyes bolt-on deals",
+      "url": "https://www.biospace.com/business/abbvies-q3-beat-should-keep-train-rolling-as-company-eyes-bolt-on-deals",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-30T15:42:22+00:00",
+      "molecules": [
+        "adalimumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-31T00:22:00.996322+00:00",
+      "type": "article"
+    },
+    {
+      "id": "8b7693545d687f3d4552",
+      "title": "Regeneron achieves ‘clean sweep’ in Q3 with myriad pipeline catalysts on deck",
+      "url": "https://www.biospace.com/business/regeneron-achieves-clean-sweep-in-q3-with-myriad-pipeline-catalysts-on-deck",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-30T15:07:04+00:00",
+      "molecules": [
+        "aflibercept"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-31T00:22:00.996322+00:00",
+      "type": "article"
+    },
+    {
+      "id": "c8b6955313fb9b5c2e0b",
+      "title": "FDA Approves Ilumya for Adults With Active Psoriatic Arthritis",
+      "url": "https://www.pharmexec.com/view/fda-approves-ilumya-tildrakizumab-active-psoriatic-arthritis",
+      "source": "Pharmaceutical Executive",
+      "sourceId": "pharmexec",
+      "publishedAt": "2026-10-30T13:11:07+00:00",
+      "molecules": [
+        "etanercept"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-31T00:22:00.996322+00:00",
+      "type": "article"
+    },
+    {
+      "id": "1f628a1552aa02e9bd00",
+      "title": "OmniAb Reports Third Quarter 2026 Financial Results and Business Highlights",
+      "url": "https://www.biospace.com/press-releases/omniab-reports-third-quarter-2026-financial-results-and-business-highlights",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-30T13:06:41+00:00",
+      "molecules": [
+        "bevacizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-31T00:22:00.996322+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "fe5f6e21a8dae004a76d",
+      "title": "AbbVie Reports Third-Quarter 2026 Financial Results",
+      "url": "https://www.biospace.com/press-releases/abbvie-reports-third-quarter-2026-financial-results",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-30T13:05:12+00:00",
+      "molecules": [
+        "adalimumab",
+        "rituximab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-31T00:22:00.996322+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "daff0f7861eb341bc955",
+      "title": "Enhertu® Wins 2026 International Prix Galien Award for Best Biotechnology Product",
+      "url": "https://www.biospace.com/press-releases/enhertu-wins-2026-international-prix-galien-award-for-best-biotechnology-product",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-30T12:06:09+00:00",
+      "molecules": [
+        "pertuzumab",
+        "trastuzumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-31T00:22:00.996322+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "68f173b0766da3ace5fa",
+      "title": "Regeneron Reports Third Quarter 2026 Financial and Operating Results",
+      "url": "https://www.biospace.com/press-releases/regeneron-reports-third-quarter-2026-financial-and-operating-results",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-30T11:55:52+00:00",
+      "molecules": [
+        "aflibercept"
+      ],
+      "topics": [
+        "Market overall",
+        "Policy"
+      ],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-31T00:22:00.996322+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "1d915b215da97902b978",
+      "title": "Daiichi Sankyo Reports Second Quarter Fiscal Year 2026 Financial Results",
+      "url": "https://www.biospace.com/press-releases/daiichi-sankyo-reports-second-quarter-fiscal-year-2026-financial-results",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-10-30T11:49:41+00:00",
+      "molecules": [
+        "pembrolizumab",
+        "pertuzumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-10-31T00:22:00.996322+00:00",
+      "type": "press-release"
+    },
     {
       "id": "54d90168cf6432d033d6",
       "title": "Merck looks ahead to ‘another year of investment’ as Keytruda cliff looms",
@@ -3416,7 +3550,7 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-10-30T00:36:19.317356+00:00",
+      "checkedAt": "2026-10-31T00:22:00.996322+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -3427,18 +3561,18 @@
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-10-30T00:36:19.317356+00:00",
+      "checkedAt": "2026-10-31T00:22:00.996322+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 18
+      "deferred": 17
     },
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-10-30T00:36:19.317356+00:00",
+      "checkedAt": "2026-10-31T00:22:00.996322+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -3449,41 +3583,41 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-10-30T00:36:19.317356+00:00",
+      "checkedAt": "2026-10-31T00:22:00.996322+00:00",
       "status": "ok",
-      "discovered": 577,
-      "new": 2,
+      "discovered": 555,
+      "new": 7,
       "errors": 0,
-      "bodyMatched": 2,
-      "deferred": 524
+      "bodyMatched": 7,
+      "deferred": 502
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-10-30T00:36:19.317356+00:00",
+      "checkedAt": "2026-10-31T00:22:00.996322+00:00",
       "status": "ok",
       "discovered": 100,
-      "new": 0,
+      "new": 1,
       "errors": 0,
-      "bodyMatched": 0,
-      "deferred": 93
+      "bodyMatched": 1,
+      "deferred": 92
     },
     {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-10-30T00:36:19.317356+00:00",
+      "checkedAt": "2026-10-31T00:22:00.996322+00:00",
       "status": "ok",
       "discovered": 29,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 24,
+      "deferred": 27,
       "collectionMode": "rss-only"
     },
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-10-30T00:36:19.317356+00:00",
+      "checkedAt": "2026-10-31T00:22:00.996322+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -3495,18 +3629,18 @@
     {
       "id": "fiercebiotech",
       "name": "Fierce Biotech",
-      "checkedAt": "2026-10-30T00:36:19.317356+00:00",
+      "checkedAt": "2026-10-31T00:22:00.996322+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 13
+      "deferred": 14
     },
     {
       "id": "gen",
       "name": "GEN",
-      "checkedAt": "2026-10-30T00:36:19.317356+00:00",
+      "checkedAt": "2026-10-31T00:22:00.996322+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -3517,7 +3651,7 @@
     {
       "id": "ddd",
       "name": "Drug Discovery & Development",
-      "checkedAt": "2026-10-30T00:36:19.317356+00:00",
+      "checkedAt": "2026-10-31T00:22:00.996322+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
