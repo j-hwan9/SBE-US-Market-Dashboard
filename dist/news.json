@@ -6,9 +6,62 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-11-02T00:13:28.930323+00:00",
-  "checkedAt": "2026-11-02T00:13:28.930323+00:00",
+  "updatedAt": "2026-11-03T02:47:35.466385+00:00",
+  "checkedAt": "2026-11-03T02:47:35.466385+00:00",
   "articles": [
+    {
+      "id": "473ac520fb5352be5282",
+      "title": "Lupin Receives U.S. FDA Approval for Amifampridine Tablets",
+      "url": "https://www.biospace.com/press-releases/lupin-receives-u-s-fda-approval-for-amifampridine-tablets",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-11-03T01:40:05+00:00",
+      "molecules": [],
+      "topics": [
+        "Market overall",
+        "Policy"
+      ],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-11-03T02:47:35.466385+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "2c6e023c901dab3be4c2",
+      "title": "Fresenius picks the biosimilars, WuXi Biologics builds them in a deal covering up to 37 candidates",
+      "url": "https://www.drugdiscoverytrends.com/fresenius-picks-the-biosimilars-wuxi-biologics-builds-them-in-a-deal-covering-up-to-37-candidates/",
+      "source": "Drug Discovery & Development",
+      "sourceId": "ddd",
+      "publishedAt": "2026-11-02T20:48:20+00:00",
+      "molecules": [
+        "adalimumab",
+        "denosumab",
+        "pegfilgrastim",
+        "tocilizumab",
+        "ustekinumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-11-03T02:47:35.466385+00:00",
+      "type": "article"
+    },
+    {
+      "id": "1329297aa4ace785034d",
+      "title": "Keytruda biosimilars are coming — but they face an uphill battle",
+      "url": "https://www.biopharmadive.com/news/keytruda-biosimilars-fda-pbm-market-share-drug/873424/",
+      "source": "BioPharma Dive",
+      "sourceId": "biopharmadive",
+      "publishedAt": "2026-11-02T14:34:00+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "feed-title-description",
+      "firstSeenAt": "2026-11-03T02:47:35.466385+00:00",
+      "type": "article"
+    },
     {
       "id": "2bf650d8878a7469b586",
       "title": "AbbVie’s Q3 beat should keep ‘train rolling’ as company eyes bolt-on deals",
@@ -3638,7 +3691,7 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-11-02T00:13:28.930323+00:00",
+      "checkedAt": "2026-11-03T02:47:35.466385+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -3649,7 +3702,7 @@
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-11-02T00:13:28.930323+00:00",
+      "checkedAt": "2026-11-03T02:47:35.466385+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
@@ -3660,7 +3713,7 @@
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-11-02T00:13:28.930323+00:00",
+      "checkedAt": "2026-11-03T02:47:35.466385+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -3671,81 +3724,81 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-11-02T00:13:28.930323+00:00",
+      "checkedAt": "2026-11-03T02:47:35.466385+00:00",
       "status": "ok",
-      "discovered": 230,
-      "new": 2,
+      "discovered": 424,
+      "new": 1,
       "errors": 0,
-      "bodyMatched": 2,
-      "deferred": 180
+      "bodyMatched": 1,
+      "deferred": 371
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-11-02T00:13:28.930323+00:00",
+      "checkedAt": "2026-11-03T02:47:35.466385+00:00",
       "status": "ok",
       "discovered": 100,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 97
+      "deferred": 94
     },
     {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-11-02T00:13:28.930323+00:00",
+      "checkedAt": "2026-11-03T02:47:35.466385+00:00",
       "status": "ok",
       "discovered": 29,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 29,
+      "deferred": 25,
       "collectionMode": "rss-only"
     },
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-11-02T00:13:28.930323+00:00",
+      "checkedAt": "2026-11-03T02:47:35.466385+00:00",
       "status": "ok",
       "discovered": 10,
-      "new": 0,
+      "new": 1,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 10,
+      "deferred": 6,
       "collectionMode": "rss-only"
     },
     {
       "id": "fiercebiotech",
       "name": "Fierce Biotech",
-      "checkedAt": "2026-11-02T00:13:28.930323+00:00",
+      "checkedAt": "2026-11-03T02:47:35.466385+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 22
+      "deferred": 16
     },
     {
       "id": "gen",
       "name": "GEN",
-      "checkedAt": "2026-11-02T00:13:28.930323+00:00",
+      "checkedAt": "2026-11-03T02:47:35.466385+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 9
+      "deferred": 6
     },
     {
       "id": "ddd",
       "name": "Drug Discovery & Development",
-      "checkedAt": "2026-11-02T00:13:28.930323+00:00",
+      "checkedAt": "2026-11-03T02:47:35.466385+00:00",
       "status": "ok",
       "discovered": 25,
-      "new": 0,
+      "new": 1,
       "errors": 0,
-      "bodyMatched": 0,
-      "deferred": 23
+      "bodyMatched": 1,
+      "deferred": 20
     }
   ],
   "molecules": [
