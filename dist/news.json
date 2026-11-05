@@ -6,9 +6,78 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-11-04T01:01:27.563919+00:00",
-  "checkedAt": "2026-11-04T01:01:27.563919+00:00",
+  "updatedAt": "2026-11-05T01:19:05.140384+00:00",
+  "checkedAt": "2026-11-05T01:19:05.140384+00:00",
   "articles": [
+    {
+      "id": "6b4bdda97c15b7cde7c5",
+      "title": "Amgen starts MariTide autoinjector study as pivotal readouts approach",
+      "url": "https://www.biospace.com/business/amgen-starts-maritide-autoinjector-study-as-pivotal-readouts-approach",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-11-04T16:01:06+00:00",
+      "molecules": [],
+      "topics": [
+        "Market overall",
+        "Policy"
+      ],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-11-05T01:19:05.140384+00:00",
+      "type": "article"
+    },
+    {
+      "id": "2fe52913e81694e01a56",
+      "title": "Aprea Therapeutics Announces Third Quarter 2026 Financial Results",
+      "url": "https://www.biospace.com/press-releases/aprea-therapeutics-announces-third-quarter-2026-financial-results",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-11-04T15:01:48+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-11-05T01:19:05.140384+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "dd1300ac6def4e69b8e3",
+      "title": "Top 5 Drugs Worldwide by Sales: The Pharmaceutical Powerhouses Behind a Trillion-Dollar Industry by Towards Healthcare Research and Consulting",
+      "url": "https://www.biospace.com/press-releases/top-5-drugs-worldwide-by-sales-the-pharmaceutical-powerhouses-behind-a-trillion-dollar-industry-by-towards-healthcare-research-and-consulting",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-11-04T14:35:44+00:00",
+      "molecules": [
+        "pembrolizumab",
+        "ustekinumab"
+      ],
+      "topics": [
+        "Market overall",
+        "Policy"
+      ],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-11-05T01:19:05.140384+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "3a5b4b795f3752fde1b2",
+      "title": "AbbVie pens $1.4B deal for deprioritized IBD drug from Nxera",
+      "url": "https://www.fiercebiotech.com/biotech/abbvie-pens-14b-deal-deprioritized-ibd-drug-nxera",
+      "source": "Fierce Biotech",
+      "sourceId": "fiercebiotech",
+      "publishedAt": "2026-11-04T12:21:00+00:00",
+      "molecules": [
+        "adalimumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-11-05T01:19:05.140384+00:00",
+      "type": "article"
+    },
     {
       "id": "89c521f7af3798564175",
       "title": "From cost advantage to value advantage: The next frontier for generic manufacturers",
@@ -3813,29 +3882,29 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-11-04T01:01:27.563919+00:00",
+      "checkedAt": "2026-11-05T01:19:05.140384+00:00",
       "status": "ok",
       "discovered": 10,
-      "new": 1,
+      "new": 0,
       "errors": 0,
-      "bodyMatched": 1,
+      "bodyMatched": 0,
       "deferred": 0
     },
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-11-04T01:01:27.563919+00:00",
+      "checkedAt": "2026-11-05T01:19:05.140384+00:00",
       "status": "ok",
       "discovered": 25,
-      "new": 1,
+      "new": 0,
       "errors": 0,
-      "bodyMatched": 1,
+      "bodyMatched": 0,
       "deferred": 18
     },
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-11-04T01:01:27.563919+00:00",
+      "checkedAt": "2026-11-05T01:19:05.140384+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -3846,80 +3915,80 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-11-04T01:01:27.563919+00:00",
+      "checkedAt": "2026-11-05T01:19:05.140384+00:00",
       "status": "ok",
-      "discovered": 602,
-      "new": 2,
+      "discovered": 653,
+      "new": 3,
       "errors": 0,
-      "bodyMatched": 2,
-      "deferred": 548
+      "bodyMatched": 3,
+      "deferred": 597
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-11-04T01:01:27.563919+00:00",
+      "checkedAt": "2026-11-05T01:19:05.140384+00:00",
       "status": "ok",
       "discovered": 100,
-      "new": 1,
+      "new": 0,
       "errors": 0,
-      "bodyMatched": 1,
-      "deferred": 91
+      "bodyMatched": 0,
+      "deferred": 92
     },
     {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-11-04T01:01:27.563919+00:00",
+      "checkedAt": "2026-11-05T01:19:05.140384+00:00",
       "status": "ok",
       "discovered": 29,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 26,
+      "deferred": 25,
       "collectionMode": "rss-only"
     },
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-11-04T01:01:27.563919+00:00",
+      "checkedAt": "2026-11-05T01:19:05.140384+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 6,
+      "deferred": 5,
       "collectionMode": "rss-only"
     },
     {
       "id": "fiercebiotech",
       "name": "Fierce Biotech",
-      "checkedAt": "2026-11-04T01:01:27.563919+00:00",
+      "checkedAt": "2026-11-05T01:19:05.140384+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 1,
       "errors": 0,
       "bodyMatched": 1,
-      "deferred": 21
+      "deferred": 16
     },
     {
       "id": "gen",
       "name": "GEN",
-      "checkedAt": "2026-11-04T01:01:27.563919+00:00",
+      "checkedAt": "2026-11-05T01:19:05.140384+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 6
+      "deferred": 0
     },
     {
       "id": "ddd",
       "name": "Drug Discovery & Development",
-      "checkedAt": "2026-11-04T01:01:27.563919+00:00",
+      "checkedAt": "2026-11-05T01:19:05.140384+00:00",
       "status": "ok",
       "discovered": 25,
-      "new": 1,
+      "new": 0,
       "errors": 0,
-      "bodyMatched": 1,
+      "bodyMatched": 0,
       "deferred": 21
     }
   ],
