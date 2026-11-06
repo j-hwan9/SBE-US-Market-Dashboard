@@ -6,9 +6,47 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-11-05T01:19:05.140384+00:00",
-  "checkedAt": "2026-11-05T01:19:05.140384+00:00",
+  "updatedAt": "2026-11-06T01:22:52.547783+00:00",
+  "checkedAt": "2026-11-06T01:22:52.547783+00:00",
   "articles": [
+    {
+      "id": "b5edb2fea8c4b8fbeab4",
+      "title": "Fresenius Kabi Expands Biosimilar Pipeline With Deal for Next-Generation Molecules",
+      "url": "https://biosimilarsrr.com/2026/11/05/fresenius-kabi-expands-biosimilar-pipeline-with-deal-for-next-generation-molecules/",
+      "source": "BR&R",
+      "sourceId": "brr",
+      "publishedAt": "2026-11-05T16:24:17+00:00",
+      "molecules": [
+        "adalimumab",
+        "denosumab",
+        "pegfilgrastim",
+        "pembrolizumab",
+        "rituximab",
+        "tocilizumab",
+        "ustekinumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-11-06T01:22:52.547783+00:00",
+      "type": "article"
+    },
+    {
+      "id": "4739f2e457209696a368",
+      "title": "T-time: British biotech pours $133M into the pot for bispecifics",
+      "url": "https://www.biospace.com/drug-development/t-time-british-biotech-pours-133m-into-the-pot-for-bispecifics",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-11-05T15:01:20+00:00",
+      "molecules": [
+        "insulin aspart"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-11-06T01:22:52.547783+00:00",
+      "type": "article"
+    },
     {
       "id": "6b4bdda97c15b7cde7c5",
       "title": "Amgen starts MariTide autoinjector study as pivotal readouts approach",
@@ -76,6 +114,22 @@
       "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-11-05T01:19:05.140384+00:00",
+      "type": "article"
+    },
+    {
+      "id": "1a8b866cb3795eb93280",
+      "title": "T-Therapeutics raises $133M series B for bispecific pipeline with Big Pharma backers in tow",
+      "url": "https://www.fiercebiotech.com/biotech/t-therapeutics-raises-133m-series-b-big-pharma-backers-tow",
+      "source": "Fierce Biotech",
+      "sourceId": "fiercebiotech",
+      "publishedAt": "2026-11-03T19:53:00+00:00",
+      "molecules": [
+        "insulin aspart"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-11-06T01:22:52.547783+00:00",
       "type": "article"
     },
     {
@@ -3882,18 +3936,18 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-11-05T01:19:05.140384+00:00",
+      "checkedAt": "2026-11-06T01:22:52.547783+00:00",
       "status": "ok",
       "discovered": 10,
-      "new": 0,
+      "new": 1,
       "errors": 0,
-      "bodyMatched": 0,
+      "bodyMatched": 1,
       "deferred": 0
     },
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-11-05T01:19:05.140384+00:00",
+      "checkedAt": "2026-11-06T01:22:52.547783+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
@@ -3904,7 +3958,7 @@
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-11-05T01:19:05.140384+00:00",
+      "checkedAt": "2026-11-06T01:22:52.547783+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -3915,41 +3969,41 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-11-05T01:19:05.140384+00:00",
+      "checkedAt": "2026-11-06T01:22:52.547783+00:00",
       "status": "ok",
-      "discovered": 653,
-      "new": 3,
+      "discovered": 755,
+      "new": 1,
       "errors": 0,
-      "bodyMatched": 3,
-      "deferred": 597
+      "bodyMatched": 1,
+      "deferred": 699
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-11-05T01:19:05.140384+00:00",
+      "checkedAt": "2026-11-06T01:22:52.547783+00:00",
       "status": "ok",
       "discovered": 100,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 92
+      "deferred": 94
     },
     {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-11-05T01:19:05.140384+00:00",
+      "checkedAt": "2026-11-06T01:22:52.547783+00:00",
       "status": "ok",
       "discovered": 29,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 25,
+      "deferred": 19,
       "collectionMode": "rss-only"
     },
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-11-05T01:19:05.140384+00:00",
+      "checkedAt": "2026-11-06T01:22:52.547783+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -3961,18 +4015,18 @@
     {
       "id": "fiercebiotech",
       "name": "Fierce Biotech",
-      "checkedAt": "2026-11-05T01:19:05.140384+00:00",
+      "checkedAt": "2026-11-06T01:22:52.547783+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 1,
       "errors": 0,
       "bodyMatched": 1,
-      "deferred": 16
+      "deferred": 14
     },
     {
       "id": "gen",
       "name": "GEN",
-      "checkedAt": "2026-11-05T01:19:05.140384+00:00",
+      "checkedAt": "2026-11-06T01:22:52.547783+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -3983,13 +4037,13 @@
     {
       "id": "ddd",
       "name": "Drug Discovery & Development",
-      "checkedAt": "2026-11-05T01:19:05.140384+00:00",
+      "checkedAt": "2026-11-06T01:22:52.547783+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 21
+      "deferred": 6
     }
   ],
   "molecules": [
