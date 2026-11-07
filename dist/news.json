@@ -6,9 +6,172 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-11-06T01:22:52.547783+00:00",
-  "checkedAt": "2026-11-06T01:22:52.547783+00:00",
+  "updatedAt": "2026-11-07T00:47:46.893946+00:00",
+  "checkedAt": "2026-11-07T00:47:46.893946+00:00",
   "articles": [
+    {
+      "id": "7b284c05feef34bf1d83",
+      "title": "The US Drug-Pricing Reset: Competing on Net Value ",
+      "url": "https://www.pharmexec.com/view/us-drug-pricing-reset-net-value",
+      "source": "Pharmaceutical Executive",
+      "sourceId": "pharmexec",
+      "publishedAt": "2026-11-06T18:49:48+00:00",
+      "molecules": [],
+      "topics": [
+        "Market overall",
+        "Policy"
+      ],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-11-07T00:47:46.893946+00:00",
+      "type": "article"
+    },
+    {
+      "id": "a4857a5331b5629bdf1f",
+      "title": "Moderna, Merck move toward filing for personalized melanoma therapy as COVID sales lift Q3",
+      "url": "https://www.drugdiscoverytrends.com/moderna-merck-move-toward-filing-for-personalized-melanoma-therapy-as-covid-sales-lift-q3/",
+      "source": "Drug Discovery & Development",
+      "sourceId": "ddd",
+      "publishedAt": "2026-11-06T17:47:12+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-11-07T00:47:46.893946+00:00",
+      "type": "article"
+    },
+    {
+      "id": "2ffc42a372e680ca362c",
+      "title": "Moderna enjoys stable vaccine sales thanks to global COVID uptake",
+      "url": "https://www.biospace.com/business/moderna-enjoys-stable-vaccine-sales-thanks-to-global-covid-uptake",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-11-06T16:43:26+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-11-07T00:47:46.893946+00:00",
+      "type": "article"
+    },
+    {
+      "id": "c7b1ce815d67beaa13b7",
+      "title": "Moderna’s norovirus vaccine plans in limbo in wake of phase 3 miss",
+      "url": "https://www.fiercebiotech.com/biotech/modernas-norovirus-plans-limbo-after-ph3-miss",
+      "source": "Fierce Biotech",
+      "sourceId": "fiercebiotech",
+      "publishedAt": "2026-11-06T14:52:00+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-11-07T00:47:46.893946+00:00",
+      "type": "article"
+    },
+    {
+      "id": "39d2dc5e7da6c5440f69",
+      "title": "Aulos Bioscience’s Imneskibart Demonstrates Outstanding Phase 2 Activity in Checkpoint Inhibitor-Refractory Melanoma and Lung Cancer, Comparing Favorably With Historical Treatment Benchmarks",
+      "url": "https://www.biospace.com/press-releases/aulos-biosciences-imneskibart-demonstrates-outstanding-phase-2-activity-in-checkpoint-inhibitor-refractory-melanoma-and-lung-cancer-comparing-favorably-with-historical-treatment-benchmarks",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-11-06T14:47:11+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-11-07T00:47:46.893946+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "4e895f857904049f43df",
+      "title": "Immunocore reports third quarter 2026 financial results and provides a business update",
+      "url": "https://www.biospace.com/press-releases/immunocore-reports-third-quarter-2026-financial-results-and-provides-a-business-update",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-11-06T14:40:08+00:00",
+      "molecules": [
+        "bevacizumab",
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-11-07T00:47:46.893946+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "0ce75fb71529ba5d8e68",
+      "title": "Candel Therapeutics Presents SITC 2026 Data Highlighting Systemic Immune Activation and Survival Outcomes Across Clinical-Stage Portfolio",
+      "url": "https://www.biospace.com/press-releases/candel-therapeutics-presents-sitc-2026-data-highlighting-systemic-immune-activation-and-survival-outcomes-across-clinical-stage-portfolio",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-11-06T14:39:06+00:00",
+      "molecules": [
+        "bevacizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-11-07T00:47:46.893946+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "5aeb2c912c09e50e29d5",
+      "title": "Compass Therapeutics Presents Novel Mechanism of Action Data for CTX-10726 (PD-1 x VEGF-A Bispecific Antibody) at the SITC 2026 Annual Meeting",
+      "url": "https://www.biospace.com/press-releases/compass-therapeutics-presents-novel-mechanism-of-action-data-for-ctx-10726-pd-1-x-vegf-a-bispecific-antibody-at-the-sitc-2026-annual-meeting",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-11-06T14:38:47+00:00",
+      "molecules": [
+        "bevacizumab",
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-11-07T00:47:46.893946+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "ceaedd43d8dfea966cc5",
+      "title": "FDA Grants Accelerated Approval to Rybrevant Faspro in Head and Neck Cancer",
+      "url": "https://www.pharmexec.com/view/fda-accelerated-approval-rybrevant-faspro-head-neck-cancer",
+      "source": "Pharmaceutical Executive",
+      "sourceId": "pharmexec",
+      "publishedAt": "2026-11-06T13:45:00+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-11-07T00:47:46.893946+00:00",
+      "type": "article"
+    },
+    {
+      "id": "c14e40b7b553a698c531",
+      "title": "Merck abandons Sutro-partnered IL-2 drug in ‘routine pipeline prioritization’",
+      "url": "https://www.fiercebiotech.com/biotech/merck-abandons-sutro-partnered-il-2-drug-routine-pipeline-prioritization",
+      "source": "Fierce Biotech",
+      "sourceId": "fiercebiotech",
+      "publishedAt": "2026-11-06T09:21:00+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-11-07T00:47:46.893946+00:00",
+      "type": "article"
+    },
     {
       "id": "b5edb2fea8c4b8fbeab4",
       "title": "Fresenius Kabi Expands Biosimilar Pipeline With Deal for Next-Generation Molecules",
@@ -3936,29 +4099,30 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-11-06T01:22:52.547783+00:00",
+      "checkedAt": "2026-11-07T00:47:46.893946+00:00",
       "status": "ok",
       "discovered": 10,
-      "new": 1,
+      "new": 0,
       "errors": 0,
-      "bodyMatched": 1,
+      "bodyMatched": 0,
       "deferred": 0
     },
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-11-06T01:22:52.547783+00:00",
-      "status": "ok",
+      "checkedAt": "2026-11-07T00:47:46.893946+00:00",
+      "status": "partial",
       "discovered": 25,
       "new": 0,
-      "errors": 0,
+      "errors": 1,
       "bodyMatched": 0,
-      "deferred": 18
+      "deferred": 18,
+      "lastError": "Unexpected publisher redirect/host: www.google.com"
     },
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-11-06T01:22:52.547783+00:00",
+      "checkedAt": "2026-11-07T00:47:46.893946+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -3969,81 +4133,81 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-11-06T01:22:52.547783+00:00",
+      "checkedAt": "2026-11-07T00:47:46.893946+00:00",
       "status": "ok",
-      "discovered": 755,
-      "new": 1,
+      "discovered": 784,
+      "new": 5,
       "errors": 0,
-      "bodyMatched": 1,
-      "deferred": 699
+      "bodyMatched": 5,
+      "deferred": 730
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-11-06T01:22:52.547783+00:00",
+      "checkedAt": "2026-11-07T00:47:46.893946+00:00",
       "status": "ok",
       "discovered": 100,
-      "new": 0,
+      "new": 2,
       "errors": 0,
-      "bodyMatched": 0,
-      "deferred": 94
+      "bodyMatched": 2,
+      "deferred": 78
     },
     {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-11-06T01:22:52.547783+00:00",
+      "checkedAt": "2026-11-07T00:47:46.893946+00:00",
       "status": "ok",
-      "discovered": 29,
+      "discovered": 28,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 19,
+      "deferred": 24,
       "collectionMode": "rss-only"
     },
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-11-06T01:22:52.547783+00:00",
+      "checkedAt": "2026-11-07T00:47:46.893946+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 5,
+      "deferred": 7,
       "collectionMode": "rss-only"
     },
     {
       "id": "fiercebiotech",
       "name": "Fierce Biotech",
-      "checkedAt": "2026-11-06T01:22:52.547783+00:00",
+      "checkedAt": "2026-11-07T00:47:46.893946+00:00",
       "status": "ok",
       "discovered": 25,
-      "new": 1,
+      "new": 2,
       "errors": 0,
-      "bodyMatched": 1,
-      "deferred": 14
+      "bodyMatched": 2,
+      "deferred": 17
     },
     {
       "id": "gen",
       "name": "GEN",
-      "checkedAt": "2026-11-06T01:22:52.547783+00:00",
+      "checkedAt": "2026-11-07T00:47:46.893946+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 0
+      "deferred": 5
     },
     {
       "id": "ddd",
       "name": "Drug Discovery & Development",
-      "checkedAt": "2026-11-06T01:22:52.547783+00:00",
+      "checkedAt": "2026-11-07T00:47:46.893946+00:00",
       "status": "ok",
       "discovered": 25,
-      "new": 0,
+      "new": 1,
       "errors": 0,
-      "bodyMatched": 0,
-      "deferred": 6
+      "bodyMatched": 1,
+      "deferred": 20
     }
   ],
   "molecules": [
