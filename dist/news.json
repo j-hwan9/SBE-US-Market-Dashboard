@@ -6,8 +6,8 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-11-07T00:47:46.893946+00:00",
-  "checkedAt": "2026-11-07T00:47:46.893946+00:00",
+  "updatedAt": "2026-11-08T00:12:40.478043+00:00",
+  "checkedAt": "2026-11-08T00:12:40.478043+00:00",
   "articles": [
     {
       "id": "7b284c05feef34bf1d83",
@@ -138,6 +138,45 @@
       "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-11-07T00:47:46.893946+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "915b76830580c4742345",
+      "title": "Bio-Thera Announces NMPA Approval of BAT2506, the First Golimumab Biosimilar Approved in China",
+      "url": "https://www.biospace.com/press-releases/bio-thera-announces-nmpa-approval-of-bat2506-the-first-golimumab-biosimilar-approved-in-china",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-11-06T14:27:15+00:00",
+      "molecules": [
+        "adalimumab",
+        "bevacizumab",
+        "golimumab",
+        "tocilizumab",
+        "ustekinumab"
+      ],
+      "topics": [
+        "Market overall",
+        "Policy"
+      ],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-11-08T00:12:40.478043+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "5ff5a692454f9ed9c969",
+      "title": "Moderna Reports Third Quarter 2026 Financial Results and Provides Business Updates",
+      "url": "https://www.biospace.com/press-releases/moderna-reports-third-quarter-2026-financial-results-and-provides-business-updates",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-11-06T14:12:04+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-11-08T00:12:40.478043+00:00",
       "type": "press-release"
     },
     {
@@ -4099,7 +4138,7 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-11-07T00:47:46.893946+00:00",
+      "checkedAt": "2026-11-08T00:12:40.478043+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -4110,19 +4149,18 @@
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-11-07T00:47:46.893946+00:00",
-      "status": "partial",
+      "checkedAt": "2026-11-08T00:12:40.478043+00:00",
+      "status": "ok",
       "discovered": 25,
       "new": 0,
-      "errors": 1,
+      "errors": 0,
       "bodyMatched": 0,
-      "deferred": 18,
-      "lastError": "Unexpected publisher redirect/host: www.google.com"
+      "deferred": 18
     },
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-11-07T00:47:46.893946+00:00",
+      "checkedAt": "2026-11-08T00:12:40.478043+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -4133,80 +4171,80 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-11-07T00:47:46.893946+00:00",
+      "checkedAt": "2026-11-08T00:12:40.478043+00:00",
       "status": "ok",
-      "discovered": 784,
-      "new": 5,
+      "discovered": 463,
+      "new": 2,
       "errors": 0,
-      "bodyMatched": 5,
-      "deferred": 730
+      "bodyMatched": 2,
+      "deferred": 405
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-11-07T00:47:46.893946+00:00",
+      "checkedAt": "2026-11-08T00:12:40.478043+00:00",
       "status": "ok",
       "discovered": 100,
-      "new": 2,
+      "new": 0,
       "errors": 0,
-      "bodyMatched": 2,
-      "deferred": 78
+      "bodyMatched": 0,
+      "deferred": 95
     },
     {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-11-07T00:47:46.893946+00:00",
+      "checkedAt": "2026-11-08T00:12:40.478043+00:00",
       "status": "ok",
-      "discovered": 28,
+      "discovered": 26,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 24,
+      "deferred": 23,
       "collectionMode": "rss-only"
     },
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-11-07T00:47:46.893946+00:00",
+      "checkedAt": "2026-11-08T00:12:40.478043+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 7,
+      "deferred": 10,
       "collectionMode": "rss-only"
     },
     {
       "id": "fiercebiotech",
       "name": "Fierce Biotech",
-      "checkedAt": "2026-11-07T00:47:46.893946+00:00",
+      "checkedAt": "2026-11-08T00:12:40.478043+00:00",
       "status": "ok",
       "discovered": 25,
-      "new": 2,
+      "new": 0,
       "errors": 0,
-      "bodyMatched": 2,
-      "deferred": 17
+      "bodyMatched": 0,
+      "deferred": 18
     },
     {
       "id": "gen",
       "name": "GEN",
-      "checkedAt": "2026-11-07T00:47:46.893946+00:00",
+      "checkedAt": "2026-11-08T00:12:40.478043+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 5
+      "deferred": 10
     },
     {
       "id": "ddd",
       "name": "Drug Discovery & Development",
-      "checkedAt": "2026-11-07T00:47:46.893946+00:00",
+      "checkedAt": "2026-11-08T00:12:40.478043+00:00",
       "status": "ok",
       "discovered": 25,
-      "new": 1,
+      "new": 0,
       "errors": 0,
-      "bodyMatched": 1,
+      "bodyMatched": 0,
       "deferred": 20
     }
   ],
