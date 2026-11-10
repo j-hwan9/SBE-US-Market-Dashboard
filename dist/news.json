@@ -6,9 +6,41 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-11-09T00:41:15.484579+00:00",
-  "checkedAt": "2026-11-09T00:41:15.484579+00:00",
+  "updatedAt": "2026-11-10T03:08:20.796096+00:00",
+  "checkedAt": "2026-11-10T03:08:20.796096+00:00",
   "articles": [
+    {
+      "id": "642f1dbedaa6380859d5",
+      "title": "Pelareorep Induces Coordinated Antiviral Immune Responses and Enhanced Antitumor Immunity in Multiple Myeloma Patients",
+      "url": "https://www.biospace.com/press-releases/pelareorep-induces-coordinated-antiviral-immune-responses-and-enhanced-antitumor-immunity-in-multiple-myeloma-patients",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-11-10T00:30:42+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-11-10T03:08:20.796096+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "15ae8727f8ccba72ae67",
+      "title": "FDA orders class-wide GLP-1 label update to include potential risk for rare eye disease",
+      "url": "https://www.biospace.com/fda/fda-orders-class-wide-glp-1-label-update-to-include-potential-risk-for-rare-eye-disease",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-11-09T18:47:04+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-11-10T03:08:20.796096+00:00",
+      "type": "article"
+    },
     {
       "id": "b6b604b7bdcc64c4837d",
       "title": "HCW Biologics’ Presentation for HCW11-040 Recognized for Scientific Rigor, Novelty, Clarity and Potential Impact on Cancer Immunotherapy by the Society for Immunotherapy of Cancer",
@@ -225,6 +257,22 @@
       "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-11-07T00:47:46.893946+00:00",
+      "type": "article"
+    },
+    {
+      "id": "df62019d173844c4bf97",
+      "title": "Faeth’s phase 2 data power oral combo forward in cancer targeted by ADC heavyweights",
+      "url": "https://www.fiercebiotech.com/biotech/faeths-phase-2-data-power-oral-combo-forward-cancer-targeted-adc-heavyweights",
+      "source": "Fierce Biotech",
+      "sourceId": "fiercebiotech",
+      "publishedAt": "2026-11-06T10:32:00+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-11-10T03:08:20.796096+00:00",
       "type": "article"
     },
     {
@@ -4230,7 +4278,7 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-11-09T00:41:15.484579+00:00",
+      "checkedAt": "2026-11-10T03:08:20.796096+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -4241,19 +4289,18 @@
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-11-09T00:41:15.484579+00:00",
-      "status": "partial",
+      "checkedAt": "2026-11-10T03:08:20.796096+00:00",
+      "status": "ok",
       "discovered": 25,
       "new": 0,
-      "errors": 2,
+      "errors": 0,
       "bodyMatched": 0,
-      "deferred": 15,
-      "lastError": "Unexpected publisher redirect/host: www.google.com"
+      "deferred": 17
     },
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-11-09T00:41:15.484579+00:00",
+      "checkedAt": "2026-11-10T03:08:20.796096+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -4264,81 +4311,81 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-11-09T00:41:15.484579+00:00",
+      "checkedAt": "2026-11-10T03:08:20.796096+00:00",
       "status": "ok",
-      "discovered": 239,
-      "new": 5,
+      "discovered": 474,
+      "new": 2,
       "errors": 0,
-      "bodyMatched": 5,
-      "deferred": 187
+      "bodyMatched": 2,
+      "deferred": 416
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-11-09T00:41:15.484579+00:00",
+      "checkedAt": "2026-11-10T03:08:20.796096+00:00",
       "status": "ok",
       "discovered": 100,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 95
+      "deferred": 91
     },
     {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-11-09T00:41:15.484579+00:00",
+      "checkedAt": "2026-11-10T03:08:20.796096+00:00",
       "status": "ok",
-      "discovered": 26,
+      "discovered": 29,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 25,
+      "deferred": 21,
       "collectionMode": "rss-only"
     },
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-11-09T00:41:15.484579+00:00",
+      "checkedAt": "2026-11-10T03:08:20.796096+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 10,
+      "deferred": 3,
       "collectionMode": "rss-only"
     },
     {
       "id": "fiercebiotech",
       "name": "Fierce Biotech",
-      "checkedAt": "2026-11-09T00:41:15.484579+00:00",
+      "checkedAt": "2026-11-10T03:08:20.796096+00:00",
       "status": "ok",
       "discovered": 25,
-      "new": 0,
+      "new": 1,
       "errors": 0,
-      "bodyMatched": 0,
-      "deferred": 19
+      "bodyMatched": 1,
+      "deferred": 7
     },
     {
       "id": "gen",
       "name": "GEN",
-      "checkedAt": "2026-11-09T00:41:15.484579+00:00",
+      "checkedAt": "2026-11-10T03:08:20.796096+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 10
+      "deferred": 3
     },
     {
       "id": "ddd",
       "name": "Drug Discovery & Development",
-      "checkedAt": "2026-11-09T00:41:15.484579+00:00",
+      "checkedAt": "2026-11-10T03:08:20.796096+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 20
+      "deferred": 17
     }
   ],
   "molecules": [
