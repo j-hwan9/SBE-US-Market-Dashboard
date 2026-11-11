@@ -6,9 +6,91 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-11-10T03:08:20.796096+00:00",
-  "checkedAt": "2026-11-10T03:08:20.796096+00:00",
+  "updatedAt": "2026-11-11T00:59:18.793987+00:00",
+  "checkedAt": "2026-11-11T00:59:18.793987+00:00",
   "articles": [
+    {
+      "id": "e5112aa5672ed7a521a2",
+      "title": "Ankyra Therapeutics Announces New Scientific Advisory Board Members",
+      "url": "https://www.biospace.com/press-releases/ankyra-therapeutics-announces-new-scientific-advisory-board-members",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-11-11T00:47:55+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-11-11T00:59:18.793987+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "aa0674f0b164440d227b",
+      "title": "FDA Approves Promega OncoMate® MSI Dx Analysis System as Companion Diagnostic for KEYTRUDA® in MSI-High Solid Tumors",
+      "url": "https://www.biospace.com/press-releases/fda-approves-promega-oncomate-msi-dx-analysis-system-as-companion-diagnostic-for-keytruda-in-msi-high-solid-tumors",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-11-10T16:17:47+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-11-11T00:59:18.793987+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "e48516b62e545ad15200",
+      "title": "BsUFA IV: Fee Changes and Program Maturity",
+      "url": "https://biosimilarsrr.com/2026/11/10/bsufa-iv-fee-changes-and-program-maturity/",
+      "source": "BR&R",
+      "sourceId": "brr",
+      "publishedAt": "2026-11-10T15:38:48+00:00",
+      "molecules": [],
+      "topics": [
+        "Policy"
+      ],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-11-11T00:59:18.793987+00:00",
+      "type": "article"
+    },
+    {
+      "id": "8a8b8eda57dae1f9b0cc",
+      "title": "AbCellera becomes latest biotech to abandon dream of developing OX40 drug",
+      "url": "https://www.fiercebiotech.com/biotech/abcellera-becomes-latest-biotech-abandon-dream-developing-ox40-drug",
+      "source": "Fierce Biotech",
+      "sourceId": "fiercebiotech",
+      "publishedAt": "2026-11-10T10:07:00+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-11-11T00:59:18.793987+00:00",
+      "type": "article"
+    },
+    {
+      "id": "02ecb4bcb331294e2fd3",
+      "title": "Coherus shrinks headcount 30% to narrow focus of cancer combo",
+      "url": "https://www.fiercebiotech.com/biotech/coherus-shrinks-headcount-30-narrow-focus-cancer-combo",
+      "source": "Fierce Biotech",
+      "sourceId": "fiercebiotech",
+      "publishedAt": "2026-11-10T08:52:00+00:00",
+      "molecules": [
+        "pegfilgrastim"
+      ],
+      "topics": [
+        "Market overall"
+      ],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-11-11T00:59:18.793987+00:00",
+      "type": "article"
+    },
     {
       "id": "642f1dbedaa6380859d5",
       "title": "Pelareorep Induces Coordinated Antiviral Immune Responses and Enhanced Antitumor Immunity in Multiple Myeloma Patients",
@@ -4278,29 +4360,30 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-11-10T03:08:20.796096+00:00",
+      "checkedAt": "2026-11-11T00:59:18.793987+00:00",
       "status": "ok",
       "discovered": 10,
-      "new": 0,
+      "new": 1,
       "errors": 0,
-      "bodyMatched": 0,
+      "bodyMatched": 1,
       "deferred": 0
     },
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-11-10T03:08:20.796096+00:00",
-      "status": "ok",
+      "checkedAt": "2026-11-11T00:59:18.793987+00:00",
+      "status": "partial",
       "discovered": 25,
       "new": 0,
-      "errors": 0,
+      "errors": 1,
       "bodyMatched": 0,
-      "deferred": 17
+      "deferred": 18,
+      "lastError": "Unexpected publisher redirect/host: www.google.com"
     },
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-11-10T03:08:20.796096+00:00",
+      "checkedAt": "2026-11-11T00:59:18.793987+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -4311,81 +4394,81 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-11-10T03:08:20.796096+00:00",
+      "checkedAt": "2026-11-11T00:59:18.793987+00:00",
       "status": "ok",
-      "discovered": 474,
+      "discovered": 686,
       "new": 2,
       "errors": 0,
       "bodyMatched": 2,
-      "deferred": 416
+      "deferred": 628
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-11-10T03:08:20.796096+00:00",
+      "checkedAt": "2026-11-11T00:59:18.793987+00:00",
       "status": "ok",
       "discovered": 100,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 91
+      "deferred": 87
     },
     {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-11-10T03:08:20.796096+00:00",
+      "checkedAt": "2026-11-11T00:59:18.793987+00:00",
       "status": "ok",
-      "discovered": 29,
+      "discovered": 30,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 21,
+      "deferred": 24,
       "collectionMode": "rss-only"
     },
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-11-10T03:08:20.796096+00:00",
+      "checkedAt": "2026-11-11T00:59:18.793987+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 3,
+      "deferred": 6,
       "collectionMode": "rss-only"
     },
     {
       "id": "fiercebiotech",
       "name": "Fierce Biotech",
-      "checkedAt": "2026-11-10T03:08:20.796096+00:00",
+      "checkedAt": "2026-11-11T00:59:18.793987+00:00",
       "status": "ok",
       "discovered": 25,
-      "new": 1,
+      "new": 2,
       "errors": 0,
-      "bodyMatched": 1,
-      "deferred": 7
+      "bodyMatched": 2,
+      "deferred": 16
     },
     {
       "id": "gen",
       "name": "GEN",
-      "checkedAt": "2026-11-10T03:08:20.796096+00:00",
+      "checkedAt": "2026-11-11T00:59:18.793987+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 3
+      "deferred": 4
     },
     {
       "id": "ddd",
       "name": "Drug Discovery & Development",
-      "checkedAt": "2026-11-10T03:08:20.796096+00:00",
+      "checkedAt": "2026-11-11T00:59:18.793987+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 17
+      "deferred": 19
     }
   ],
   "molecules": [
