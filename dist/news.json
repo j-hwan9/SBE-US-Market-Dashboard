@@ -6,9 +6,25 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-11-12T02:08:00.583914+00:00",
-  "checkedAt": "2026-11-12T02:08:00.583914+00:00",
+  "updatedAt": "2026-11-13T01:41:30.384624+00:00",
+  "checkedAt": "2026-11-13T01:41:30.384624+00:00",
   "articles": [
+    {
+      "id": "a3e3833fc639973e4fc3",
+      "title": "Moderna Lays Out Oncology-Driven Growth Plan at 2026 Analyst Day",
+      "url": "https://www.pharmexec.com/view/moderna-oncology-driven-growth-plan-2026-analyst-day",
+      "source": "Pharmaceutical Executive",
+      "sourceId": "pharmexec",
+      "publishedAt": "2026-11-12T15:10:22+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-11-13T01:41:30.384624+00:00",
+      "type": "article"
+    },
     {
       "id": "736a4431e2a6159c2261",
       "title": "Palleon Pharmaceuticals Presents Phase 2 Results for HLX79/E-602 in Primary Membranous Nephropathy at ACR Convergence 2026",
@@ -4432,29 +4448,30 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-11-12T02:08:00.583914+00:00",
+      "checkedAt": "2026-11-13T01:41:30.384624+00:00",
       "status": "ok",
       "discovered": 10,
-      "new": 1,
+      "new": 0,
       "errors": 0,
-      "bodyMatched": 1,
+      "bodyMatched": 0,
       "deferred": 0
     },
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-11-12T02:08:00.583914+00:00",
-      "status": "ok",
+      "checkedAt": "2026-11-13T01:41:30.384624+00:00",
+      "status": "partial",
       "discovered": 25,
       "new": 0,
-      "errors": 0,
+      "errors": 1,
       "bodyMatched": 0,
-      "deferred": 18
+      "deferred": 16,
+      "lastError": "Unexpected publisher redirect/host: www.google.com"
     },
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-11-12T02:08:00.583914+00:00",
+      "checkedAt": "2026-11-13T01:41:30.384624+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -4465,31 +4482,31 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-11-12T02:08:00.583914+00:00",
+      "checkedAt": "2026-11-13T01:41:30.384624+00:00",
       "status": "ok",
-      "discovered": 621,
-      "new": 2,
+      "discovered": 522,
+      "new": 0,
       "errors": 0,
-      "bodyMatched": 2,
-      "deferred": 563
+      "bodyMatched": 0,
+      "deferred": 464
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-11-12T02:08:00.583914+00:00",
+      "checkedAt": "2026-11-13T01:41:30.384624+00:00",
       "status": "ok",
       "discovered": 100,
-      "new": 0,
+      "new": 1,
       "errors": 0,
-      "bodyMatched": 0,
-      "deferred": 93
+      "bodyMatched": 1,
+      "deferred": 92
     },
     {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-11-12T02:08:00.583914+00:00",
+      "checkedAt": "2026-11-13T01:41:30.384624+00:00",
       "status": "ok",
-      "discovered": 32,
+      "discovered": 33,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
@@ -4499,47 +4516,47 @@
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-11-12T02:08:00.583914+00:00",
+      "checkedAt": "2026-11-13T01:41:30.384624+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 8,
+      "deferred": 6,
       "collectionMode": "rss-only"
     },
     {
       "id": "fiercebiotech",
       "name": "Fierce Biotech",
-      "checkedAt": "2026-11-12T02:08:00.583914+00:00",
+      "checkedAt": "2026-11-13T01:41:30.384624+00:00",
       "status": "ok",
       "discovered": 25,
-      "new": 1,
+      "new": 0,
       "errors": 0,
-      "bodyMatched": 1,
-      "deferred": 18
+      "bodyMatched": 0,
+      "deferred": 15
     },
     {
       "id": "gen",
       "name": "GEN",
-      "checkedAt": "2026-11-12T02:08:00.583914+00:00",
+      "checkedAt": "2026-11-13T01:41:30.384624+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 10
+      "deferred": 7
     },
     {
       "id": "ddd",
       "name": "Drug Discovery & Development",
-      "checkedAt": "2026-11-12T02:08:00.583914+00:00",
+      "checkedAt": "2026-11-13T01:41:30.384624+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 20
+      "deferred": 19
     }
   ],
   "molecules": [
