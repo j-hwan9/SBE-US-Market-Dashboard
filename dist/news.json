@@ -6,9 +6,41 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-11-13T01:41:30.384624+00:00",
-  "checkedAt": "2026-11-13T01:41:30.384624+00:00",
+  "updatedAt": "2026-11-14T01:17:17.020362+00:00",
+  "checkedAt": "2026-11-14T01:17:17.020362+00:00",
   "articles": [
+    {
+      "id": "b8df1f83d5222e186ae4",
+      "title": "AIM ImmunoTech Approaches Major Clinical Inflection Point with Phase 2 Pancreatic Cancer Data Expected Q1 2027; Reports Third Quarter 2026 Financial Results",
+      "url": "https://www.biospace.com/press-releases/aim-immunotech-approaches-major-clinical-inflection-point-with-phase-2-pancreatic-cancer-data-expected-q1-2027-reports-third-quarter-2026-financial-results",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-11-13T14:36:28+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-11-14T01:17:17.020362+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "091d467e5ae6296ade2f",
+      "title": "PDS Biotech Reports Third Quarter 2026 Financial Results",
+      "url": "https://www.biospace.com/press-releases/pds-biotech-reports-third-quarter-2026-financial-results",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-11-13T14:06:41+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-11-14T01:17:17.020362+00:00",
+      "type": "press-release"
+    },
     {
       "id": "a3e3833fc639973e4fc3",
       "title": "Moderna Lays Out Oncology-Driven Growth Plan at 2026 Analyst Day",
@@ -4448,7 +4480,7 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-11-13T01:41:30.384624+00:00",
+      "checkedAt": "2026-11-14T01:17:17.020362+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -4459,11 +4491,11 @@
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-11-13T01:41:30.384624+00:00",
+      "checkedAt": "2026-11-14T01:17:17.020362+00:00",
       "status": "partial",
       "discovered": 25,
       "new": 0,
-      "errors": 1,
+      "errors": 2,
       "bodyMatched": 0,
       "deferred": 16,
       "lastError": "Unexpected publisher redirect/host: www.google.com"
@@ -4471,7 +4503,7 @@
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-11-13T01:41:30.384624+00:00",
+      "checkedAt": "2026-11-14T01:17:17.020362+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -4482,53 +4514,53 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-11-13T01:41:30.384624+00:00",
+      "checkedAt": "2026-11-14T01:17:17.020362+00:00",
       "status": "ok",
-      "discovered": 522,
-      "new": 0,
+      "discovered": 555,
+      "new": 2,
       "errors": 0,
-      "bodyMatched": 0,
-      "deferred": 464
+      "bodyMatched": 2,
+      "deferred": 498
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-11-13T01:41:30.384624+00:00",
+      "checkedAt": "2026-11-14T01:17:17.020362+00:00",
       "status": "ok",
       "discovered": 100,
-      "new": 1,
+      "new": 0,
       "errors": 0,
-      "bodyMatched": 1,
-      "deferred": 92
+      "bodyMatched": 0,
+      "deferred": 91
     },
     {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-11-13T01:41:30.384624+00:00",
+      "checkedAt": "2026-11-14T01:17:17.020362+00:00",
       "status": "ok",
       "discovered": 33,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 28,
+      "deferred": 29,
       "collectionMode": "rss-only"
     },
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-11-13T01:41:30.384624+00:00",
+      "checkedAt": "2026-11-14T01:17:17.020362+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 6,
+      "deferred": 8,
       "collectionMode": "rss-only"
     },
     {
       "id": "fiercebiotech",
       "name": "Fierce Biotech",
-      "checkedAt": "2026-11-13T01:41:30.384624+00:00",
+      "checkedAt": "2026-11-14T01:17:17.020362+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
@@ -4539,7 +4571,7 @@
     {
       "id": "gen",
       "name": "GEN",
-      "checkedAt": "2026-11-13T01:41:30.384624+00:00",
+      "checkedAt": "2026-11-14T01:17:17.020362+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -4550,7 +4582,7 @@
     {
       "id": "ddd",
       "name": "Drug Discovery & Development",
-      "checkedAt": "2026-11-13T01:41:30.384624+00:00",
+      "checkedAt": "2026-11-14T01:17:17.020362+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
