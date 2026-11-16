@@ -6,9 +6,25 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-11-15T00:45:03.833243+00:00",
-  "checkedAt": "2026-11-15T00:45:03.833243+00:00",
+  "updatedAt": "2026-11-16T00:45:25.359898+00:00",
+  "checkedAt": "2026-11-16T00:45:25.359898+00:00",
   "articles": [
+    {
+      "id": "52dd624e08acb1d57539",
+      "title": "Summit's PD-1xVEGF rejected by FDA in lung cancer",
+      "url": "https://www.biospace.com/drug-development/summits-pd-1xvegf-rejected-by-fda-in-lung-cancer",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-11-15T14:03:30+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-11-16T00:45:25.359898+00:00",
+      "type": "article"
+    },
     {
       "id": "b8df1f83d5222e186ae4",
       "title": "AIM ImmunoTech Approaches Major Clinical Inflection Point with Phase 2 Pancreatic Cancer Data Expected Q1 2027; Reports Third Quarter 2026 Financial Results",
@@ -4512,7 +4528,7 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-11-15T00:45:03.833243+00:00",
+      "checkedAt": "2026-11-16T00:45:25.359898+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -4523,18 +4539,18 @@
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-11-15T00:45:03.833243+00:00",
+      "checkedAt": "2026-11-16T00:45:25.359898+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 15
+      "deferred": 19
     },
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-11-15T00:45:03.833243+00:00",
+      "checkedAt": "2026-11-16T00:45:25.359898+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -4545,18 +4561,18 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-11-15T00:45:03.833243+00:00",
+      "checkedAt": "2026-11-16T00:45:25.359898+00:00",
       "status": "ok",
-      "discovered": 417,
-      "new": 2,
+      "discovered": 231,
+      "new": 1,
       "errors": 0,
-      "bodyMatched": 2,
-      "deferred": 359
+      "bodyMatched": 1,
+      "deferred": 176
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-11-15T00:45:03.833243+00:00",
+      "checkedAt": "2026-11-16T00:45:25.359898+00:00",
       "status": "ok",
       "discovered": 100,
       "new": 0,
@@ -4567,19 +4583,19 @@
     {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-11-15T00:45:03.833243+00:00",
+      "checkedAt": "2026-11-16T00:45:25.359898+00:00",
       "status": "ok",
       "discovered": 33,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 33,
+      "deferred": 32,
       "collectionMode": "rss-only"
     },
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-11-15T00:45:03.833243+00:00",
+      "checkedAt": "2026-11-16T00:45:25.359898+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -4591,7 +4607,7 @@
     {
       "id": "fiercebiotech",
       "name": "Fierce Biotech",
-      "checkedAt": "2026-11-15T00:45:03.833243+00:00",
+      "checkedAt": "2026-11-16T00:45:25.359898+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
@@ -4602,18 +4618,18 @@
     {
       "id": "gen",
       "name": "GEN",
-      "checkedAt": "2026-11-15T00:45:03.833243+00:00",
+      "checkedAt": "2026-11-16T00:45:25.359898+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 10
+      "deferred": 9
     },
     {
       "id": "ddd",
       "name": "Drug Discovery & Development",
-      "checkedAt": "2026-11-15T00:45:03.833243+00:00",
+      "checkedAt": "2026-11-16T00:45:25.359898+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
