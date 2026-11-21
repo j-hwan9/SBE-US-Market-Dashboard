@@ -6,9 +6,58 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-11-20T02:01:46.291275+00:00",
-  "checkedAt": "2026-11-20T02:01:46.291275+00:00",
+  "updatedAt": "2026-11-21T01:59:08.552717+00:00",
+  "checkedAt": "2026-11-21T01:59:08.552717+00:00",
   "articles": [
+    {
+      "id": "74e2e15977639c76f742",
+      "title": "Merck-Kelun ADC scores survival win in Phase 3 gastroesophageal cancer trial",
+      "url": "https://www.biospace.com/drug-development/merck-kelun-adc-scores-survival-win-in-phase-3-gastroesophageal-cancer-trial",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-11-20T14:33:19+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-11-21T01:59:08.552717+00:00",
+      "type": "article"
+    },
+    {
+      "id": "42214e0318c8ff81e411",
+      "title": "Erasca Reports Broad and Robust Phase 1 Clinical Efficacy and Favorable Safety Data for Pan-RAS Molecular Glue ERAS-0015",
+      "url": "https://www.biospace.com/press-releases/erasca-reports-broad-and-robust-phase-1-clinical-efficacy-and-favorable-safety-data-for-pan-ras-molecular-glue-eras-0015",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-11-20T13:54:54+00:00",
+      "molecules": [
+        "infliximab",
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-11-21T01:59:08.552717+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "a5fd4751b57e81a6b417",
+      "title": "Leads Biolabs Presents Opamtistomig (PD-L1/4-1BB Bispecific Antibody) to Global Investors at the 2026 Jefferies Global Healthcare Conference",
+      "url": "https://www.biospace.com/press-releases/leads-biolabs-presents-opamtistomig-pd-l1-4-1bb-bispecific-antibody-to-global-investors-at-the-2026-jefferies-global-healthcare-conference",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-11-20T11:55:51+00:00",
+      "molecules": [
+        "bevacizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-11-21T01:59:08.552717+00:00",
+      "type": "press-release"
+    },
     {
       "id": "92edfe959863db3379fc",
       "title": "Tempus to Present 16 Abstracts at the 2026 San Antonio Breast Cancer Symposium",
@@ -4830,7 +4879,7 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-11-20T02:01:46.291275+00:00",
+      "checkedAt": "2026-11-21T01:59:08.552717+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -4841,18 +4890,18 @@
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-11-20T02:01:46.291275+00:00",
+      "checkedAt": "2026-11-21T01:59:08.552717+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 19
+      "deferred": 17
     },
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-11-20T02:01:46.291275+00:00",
+      "checkedAt": "2026-11-21T01:59:08.552717+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -4863,81 +4912,81 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-11-20T02:01:46.291275+00:00",
+      "checkedAt": "2026-11-21T01:59:08.552717+00:00",
       "status": "ok",
-      "discovered": 466,
-      "new": 2,
+      "discovered": 391,
+      "new": 3,
       "errors": 0,
-      "bodyMatched": 2,
-      "deferred": 408
+      "bodyMatched": 3,
+      "deferred": 332
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-11-20T02:01:46.291275+00:00",
+      "checkedAt": "2026-11-21T01:59:08.552717+00:00",
       "status": "ok",
-      "discovered": 12,
-      "new": 1,
+      "discovered": 11,
+      "new": 0,
       "errors": 0,
-      "bodyMatched": 1,
-      "deferred": 4
+      "bodyMatched": 0,
+      "deferred": 6
     },
     {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-11-20T02:01:46.291275+00:00",
+      "checkedAt": "2026-11-21T01:59:08.552717+00:00",
       "status": "ok",
       "discovered": 31,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 24,
+      "deferred": 27,
       "collectionMode": "rss-only"
     },
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-11-20T02:01:46.291275+00:00",
+      "checkedAt": "2026-11-21T01:59:08.552717+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 7,
+      "deferred": 6,
       "collectionMode": "rss-only"
     },
     {
       "id": "fiercebiotech",
       "name": "Fierce Biotech",
-      "checkedAt": "2026-11-20T02:01:46.291275+00:00",
+      "checkedAt": "2026-11-21T01:59:08.552717+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 14
+      "deferred": 17
     },
     {
       "id": "gen",
       "name": "GEN",
-      "checkedAt": "2026-11-20T02:01:46.291275+00:00",
+      "checkedAt": "2026-11-21T01:59:08.552717+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 8
+      "deferred": 7
     },
     {
       "id": "ddd",
       "name": "Drug Discovery & Development",
-      "checkedAt": "2026-11-20T02:01:46.291275+00:00",
+      "checkedAt": "2026-11-21T01:59:08.552717+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 20
+      "deferred": 21
     }
   ],
   "molecules": [
