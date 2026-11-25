@@ -6,9 +6,43 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-11-24T05:09:45.483315+00:00",
-  "checkedAt": "2026-11-24T05:09:45.483315+00:00",
+  "updatedAt": "2026-11-25T03:57:32.578392+00:00",
+  "checkedAt": "2026-11-25T03:57:32.578392+00:00",
   "articles": [
+    {
+      "id": "6500a0ca708131c082e4",
+      "title": "NJ Bio and Aruka Bio Announce the Development of ARK-101, a Next-Generation HER2 ADC Designed to Reduce ILD Risk for Potential Treatment of Breast Cancer",
+      "url": "https://www.biospace.com/press-releases/nj-bio-and-aruka-bio-announce-the-development-of-ark-101-a-next-generation-her2-adc-designed-to-reduce-ild-risk-for-potential-treatment-of-breast-cancer",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-11-25T01:23:12+00:00",
+      "molecules": [
+        "trastuzumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-11-25T03:57:32.578392+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "6653e744620f4fd2bdff",
+      "title": "Biosimilar Bytes for Thanksgiving Dinner",
+      "url": "https://biosimilarsrr.com/2026/11/24/biosimilar-bytes-for-thanksgiving-dinner/",
+      "source": "BR&R",
+      "sourceId": "brr",
+      "publishedAt": "2026-11-24T16:51:23+00:00",
+      "molecules": [
+        "pertuzumab"
+      ],
+      "topics": [
+        "Market overall"
+      ],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-11-25T03:57:32.578392+00:00",
+      "type": "article"
+    },
     {
       "id": "4adae413b84ec6b83b96",
       "title": "Amneal to Participate in Piper Sandler 38th Annual Healthcare Conference",
@@ -4962,18 +4996,18 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-11-24T05:09:45.483315+00:00",
+      "checkedAt": "2026-11-25T03:57:32.578392+00:00",
       "status": "ok",
       "discovered": 10,
-      "new": 0,
+      "new": 1,
       "errors": 0,
-      "bodyMatched": 0,
+      "bodyMatched": 1,
       "deferred": 0
     },
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-11-24T05:09:45.483315+00:00",
+      "checkedAt": "2026-11-25T03:57:32.578392+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
@@ -4984,92 +5018,92 @@
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-11-24T05:09:45.483315+00:00",
-      "status": "unavailable",
-      "discovered": 0,
-      "new": 0,
-      "errors": 1,
-      "bodyMatched": 0,
-      "lastError": "No article links discovered"
-    },
-    {
-      "id": "biospace",
-      "name": "BioSpace",
-      "checkedAt": "2026-11-24T05:09:45.483315+00:00",
+      "checkedAt": "2026-11-25T03:57:32.578392+00:00",
       "status": "ok",
-      "discovered": 408,
-      "new": 3,
-      "errors": 0,
-      "bodyMatched": 3,
-      "deferred": 350
-    },
-    {
-      "id": "pharmexec",
-      "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-11-24T05:09:45.483315+00:00",
-      "status": "ok",
-      "discovered": 5,
+      "discovered": 6,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
       "deferred": 0
     },
     {
+      "id": "biospace",
+      "name": "BioSpace",
+      "checkedAt": "2026-11-25T03:57:32.578392+00:00",
+      "status": "ok",
+      "discovered": 503,
+      "new": 1,
+      "errors": 0,
+      "bodyMatched": 1,
+      "deferred": 442
+    },
+    {
+      "id": "pharmexec",
+      "name": "Pharmaceutical Executive",
+      "checkedAt": "2026-11-25T03:57:32.578392+00:00",
+      "status": "ok",
+      "discovered": 10,
+      "new": 0,
+      "errors": 0,
+      "bodyMatched": 0,
+      "deferred": 6
+    },
+    {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-11-24T05:09:45.483315+00:00",
+      "checkedAt": "2026-11-25T03:57:32.578392+00:00",
       "status": "ok",
       "discovered": 30,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 22,
+      "deferred": 26,
       "collectionMode": "rss-only"
     },
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-11-24T05:09:45.483315+00:00",
+      "checkedAt": "2026-11-25T03:57:32.578392+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 8,
+      "deferred": 6,
       "collectionMode": "rss-only"
     },
     {
       "id": "fiercebiotech",
       "name": "Fierce Biotech",
-      "checkedAt": "2026-11-24T05:09:45.483315+00:00",
-      "status": "unavailable",
-      "discovered": 0,
-      "new": 0,
-      "errors": 1,
-      "bodyMatched": 0,
-      "lastError": "No article links discovered"
-    },
-    {
-      "id": "gen",
-      "name": "GEN",
-      "checkedAt": "2026-11-24T05:09:45.483315+00:00",
-      "status": "ok",
-      "discovered": 10,
-      "new": 0,
-      "errors": 0,
-      "bodyMatched": 0,
-      "deferred": 7
-    },
-    {
-      "id": "ddd",
-      "name": "Drug Discovery & Development",
-      "checkedAt": "2026-11-24T05:09:45.483315+00:00",
+      "checkedAt": "2026-11-25T03:57:32.578392+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 20
+      "deferred": 14
+    },
+    {
+      "id": "gen",
+      "name": "GEN",
+      "checkedAt": "2026-11-25T03:57:32.578392+00:00",
+      "status": "ok",
+      "discovered": 10,
+      "new": 0,
+      "errors": 0,
+      "bodyMatched": 0,
+      "deferred": 6
+    },
+    {
+      "id": "ddd",
+      "name": "Drug Discovery & Development",
+      "checkedAt": "2026-11-25T03:57:32.578392+00:00",
+      "status": "ok",
+      "discovered": 25,
+      "new": 0,
+      "errors": 0,
+      "bodyMatched": 0,
+      "deferred": 21
     }
   ],
   "molecules": [
