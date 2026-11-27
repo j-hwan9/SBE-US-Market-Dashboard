@@ -6,9 +6,25 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-11-26T03:21:13.624144+00:00",
-  "checkedAt": "2026-11-26T03:21:13.624144+00:00",
+  "updatedAt": "2026-11-27T03:29:28.473049+00:00",
+  "checkedAt": "2026-11-27T03:29:28.473049+00:00",
   "articles": [
+    {
+      "id": "c87851fc39a146f6beff",
+      "title": "Apotex supports continued access to women's health treatment in Canada",
+      "url": "https://www.biospace.com/press-releases/apotex-supports-continued-access-to-womens-health-treatment-in-canada",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-11-27T01:30:00+00:00",
+      "molecules": [],
+      "topics": [
+        "Market overall"
+      ],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-11-27T03:29:28.473049+00:00",
+      "type": "press-release"
+    },
     {
       "id": "d565809c0be996834b2b",
       "title": "Lupin Receives Approval from U.S. FDA for Sitagliptin and Metformin Hydrochloride Tablets, in the United States",
@@ -24,6 +40,44 @@
       "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
       "matchBasis": "article",
       "firstSeenAt": "2026-11-26T03:21:13.624144+00:00",
+      "type": "press-release"
+    },
+    {
+      "id": "9ac7710d66efe5db7d8d",
+      "title": "‘Buckle up’: Opdivo biosimilar settlement sets BMS up for make-or-break moment",
+      "url": "https://www.biospace.com/business/buckle-up-opdivo-biosimilar-settlement-sets-bms-up-for-make-or-break-moment",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-11-25T14:16:17+00:00",
+      "molecules": [
+        "pembrolizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-11-27T03:29:28.473049+00:00",
+      "type": "article"
+    },
+    {
+      "id": "eafb0a5d991d5f218d90",
+      "title": "Alvotech to Present at Upcoming Investor Conferences in December 2026",
+      "url": "https://www.biospace.com/press-releases/alvotech-to-present-at-upcoming-investor-conferences-in-december-2026",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-11-25T13:24:02+00:00",
+      "molecules": [
+        "adalimumab",
+        "aflibercept",
+        "denosumab",
+        "golimumab",
+        "ustekinumab"
+      ],
+      "topics": [
+        "Market overall"
+      ],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-11-27T03:29:28.473049+00:00",
       "type": "press-release"
     },
     {
@@ -5013,7 +5067,7 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-11-26T03:21:13.624144+00:00",
+      "checkedAt": "2026-11-27T03:29:28.473049+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -5024,18 +5078,19 @@
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-11-26T03:21:13.624144+00:00",
-      "status": "ok",
+      "checkedAt": "2026-11-27T03:29:28.473049+00:00",
+      "status": "partial",
       "discovered": 25,
       "new": 0,
-      "errors": 0,
+      "errors": 1,
       "bodyMatched": 0,
-      "deferred": 19
+      "deferred": 18,
+      "lastError": "Unexpected publisher redirect/host: www.google.com"
     },
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-11-26T03:21:13.624144+00:00",
+      "checkedAt": "2026-11-27T03:29:28.473049+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -5046,75 +5101,75 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-11-26T03:21:13.624144+00:00",
+      "checkedAt": "2026-11-27T03:29:28.473049+00:00",
       "status": "ok",
-      "discovered": 444,
-      "new": 1,
+      "discovered": 345,
+      "new": 3,
       "errors": 0,
-      "bodyMatched": 1,
-      "deferred": 385
+      "bodyMatched": 3,
+      "deferred": 286
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-11-26T03:21:13.624144+00:00",
+      "checkedAt": "2026-11-27T03:29:28.473049+00:00",
       "status": "ok",
-      "discovered": 13,
+      "discovered": 8,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 5
+      "deferred": 8
     },
     {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-11-26T03:21:13.624144+00:00",
+      "checkedAt": "2026-11-27T03:29:28.473049+00:00",
       "status": "ok",
       "discovered": 31,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 28,
+      "deferred": 31,
       "collectionMode": "rss-only"
     },
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-11-26T03:21:13.624144+00:00",
+      "checkedAt": "2026-11-27T03:29:28.473049+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 8,
+      "deferred": 10,
       "collectionMode": "rss-only"
     },
     {
       "id": "fiercebiotech",
       "name": "Fierce Biotech",
-      "checkedAt": "2026-11-26T03:21:13.624144+00:00",
+      "checkedAt": "2026-11-27T03:29:28.473049+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 19
+      "deferred": 24
     },
     {
       "id": "gen",
       "name": "GEN",
-      "checkedAt": "2026-11-26T03:21:13.624144+00:00",
+      "checkedAt": "2026-11-27T03:29:28.473049+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 7
+      "deferred": 10
     },
     {
       "id": "ddd",
       "name": "Drug Discovery & Development",
-      "checkedAt": "2026-11-26T03:21:13.624144+00:00",
+      "checkedAt": "2026-11-27T03:29:28.473049+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
