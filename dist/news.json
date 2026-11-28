@@ -6,9 +6,25 @@
   ],
   "classificationVersion": 2,
   "classificationPending": 0,
-  "updatedAt": "2026-11-27T03:29:28.473049+00:00",
-  "checkedAt": "2026-11-27T03:29:28.473049+00:00",
+  "updatedAt": "2026-11-28T03:05:40.464057+00:00",
+  "checkedAt": "2026-11-28T03:05:40.464057+00:00",
   "articles": [
+    {
+      "id": "43830cf9b6eba19d37f5",
+      "title": "NiKang Therapeutics Announces Publication of First-in-Human NKT2152 Study in Nature Cancer, Highlighting Durable Clinical Activity and Exploratory KIM-1 Biomarker Findings",
+      "url": "https://www.biospace.com/press-releases/nikang-therapeutics-announces-publication-of-first-in-human-nkt2152-study-in-nature-cancer-highlighting-durable-clinical-activity-and-exploratory-kim-1-biomarker-findings",
+      "source": "BioSpace",
+      "sourceId": "biospace",
+      "publishedAt": "2026-11-27T13:47:06+00:00",
+      "molecules": [
+        "bevacizumab"
+      ],
+      "topics": [],
+      "classificationSignature": "bb8babed37ba8dc48910f9647f096dda8e82413c7ae27938d32879482f8dfe3a",
+      "matchBasis": "article",
+      "firstSeenAt": "2026-11-28T03:05:40.464057+00:00",
+      "type": "press-release"
+    },
     {
       "id": "c87851fc39a146f6beff",
       "title": "Apotex supports continued access to women's health treatment in Canada",
@@ -5067,7 +5083,7 @@
     {
       "id": "brr",
       "name": "BR&R",
-      "checkedAt": "2026-11-27T03:29:28.473049+00:00",
+      "checkedAt": "2026-11-28T03:05:40.464057+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -5078,19 +5094,18 @@
     {
       "id": "drugchannels",
       "name": "Drug Channels",
-      "checkedAt": "2026-11-27T03:29:28.473049+00:00",
-      "status": "partial",
+      "checkedAt": "2026-11-28T03:05:40.464057+00:00",
+      "status": "ok",
       "discovered": 25,
       "new": 0,
-      "errors": 1,
+      "errors": 0,
       "bodyMatched": 0,
-      "deferred": 18,
-      "lastError": "Unexpected publisher redirect/host: www.google.com"
+      "deferred": 18
     },
     {
       "id": "fierce",
       "name": "Fierce Pharma",
-      "checkedAt": "2026-11-27T03:29:28.473049+00:00",
+      "checkedAt": "2026-11-28T03:05:40.464057+00:00",
       "status": "ok",
       "discovered": 6,
       "new": 0,
@@ -5101,41 +5116,41 @@
     {
       "id": "biospace",
       "name": "BioSpace",
-      "checkedAt": "2026-11-27T03:29:28.473049+00:00",
+      "checkedAt": "2026-11-28T03:05:40.464057+00:00",
       "status": "ok",
-      "discovered": 345,
-      "new": 3,
+      "discovered": 258,
+      "new": 1,
       "errors": 0,
-      "bodyMatched": 3,
-      "deferred": 286
+      "bodyMatched": 1,
+      "deferred": 200
     },
     {
       "id": "pharmexec",
       "name": "Pharmaceutical Executive",
-      "checkedAt": "2026-11-27T03:29:28.473049+00:00",
+      "checkedAt": "2026-11-28T03:05:40.464057+00:00",
       "status": "ok",
-      "discovered": 8,
+      "discovered": 1,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 8
+      "deferred": 0
     },
     {
       "id": "stat",
       "name": "STAT",
-      "checkedAt": "2026-11-27T03:29:28.473049+00:00",
+      "checkedAt": "2026-11-28T03:05:40.464057+00:00",
       "status": "ok",
-      "discovered": 31,
+      "discovered": 30,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 31,
+      "deferred": 29,
       "collectionMode": "rss-only"
     },
     {
       "id": "biopharmadive",
       "name": "BioPharma Dive",
-      "checkedAt": "2026-11-27T03:29:28.473049+00:00",
+      "checkedAt": "2026-11-28T03:05:40.464057+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -5147,7 +5162,7 @@
     {
       "id": "fiercebiotech",
       "name": "Fierce Biotech",
-      "checkedAt": "2026-11-27T03:29:28.473049+00:00",
+      "checkedAt": "2026-11-28T03:05:40.464057+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
@@ -5158,7 +5173,7 @@
     {
       "id": "gen",
       "name": "GEN",
-      "checkedAt": "2026-11-27T03:29:28.473049+00:00",
+      "checkedAt": "2026-11-28T03:05:40.464057+00:00",
       "status": "ok",
       "discovered": 10,
       "new": 0,
@@ -5169,13 +5184,13 @@
     {
       "id": "ddd",
       "name": "Drug Discovery & Development",
-      "checkedAt": "2026-11-27T03:29:28.473049+00:00",
+      "checkedAt": "2026-11-28T03:05:40.464057+00:00",
       "status": "ok",
       "discovered": 25,
       "new": 0,
       "errors": 0,
       "bodyMatched": 0,
-      "deferred": 21
+      "deferred": 20
     }
   ],
   "molecules": [
